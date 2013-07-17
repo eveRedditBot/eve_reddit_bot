@@ -1,0 +1,172 @@
+api_header: EVE Dev blog, patch notes, and news bot
+password: insert_password_here
+rss_feeds:
+  ccp_press:
+    stories:
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/74802/ccp-announces-eve-online-odyssey-to-be-released-june-4th
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/74569/eve-online-featured-in-applied-design-at-the-museum-of
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/74404/eve-online-surpasses-500-000-subscribers-worldwide
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/74189/in-world-first-ccp-games-merges-dust-514-into-eve-online-s
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/74094/ccp-games-and-tiancity-relaunch-eve-online-in-china
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/74076/eve-online-retribution-now-available
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/73541/ccp-now-accepting-russian-rubles-and-payment-via-yandex
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/73440/eve-online-retribution-to-bring-true-justice-to-massive
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/72874/ccp-announces-new-dust-514-details-at-e3
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/72773/eve-online-inferno-now-available
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/36268/eve-online-successfully-launches-in-japan
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/36267/eve-online-launches-in-japan-march-28th
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/36266/ccp-names-tiancity-exclusive-eve-online-publisher-for
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/36265/a-fond-farewell-to-mike-tinney-president-of-ccp-north
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/36264/ccp-games-names-gaming-industry-veteran-david-reid-as-new
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/36263/eve-online-crucible-expansion-released
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/36262/eve-online-game-community-unlocks-1-75m-of-virtual-goods-as
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/36261/ccp-and-nexon-announce-strategic-partnership-for-eve-online
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/36260/eve-online-incarna-1-0-now-available
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/36259/ccp-s-revolutionary-persistent-shooter-dust-514-to-premiere
+    - http://feeds.feedburner.com/newsfeed/en-US/43/article/36258/incursion-1-1-launches-with-industry-leading-character
+    - http://community.eveonline.com/news/news-channels/press-releases/leading-scientists-to-share-vision-of-humanitys-future-among-the-stars-at-eve-fanfest-1/
+    - http://community.eveonline.com/news/news-channels/press-releases/eve-online-inferno-now-available-1/
+    type: CCP Press
+    url: http://newsfeed.eveonline.com/en-US/43/articles/page/1/20
+  dev_blogs:
+    stories:
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74845/csm8-final-ballot-and-pre-election-results
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74842/can-you-help-us-find-the-true-stories-of-the-first-decade
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74815/ccp-videocasts
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74807/odyssey-summer-expansion-starbase-iterations
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74759/eve-community-website-updated
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74644/the-battle-for-caldari-prime
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74637/community-spotlight-verite-rendition-influence-maps
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74632/updates-to-team-security-and-the-ongoing-war-on-botting
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74608/end-of-an-eon-eon-magazine-says-farewell
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74594/csm8-candidacy-applications-now-open
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74584/community-spotlight-eve-travel
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74573/all-quiet-on-the-eve-launcher-front
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74398/the-uprising-shaping-new-eden-s-future
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74294/community-spotlight-syndicate-competitive-league
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74283/csm8-election-schedule-and-election-process
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74273/fleet-interface-and-other-improvements-in-retribution-1-1
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74270/no-brakes-ship-and-module-balancing-in-retribution-1-1
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74260/community-spotlight-brave-newbies-inc
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74236/corporation-recruitment-improvements-for-retribution-1-1
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74234/the-great-ship-skill-changes-of-summer-2013
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74232/little-things-from-super-friends
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74231/the-new-ships-of-retribution-price-indices-december-2012
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74227/a-weekend-of-epic-destruction-in-eve-online
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74226/the-battle-of-asakai-and-poinen-must-burn-by-the-numbers
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74218/team-super-friends-runs-some-bounty-numbers
+    - http://feeds.feedburner.com/newsfeed/en-US/2/article/74215/all-hail-the-info-panels
+    - http://community.eveonline.com/news/dev-blogs/in-the-navy/
+    - http://community.eveonline.com/news/dev-blogs/further-eve-launcher-changes-coming-to-a-test-server-near-you/
+    - http://community.eveonline.com/news/dev-blogs/eve-the-universe-and-everything/
+    - http://community.eveonline.com/news/dev-blogs/community-spotlight-csm8-candidates/
+    type: Dev Blogs
+    url: http://newsfeed.eveonline.com/en-US/2/articles/page/1/20
+  eve_news:
+    stories:
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74857/unexpected-eve-account-management-website-downtime
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74850/csm8-election-is-now-live
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74831/csm8-election-schedule-delayed
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74816/the-battle-for-caldari-prime-trailer-is-now-live
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74806/csm-8-pre-elections-now-open
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74798/eve-online-odyssey-the-19th-free-expansion-coming-june-4th
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74797/ccp-supports-get-well-gamers-at-fanfest-2013
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74796/new-chronicle-after-the-fall-by-ccp-abraxas
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74785/population-cap-in-luminaire-22nd-of-march
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74760/a-friendly-message-from-the-gm-team-regarding-current-events
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74638/the-angel-project
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74623/tuskers-deathrace-on-march-16-at-17-00
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74590/new-chronicle-cover-stories-by-ccp-delegate-zero
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74588/capital-flashpoint-jaud-v
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74571/eve-online-featured-in-applied-design-at-the-museum-of
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74304/syndicate-competitive-league-continues-today-live-at-16-00
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74302/dust-514-eve-orbital-bombardment-tournament-continues-this
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74300/api-maintenance-downtime-on-february-22-2013
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74292/clone-tutorial-temporarily-disabled-on-wednesday-february-20
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74289/eve-online-retribution-1-1-1-to-be-deployed-on-wednesday
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74287/eve-online-retribution-1-1-has-been-deployed-on-february-19
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74282/eve-online-retribution-1-1-to-be-released-on-tuesday
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74278/watch-the-first-scl-pvp-tournament-on-february-23-24
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74276/eve-radio-dueling-tournament-to-be-held-friday-feb-22-at-22
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74272/temporary-api-downtime-at-14-00-utc-on-februrary-14
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74264/mass-test-on-tuesday-february-12th
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74262/eve-fanfest-2013-is-now-sold-out
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74244/fanfest-2013-ushering-eve-online-into-the-second-decade
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74240/sirens-of-fear-and-sense-a-new-chronicle-from-ccp-gnauton
+    - http://feeds.feedburner.com/newsfeed/en-US/44/article/74239/eve-online-retribution-1-1-to-be-deployed-on-february-19
+    - http://community.eveonline.com/news/news-channels/eve-online-news/videocast-eve-online-development-16-00-gmt-today/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/unexpected-api-server-downtime/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/syndicate-competitive-league-begins-again/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/planetary-conquest-bonuses-delayed-until-may-22/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/payment-and-plex-systems-downtime-thursday-april-11th/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/new-chronicle-and-i-shall-hide-by-ccp-eterne/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-thursday-may-16th/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-thursday-april-11th/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/last-chance-to-get-into-big-lottery-10th-anniversary-drawing/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/flight-of-1000-rifters-iii/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2013-live-hd-stream/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/extended-downtime-on-monday-may-6th/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/discrepancy-in-statistics-of-two-pirate-rookie-frigates/
+    type: EVE News
+    url: http://newsfeed.eveonline.com/en-US/44/articles/page/1/20
+  game_news:
+    stories:
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74846/tibus-heth-angrily-denounces-caldari-prime-dmz-blasts
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74835/fed-navy-releases-caldari-prime-details-citizens-react
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74832/caldari-prime-agreement-reached-militants-to-depart
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74829/megacorporations-announce-plans-to-join-ishukone-in-relief
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74824/ishukone-relief-convoy-safely-makes-it-to-caldari-prime
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74810/heth-responds-to-loss-of-shiigeru-and-ishukone-contact-with
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74805/dust-begins-to-clear-full-extent-of-shiigeru-impact-now
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74799/ishukone-access-to-caldari-prime-approved-full-negotiations
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74793/caldari-prime-relief-effort-continues-ishukone-request
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74791/widespread-destruction-hampers-caldari-prime-relief-effort
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74783/shiigeru-wreckage-impacts-caldari-prime-surface-situation
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74781/shiigeru-destroyed-federation-navy-offensive-in-luminaire
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74779/federation-navy-mount-full-scale-offensive-against-caldari
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74777/federation-navy-fleet-arrives-in-luminaire-caldari-navy
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74775/concord-vessel-destroyed-by-caldari-navy-in-luminaire
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74756/federation-navy-releases-caldari-prime-status-report-after
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74749/concord-issues-luminaire-travel-advisory-in-the-wake-of
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74661/admiral-yanala-gives-first-weekly-address-from-orbit-of
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74654/luminaire-situation-still-unstable-revered-caldari-admiral
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74641/unrest-on-caldari-prime-results-in-bombing-of-provist
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74639/civil-unrest-intensifies-on-caldari-prime
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74638/the-angel-project
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74636/federation-navy-announces-inaugural-fedcaft-naval-exercises
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74627/empress-jamyl-i-announces-empire-intent-to-welcome-clone
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74626/breaking-news-jacus-roden-reveals-existence-of-cloned
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74625/breaking-news-ground-fighting-erupts-on-caldari-prime
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74624/deathrace-2013
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74610/tibus-heth-names-unrest-in-the-federation-as-security-threat
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74607/mentas-blaque-speaks-out-about-hedonistic-lifestyle-of-the
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74589/snipehunt-assaults-fio-is-wiped-out-by-black-eagles
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74588/capital-flashpoint-jaud-v
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74587/provists-arrest-at-least-five-executives-supposed-federation
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74586/gallente-digital-activist-group-vows-to-expose-black-eagles
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74579/numerous-caldari-management-resign-heth-promises-significant
+    - http://feeds.feedburner.com/newsfeed/en-US/42/article/74574/mentas-blaque-continues-harsh-condemnation-of-state-roden
+    - http://community.eveonline.com/news/news-channels/world-news/terrorist-attack-gallente-cultural-center/
+    - http://community.eveonline.com/news/news-channels/world-news/stolen-ishukone-watch-vessel-located-handed-off-to-capsuleer/
+    - http://community.eveonline.com/news/news-channels/world-news/prototype-vessel-stolen-from-ishukone-shipyard/
+    - http://community.eveonline.com/news/news-channels/world-news/former-minmatar-minister-caille-wounded/
+    - http://community.eveonline.com/news/news-channels/world-news/final-details-of-caldari-prime-dmz-announced/
+    type: Game News
+    url: http://newsfeed.eveonline.com/en-US/42/articles/page/1/20
+  patch_notes:
+    stories:
+    - http://feeds.feedburner.com/newsfeed/en-US/15/article/74275/patch-notes-for-retribution-1-1
+    - http://feeds.feedburner.com/newsfeed/en-US/15/article/74000/patch-notes-for-retribution
+    - http://feeds.feedburner.com/newsfeed/en-US/15/article/73456/patch-notes-for-inferno-1-3
+    - http://feeds.feedburner.com/newsfeed/en-US/15/article/73093/patch-notes-for-inferno-1-2
+    - http://feeds.feedburner.com/newsfeed/en-US/15/article/72903/patch-notes-for-inferno-1-1
+    - http://community.eveonline.com/news/patch-notes/patch-notes-for-retribution-1.2/
+    - http://community.eveonline.com/news/patch-notes/patch-notes-for-retribution-1.1/
+    type: Patch Notes
+    url: http://newsfeed.eveonline.com/en-US/15/articles/page/1/5
+signature: ''
+sleep_time: 300
+sleep_time_post: 600
+submitpost: true
+subreddit: eve_reddit_bot
+username: insert_username_here
