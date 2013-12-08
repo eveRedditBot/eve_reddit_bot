@@ -118,6 +118,70 @@ rss_feeds:
     subreddit: eve
     type: Dev Blog
     url: http://newsfeed.eveonline.com/en-US/2/articles/page/1/20
+  dust_bug_reports:
+    stories:
+    - http://dustsearch.com/feed/thread/dustsearch/guid/967579
+    - http://dustsearch.com/feed/thread/dustsearch/guid/937299
+    - http://dustsearch.com/feed/thread/dustsearch/guid/915016
+    - http://dustsearch.com/feed/thread/dustsearch/guid/888172
+    - http://dustsearch.com/feed/thread/dustsearch/guid/867550
+    - http://dustsearch.com/feed/thread/dustsearch/guid/840516
+    - http://dustsearch.com/feed/thread/dustsearch/guid/814183
+    - http://dustsearch.com/feed/thread/dustsearch/guid/798335
+    - http://dustsearch.com/feed/thread/dustsearch/guid/754992
+    - http://dustsearch.com/feed/thread/dustsearch/guid/754991
+    - http://dustsearch.com/feed/thread/dustsearch/guid/710827
+    - http://dustsearch.com/feed/thread/dustsearch/guid/663344
+    - http://dustsearch.com/feed/thread/dustsearch/guid/663297
+    - http://dustsearch.com/feed/thread/dustsearch/guid/637156
+    - http://dustsearch.com/feed/thread/dustsearch/guid/623397
+    - http://dustsearch.com/feed/thread/dustsearch/guid/577284
+    - http://dustsearch.com/feed/thread/dustsearch/guid/542544
+    - http://dustsearch.com/feed/thread/dustsearch/guid/478264
+    - http://dustsearch.com/feed/thread/dustsearch/guid/477389
+    - http://dustsearch.com/feed/thread/dustsearch/guid/471833
+    - http://dustsearch.com/feed/thread/dustsearch/guid/449018
+    - http://dustsearch.com/feed/thread/dustsearch/guid/438246
+    - http://dustsearch.com/feed/thread/dustsearch/guid/419881
+    - http://dustsearch.com/feed/thread/dustsearch/guid/402617
+    - http://dustsearch.com/feed/thread/dustsearch/guid/391376
+    - http://dustsearch.com/feed/thread/dustsearch/guid/380065
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263793
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263792
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263791
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263790
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263789
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263788
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263787
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263786
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263785
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263784
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263783
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263782
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263781
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263780
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263779
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263778
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263777
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263776
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263775
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263774
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263773
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263772
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263771
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263770
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1242328
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1242320
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1173437
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1151371
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1128870
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1060785
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1041191
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1016980
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1000718
+    subreddit: dust514
+    type: Forums
+    url: http://dustsearch.com/feed/thread/34746
   dust_dev_blogs:
     stories:
     - http://dust514.com/news/blog/2013/12/strengthening-the-link-factional-warfare-in-uprising-1.7/
@@ -143,6 +207,100 @@ rss_feeds:
     subreddit: dust514
     type: Dev Blog
     url: http://newsfeed.eveonline.com/en-US/60/articles/page/1/20/
+  dust_featured_promotions:
+    stories:
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/986498
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/879235
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/853641
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/828938
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/802468
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/776596
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/746011
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/722038
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/700077
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/667316
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1262310
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1245847
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1223288
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1219856
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1199198
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1177156
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1160810
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1154410
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1130745
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1117555
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1111755
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1066313
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1048676
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1009310
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1009264
+    subreddit: dust514
+    type: Forums
+    url: http://dustsearch.com/feed/forum/1263/new
+  dust_feedback_suggestions:
+    stories:
+    - http://dustsearch.com/feed/thread/dustsearch/guid/967583
+    - http://dustsearch.com/feed/thread/dustsearch/guid/937341
+    - http://dustsearch.com/feed/thread/dustsearch/guid/915027
+    - http://dustsearch.com/feed/thread/dustsearch/guid/888195
+    - http://dustsearch.com/feed/thread/dustsearch/guid/867536
+    - http://dustsearch.com/feed/thread/dustsearch/guid/840519
+    - http://dustsearch.com/feed/thread/dustsearch/guid/814235
+    - http://dustsearch.com/feed/thread/dustsearch/guid/798353
+    - http://dustsearch.com/feed/thread/dustsearch/guid/754996
+    - http://dustsearch.com/feed/thread/dustsearch/guid/754995
+    - http://dustsearch.com/feed/thread/dustsearch/guid/710837
+    - http://dustsearch.com/feed/thread/dustsearch/guid/663316
+    - http://dustsearch.com/feed/thread/dustsearch/guid/663315
+    - http://dustsearch.com/feed/thread/dustsearch/guid/637197
+    - http://dustsearch.com/feed/thread/dustsearch/guid/623449
+    - http://dustsearch.com/feed/thread/dustsearch/guid/577308
+    - http://dustsearch.com/feed/thread/dustsearch/guid/542613
+    - http://dustsearch.com/feed/thread/dustsearch/guid/478265
+    - http://dustsearch.com/feed/thread/dustsearch/guid/477378
+    - http://dustsearch.com/feed/thread/dustsearch/guid/471834
+    - http://dustsearch.com/feed/thread/dustsearch/guid/449035
+    - http://dustsearch.com/feed/thread/dustsearch/guid/438258
+    - http://dustsearch.com/feed/thread/dustsearch/guid/419897
+    - http://dustsearch.com/feed/thread/dustsearch/guid/402632
+    - http://dustsearch.com/feed/thread/dustsearch/guid/391377
+    - http://dustsearch.com/feed/thread/dustsearch/guid/380100
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317961
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317960
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317959
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317958
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317957
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317956
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317955
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317954
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317953
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317952
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317951
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317950
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317949
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317948
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317947
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317946
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317945
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317944
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317943
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317942
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317941
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317940
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317939
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317938
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1242304
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1242276
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1173438
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1151373
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1128872
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1060797
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1041192
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1016959
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1000761
+    subreddit: dust514
+    type: Forums
+    url: http://dustsearch.com/feed/thread/34744
   dust_news:
     stories:
     - http://dust514.com/news/2013/12/onwards-to-uprising-1.7/
@@ -166,7 +324,7 @@ rss_feeds:
     - http://dust514.com/news/2013/09/introducing-the-daily-bonus-in-uprising-1.4/
     - http://dust514.com/news/2013/09/dust-514-districts-on-dotlan/
     subreddit: dust514
-    type: Dust News
+    type: News
     url: http://newsfeed.eveonline.com/en-US/36/articles/page/1/20/
   dust_press:
     stories:
@@ -339,6 +497,6 @@ rss_feeds:
 signature: ''
 sleep_time: 300
 sleep_time_post: 600
-submitpost: false
+submitpost: true
 subreddit: eve_reddit_bot
 username: eve_reddit_bot
