@@ -337,8 +337,8 @@ rss_feeds:
     type: Patch Notes
     url: http://newsfeed.eveonline.com/en-US/15/articles/page/1/5
 signature: ''
-sleep_time: 3
-sleep_time_post: 6
+sleep_time: 300
+sleep_time_post: 600
 submitpost: false
 subreddit: eve_reddit_bot
 username: eve_reddit_bot
