@@ -54,20 +54,29 @@ class EVERedditBot():
                 c = c.reply(comment)
 
     def formatForReddit(self, feedEntry, postType, subreddit):
-        logging.debug(feedEntry['content'][0]['value'])
+        if 'content' in feedEntry:
+          content = feedEntry['content'][0]['value']
+        else:
+          content = feedEntry.description
+        logging.debug(content)
         parser = EveRssHtmlParser()
 
         # Added the .replace because the parser does something funny to them and removes them before I can handle them
-        parser.feed(feedEntry['content'][0]['value'].replace('&nbsp;', ' ').replace('&bull;', '*'))
+        parser.feed(content.replace('&nbsp;', ' ').replace('&bull;', '*'))
         parser.comments[0] = '%s\n\n%s' %(feedEntry['link'], parser.comments[0])
         parser.comments[-1] += self.config['signature']
+        
+        if 'author' in feedEntry:
+          author = feedEntry['author']
+        else:
+          author = ''
 
         return {'comments': parser.comments,
                 'link':     feedEntry['link'],
                 'subreddit': subreddit,
                 'title':    '[%s] %s ~%s' %(postType,
                                             feedEntry['title'],
-                                            feedEntry['author'])}
+                                            author)}
 
     def rss_parser(self, rss_feed):
         feed = feedparser.parse(self.config['rss_feeds'][rss_feed]['url'])
