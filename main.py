@@ -125,6 +125,7 @@ class EveRssHtmlParser(HTMLParser):
         self.cur_comment = 0
         self.max_comment_length = 8000
         self.cur_href = ''
+        self.in_asterisk_tag = False
         self.in_a = False
         self.in_table = False
         self.first_row = False
@@ -139,6 +140,7 @@ class EveRssHtmlParser(HTMLParser):
             self.comments[self.cur_comment] += '\n\n'
 
         elif tag == 'em' or tag == 'i':
+            self.in_asterisk_tag = True
             self.comments[self.cur_comment] += '*'
         
         elif tag == 'sup':
@@ -168,6 +170,7 @@ class EveRssHtmlParser(HTMLParser):
                 self.comments[self.cur_comment] += 'image'
 
         elif tag == 'strong' or tag == 'b':
+            self.in_asterisk_tag = True
             self.comments[self.cur_comment] += '**'
 
         elif tag == 'h1':
@@ -223,6 +226,7 @@ class EveRssHtmlParser(HTMLParser):
             print "Encountered an unhandled start tag:", tag
 
     def handle_endtag(self, tag):
+        self.in_asterisk_tag = False
     	endswithspace = self.comments[self.cur_comment].endswith(' ')
         if tag == 'p' or tag == 'br':
             if not self.in_table:
@@ -280,6 +284,8 @@ class EveRssHtmlParser(HTMLParser):
 
     def handle_data(self, data):
         data = data.strip('\n\t')
+        if self.in_asterisk_tag:
+            data = data.lstrip()
 
         if (len(self.comments[self.cur_comment]) + len(data)) >= self.max_comment_length:
             self.cur_comment += 1
