@@ -20,7 +20,7 @@ class EVERedditBot():
         stream.close()
 
     def run(self, sleep_time=None):
-        logging.info('Selected subreddit: %s' %self.config['subreddit'])
+        logging.info('Default subreddit: /r/%s' %self.config['subreddit'])
         logging.info('Selected username: %s' %self.config['username'])
         logging.info('Submit stories to Reddit: %s' %self.config['submitpost'])
         raw_input("Press Enter to continue...")
@@ -39,7 +39,7 @@ class EVERedditBot():
         r.login(username=self.config['username'],
                 password=self.config['password'])
 
-        s = r.submit(self.config['subreddit'],
+        s = r.submit(data['subreddit'],
                      data['title'],
                      data['comments'][0])
 
@@ -53,20 +53,30 @@ class EVERedditBot():
             for comment in data['comments']:
                 c = c.reply(comment)
 
-    def formatForReddit(self, feedEntry, postType):
-        logging.debug(feedEntry['content'][0]['value'])
+    def formatForReddit(self, feedEntry, postType, subreddit):
+        if 'content' in feedEntry:
+          content = feedEntry['content'][0]['value']
+        else:
+          content = feedEntry.description
+        logging.debug(content)
         parser = EveRssHtmlParser()
 
         # Added the .replace because the parser does something funny to them and removes them before I can handle them
-        parser.feed(feedEntry['content'][0]['value'].replace('&nbsp;', ' '))
+        parser.feed(content.replace('&nbsp;', ' ').replace('&bull;', '*'))
         parser.comments[0] = '%s\n\n%s' %(feedEntry['link'], parser.comments[0])
         parser.comments[-1] += self.config['signature']
+        
+        if 'author' in feedEntry:
+          author = feedEntry['author']
+        else:
+          author = ''
 
         return {'comments': parser.comments,
                 'link':     feedEntry['link'],
+                'subreddit': subreddit,
                 'title':    '[%s] %s ~%s' %(postType,
                                             feedEntry['title'],
-                                            feedEntry['author'])}
+                                            author)}
 
     def rss_parser(self, rss_feed):
         feed = feedparser.parse(self.config['rss_feeds'][rss_feed]['url'])
@@ -77,8 +87,8 @@ class EVERedditBot():
 
         for entry in feed['entries']:
             if entry['id'] not in self.config['rss_feeds'][rss_feed]['stories']:
-                logging.info('New %s! %s' %(self.config['rss_feeds'][rss_feed]['type'], entry['title']))
-                data = self.formatForReddit(entry, self.config['rss_feeds'][rss_feed]['type'])
+                logging.info('New %s! %s to /r/%s' %(self.config['rss_feeds'][rss_feed]['type'], entry['title'], self.config['rss_feeds'][rss_feed]['subreddit']))
+                data = self.formatForReddit(entry, self.config['rss_feeds'][rss_feed]['type'], self.config['rss_feeds'][rss_feed]['subreddit'])
 
                 self.config['rss_feeds'][rss_feed]['stories'].append(str(entry['id']))
                 self.save_config()
@@ -124,12 +134,15 @@ class EveRssHtmlParser(HTMLParser):
         if tag == 'p':
             if len(self.comments[self.cur_comment]) >= self.max_comment_length:
                 self.cur_comment += 1
-
+            
         elif tag == 'br':
             self.comments[self.cur_comment] += '\n\n'
 
-        elif tag == 'em':
+        elif tag == 'em' or tag == 'i':
             self.comments[self.cur_comment] += '*'
+        
+        elif tag == 'sup':
+        	self.comments[self.cur_comment] += '^'
 
         elif tag == 'li':
             self.comments[self.cur_comment] += '* '
@@ -181,9 +194,24 @@ class EveRssHtmlParser(HTMLParser):
 
         elif tag == 'tbody':
             pass
-
+        	
         elif tag == 'tr':
             pass
+            
+        elif tag == 'ul':
+        	pass
+        
+        elif tag == 'span':
+        	pass
+        
+        elif tag == 'font':
+        	pass
+        	
+        elif tag == 'u':
+        	pass
+        
+        elif tag == 'div':
+        	pass
 
         elif tag == 'td':
             self.comments[self.cur_comment] += '| '
@@ -195,12 +223,17 @@ class EveRssHtmlParser(HTMLParser):
             print "Encountered an unhandled start tag:", tag
 
     def handle_endtag(self, tag):
+    	endswithspace = self.comments[self.cur_comment].endswith(' ')
         if tag == 'p' or tag == 'br':
             if not self.in_table:
                 self.comments[self.cur_comment] += '\n\n'
 
-        elif tag == 'em':
-            self.comments[self.cur_comment] += '*'
+        elif tag == 'em' or tag == 'i':
+            if endswithspace:
+                self.comments[self.cur_comment] = self.comments[self.cur_comment].rstrip()
+                self.comments[self.cur_comment] += '* '
+            else:
+                self.comments[self.cur_comment] += '*'
 
         elif tag == 'ul':
             self.comments[self.cur_comment] += '\n\n'
@@ -213,6 +246,7 @@ class EveRssHtmlParser(HTMLParser):
             self.comments[self.cur_comment] += '](%s)' %self.cur_href
 
         elif tag == 'strong' or tag == 'b':
+            self.comments[self.cur_comment] = self.comments[self.cur_comment].rstrip()
             self.comments[self.cur_comment] += '** '
 
         elif tag == 'h1':

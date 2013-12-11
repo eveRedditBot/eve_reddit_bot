@@ -25,9 +25,44 @@ rss_feeds:
     - http://feeds.feedburner.com/newsfeed/en-US/43/article/36259/ccp-s-revolutionary-persistent-shooter-dust-514-to-premiere
     - http://feeds.feedburner.com/newsfeed/en-US/43/article/36258/incursion-1-1-launches-with-industry-leading-character
     - http://community.eveonline.com/news/news-channels/press-releases/leading-scientists-to-share-vision-of-humanitys-future-among-the-stars-at-eve-fanfest-1/
+    - http://community.eveonline.com/news/news-channels/press-releases/industry-veteran-sean-decker-joins-ccp-as-senior-vice-president-product-development-1/
+    - http://community.eveonline.com/news/news-channels/press-releases/eve-the-second-decade-collectors-edition-now-available-1/
+    - http://community.eveonline.com/news/news-channels/press-releases/eve-online-rubicon-launches-sows-the-seeds-galactic-revolution/
     - http://community.eveonline.com/news/news-channels/press-releases/eve-online-inferno-now-available-1/
+    - http://community.eveonline.com/news/news-channels/press-releases/eve-fanfest-2014-tickets-now-available-1/
+    subreddit: eve
     type: CCP Press
     url: http://newsfeed.eveonline.com/en-US/43/articles/page/1/20
+  cpm:
+    stories:
+    - tag:blogger.com,1999:blog-3946765581247128607.post-965252792909672440
+    - tag:blogger.com,1999:blog-3946765581247128607.post-8979942416718284615
+    - tag:blogger.com,1999:blog-3946765581247128607.post-8585135677124976794
+    - tag:blogger.com,1999:blog-3946765581247128607.post-8407902826585292283
+    - tag:blogger.com,1999:blog-3946765581247128607.post-7717830227679912640
+    - tag:blogger.com,1999:blog-3946765581247128607.post-7434634381976528233
+    - tag:blogger.com,1999:blog-3946765581247128607.post-5830620348045561801
+    - tag:blogger.com,1999:blog-3946765581247128607.post-5773184912374118961
+    - tag:blogger.com,1999:blog-3946765581247128607.post-5762648523824117354
+    - tag:blogger.com,1999:blog-3946765581247128607.post-5690368253851559219
+    - tag:blogger.com,1999:blog-3946765581247128607.post-5570444761156552034
+    - tag:blogger.com,1999:blog-3946765581247128607.post-5327798554126709259
+    - tag:blogger.com,1999:blog-3946765581247128607.post-5241627680135103278
+    - tag:blogger.com,1999:blog-3946765581247128607.post-5147117944767607496
+    - tag:blogger.com,1999:blog-3946765581247128607.post-4776291711165079110
+    - tag:blogger.com,1999:blog-3946765581247128607.post-4604431668295923697
+    - tag:blogger.com,1999:blog-3946765581247128607.post-4574646533838001522
+    - tag:blogger.com,1999:blog-3946765581247128607.post-4154897946515762335
+    - tag:blogger.com,1999:blog-3946765581247128607.post-4033730680984866503
+    - tag:blogger.com,1999:blog-3946765581247128607.post-3956264710170413997
+    - tag:blogger.com,1999:blog-3946765581247128607.post-374314964998511391
+    - tag:blogger.com,1999:blog-3946765581247128607.post-3319275645562130286
+    - tag:blogger.com,1999:blog-3946765581247128607.post-2247682665445570146
+    - tag:blogger.com,1999:blog-3946765581247128607.post-1429375923758134466
+    - tag:blogger.com,1999:blog-3946765581247128607.post-1098222321151226624
+    subreddit: dust514
+    type: CPM
+    url: http://hansshotfirst.blogspot.com/feeds/posts/default
   dev_blogs:
     stories:
     - http://feeds.feedburner.com/newsfeed/en-US/2/article/74845/csm8-final-ballot-and-pre-election-results
@@ -56,12 +91,266 @@ rss_feeds:
     - http://feeds.feedburner.com/newsfeed/en-US/2/article/74226/the-battle-of-asakai-and-poinen-must-burn-by-the-numbers
     - http://feeds.feedburner.com/newsfeed/en-US/2/article/74218/team-super-friends-runs-some-bounty-numbers
     - http://feeds.feedburner.com/newsfeed/en-US/2/article/74215/all-hail-the-info-panels
+    - http://community.eveonline.com/news/dev-blogs/we-cant-stop-here/
+    - http://community.eveonline.com/news/dev-blogs/warp-drive-active/
+    - http://community.eveonline.com/news/dev-blogs/the-new-character-selection-screen/
+    - http://community.eveonline.com/news/dev-blogs/the-interbus-ship-identification-system/
+    - http://community.eveonline.com/news/dev-blogs/sisters-of-eve-faction-ships/
+    - http://community.eveonline.com/news/dev-blogs/plex-for-good-philippines-typhoon-relief/
+    - http://community.eveonline.com/news/dev-blogs/plex-for-good-charity-live-stream-1/
+    - http://community.eveonline.com/news/dev-blogs/orbital-strike-changes-coming-december-10th/
+    - http://community.eveonline.com/news/dev-blogs/operation-spectre-event-breakdown-and-faq/
+    - http://community.eveonline.com/news/dev-blogs/new-player-training-session-track-2/
     - http://community.eveonline.com/news/dev-blogs/in-the-navy/
     - http://community.eveonline.com/news/dev-blogs/further-eve-launcher-changes-coming-to-a-test-server-near-you/
+    - http://community.eveonline.com/news/dev-blogs/fleetchanges_ui/
+    - http://community.eveonline.com/news/dev-blogs/eve-vegas-2013-roundup-1/
     - http://community.eveonline.com/news/dev-blogs/eve-the-universe-and-everything/
+    - http://community.eveonline.com/news/dev-blogs/community-spotlight-pyfa/
+    - http://community.eveonline.com/news/dev-blogs/community-spotlight-high-drag-podcast/
+    - http://community.eveonline.com/news/dev-blogs/community-spotlight-declarations-of-war/
     - http://community.eveonline.com/news/dev-blogs/community-spotlight-csm8-candidates/
-    type: Dev Blogs
+    - http://community.eveonline.com/news/dev-blogs/community-spotlight-battleclinic/
+    - http://community.eveonline.com/news/dev-blogs/building-a-balanced-universe/
+    - http://community.eveonline.com/news/dev-blogs/better-living-through-mobile-structures/
+    - http://community.eveonline.com/news/dev-blogs/announcing-the-new-eden-open-ii/
+    - http://community.eveonline.com/news/dev-blogs/a-tale-of-two-reasonable-things/
+    subreddit: eve
+    type: Dev Blog
     url: http://newsfeed.eveonline.com/en-US/2/articles/page/1/20
+  dust_bug_reports:
+    stories:
+    - http://dustsearch.com/feed/thread/dustsearch/guid/967579
+    - http://dustsearch.com/feed/thread/dustsearch/guid/937299
+    - http://dustsearch.com/feed/thread/dustsearch/guid/915016
+    - http://dustsearch.com/feed/thread/dustsearch/guid/888172
+    - http://dustsearch.com/feed/thread/dustsearch/guid/867550
+    - http://dustsearch.com/feed/thread/dustsearch/guid/840516
+    - http://dustsearch.com/feed/thread/dustsearch/guid/814183
+    - http://dustsearch.com/feed/thread/dustsearch/guid/798335
+    - http://dustsearch.com/feed/thread/dustsearch/guid/754992
+    - http://dustsearch.com/feed/thread/dustsearch/guid/754991
+    - http://dustsearch.com/feed/thread/dustsearch/guid/710827
+    - http://dustsearch.com/feed/thread/dustsearch/guid/663344
+    - http://dustsearch.com/feed/thread/dustsearch/guid/663297
+    - http://dustsearch.com/feed/thread/dustsearch/guid/637156
+    - http://dustsearch.com/feed/thread/dustsearch/guid/623397
+    - http://dustsearch.com/feed/thread/dustsearch/guid/577284
+    - http://dustsearch.com/feed/thread/dustsearch/guid/542544
+    - http://dustsearch.com/feed/thread/dustsearch/guid/478264
+    - http://dustsearch.com/feed/thread/dustsearch/guid/477389
+    - http://dustsearch.com/feed/thread/dustsearch/guid/471833
+    - http://dustsearch.com/feed/thread/dustsearch/guid/449018
+    - http://dustsearch.com/feed/thread/dustsearch/guid/438246
+    - http://dustsearch.com/feed/thread/dustsearch/guid/419881
+    - http://dustsearch.com/feed/thread/dustsearch/guid/402617
+    - http://dustsearch.com/feed/thread/dustsearch/guid/391376
+    - http://dustsearch.com/feed/thread/dustsearch/guid/380065
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263793
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263792
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263791
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263790
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263789
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263788
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263787
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263786
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263785
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263784
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263783
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263782
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263781
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263780
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263779
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263778
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263777
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263776
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263775
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263774
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263773
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263772
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263771
+    - http://dustsearch.com/feed/thread/dustsearch/guid/263770
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1242328
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1242320
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1173437
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1151371
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1128870
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1060785
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1041191
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1016980
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1000718
+    subreddit: dust514
+    type: Forums
+    url: http://dustsearch.com/feed/thread/34746
+  dust_dev_blogs:
+    stories:
+    - http://dust514.com/news/blog/2013/12/strengthening-the-link-factional-warfare-in-uprising-1.7/
+    - http://dust514.com/news/blog/2013/12/onwards-to-uprising-1.7/
+    - http://dust514.com/news/blog/2013/12/community-spotlight-districts-overview/
+    - http://dust514.com/news/blog/2013/11/weapons-of-uprising-1.7/
+    - http://dust514.com/news/blog/2013/11/vehicles-in-uprising-1.7-1/
+    - http://dust514.com/news/blog/2013/11/looking-at-events-in-dust-514/
+    - http://dust514.com/news/blog/2013/11/eve-vegas-2013-roundup/
+    - http://dust514.com/news/blog/2013/11/diary-of-a-level-designer/
+    - http://dust514.com/news/blog/2013/11/community-spotlight-thunder-domes/
+    - http://dust514.com/news/blog/2013/11/community-spotlight-ghazbaran/
+    - http://dust514.com/news/blog/2013/11/ccp-wolfman-interview-by-ccp-blowout/
+    - http://dust514.com/news/blog/2013/11/battlefields-of-dust-514/
+    - http://dust514.com/news/blog/2013/10/war-point-rewards-in-1.5/
+    - http://dust514.com/news/blog/2013/10/uprising-1.6-overview-1/
+    - http://dust514.com/news/blog/2013/10/npe-in-uprising-1.5/
+    - http://dust514.com/news/blog/2013/10/community-spotlight-judge-rhadamanthus/
+    - http://dust514.com/news/blog/2013/10/community-spotlight-dustcharts/
+    - http://dust514.com/news/blog/2013/10/a-message-from-the-executive-producer/
+    - http://dust514.com/news/blog/2013/09/squad-finder/
+    - http://dust514.com/news/blog/2013/09/community-spotlight-d-legends-portuguese-translations/
+    subreddit: dust514
+    type: Dev Blog
+    url: http://newsfeed.eveonline.com/en-US/60/articles/page/1/20/
+  dust_featured_promotions:
+    stories:
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/986498
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/879235
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/853641
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/828938
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/802468
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/776596
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/746011
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/722038
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/700077
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/667316
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1262310
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1245847
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1223288
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1219856
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1199198
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1177156
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1160810
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1154410
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1130745
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1117555
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1111755
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1066313
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1048676
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1009310
+    - http://dustsearch.com/feed/forum/1263/dustsearch/guid/1009264
+    subreddit: dust514
+    type: Forums
+    url: http://dustsearch.com/feed/forum/1263/new
+  dust_feedback_suggestions:
+    stories:
+    - http://dustsearch.com/feed/thread/dustsearch/guid/967583
+    - http://dustsearch.com/feed/thread/dustsearch/guid/937341
+    - http://dustsearch.com/feed/thread/dustsearch/guid/915027
+    - http://dustsearch.com/feed/thread/dustsearch/guid/888195
+    - http://dustsearch.com/feed/thread/dustsearch/guid/867536
+    - http://dustsearch.com/feed/thread/dustsearch/guid/840519
+    - http://dustsearch.com/feed/thread/dustsearch/guid/814235
+    - http://dustsearch.com/feed/thread/dustsearch/guid/798353
+    - http://dustsearch.com/feed/thread/dustsearch/guid/754996
+    - http://dustsearch.com/feed/thread/dustsearch/guid/754995
+    - http://dustsearch.com/feed/thread/dustsearch/guid/710837
+    - http://dustsearch.com/feed/thread/dustsearch/guid/663316
+    - http://dustsearch.com/feed/thread/dustsearch/guid/663315
+    - http://dustsearch.com/feed/thread/dustsearch/guid/637197
+    - http://dustsearch.com/feed/thread/dustsearch/guid/623449
+    - http://dustsearch.com/feed/thread/dustsearch/guid/577308
+    - http://dustsearch.com/feed/thread/dustsearch/guid/542613
+    - http://dustsearch.com/feed/thread/dustsearch/guid/478265
+    - http://dustsearch.com/feed/thread/dustsearch/guid/477378
+    - http://dustsearch.com/feed/thread/dustsearch/guid/471834
+    - http://dustsearch.com/feed/thread/dustsearch/guid/449035
+    - http://dustsearch.com/feed/thread/dustsearch/guid/438258
+    - http://dustsearch.com/feed/thread/dustsearch/guid/419897
+    - http://dustsearch.com/feed/thread/dustsearch/guid/402632
+    - http://dustsearch.com/feed/thread/dustsearch/guid/391377
+    - http://dustsearch.com/feed/thread/dustsearch/guid/380100
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317961
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317960
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317959
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317958
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317957
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317956
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317955
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317954
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317953
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317952
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317951
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317950
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317949
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317948
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317947
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317946
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317945
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317944
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317943
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317942
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317941
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317940
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317939
+    - http://dustsearch.com/feed/thread/dustsearch/guid/317938
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1242304
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1242276
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1173438
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1151373
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1128872
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1060797
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1041192
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1016959
+    - http://dustsearch.com/feed/thread/dustsearch/guid/1000761
+    subreddit: dust514
+    type: Forums
+    url: http://dustsearch.com/feed/thread/34744
+  dust_news:
+    stories:
+    - http://dust514.com/news/2013/12/onwards-to-uprising-1.7/
+    - http://dust514.com/news/2013/11/weapons-of-uprising-1.7/
+    - http://dust514.com/news/2013/11/vehicles-in-uprising-1.7/
+    - http://dust514.com/news/2013/11/suit-up-for-black-eagle-friday/
+    - http://dust514.com/news/2013/11/introducing-dust-514-origin-pack/
+    - http://dust514.com/news/2013/11/changes-to-eveonline-dust514-twitter-usage-for-server-status-messaging-1/
+    - http://dust514.com/news/2013/11/ccp-wolfman-interview-by-ccp-blowout/
+    - http://dust514.com/news/2013/11/accelerated-sp-week-event-is-here/
+    - http://dust514.com/news/2013/10/w.a.r.-kits-killer-collections-coming-soon-to-the-playstation-store/
+    - http://dust514.com/news/2013/10/uprising-1.6-overview-1/
+    - http://dust514.com/news/2013/10/uprising-1.5-dev-blog-wrapup/
+    - http://dust514.com/news/2013/10/retiring-veteran-and-elite-packs/
+    - http://dust514.com/news/2013/10/get-armed-and-ready-with-w.a.r.-kits-now-available-in-the-playstation-store/
+    - http://dust514.com/news/2013/10/dust-514-tactical-pack/
+    - http://dust514.com/news/2013/10/dust-514-squad-cup-november-2013/
+    - http://dust514.com/news/2013/09/squad-finder/
+    - http://dust514.com/news/2013/09/results-of-molden-heath-conflicted-1/
+    - http://dust514.com/news/2013/09/omega-boosters-october-2013/
+    - http://dust514.com/news/2013/09/introducing-the-daily-bonus-in-uprising-1.4/
+    - http://dust514.com/news/2013/09/dust-514-districts-on-dotlan/
+    subreddit: dust514
+    type: News
+    url: http://newsfeed.eveonline.com/en-US/36/articles/page/1/20/
+  dust_press:
+    stories:
+    - http://dust514.com/news/press/2013/10/psu-dust-514-exclusive-interview-creative-director-the-evolution-of-playstations-flagship-f2p-shooter/
+    - http://dust514.com/news/press/2013/10/polygon-dust-514-new-producer-make-the-game-more-intense/
+    - http://dust514.com/news/press/2013/10/mmorpg.com-uprising-dusts-off-dust/
+    - http://dust514.com/news/press/2013/10/massively-ccp-hires-new-executive-producer-for-dust-514-jean-charles-gaudechon/
+    - http://dust514.com/news/press/2013/07/dust-514-issues-a-challenge-to-all-players/
+    - http://dust514.com/news/press/2013/07/dust-514-and-the-epic-game-inside-a-game/
+    - http://dust514.com/news/press/2013/06/psu.com-e3-interview-dust-514-a-universe-like-no-other/
+    - http://dust514.com/news/press/2013/05/dust-514-will-change-the-rhythm-of-eve/
+    - http://dust514.com/news/press/2013/05/dust-514-review-ten-ton-hammer/
+    - http://dust514.com/news/press/2013/05/dust-514-review-playstation-universe-1/
+    - http://dust514.com/news/press/2013/03/ten-ton-hammer-dust-mercenaries-swarm-eve-online/
+    - http://dust514.com/news/press/2013/03/gamasutra-on-uprising-may-6th/
+    - http://dust514.com/news/press/2013/02/penny-arcade-editorial-corporate-gambling/
+    - http://dust514.com/news/press/2013/02/ign-live-presents-dust-514/
+    - http://dust514.com/news/press/2013/02/escapist-live-team-plays-dust-514/
+    - http://dust514.com/news/press/2013/01/penny-arcade-dust-514-hands-on/
+    - http://dust514.com/news/press/2013/01/massively-hands-on-with-dust-514-open-beta/
+    - http://dust514.com/news/press/2013/01/g4tv-dust-514-open-beta-hands-on/
+    - http://dust514.com/news/press/2013/01/eve-online-dust-514-servers-will-merge-tomorrow/
+    - http://dust514.com/news/press/2013/01/dust-514-moves-into-open-beta-on-22nd-january/
+    subreddit: dust514
+    type: Press
+    url: http://newsfeed.eveonline.com/en-US/61/articles/page/1/20/
   eve_news:
     stories:
     - http://feeds.feedburner.com/newsfeed/en-US/44/article/74857/unexpected-eve-account-management-website-downtime
@@ -97,16 +386,37 @@ rss_feeds:
     - http://community.eveonline.com/news/news-channels/eve-online-news/videocast-eve-online-development-16-00-gmt-today/
     - http://community.eveonline.com/news/news-channels/eve-online-news/unexpected-api-server-downtime/
     - http://community.eveonline.com/news/news-channels/eve-online-news/syndicate-competitive-league-begins-again/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/plex-for-good-philippines-typhoon-relief-1/
     - http://community.eveonline.com/news/news-channels/eve-online-news/planetary-conquest-bonuses-delayed-until-may-22/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/phanca-cybernetic-arm-ccp-mystery-code-reward-with-eve-online-rubicon/
     - http://community.eveonline.com/news/news-channels/eve-online-news/payment-and-plex-systems-downtime-thursday-april-11th/
     - http://community.eveonline.com/news/news-channels/eve-online-news/new-chronicle-and-i-shall-hide-by-ccp-eterne/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-tuesday-december-3rd/
     - http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-thursday-may-16th/
     - http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-thursday-april-11th/
     - http://community.eveonline.com/news/news-channels/eve-online-news/last-chance-to-get-into-big-lottery-10th-anniversary-drawing/
     - http://community.eveonline.com/news/news-channels/eve-online-news/flight-of-1000-rifters-iii/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/fixes-for-graphics-issues-with-rubicon-1/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-early-bird-tickets-almost-sold-out/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2014-ticket-sales-are-live-with-a-nice-early-bird-discount/
     - http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2013-live-hd-stream/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/extended-downtime-thursday-december-5th-2013/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/extended-downtime-on-november-29-2013-1/
     - http://community.eveonline.com/news/news-channels/eve-online-news/extended-downtime-on-monday-may-6th/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/exploit-notification-forcefield-access/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/exploit-bumping-in-order-to-prevent-e-warp/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/eve-the-second-decade-collectors-edition-black-friday-amazon-sale/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-to-be-released-tomorrow-november-19th-2013/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-to-be-released-on-tuesday-november-19th-2013/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-raptr-stream-q-a/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-plex-sale/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-has-been-deployed/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-black-friday-sale-new-account-99-cents/
     - http://community.eveonline.com/news/news-channels/eve-online-news/discrepancy-in-statistics-of-two-pirate-rookie-frigates/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/csm8-town-hall-on-november-16/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/changes-to-eveonline-dust514-twitter-usage-for-server-status-messaging/
+    - http://community.eveonline.com/news/news-channels/eve-online-news/ccp-rise-hosts-ama-on-reddit/
+    subreddit: eve
     type: EVE News
     url: http://newsfeed.eveonline.com/en-US/44/articles/page/1/20
   game_news:
@@ -146,22 +456,42 @@ rss_feeds:
     - http://feeds.feedburner.com/newsfeed/en-US/42/article/74586/gallente-digital-activist-group-vows-to-expose-black-eagles
     - http://feeds.feedburner.com/newsfeed/en-US/42/article/74579/numerous-caldari-management-resign-heth-promises-significant
     - http://feeds.feedburner.com/newsfeed/en-US/42/article/74574/mentas-blaque-continues-harsh-condemnation-of-state-roden
+    - http://community.eveonline.com/news/news-channels/world-news/war-breaks-out-in-ge-8jv/
     - http://community.eveonline.com/news/news-channels/world-news/terrorist-attack-gallente-cultural-center/
     - http://community.eveonline.com/news/news-channels/world-news/stolen-ishukone-watch-vessel-located-handed-off-to-capsuleer/
+    - http://community.eveonline.com/news/news-channels/world-news/sisters-of-eve-temporarily-promote-two-agents/
+    - http://community.eveonline.com/news/news-channels/world-news/senate-report-no-evidence-of-widespread-discrimination-against-minmatar/
+    - http://community.eveonline.com/news/news-channels/world-news/report-wreckage-of-heths-escort-found-in-aivonen/
     - http://community.eveonline.com/news/news-channels/world-news/prototype-vessel-stolen-from-ishukone-shipyard/
+    - http://community.eveonline.com/news/news-channels/world-news/pirate-factions-express-interest-in-covert-research-tools/
+    - http://community.eveonline.com/news/news-channels/world-news/operation-highlander-documents-released-implicate-federation-in-widespread-spying/
+    - http://community.eveonline.com/news/news-channels/world-news/mysterious-explosion-detected-in-syndicate/
+    - http://community.eveonline.com/news/news-channels/world-news/minmatar-react-to-senate-report-call-for-elokurs-freedom/
+    - http://community.eveonline.com/news/news-channels/world-news/material-acquisition-announces-plans-to-open-several-new-facilities/
+    - http://community.eveonline.com/news/news-channels/world-news/kw-i6t-escalation-rages-for-hours/
     - http://community.eveonline.com/news/news-channels/world-news/former-minmatar-minister-caille-wounded/
     - http://community.eveonline.com/news/news-channels/world-news/final-details-of-caldari-prime-dmz-announced/
+    - http://community.eveonline.com/news/news-channels/world-news/empires-led-capsuleer-assault-on-pirates-ends-in-failure/
+    - http://community.eveonline.com/news/news-channels/world-news/empire-navies-put-out-call-for-capsuleer-assistance/
+    - http://community.eveonline.com/news/news-channels/world-news/empire-navies-expand-call-to-action-against-enemy-forces/
+    - http://community.eveonline.com/news/news-channels/world-news/elokur-found-not-guilty-small-scale-riots-erupt/
+    - http://community.eveonline.com/news/news-channels/world-news/conservative-senator-calls-republic-untrustworthy/
+    - http://community.eveonline.com/news/news-channels/world-news/clashes-on-caldari-prime-quelled-by-mordus-legion/
+    - http://community.eveonline.com/news/news-channels/world-news/cep-denounces-operation-highlander-leak/
+    - http://community.eveonline.com/news/news-channels/world-news/capsuleers-rally-to-aid-destruction-of-covert-research-facilities/
+    - http://community.eveonline.com/news/news-channels/world-news/caldari-constructions-appoints-onnuta-ahvala-as-ceo/
+    - http://community.eveonline.com/news/news-channels/world-news/breaking-news-heths-ship-spotted-in-black-rise/
+    subreddit: eve
     type: Game News
     url: http://newsfeed.eveonline.com/en-US/42/articles/page/1/20
   patch_notes:
     stories:
-    - http://feeds.feedburner.com/newsfeed/en-US/15/article/74275/patch-notes-for-retribution-1-1
-    - http://feeds.feedburner.com/newsfeed/en-US/15/article/74000/patch-notes-for-retribution
-    - http://feeds.feedburner.com/newsfeed/en-US/15/article/73456/patch-notes-for-inferno-1-3
-    - http://feeds.feedburner.com/newsfeed/en-US/15/article/73093/patch-notes-for-inferno-1-2
-    - http://feeds.feedburner.com/newsfeed/en-US/15/article/72903/patch-notes-for-inferno-1-1
+    - http://community.eveonline.com/news/patch-notes/patch-notes-for/
+    - http://community.eveonline.com/news/patch-notes/patch-notes-for-rubicon/
     - http://community.eveonline.com/news/patch-notes/patch-notes-for-retribution-1.2/
-    - http://community.eveonline.com/news/patch-notes/patch-notes-for-retribution-1.1/
+    - http://community.eveonline.com/news/patch-notes/patch-notes-for-odyssey-1.2/
+    - http://community.eveonline.com/news/patch-notes/patch-notes-for-odyssey-1.1/
+    subreddit: eve
     type: Patch Notes
     url: http://newsfeed.eveonline.com/en-US/15/articles/page/1/5
 signature: ''
@@ -169,4 +499,4 @@ sleep_time: 300
 sleep_time_post: 600
 submitpost: true
 subreddit: eve_reddit_bot
-username: insert_username_here
+username: eve_reddit_bot
