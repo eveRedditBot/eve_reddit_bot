@@ -6,6 +6,7 @@ import feedparser
 
 from HTMLParser import HTMLParser
 from pprint     import pprint
+from datetime   import datetime
 
 logging.basicConfig(format='%(asctime)s %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S',
@@ -86,11 +87,11 @@ class EVERedditBot():
             return
 
         for entry in feed['entries']:
-            if entry['id'] not in self.config['rss_feeds'][rss_feed]['stories']:
+            if entry['id'] not in [ story['posturl'] for story in self.config['rss_feeds'][rss_feed]['stories'] ]:
                 logging.info('New %s! %s to /r/%s' %(self.config['rss_feeds'][rss_feed]['type'], entry['title'], self.config['rss_feeds'][rss_feed]['subreddit']))
                 data = self.formatForReddit(entry, self.config['rss_feeds'][rss_feed]['type'], self.config['rss_feeds'][rss_feed]['subreddit'])
 
-                self.config['rss_feeds'][rss_feed]['stories'].append(str(entry['id']))
+                self.config['rss_feeds'][rss_feed]['stories'].append({'posturl': str(entry['id']), 'date': datetime.now()})
                 self.save_config()
 
                 if self.config['submitpost'] == True:
@@ -112,7 +113,7 @@ class EVERedditBot():
 
     def save_config(self):
         for rss_feed in self.config['rss_feeds']:
-            self.config['rss_feeds'][rss_feed]['stories'].sort(reverse=True)
+            self.config['rss_feeds'][rss_feed]['stories'].sort(key=lambda x: x['date'], reverse=True)
 
         stream = file(self.config_path, 'w')
         yaml.dump(self.config, stream, default_flow_style=False)
