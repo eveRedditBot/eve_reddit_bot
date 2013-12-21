@@ -6,6 +6,7 @@ import feedparser
 
 from HTMLParser import HTMLParser
 from pprint     import pprint
+from datetime   import datetime
 
 logging.basicConfig(format='%(asctime)s %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S',
@@ -86,11 +87,11 @@ class EVERedditBot():
             return
 
         for entry in feed['entries']:
-            if entry['id'] not in self.config['rss_feeds'][rss_feed]['stories']:
+            if entry['id'] not in [ story['posturl'] for story in self.config['rss_feeds'][rss_feed]['stories'] ]:
                 logging.info('New %s! %s to /r/%s' %(self.config['rss_feeds'][rss_feed]['type'], entry['title'], self.config['rss_feeds'][rss_feed]['subreddit']))
                 data = self.formatForReddit(entry, self.config['rss_feeds'][rss_feed]['type'], self.config['rss_feeds'][rss_feed]['subreddit'])
 
-                self.config['rss_feeds'][rss_feed]['stories'].append(str(entry['id']))
+                self.config['rss_feeds'][rss_feed]['stories'].append({'posturl': str(entry['id']), 'date': datetime.now()})
                 self.save_config()
 
                 if self.config['submitpost'] == True:
@@ -112,7 +113,7 @@ class EVERedditBot():
 
     def save_config(self):
         for rss_feed in self.config['rss_feeds']:
-            self.config['rss_feeds'][rss_feed]['stories'].sort(reverse=True)
+            self.config['rss_feeds'][rss_feed]['stories'].sort(key=lambda x: x['date'], reverse=True)
 
         stream = file(self.config_path, 'w')
         yaml.dump(self.config, stream, default_flow_style=False)
@@ -125,6 +126,7 @@ class EveRssHtmlParser(HTMLParser):
         self.cur_comment = 0
         self.max_comment_length = 8000
         self.cur_href = ''
+        self.in_asterisk_tag = False
         self.in_a = False
         self.in_table = False
         self.first_row = False
@@ -139,6 +141,7 @@ class EveRssHtmlParser(HTMLParser):
             self.comments[self.cur_comment] += '\n\n'
 
         elif tag == 'em' or tag == 'i':
+            self.in_asterisk_tag = True
             self.comments[self.cur_comment] += '*'
         
         elif tag == 'sup':
@@ -168,6 +171,7 @@ class EveRssHtmlParser(HTMLParser):
                 self.comments[self.cur_comment] += 'image'
 
         elif tag == 'strong' or tag == 'b':
+            self.in_asterisk_tag = True
             self.comments[self.cur_comment] += '**'
 
         elif tag == 'h1':
@@ -223,6 +227,7 @@ class EveRssHtmlParser(HTMLParser):
             print "Encountered an unhandled start tag:", tag
 
     def handle_endtag(self, tag):
+        self.in_asterisk_tag = False
     	endswithspace = self.comments[self.cur_comment].endswith(' ')
         if tag == 'p' or tag == 'br':
             if not self.in_table:
@@ -280,6 +285,8 @@ class EveRssHtmlParser(HTMLParser):
 
     def handle_data(self, data):
         data = data.strip('\n\t')
+        if self.in_asterisk_tag:
+            data = data.lstrip()
 
         if (len(self.comments[self.cur_comment]) + len(data)) >= self.max_comment_length:
             self.cur_comment += 1
