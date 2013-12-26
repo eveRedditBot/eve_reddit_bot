@@ -1,4 +1,4 @@
-api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.2
+api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.3
 password: insert_password_here
 rss_feeds:
   ccp_press:
@@ -117,6 +117,31 @@ rss_feeds:
     subreddit: dust514
     type: CPM
     url: http://hansshotfirst.blogspot.com/feeds/posts/default
+  csm:
+    stories:
+    - date: 2013-12-26 20:35:07.910118
+      posturl: http://mikeazariah.wordpress.com/?p=1428
+    - date: 2013-12-26 20:35:07.625341
+      posturl: http://mikeazariah.wordpress.com/?p=1430
+    - date: 2013-12-26 20:35:07.353744
+      posturl: http://mikeazariah.wordpress.com/?p=1434
+    - date: 2013-12-26 20:35:07.072831
+      posturl: http://csm8.org/?guid=3f628a8806bc7871925218d452d268a9
+    - date: 2013-12-26 20:35:06.805075
+      posturl: http://mikeazariah.wordpress.com/?p=1438
+    - date: 2013-12-26 20:35:06.538944
+      posturl: http://csm8.org/?guid=ba33a7dee9a03807f52199fd57d70941
+    - date: 2013-12-26 20:35:06.239867
+      posturl: http://mikeazariah.wordpress.com/?p=1440
+    - date: 2013-12-26 20:35:05.962391
+      posturl: http://csm8.org/?guid=c90d8fdedebd1d081014d8c265f24fee
+    - date: 2013-12-26 20:35:05.675027
+      posturl: http://csm8.org/?guid=3782dc40e9c5a79343d5a45b0ab989a2
+    - date: 2013-12-26 20:35:05.406343
+      posturl: http://csm8.org/?guid=bdea8020af38e8556d693ed29683a693
+    subreddit: new_eden_news_bot
+    type: CSM
+    url: http://csm8.org/feed/
   dev_blogs:
     stories:
     - date: 2013-12-21 23:57:27.152020
@@ -406,6 +431,10 @@ rss_feeds:
     url: http://newsfeed.eveonline.com/en-US/60/articles/page/1/20/
   dust_featured_promotions:
     stories:
+    - date: 2013-12-26 20:23:38.390795
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1347965
+    - date: 2013-12-26 20:23:38.131341
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1354296
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/986498
     - date: 2013-12-21 23:57:27.152020
@@ -682,6 +711,8 @@ rss_feeds:
     url: http://newsfeed.eveonline.com/en-US/61/articles/page/1/20/
   eve_news:
     stories:
+    - date: 2013-12-26 20:23:33.451701
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-player-training-session-on-friday-the-27th-exploration-fleet/
     - date: 2013-12-21 23:57:27.152020
       posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74857/unexpected-eve-account-management-website-downtime
     - date: 2013-12-21 23:57:27.152020
@@ -831,6 +862,10 @@ rss_feeds:
     url: http://newsfeed.eveonline.com/en-US/44/articles/page/1/20
   game_news:
     stories:
+    - date: 2013-12-26 20:23:47.982333
+      posturl: http://community.eveonline.com/news/news-channels/world-news/minmatar-tribal-assembly-resumes-with-new-sebiestor-chief/
+    - date: 2013-12-26 20:23:47.712478
+      posturl: http://community.eveonline.com/news/news-channels/world-news/senate-releases-statement-regarding-state-border-breaches/
     - date: 2013-12-21 23:57:27.152020
       posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74846/tibus-heth-angrily-denounces-caldari-prime-dmz-blasts
     - date: 2013-12-21 23:57:27.152020
@@ -975,6 +1010,61 @@ rss_feeds:
     subreddit: eve
     type: Patch Notes
     url: http://newsfeed.eveonline.com/en-US/15/articles/page/1/5
+  youtube:
+    stories:
+    - date: 2013-12-26 20:40:16.069297
+      posturl: tag:youtube.com,2008:video:OnYJ8nxMRm0
+    - date: 2013-12-26 20:37:30.314533
+      posturl: tag:youtube.com,2008:video:2J46MTETfFc
+    - date: 2013-12-26 20:37:30.003574
+      posturl: tag:youtube.com,2008:video:AxatstKwFJk
+    - date: 2013-12-26 20:37:29.705759
+      posturl: tag:youtube.com,2008:video:40zjfBk5vEE
+    - date: 2013-12-26 20:37:29.405221
+      posturl: tag:youtube.com,2008:video:F18B1SiQFVc
+    - date: 2013-12-26 20:37:29.104305
+      posturl: tag:youtube.com,2008:video:x70cCW0oEco
+    - date: 2013-12-26 20:37:28.814038
+      posturl: tag:youtube.com,2008:video:rTrz7-OOCZE
+    - date: 2013-12-26 20:37:28.524647
+      posturl: tag:youtube.com,2008:video:XHH_MHd0c94
+    - date: 2013-12-26 20:37:28.225315
+      posturl: tag:youtube.com,2008:video:Usv2EjUU3fA
+    - date: 2013-12-26 20:37:27.912391
+      posturl: tag:youtube.com,2008:video:JJxVTNR2XH8
+    - date: 2013-12-26 20:37:27.615930
+      posturl: tag:youtube.com,2008:video:WIEApAFwEqE
+    - date: 2013-12-26 20:37:27.315428
+      posturl: tag:youtube.com,2008:video:YAAMyZ3_wnI
+    - date: 2013-12-26 20:37:27.008292
+      posturl: tag:youtube.com,2008:video:Cc4iuFrBDPM
+    - date: 2013-12-26 20:37:26.698372
+      posturl: tag:youtube.com,2008:video:4weB3wjHMl8
+    - date: 2013-12-26 20:37:26.404797
+      posturl: tag:youtube.com,2008:video:OX1jB9XRD4M
+    - date: 2013-12-26 20:37:26.105447
+      posturl: tag:youtube.com,2008:video:51VH0Hr1gHs
+    - date: 2013-12-26 20:37:25.807928
+      posturl: tag:youtube.com,2008:video:1PDf0gIyGLE
+    - date: 2013-12-26 20:37:25.505384
+      posturl: tag:youtube.com,2008:video:DksknZR7o0o
+    - date: 2013-12-26 20:37:25.204314
+      posturl: tag:youtube.com,2008:video:UcEUB6h4Br0
+    - date: 2013-12-26 20:37:24.912689
+      posturl: tag:youtube.com,2008:video:zMKb9xivh9U
+    - date: 2013-12-26 20:37:24.618472
+      posturl: tag:youtube.com,2008:video:EFegZyOhJjM
+    - date: 2013-12-26 20:37:24.298939
+      posturl: tag:youtube.com,2008:video:Uo6mXf0VmrM
+    - date: 2013-12-26 20:37:24.003663
+      posturl: tag:youtube.com,2008:video:0WX-rDUoAVQ
+    - date: 2013-12-26 20:37:23.690076
+      posturl: tag:youtube.com,2008:video:QzEY-A5JLB4
+    - date: 2013-12-26 20:37:23.108627
+      posturl: tag:youtube.com,2008:video:hXXb6p8e6ik
+    subreddit: eve
+    type: Youtube
+    url: http://gdata.youtube.com/feeds/base/users/CCPGAMES/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
 signature: ''
 sleep_time: 300
 sleep_time_post: 600

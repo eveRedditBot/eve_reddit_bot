@@ -3,6 +3,7 @@ import praw
 import yaml
 import logging
 import feedparser
+import sys, getopt
 
 from HTMLParser import HTMLParser
 from pprint     import pprint
@@ -19,12 +20,16 @@ class EVERedditBot():
         stream = file(self.config_path, 'r')
         self.config = yaml.load(stream)
         stream.close()
+        self.subreddit = self.config['subreddit']
+        self.username = self.config['username']
+        self.password = self.config['password']
+        self.submitpost = self.config['submitpost']
 
     def run(self, sleep_time=None):
-        logging.info('Default subreddit: /r/%s' %self.config['subreddit'])
-        logging.info('Selected username: %s' %self.config['username'])
-        logging.info('Submit stories to Reddit: %s' %self.config['submitpost'])
-        raw_input("Press Enter to continue...")
+        logging.info('Default subreddit: /r/%s' %self.subreddit)
+        logging.info('Selected username: %s' %self.username)
+        logging.info('Submit stories to Reddit: %s' %self.submitpost)
+        #raw_input("Press Enter to continue...")
 
         if sleep_time == None:
             sleep_time = self.config['sleep_time']
@@ -37,8 +42,8 @@ class EVERedditBot():
     def postToReddit(self, data):
         r = praw.Reddit(self.config['api_header'])
 
-        r.login(username=self.config['username'],
-                password=self.config['password'])
+        r.login(username=self.username,
+                password=self.password)
 
         s = r.submit(data['subreddit'],
                      data['title'],
@@ -94,7 +99,7 @@ class EVERedditBot():
                 self.config['rss_feeds'][rss_feed]['stories'].append({'posturl': str(entry['id']), 'date': datetime.now()})
                 self.save_config()
 
-                if self.config['submitpost'] == True:
+                if self.submitpost == True:
                     self.postToReddit(data)
 
                     logging.info('Just posted to Reddit, sleeping for %d seconds' %self.config['sleep_time_post'])
@@ -173,6 +178,10 @@ class EveRssHtmlParser(HTMLParser):
         elif tag == 'strong' or tag == 'b':
             self.in_asterisk_tag = True
             self.comments[self.cur_comment] += '**'
+        
+        elif tag == 'strike' or tag == 's':
+            self.in_asterisk_tag = True
+            self.comments[self.cur_comment] += '~~'
 
         elif tag == 'h1':
             self.comments[self.cur_comment] += '#'
@@ -253,6 +262,10 @@ class EveRssHtmlParser(HTMLParser):
         elif tag == 'strong' or tag == 'b':
             self.comments[self.cur_comment] = self.comments[self.cur_comment].rstrip()
             self.comments[self.cur_comment] += '** '
+        
+        elif tag == 'strike' or tag == 's':
+            self.comments[self.cur_comment] = self.comments[self.cur_comment].rstrip()
+            self.comments[self.cur_comment] += '~~ '
 
         elif tag == 'h1':
             self.comments[self.cur_comment] += '#\n\n'
@@ -296,4 +309,24 @@ class EveRssHtmlParser(HTMLParser):
 
 if __name__ == '__main__':
     bot = EVERedditBot()
+    
+    try:
+      opts, args = getopt.getopt(sys.argv[1:],"",["help","username=","password=","submit=","subreddit="])
+    except getopt.GetoptError:
+      print 'main.py --help'
+      sys.exit(2)
+    for opt, arg in opts:
+      if opt in ("--help"):
+         print 'main.py -u <username> -p <password> --submit=<(True|False)> --subreddit=<subreddit>'
+         print '  any missing arguments will be taken from config.yaml'
+         sys.exit()
+      elif opt in ("--username"):
+         bot.username = arg
+      elif opt in ("--password"):
+         bot.password = arg
+      elif opt in ("--subreddit"):
+         bot.subreddit = arg
+      elif opt in ("--submit"):
+         bot.submitpost = arg
+
     bot.run()
