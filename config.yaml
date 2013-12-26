@@ -406,6 +406,10 @@ rss_feeds:
     url: http://newsfeed.eveonline.com/en-US/60/articles/page/1/20/
   dust_featured_promotions:
     stories:
+    - date: 2013-12-26 20:23:38.390795
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1347965
+    - date: 2013-12-26 20:23:38.131341
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1354296
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/986498
     - date: 2013-12-21 23:57:27.152020
@@ -682,6 +686,8 @@ rss_feeds:
     url: http://newsfeed.eveonline.com/en-US/61/articles/page/1/20/
   eve_news:
     stories:
+    - date: 2013-12-26 20:23:33.451701
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-player-training-session-on-friday-the-27th-exploration-fleet/
     - date: 2013-12-21 23:57:27.152020
       posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74857/unexpected-eve-account-management-website-downtime
     - date: 2013-12-21 23:57:27.152020
@@ -831,6 +837,10 @@ rss_feeds:
     url: http://newsfeed.eveonline.com/en-US/44/articles/page/1/20
   game_news:
     stories:
+    - date: 2013-12-26 20:23:47.982333
+      posturl: http://community.eveonline.com/news/news-channels/world-news/minmatar-tribal-assembly-resumes-with-new-sebiestor-chief/
+    - date: 2013-12-26 20:23:47.712478
+      posturl: http://community.eveonline.com/news/news-channels/world-news/senate-releases-statement-regarding-state-border-breaches/
     - date: 2013-12-21 23:57:27.152020
       posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74846/tibus-heth-angrily-denounces-caldari-prime-dmz-blasts
     - date: 2013-12-21 23:57:27.152020
