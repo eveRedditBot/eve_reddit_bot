@@ -145,6 +145,9 @@ class EveRssHtmlParser(HTMLParser):
         elif tag == 'br':
             self.comments[self.cur_comment] += '\n\n'
 
+        elif tag == 'hr':
+            self.comments[self.cur_comment] += '\n\n-----\n\n'
+
         elif tag == 'em' or tag == 'i':
             self.in_asterisk_tag = True
             self.comments[self.cur_comment] += '*'
