@@ -1,4 +1,4 @@
-api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.3
+api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.4
 password: insert_password_here
 rss_feeds:
   ccp_press:
