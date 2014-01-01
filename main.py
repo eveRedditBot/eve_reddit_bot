@@ -1,6 +1,8 @@
+import socket
 import time
 import praw
 import yaml
+import re
 import logging
 import feedparser
 import sys, getopt
@@ -8,6 +10,7 @@ import sys, getopt
 from HTMLParser import HTMLParser
 from pprint     import pprint
 from datetime   import datetime
+from bs4        import UnicodeDammit
 
 logging.basicConfig(format='%(asctime)s %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S',
@@ -15,6 +18,8 @@ logging.basicConfig(format='%(asctime)s %(message)s',
 
 class EVERedditBot():
     def __init__(self):
+        
+        socket.setdefaulttimeout(10)
         self.config_path = 'config.yaml'
 
         stream = file(self.config_path, 'r')
@@ -59,7 +64,7 @@ class EVERedditBot():
             for comment in data['comments']:
                 c = c.reply(comment)
 
-    def formatForReddit(self, feedEntry, postType, subreddit):
+    def formatForReddit(self, feedEntry, postType, subreddit, raw):
         if 'content' in feedEntry:
           content = feedEntry['content'][0]['value']
         else:
@@ -67,6 +72,19 @@ class EVERedditBot():
         logging.debug(content)
         parser = EveRssHtmlParser()
 
+        # some feeds like Twitter are raw so the parser hates it.
+        if (raw):
+          regex_of_url = '(https?:\/\/[\da-z\.-]+\.[a-z\.]{2,6}[\/\w&\.-\?]*)'
+          clean_content = re.sub(regex_of_url, '<a href="\\1">link</a>', content)
+          clean_content = UnicodeDammit.detwingle(clean_content)
+          #logging.info(clean_content)
+          u = UnicodeDammit(clean_content, 
+                      smart_quotes_to='html', 
+                      is_html = False )
+          # fix twitter putting ellipses on the end
+          content = u.unicode_markup.replace(unichr(8230),' ...')
+          logging.debug('.....')
+        
         # Added the .replace because the parser does something funny to them and removes them before I can handle them
         parser.feed(content.replace('&nbsp;', ' ').replace('&bull;', '*'))
         parser.comments[0] = '%s\n\n%s' %(feedEntry['link'], parser.comments[0])
@@ -94,7 +112,7 @@ class EVERedditBot():
         for entry in feed['entries']:
             if entry['id'] not in [ story['posturl'] for story in self.config['rss_feeds'][rss_feed]['stories'] ]:
                 logging.info('New %s! %s to /r/%s' %(self.config['rss_feeds'][rss_feed]['type'], entry['title'], self.config['rss_feeds'][rss_feed]['subreddit']))
-                data = self.formatForReddit(entry, self.config['rss_feeds'][rss_feed]['type'], self.config['rss_feeds'][rss_feed]['subreddit'])
+                data = self.formatForReddit(entry, self.config['rss_feeds'][rss_feed]['type'], self.config['rss_feeds'][rss_feed]['subreddit'], self.config['rss_feeds'][rss_feed]['raw'])
 
                 self.config['rss_feeds'][rss_feed]['stories'].append({'posturl': str(entry['id']), 'date': datetime.now()})
                 self.save_config()
@@ -107,6 +125,7 @@ class EVERedditBot():
 
                 else:
                     logging.info('Skipping the submission...')
+                    logging.info(data)
 
         return
 
@@ -144,6 +163,9 @@ class EveRssHtmlParser(HTMLParser):
             
         elif tag == 'br':
             self.comments[self.cur_comment] += '\n\n'
+
+        elif tag == 'hr':
+            self.comments[self.cur_comment] += '\n\n-----\n\n'
 
         elif tag == 'em' or tag == 'i':
             self.in_asterisk_tag = True

@@ -1,7 +1,8 @@
-api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.3
+api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.4
 password: insert_password_here
 rss_feeds:
   ccp_press:
+    raw: false
     stories:
     - date: 2013-12-21 23:57:27.152020
       posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/74802/ccp-announces-eve-online-odyssey-to-be-released-june-4th
@@ -63,6 +64,7 @@ rss_feeds:
     type: CCP Press
     url: http://newsfeed.eveonline.com/en-US/43/articles/page/1/20
   cpm:
+    raw: false
     stories:
     - date: 2013-12-21 23:57:27.152020
       posturl: tag:blogger.com,1999:blog-3946765581247128607.post-965252792909672440
@@ -118,7 +120,12 @@ rss_feeds:
     type: CPM
     url: http://hansshotfirst.blogspot.com/feeds/posts/default
   csm:
+    raw: false
     stories:
+    - date: 2013-12-31 18:09:45.366131
+      posturl: http://csm8.org/?guid=414be14ad30054b5926236a22a99274e
+    - date: 2013-12-31 17:59:36.043691
+      posturl: http://csm8.org/?guid=ba8d5cfa86bb81a89e091ac4445f0568
     - date: 2013-12-26 20:35:07.910118
       posturl: http://mikeazariah.wordpress.com/?p=1428
     - date: 2013-12-26 20:35:07.625341
@@ -139,11 +146,14 @@ rss_feeds:
       posturl: http://csm8.org/?guid=3782dc40e9c5a79343d5a45b0ab989a2
     - date: 2013-12-26 20:35:05.406343
       posturl: http://csm8.org/?guid=bdea8020af38e8556d693ed29683a693
-    subreddit: new_eden_news_bot
+    subreddit: eve
     type: CSM
     url: http://csm8.org/feed/
   dev_blogs:
+    raw: false
     stories:
+    - date: 2014-01-01 22:14:45.526234
+      posturl: http://community.eveonline.com/news/dev-blogs/twitch-integration-is-here/
     - date: 2013-12-21 23:57:27.152020
       posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74845/csm8-final-ballot-and-pre-election-results
     - date: 2013-12-21 23:57:27.152020
@@ -201,8 +211,6 @@ rss_feeds:
     - date: 2013-12-21 23:57:27.152020
       posturl: http://community.eveonline.com/news/dev-blogs/warp-drive-active/
     - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/twitch-integration-is-here/
-    - date: 2013-12-21 23:57:27.152020
       posturl: http://community.eveonline.com/news/dev-blogs/the-new-character-selection-screen/
     - date: 2013-12-21 23:57:27.152020
       posturl: http://community.eveonline.com/news/dev-blogs/the-interbus-ship-identification-system/
@@ -257,7 +265,54 @@ rss_feeds:
     subreddit: eve
     type: Dev Blog
     url: http://newsfeed.eveonline.com/en-US/2/articles/page/1/20
+  dust514_status:
+    raw: true
+    stories:
+    - date: 2014-01-01 23:57:39.701268
+      posturl: http://www.rssitfor.me/DUST514_Status/status/407541250925948928
+    - date: 2014-01-01 23:57:21.815291
+      posturl: http://www.rssitfor.me/DUST514_Status/status/407567898056478721
+    - date: 2014-01-01 23:56:59.704507
+      posturl: http://www.rssitfor.me/DUST514_Status/status/408526701375660032
+    - date: 2014-01-01 21:57:47.983352
+      posturl: http://www.rssitfor.me/DUST514_Status/status/408563658810073088
+    - date: 2014-01-01 21:57:47.694478
+      posturl: http://www.rssitfor.me/DUST514_Status/status/410041871180644352
+    - date: 2014-01-01 21:57:47.397179
+      posturl: http://www.rssitfor.me/DUST514_Status/status/410063433443188736
+    - date: 2014-01-01 21:57:47.106935
+      posturl: http://www.rssitfor.me/DUST514_Status/status/410342119333584896
+    - date: 2014-01-01 21:57:46.798345
+      posturl: http://www.rssitfor.me/DUST514_Status/status/410367515458428928
+    - date: 2014-01-01 21:57:46.505288
+      posturl: http://www.rssitfor.me/DUST514_Status/status/410370521377673216
+    - date: 2014-01-01 21:57:46.200236
+      posturl: http://www.rssitfor.me/DUST514_Status/status/412874056740773888
+    - date: 2014-01-01 21:57:45.903034
+      posturl: http://www.rssitfor.me/DUST514_Status/status/412898283049070593
+    - date: 2014-01-01 21:57:45.601863
+      posturl: http://www.rssitfor.me/DUST514_Status/status/413214745915695104
+    - date: 2014-01-01 21:57:45.312504
+      posturl: http://www.rssitfor.me/DUST514_Status/status/413269291308314624
+    - date: 2014-01-01 21:57:45.024484
+      posturl: http://www.rssitfor.me/DUST514_Status/status/413554630430187522
+    - date: 2014-01-01 21:57:44.730965
+      posturl: http://www.rssitfor.me/DUST514_Status/status/413633187357536256
+    - date: 2014-01-01 21:57:44.437344
+      posturl: http://www.rssitfor.me/DUST514_Status/status/415038226902966272
+    - date: 2014-01-01 21:57:44.131638
+      posturl: http://www.rssitfor.me/DUST514_Status/status/415082073540415488
+    - date: 2014-01-01 21:57:43.828020
+      posturl: http://www.rssitfor.me/DUST514_Status/status/418131966547210240
+    - date: 2014-01-01 21:57:43.536922
+      posturl: http://www.rssitfor.me/DUST514_Status/status/418147926222065664
+    - date: 2014-01-01 21:49:27.464081
+      posturl: http://www.rssitfor.me/DUST514_Status/status/407543609274023936
+    subreddit: dust514
+    type: Server
+    url: http://www.rssitfor.me/getrss?name=dust514_status
   dust_bug_reports:
+    raw: false
     stories:
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dustsearch.com/feed/thread/dustsearch/guid/967579
@@ -383,6 +438,7 @@ rss_feeds:
     type: Forums
     url: http://dustsearch.com/feed/thread/34746
   dust_dev_blogs:
+    raw: false
     stories:
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dust514.com/news/blog/2013/12/strengthening-the-link-factional-warfare-in-uprising-1.7/
@@ -430,6 +486,7 @@ rss_feeds:
     type: Dev Blog
     url: http://newsfeed.eveonline.com/en-US/60/articles/page/1/20/
   dust_featured_promotions:
+    raw: false
     stories:
     - date: 2013-12-26 20:23:38.390795
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1347965
@@ -493,6 +550,7 @@ rss_feeds:
     type: Forums
     url: http://dustsearch.com/feed/forum/1263/new
   dust_feedback_suggestions:
+    raw: false
     stories:
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dustsearch.com/feed/thread/dustsearch/guid/967583
@@ -618,6 +676,7 @@ rss_feeds:
     type: Forums
     url: http://dustsearch.com/feed/thread/34744
   dust_news:
+    raw: false
     stories:
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dust514.com/news/2013/12/onwards-to-uprising-1.7/
@@ -665,6 +724,7 @@ rss_feeds:
     type: News
     url: http://newsfeed.eveonline.com/en-US/36/articles/page/1/20/
   dust_press:
+    raw: false
     stories:
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dust514.com/news/press/2013/10/psu-dust-514-exclusive-interview-creative-director-the-evolution-of-playstations-flagship-f2p-shooter/
@@ -710,7 +770,12 @@ rss_feeds:
     type: Press
     url: http://newsfeed.eveonline.com/en-US/61/articles/page/1/20/
   eve_news:
+    raw: false
     stories:
+    - date: 2013-12-28 04:57:46.016224
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-installer-issue-27-12-2013/
+    - date: 2013-12-27 19:12:56.374668
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/holiday-plex-sale-15-off/
     - date: 2013-12-26 20:23:33.451701
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-player-training-session-on-friday-the-27th-exploration-fleet/
     - date: 2013-12-21 23:57:27.152020
@@ -860,8 +925,65 @@ rss_feeds:
     subreddit: eve
     type: EVE News
     url: http://newsfeed.eveonline.com/en-US/44/articles/page/1/20
-  game_news:
+  eve_status:
+    raw: true
     stories:
+    - date: 2014-01-02 00:04:02.328276
+      posturl: http://www.rssitfor.me/EVE_status/status/404944819971035136
+    - date: 2014-01-02 00:04:02.003413
+      posturl: http://www.rssitfor.me/EVE_status/status/405660281960800256
+    - date: 2014-01-02 00:04:01.674853
+      posturl: http://www.rssitfor.me/EVE_status/status/405667361610412032
+    - date: 2014-01-02 00:04:01.340639
+      posturl: http://www.rssitfor.me/EVE_status/status/405670713513619457
+    - date: 2014-01-02 00:04:01.004669
+      posturl: http://www.rssitfor.me/EVE_status/status/406369023216328704
+    - date: 2014-01-02 00:04:00.669572
+      posturl: http://www.rssitfor.me/EVE_status/status/407520406942121984
+    - date: 2014-01-02 00:04:00.322752
+      posturl: http://www.rssitfor.me/EVE_status/status/407521041221558273
+    - date: 2014-01-02 00:03:59.989530
+      posturl: http://www.rssitfor.me/EVE_status/status/407526559088533504
+    - date: 2014-01-02 00:03:59.651586
+      posturl: http://www.rssitfor.me/EVE_status/status/407532660953587712
+    - date: 2014-01-02 00:03:59.336813
+      posturl: http://www.rssitfor.me/EVE_status/status/407541351928971264
+    - date: 2014-01-02 00:03:58.989149
+      posturl: http://www.rssitfor.me/EVE_status/status/407543609265631232
+    - date: 2014-01-02 00:03:58.668555
+      posturl: http://www.rssitfor.me/EVE_status/status/407567897993547776
+    - date: 2014-01-02 00:03:58.343649
+      posturl: http://www.rssitfor.me/EVE_status/status/408298965114048513
+    - date: 2014-01-02 00:03:58.017420
+      posturl: http://www.rssitfor.me/EVE_status/status/410065494709121024
+    - date: 2014-01-02 00:03:57.682739
+      posturl: http://www.rssitfor.me/EVE_status/status/411438014293114880
+    - date: 2014-01-02 00:03:57.358757
+      posturl: http://www.rssitfor.me/EVE_status/status/411462213267103744
+    - date: 2014-01-02 00:03:57.050041
+      posturl: http://www.rssitfor.me/EVE_status/status/414545927043813376
+    - date: 2014-01-02 00:03:56.701384
+      posturl: http://www.rssitfor.me/EVE_status/status/416644345673289728
+    - date: 2014-01-02 00:03:56.390633
+      posturl: http://www.rssitfor.me/EVE_status/status/418131967008591872
+    - date: 2014-01-02 00:03:56.075990
+      posturl: http://www.rssitfor.me/EVE_status/status/418147807149973504
+    subreddit: eve
+    type: Server
+    url: http://www.rssitfor.me/getrss?name=eve_status
+  game_news:
+    raw: false
+    stories:
+    - date: 2014-01-01 23:23:51.942790
+      posturl: http://community.eveonline.com/news/news-channels/world-news/minmatar-tribal-assembly-closes-after-ratifying-new-political-order/
+    - date: 2013-12-31 23:37:37.019570
+      posturl: http://community.eveonline.com/news/news-channels/world-news/gardieu-sworn-in-as-speaker-of-the-chamber/
+    - date: 2013-12-31 04:34:12.237503
+      posturl: http://community.eveonline.com/news/news-channels/world-news/5th-annual-new-years-celebration-to-be-held-in-umokka/
+    - date: 2013-12-30 21:04:59.091506
+      posturl: http://community.eveonline.com/news/news-channels/world-news/andon-gardieu-elected-to-lead-gallente-senate/
+    - date: 2013-12-29 01:37:33.760097
+      posturl: http://community.eveonline.com/news/news-channels/world-news/chief-acassa-midular-sets-out-autonomy-doctrine-at-tribal-assembly/
     - date: 2013-12-26 20:23:47.982333
       posturl: http://community.eveonline.com/news/news-channels/world-news/minmatar-tribal-assembly-resumes-with-new-sebiestor-chief/
     - date: 2013-12-26 20:23:47.712478
@@ -996,6 +1118,7 @@ rss_feeds:
     type: Game News
     url: http://newsfeed.eveonline.com/en-US/42/articles/page/1/20
   patch_notes:
+    raw: false
     stories:
     - date: 2013-12-21 23:57:27.152020
       posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for/
@@ -1011,6 +1134,7 @@ rss_feeds:
     type: Patch Notes
     url: http://newsfeed.eveonline.com/en-US/15/articles/page/1/5
   youtube:
+    raw: false
     stories:
     - date: 2013-12-26 20:40:16.069297
       posturl: tag:youtube.com,2008:video:OnYJ8nxMRm0
