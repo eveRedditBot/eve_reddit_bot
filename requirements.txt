@@ -1,0 +1,4 @@
+pyyaml
+feedparser
+beautifulsoup4
+praw
