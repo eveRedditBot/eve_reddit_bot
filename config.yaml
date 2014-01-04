@@ -1,4 +1,4 @@
-api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.4
+api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.5
 password: insert_password_here
 rss_feeds:
   ccp_press:
@@ -122,6 +122,8 @@ rss_feeds:
   csm:
     raw: false
     stories:
+    - date: 2014-01-03 12:43:18.242409
+      posturl: http://csm8.org/?guid=44a1eaac4e7e815fa98127e19d216888
     - date: 2013-12-31 18:09:45.366131
       posturl: http://csm8.org/?guid=414be14ad30054b5926236a22a99274e
     - date: 2013-12-31 17:59:36.043691
@@ -152,6 +154,10 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-01-04 06:16:45.106634
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-staticmapper/
+    - date: 2014-01-03 07:02:49.292677
+      posturl: http://community.eveonline.com/news/dev-blogs/csm8-meeting-minutes-published/
     - date: 2014-01-01 22:14:45.526234
       posturl: http://community.eveonline.com/news/dev-blogs/twitch-integration-is-here/
     - date: 2013-12-21 23:57:27.152020
@@ -268,6 +274,10 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-01-03 06:24:07.050147
+      posturl: http://www.rssitfor.me/DUST514_Status/status/418814422157520896
+    - date: 2014-01-02 22:17:14.615577
+      posturl: http://www.rssitfor.me/DUST514_Status/status/418707282797412352
     - date: 2014-01-01 23:57:39.701268
       posturl: http://www.rssitfor.me/DUST514_Status/status/407541250925948928
     - date: 2014-01-01 23:57:21.815291
@@ -314,132 +324,18 @@ rss_feeds:
   dust_bug_reports:
     raw: false
     stories:
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/967579
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/937299
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/915016
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/888172
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/867550
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/840516
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/814183
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/798335
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/754992
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/754991
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/710827
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/663344
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/663297
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/637156
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/623397
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/577284
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/542544
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/478264
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/477389
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/471833
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/449018
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/438246
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/419881
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/402617
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/391376
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/380065
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263793
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263792
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263791
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263790
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263789
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263788
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263787
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263786
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263785
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263784
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263783
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263782
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263781
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263780
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263779
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263778
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263777
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263776
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263775
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263774
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263773
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263772
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263771
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/263770
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1271712
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1242328
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1242320
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1173437
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1151371
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1128870
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1060785
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1041191
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1016980
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1000718
+    - date: 2014-01-04 19:49:44.489347
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378794
+    - date: 2014-01-04 19:39:35.489809
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378795
     subreddit: dust514
     type: Forums
-    url: http://dustsearch.com/feed/thread/34746
+    url: http://dustsearch.com/feed/thread/133585
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-01-04 06:33:09.672660
+      posturl: http://dust514.com/news/blog/2014/01/community-spotlight/
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dust514.com/news/blog/2013/12/strengthening-the-link-factional-warfare-in-uprising-1.7/
     - date: 2013-12-21 23:57:27.152020
@@ -552,129 +448,13 @@ rss_feeds:
   dust_feedback_suggestions:
     raw: false
     stories:
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/967583
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/937341
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/915027
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/888195
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/867536
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/840519
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/814235
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/798353
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/754996
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/754995
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/710837
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/663316
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/663315
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/637197
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/623449
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/577308
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/542613
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/478265
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/477378
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/471834
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/449035
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/438258
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/419897
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/402632
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/391377
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/380100
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317961
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317960
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317959
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317958
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317957
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317956
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317955
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317954
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317953
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317952
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317951
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317950
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317949
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317948
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317947
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317946
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317945
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317944
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317943
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317942
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317941
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317940
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317939
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/317938
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1271714
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1242304
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1242276
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1173438
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1151373
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1128872
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1060797
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1041192
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1016959
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1000761
+    - date: 2014-01-04 20:10:01.413701
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378794
+    - date: 2014-01-04 19:59:54.461317
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378795
     subreddit: dust514
     type: Forums
-    url: http://dustsearch.com/feed/thread/34744
+    url: http://dustsearch.com/feed/thread/133585
   dust_news:
     raw: false
     stories:
@@ -772,6 +552,8 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-01-04 01:06:44.529340
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-web-services-downtime-january-7th-2013/
     - date: 2013-12-28 04:57:46.016224
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-installer-issue-27-12-2013/
     - date: 2013-12-27 19:12:56.374668
@@ -928,6 +710,8 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-01-03 06:07:54.776082
+      posturl: http://www.rssitfor.me/EVE_status/status/418814421947793408
     - date: 2014-01-02 00:04:02.328276
       posturl: http://www.rssitfor.me/EVE_status/status/404944819971035136
     - date: 2014-01-02 00:04:02.003413
