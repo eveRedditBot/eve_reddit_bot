@@ -91,14 +91,14 @@ class EVERedditBot():
         parser.comments[-1] += self.config['signature']
         
         if 'author' in feedEntry:
-          author = feedEntry['author']
+          author = '~' + feedEntry['author']
         else:
           author = ''
 
         return {'comments': parser.comments,
                 'link':     feedEntry['link'],
                 'subreddit': subreddit,
-                'title':    '[%s] %s ~%s' %(postType,
+                'title':    '[%s] %s %s' %(postType,
                                             feedEntry['title'],
                                             author)}
 
