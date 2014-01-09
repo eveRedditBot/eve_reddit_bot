@@ -122,6 +122,8 @@ rss_feeds:
   csm:
     raw: false
     stories:
+    - date: 2014-01-07 17:26:51.228061
+      posturl: http://csm8.org/?guid=e3a6f0e99593561040c843ef94cc3e49
     - date: 2014-01-03 12:43:18.242409
       posturl: http://csm8.org/?guid=44a1eaac4e7e815fa98127e19d216888
     - date: 2013-12-31 18:09:45.366131
@@ -274,6 +276,18 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-01-09 19:30:16.604719
+      posturl: http://www.rssitfor.me/DUST514_Status/status/421207939794206721
+    - date: 2014-01-09 19:20:08.265254
+      posturl: http://www.rssitfor.me/DUST514_Status/status/421208230383992832
+    - date: 2014-01-08 22:04:15.633192
+      posturl: http://www.rssitfor.me/DUST514_Status/status/420880019703873537
+    - date: 2014-01-08 19:22:08.308822
+      posturl: http://www.rssitfor.me/DUST514_Status/status/420842820019044352
+    - date: 2014-01-07 21:00:10.728730
+      posturl: http://www.rssitfor.me/DUST514_Status/status/420468310916882432
+    - date: 2014-01-06 21:32:20.587410
+      posturl: http://www.rssitfor.me/DUST514_Status/status/420125800902311936
     - date: 2014-01-03 06:24:07.050147
       posturl: http://www.rssitfor.me/DUST514_Status/status/418814422157520896
     - date: 2014-01-02 22:17:14.615577
@@ -384,6 +398,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-01-07 18:22:07.487495
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1387987
     - date: 2013-12-26 20:23:38.390795
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1347965
     - date: 2013-12-26 20:23:38.131341
@@ -552,6 +568,8 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-01-08 01:41:32.015634
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-eden-open-ii-signups-live/
     - date: 2014-01-04 01:06:44.529340
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-web-services-downtime-january-7th-2013/
     - date: 2013-12-28 04:57:46.016224
@@ -920,6 +938,8 @@ rss_feeds:
   youtube:
     raw: false
     stories:
+    - date: 2014-01-09 14:51:24.434212
+      posturl: tag:youtube.com,2008:video:pv2RBetzhw0
     - date: 2013-12-26 20:40:16.069297
       posturl: tag:youtube.com,2008:video:OnYJ8nxMRm0
     - date: 2013-12-26 20:37:30.314533
