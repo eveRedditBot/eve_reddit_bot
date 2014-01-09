@@ -71,10 +71,13 @@ class EVERedditBot():
           content = feedEntry.description
         logging.debug(content)
         parser = EveRssHtmlParser()
+        
+        title = feedEntry['title']
 
         # some feeds like Twitter are raw so the parser hates it.
         if (raw):
           regex_of_url = '(https?:\/\/[\da-z\.-]+\.[a-z\.]{2,6}[\/\w&\.-\?]*)'
+          title = re.sub(regex_of_url, '', title)
           clean_content = re.sub(regex_of_url, '<a href="\\1">link</a>', content)
           clean_content = UnicodeDammit.detwingle(clean_content)
           #logging.info(clean_content)
@@ -91,15 +94,15 @@ class EVERedditBot():
         parser.comments[-1] += self.config['signature']
         
         if 'author' in feedEntry:
-          author = feedEntry['author']
+          author = '~' + feedEntry['author']
         else:
           author = ''
 
         return {'comments': parser.comments,
                 'link':     feedEntry['link'],
                 'subreddit': subreddit,
-                'title':    '[%s] %s ~%s' %(postType,
-                                            feedEntry['title'],
+                'title':    '[%s] %s %s' %(postType,
+                                            title,
                                             author)}
 
     def rss_parser(self, rss_feed):
