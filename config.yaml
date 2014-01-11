@@ -1,4 +1,4 @@
-api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.5
+api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.6
 password: insert_password_here
 rss_feeds:
   ccp_press:
@@ -156,6 +156,8 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-01-11 12:42:33.653837
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-red-vs-blue/
     - date: 2014-01-04 06:16:45.106634
       posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-staticmapper/
     - date: 2014-01-03 07:02:49.292677

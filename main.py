@@ -18,6 +18,8 @@ logging.basicConfig(format='%(asctime)s %(message)s',
 
 class EVERedditBot():
     def __init__(self):
+        requests_log = logging.getLogger("requests")
+        requests_log.setLevel(logging.WARNING)
         
         socket.setdefaulttimeout(10)
         self.config_path = 'config.yaml'
@@ -41,15 +43,22 @@ class EVERedditBot():
 
         while True:
             self.check_rss_feeds()
+            self.check_downvoted_submissions()
             logging.info('Sleeping for %d seconds.' %sleep_time)
             time.sleep(sleep_time)
 
-    def postToReddit(self, data):
+    def initReddit(self):
         r = praw.Reddit(self.config['api_header'])
+        return r
 
+    def loginToReddit(self, r):
         r.login(username=self.username,
                 password=self.password)
-
+        return r
+    
+    def postToReddit(self, data):
+        r = self.loginToReddit(self.initReddit())
+        
         s = r.submit(data['subreddit'],
                      data['title'],
                      data['comments'][0])
@@ -137,6 +146,21 @@ class EVERedditBot():
             self.rss_parser(rss_feed)
 
         self.save_config()
+        
+    def check_downvoted_submissions(self):
+        r = self.initReddit()
+        user = r.get_redditor(self.username)
+        submitted = user.get_submitted(sort='new', limit=25)
+        downvoted_submissions = [submission for submission in submitted if submission.score <= -4]
+        
+        if (downvoted_submissions):
+            r = self.loginToReddit(r)
+            for submission in downvoted_submissions:
+                if self.submitpost == True:
+                    logging.info('deleting %s (score: %d)', submission.url, submission.score)
+                    submission.delete()
+                else:
+                    logging.info('detected %s (score: %d), skipping', submission.url, submission.score)
 
     def save_config(self):
         for rss_feed in self.config['rss_feeds']:
