@@ -400,6 +400,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-01-13 20:27:17.371217
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1409516
     - date: 2014-01-07 18:22:07.487495
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1387987
     - date: 2013-12-26 20:23:38.390795

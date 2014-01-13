@@ -151,16 +151,17 @@ class EVERedditBot():
         r = self.initReddit()
         user = r.get_redditor(self.username)
         submitted = user.get_submitted(sort='new', limit=25)
-        downvoted_submissions = [submission for submission in submitted if submission.score <= -4]
+        downvoted_submissions = [submission for submission in submitted if (submission.ups - submission.downs) <= -4]
         
         if (downvoted_submissions):
             r = self.loginToReddit(r)
             for submission in downvoted_submissions:
+                true_score = submission.ups - submission.downs
                 if self.submitpost == True:
-                    logging.info('deleting %s (score: %d)', submission.url, submission.score)
+                    logging.info('deleting %s (score: %d)', submission.url, true_score)
                     submission.delete()
                 else:
-                    logging.info('detected %s (score: %d), skipping', submission.url, submission.score)
+                    logging.info('detected %s (score: %d), skipping', submission.url, true_score)
 
     def save_config(self):
         for rss_feed in self.config['rss_feeds']:
