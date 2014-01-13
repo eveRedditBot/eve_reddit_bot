@@ -85,7 +85,7 @@ class EVERedditBot():
 
         # some feeds like Twitter are raw so the parser hates it.
         if (raw):
-          regex_of_url = '(https?:\/\/[\da-z\.-]+\.[a-z\.]{2,6}[\/\w&\.-\?]*)'
+          regex_of_url = '(https?:\/\/[\da-z\.-]+\.[a-z\.]{2,6}[\/\w&#\.-\?]*)'
           title = re.sub(regex_of_url, '', title)
           clean_content = re.sub(regex_of_url, '<a href="\\1">link</a>', content)
           clean_content = UnicodeDammit.detwingle(clean_content)
