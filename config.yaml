@@ -122,12 +122,12 @@ rss_feeds:
   csm:
     raw: false
     stories:
-    - date: 2014-01-15 20:18:57.712247
-      posturl: http://csm8.org/?guid=2cf79f9d780df8e1107a4ac4b4a35f9b
-    - date: 2014-01-15 20:18:57.443345
-      posturl: http://mikeazariah.wordpress.com/?p=1464
-    - date: 2014-01-15 20:18:57.160515
+    - date: 2014-01-15 18:11:05.495836
       posturl: http://csm8.org/?guid=4833a1778e40f12184d2154122df765c
+    - date: 2014-01-14 20:38:37.740033
+      posturl: http://mikeazariah.wordpress.com/?p=1464
+    - date: 2014-01-14 17:49:23.266556
+      posturl: http://csm8.org/?guid=2cf79f9d780df8e1107a4ac4b4a35f9b
     - date: 2014-01-07 17:26:51.228061
       posturl: http://csm8.org/?guid=e3a6f0e99593561040c843ef94cc3e49
     - date: 2014-01-03 12:43:18.242409
@@ -162,11 +162,11 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
-    - date: 2014-01-15 20:19:22.246606
-      posturl: http://community.eveonline.com/news/dev-blogs/new-player-training-sessions-track-3/
-    - date: 2014-01-15 20:19:21.980372
+    - date: 2014-01-15 23:16:15.539502
       posturl: http://community.eveonline.com/news/dev-blogs/more-deployables-from-super-friends/
-    - date: 2014-01-11 12:42:33.653837
+    - date: 2014-01-14 20:49:07.918823
+      posturl: http://community.eveonline.com/news/dev-blogs/new-player-training-sessions-track-3/
+    - date: 2014-01-11 07:16:31.314364
       posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-red-vs-blue/
     - date: 2014-01-04 06:16:45.106634
       posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-staticmapper/
@@ -288,11 +288,11 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
-    - date: 2014-01-15 20:18:59.046654
+    - date: 2014-01-13 22:26:56.409127
       posturl: http://www.rssitfor.me/DUST514_Status/status/422673337119027200
-    - date: 2014-01-15 20:18:58.769597
+    - date: 2014-01-13 22:16:47.189789
       posturl: http://www.rssitfor.me/DUST514_Status/status/422694017109733376
-    - date: 2014-01-15 20:18:58.495646
+    - date: 2014-01-13 22:06:39.963001
       posturl: http://www.rssitfor.me/DUST514_Status/status/422698985610936321
     - date: 2014-01-09 19:30:16.604719
       posturl: http://www.rssitfor.me/DUST514_Status/status/421207939794206721
@@ -416,7 +416,7 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
-    - date: 2014-01-13 20:27:17.371217
+    - date: 2014-01-13 20:24:30.396016
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1409516
     - date: 2014-01-07 18:22:07.487495
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1387987
@@ -588,10 +588,10 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
-    - date: 2014-01-15 20:19:01.612691
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/ccp-brings-eve-valkyrie-to-sundance-film-festival/
-    - date: 2014-01-15 20:19:01.346264
+    - date: 2014-01-15 04:02:55.817842
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/issues-with-api-management/
+    - date: 2014-01-13 20:58:26.811325
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/ccp-brings-eve-valkyrie-to-sundance-film-festival/
     - date: 2014-01-08 01:41:32.015634
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-eden-open-ii-signups-live/
     - date: 2014-01-04 01:06:44.529340
@@ -800,7 +800,7 @@ rss_feeds:
   game_news:
     raw: false
     stories:
-    - date: 2014-01-15 20:19:13.252403
+    - date: 2014-01-14 02:49:22.098404
       posturl: http://community.eveonline.com/news/news-channels/world-news/federal-intelligence-office-responds-to-guristas-activity-in-placid/
     - date: 2014-01-01 23:23:51.942790
       posturl: http://community.eveonline.com/news/news-channels/world-news/minmatar-tribal-assembly-closes-after-ratifying-new-political-order/

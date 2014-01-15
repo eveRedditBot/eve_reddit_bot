@@ -178,6 +178,7 @@ class EveRssHtmlParser(HTMLParser):
         self.in_asterisk_tag = False
         self.in_a = False
         self.in_table = False
+        self_in_list = False
         self.first_row = False
         self.table_header = ''
 
@@ -200,6 +201,7 @@ class EveRssHtmlParser(HTMLParser):
         	self.comments[self.cur_comment] += '^'
 
         elif tag == 'li':
+            self.in_list = True
             self.comments[self.cur_comment] += '* '
 
         elif tag == 'a':
@@ -284,7 +286,7 @@ class EveRssHtmlParser(HTMLParser):
 
     def handle_endtag(self, tag):
         self.in_asterisk_tag = False
-    	endswithspace = self.comments[self.cur_comment].endswith(' ')
+        endswithspace = self.comments[self.cur_comment].endswith(' ')
         if tag == 'p' or tag == 'br':
             if not self.in_table:
                 self.comments[self.cur_comment] += '\n\n'
@@ -300,6 +302,7 @@ class EveRssHtmlParser(HTMLParser):
             self.comments[self.cur_comment] += '\n\n'
 
         elif tag == 'li':
+            self.in_list = False
             self.comments[self.cur_comment] += '\n'
 
         elif tag == 'a':
@@ -349,8 +352,13 @@ class EveRssHtmlParser(HTMLParser):
             data = data.lstrip()
 
         if (len(self.comments[self.cur_comment]) + len(data)) >= self.max_comment_length:
+            last_comment = self.cur_comment
             self.cur_comment += 1
             self.comments.append('')
+            # Don't leave hanging <li>
+            if (self.in_list and self.comments[last_comment].endswith('* ')):
+                self.comments[last_comment] = self.comments[last_comment][:-2]
+                self.handle_starttag('li', None)
 
         self.comments[self.cur_comment] += data
 
