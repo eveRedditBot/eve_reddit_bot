@@ -1,4 +1,4 @@
-api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.5
+api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.7
 password: insert_password_here
 rss_feeds:
   ccp_press:
@@ -122,6 +122,12 @@ rss_feeds:
   csm:
     raw: false
     stories:
+    - date: 2014-01-15 18:11:05.495836
+      posturl: http://csm8.org/?guid=4833a1778e40f12184d2154122df765c
+    - date: 2014-01-14 20:38:37.740033
+      posturl: http://mikeazariah.wordpress.com/?p=1464
+    - date: 2014-01-14 17:49:23.266556
+      posturl: http://csm8.org/?guid=2cf79f9d780df8e1107a4ac4b4a35f9b
     - date: 2014-01-07 17:26:51.228061
       posturl: http://csm8.org/?guid=e3a6f0e99593561040c843ef94cc3e49
     - date: 2014-01-03 12:43:18.242409
@@ -156,6 +162,12 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-01-15 01:08:56.054322
+      posturl: http://community.eveonline.com/news/dev-blogs/more-deployables-from-super-friends/
+    - date: 2014-01-14 20:49:07.918823
+      posturl: http://community.eveonline.com/news/dev-blogs/new-player-training-sessions-track-3/
+    - date: 2014-01-11 07:16:31.314364
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-red-vs-blue/
     - date: 2014-01-04 06:16:45.106634
       posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-staticmapper/
     - date: 2014-01-03 07:02:49.292677
@@ -276,6 +288,12 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-01-13 22:26:56.409127
+      posturl: http://www.rssitfor.me/DUST514_Status/status/422673337119027200
+    - date: 2014-01-13 22:16:47.189789
+      posturl: http://www.rssitfor.me/DUST514_Status/status/422694017109733376
+    - date: 2014-01-13 22:06:39.963001
+      posturl: http://www.rssitfor.me/DUST514_Status/status/422698985610936321
     - date: 2014-01-09 19:30:16.604719
       posturl: http://www.rssitfor.me/DUST514_Status/status/421207939794206721
     - date: 2014-01-09 19:20:08.265254
@@ -398,6 +416,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-01-13 20:24:30.396016
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1409516
     - date: 2014-01-07 18:22:07.487495
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1387987
     - date: 2013-12-26 20:23:38.390795
@@ -568,6 +588,10 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-01-15 04:02:55.817842
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/issues-with-api-management/
+    - date: 2014-01-13 20:58:26.811325
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/ccp-brings-eve-valkyrie-to-sundance-film-festival/
     - date: 2014-01-08 01:41:32.015634
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-eden-open-ii-signups-live/
     - date: 2014-01-04 01:06:44.529340
@@ -776,6 +800,8 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-01-14 02:49:22.098404
+      posturl: http://community.eveonline.com/news/news-channels/world-news/federal-intelligence-office-responds-to-guristas-activity-in-placid/
     - date: 2014-01-01 23:23:51.942790
       posturl: http://community.eveonline.com/news/news-channels/world-news/minmatar-tribal-assembly-closes-after-ratifying-new-political-order/
     - date: 2013-12-31 23:37:37.019570

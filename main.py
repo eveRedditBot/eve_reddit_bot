@@ -18,6 +18,8 @@ logging.basicConfig(format='%(asctime)s %(message)s',
 
 class EVERedditBot():
     def __init__(self):
+        requests_log = logging.getLogger("requests")
+        requests_log.setLevel(logging.WARNING)
         
         socket.setdefaulttimeout(10)
         self.config_path = 'config.yaml'
@@ -35,22 +37,28 @@ class EVERedditBot():
         logging.info('Selected username: %s' %self.username)
         logging.info('Submit stories to Reddit: %s' %self.submitpost)
         #raw_input("Press Enter to continue...")
+        self.reddit = self.loginToReddit(self.initReddit())
 
         if sleep_time == None:
             sleep_time = self.config['sleep_time']
 
         while True:
             self.check_rss_feeds()
+            self.check_downvoted_submissions()
             logging.info('Sleeping for %d seconds.' %sleep_time)
             time.sleep(sleep_time)
 
-    def postToReddit(self, data):
+    def initReddit(self):
         r = praw.Reddit(self.config['api_header'])
+        return r
 
+    def loginToReddit(self, r):
         r.login(username=self.username,
                 password=self.password)
-
-        s = r.submit(data['subreddit'],
+        return r
+    
+    def postToReddit(self, data):
+        s = self.reddit.submit(data['subreddit'],
                      data['title'],
                      data['comments'][0])
 
@@ -76,7 +84,7 @@ class EVERedditBot():
 
         # some feeds like Twitter are raw so the parser hates it.
         if (raw):
-          regex_of_url = '(https?:\/\/[\da-z\.-]+\.[a-z\.]{2,6}[\/\w&\.-\?]*)'
+          regex_of_url = '(https?:\/\/[\da-z\.-]+\.[a-z\.]{2,6}[\/\w&#\.-\?]*)'
           title = re.sub(regex_of_url, '', title)
           clean_content = re.sub(regex_of_url, '<a href="\\1">link</a>', content)
           clean_content = UnicodeDammit.detwingle(clean_content)
@@ -137,6 +145,20 @@ class EVERedditBot():
             self.rss_parser(rss_feed)
 
         self.save_config()
+        
+    def check_downvoted_submissions(self):
+        user = self.reddit.get_redditor(self.username)
+        submitted = user.get_submitted(sort='new', limit=25)
+        downvoted_submissions = [submission for submission in submitted if (submission.ups - submission.downs) <= -4]
+        
+        if (downvoted_submissions):
+            for submission in downvoted_submissions:
+                true_score = submission.ups - submission.downs
+                if self.submitpost == True:
+                    logging.info('deleting %s (score: %d)', submission.url, true_score)
+                    submission.delete()
+                else:
+                    logging.info('detected %s (score: %d), skipping', submission.url, true_score)
 
     def save_config(self):
         for rss_feed in self.config['rss_feeds']:
@@ -156,6 +178,7 @@ class EveRssHtmlParser(HTMLParser):
         self.in_asterisk_tag = False
         self.in_a = False
         self.in_table = False
+        self_in_list = False
         self.first_row = False
         self.table_header = ''
 
@@ -178,6 +201,7 @@ class EveRssHtmlParser(HTMLParser):
         	self.comments[self.cur_comment] += '^'
 
         elif tag == 'li':
+            self.in_list = True
             self.comments[self.cur_comment] += '* '
 
         elif tag == 'a':
@@ -262,7 +286,7 @@ class EveRssHtmlParser(HTMLParser):
 
     def handle_endtag(self, tag):
         self.in_asterisk_tag = False
-    	endswithspace = self.comments[self.cur_comment].endswith(' ')
+        endswithspace = self.comments[self.cur_comment].endswith(' ')
         if tag == 'p' or tag == 'br':
             if not self.in_table:
                 self.comments[self.cur_comment] += '\n\n'
@@ -278,6 +302,7 @@ class EveRssHtmlParser(HTMLParser):
             self.comments[self.cur_comment] += '\n\n'
 
         elif tag == 'li':
+            self.in_list = False
             self.comments[self.cur_comment] += '\n'
 
         elif tag == 'a':
@@ -327,8 +352,13 @@ class EveRssHtmlParser(HTMLParser):
             data = data.lstrip()
 
         if (len(self.comments[self.cur_comment]) + len(data)) >= self.max_comment_length:
+            last_comment = self.cur_comment
             self.cur_comment += 1
             self.comments.append('')
+            # Don't leave hanging <li>
+            if (self.in_list and self.comments[last_comment].endswith('* ')):
+                self.comments[last_comment] = self.comments[last_comment][:-2]
+                self.handle_starttag('li', None)
 
         self.comments[self.cur_comment] += data
 
