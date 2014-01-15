@@ -37,6 +37,7 @@ class EVERedditBot():
         logging.info('Selected username: %s' %self.username)
         logging.info('Submit stories to Reddit: %s' %self.submitpost)
         #raw_input("Press Enter to continue...")
+        self.reddit = self.loginToReddit(self.initReddit())
 
         if sleep_time == None:
             sleep_time = self.config['sleep_time']
@@ -57,9 +58,7 @@ class EVERedditBot():
         return r
     
     def postToReddit(self, data):
-        r = self.loginToReddit(self.initReddit())
-        
-        s = r.submit(data['subreddit'],
+        s = self.reddit.submit(data['subreddit'],
                      data['title'],
                      data['comments'][0])
 
@@ -148,13 +147,11 @@ class EVERedditBot():
         self.save_config()
         
     def check_downvoted_submissions(self):
-        r = self.initReddit()
-        user = r.get_redditor(self.username)
+        user = self.reddit.get_redditor(self.username)
         submitted = user.get_submitted(sort='new', limit=25)
         downvoted_submissions = [submission for submission in submitted if (submission.ups - submission.downs) <= -4]
         
         if (downvoted_submissions):
-            r = self.loginToReddit(r)
             for submission in downvoted_submissions:
                 true_score = submission.ups - submission.downs
                 if self.submitpost == True:
