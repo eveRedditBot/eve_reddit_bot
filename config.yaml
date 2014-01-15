@@ -1,4 +1,4 @@
-api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.6
+api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.7
 password: insert_password_here
 rss_feeds:
   ccp_press:
@@ -162,7 +162,7 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
-    - date: 2014-01-15 23:16:15.539502
+    - date: 2014-01-15 01:08:56.054322
       posturl: http://community.eveonline.com/news/dev-blogs/more-deployables-from-super-friends/
     - date: 2014-01-14 20:49:07.918823
       posturl: http://community.eveonline.com/news/dev-blogs/new-player-training-sessions-track-3/
