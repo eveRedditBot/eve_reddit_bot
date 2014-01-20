@@ -356,13 +356,19 @@ rss_feeds:
   dust_bug_reports:
     raw: false
     stories:
+    - date: 2014-01-18 14:23:54.772866
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378817
+    - date: 2014-01-18 14:23:36.373329
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378818
+    - date: 2014-01-18 14:22:56.309897
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1425987
     - date: 2014-01-04 19:49:44.489347
       posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378794
     - date: 2014-01-04 19:39:35.489809
       posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378795
     subreddit: dust514
     type: Forums
-    url: http://dustsearch.com/feed/thread/133585
+    url: http://dustsearch.com/feed/thread/133587
   dust_dev_blogs:
     raw: false
     stories:
