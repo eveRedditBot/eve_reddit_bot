@@ -181,7 +181,7 @@ class EveRssHtmlParser(HTMLParser):
         self.in_asterisk_tag = False
         self.in_a = False
         self.in_table = False
-        self_in_list = False
+        self.in_list = False
         self.first_row = False
         self.table_header = ''
 
@@ -375,7 +375,7 @@ if __name__ == '__main__':
       sys.exit(2)
     for opt, arg in opts:
       if opt in ("--help"):
-         print 'main.py -u <username> -p <password> --submit=<(true|false)>
+         print 'main.py -u <username> -p <password> --submit=<(true|false)>'
          print '    --subreddit=<subreddit> --once=(true|false)'
          print '  any missing arguments will be taken from config.yaml'
          sys.exit()
@@ -387,7 +387,7 @@ if __name__ == '__main__':
          bot.subreddit = arg
       elif opt in ("--submit"):
          bot.submitpost = arg
-      elice opt in ("--once"):
+      elif opt in ("--once"):
          bot.once = arg
 
     bot.run()
