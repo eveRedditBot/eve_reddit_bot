@@ -122,6 +122,18 @@ rss_feeds:
   csm:
     raw: false
     stories:
+    - date: 2014-01-23 19:18:55.699712
+      posturl: http://csm8.org/?guid=94c64b9dad3b1d956cd5e36b3525855e
+    - date: 2014-01-22 23:19:17.398906
+      posturl: http://csm8.org/?guid=e64d6625d7867811147464cc3b0b2fb0
+    - date: 2014-01-22 20:48:01.184139
+      posturl: http://mikeazariah.wordpress.com/?p=1475
+    - date: 2014-01-22 18:37:30.773989
+      posturl: http://csm8.org/?guid=74e2df72d5edb05881349c733326312f
+    - date: 2014-01-22 04:22:49.780717
+      posturl: http://warp-to-sun.tumblr.com/post/74074635538
+    - date: 2014-01-21 10:06:04.436233
+      posturl: http://mikeazariah.wordpress.com/?p=1473
     - date: 2014-01-20 18:50:48.552653
       posturl: http://csm8.org/?guid=6f4304025f13bef38ca1f2fa3c676826
     - date: 2014-01-20 07:40:30.991333
@@ -172,6 +184,8 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-01-22 00:37:35.656295
+      posturl: http://community.eveonline.com/news/dev-blogs/tracking-camera-ui-improvements/
     - date: 2014-01-18 14:25:48.846933
       posturl: http://community.eveonline.com/news/dev-blogs/new-eden-open-signups-and-more-information/
     - date: 2014-01-18 14:25:48.544149
@@ -394,6 +408,8 @@ rss_feeds:
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-01-22 21:09:26.353541
+      posturl: http://dust514.com/news/blog/2014/01/artist-focus-ccp-jusan-aka-bao-juansheng/
     - date: 2014-01-04 06:33:09.672660
       posturl: http://dust514.com/news/blog/2014/01/community-spotlight/
     - date: 2013-12-21 23:57:27.152020
@@ -444,6 +460,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-01-21 17:15:00.614779
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1439276
     - date: 2014-01-13 20:24:30.396016
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1409516
     - date: 2014-01-07 18:22:07.487495
@@ -524,6 +542,10 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-01-22 23:08:53.188332
+      posturl: http://dust514.com/news/2014/01/one-year-on-the-ground/
+    - date: 2014-01-22 20:59:01.137096
+      posturl: http://dust514.com/news/2014/01/new-in-the-marketplace-january-2014/
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dust514.com/news/2013/12/onwards-to-uprising-1.7/
     - date: 2013-12-21 23:57:27.152020
@@ -618,6 +640,10 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-01-22 23:30:00.931588
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/limited-time-left-to-claim-your-gifts-from-the-yule-lads/
+    - date: 2014-01-20 21:32:53.239174
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-eden-open-ii-signups-closed-auction-now-live/
     - date: 2014-01-20 19:29:06.352214
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-tuesday-january-21st/
     - date: 2014-01-18 14:25:28.065384
@@ -1065,3 +1091,4 @@ sleep_time_post: 300
 submitpost: true
 subreddit: new_eden_news_bot
 username: new_eden_news_bot
+run_once: false

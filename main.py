@@ -31,6 +31,7 @@ class EVERedditBot():
         self.username = self.config['username']
         self.password = self.config['password']
         self.submitpost = self.config['submitpost']
+        self.once = self.config['run_once']
 
     def run(self, sleep_time=None):
         logging.info('Default subreddit: /r/%s' %self.subreddit)
@@ -45,6 +46,8 @@ class EVERedditBot():
         while True:
             self.check_rss_feeds()
             self.check_downvoted_submissions()
+            if (self.once):
+                break
             logging.info('Sleeping for %d seconds.' %sleep_time)
             time.sleep(sleep_time)
 
@@ -366,13 +369,14 @@ if __name__ == '__main__':
     bot = EVERedditBot()
     
     try:
-      opts, args = getopt.getopt(sys.argv[1:],"",["help","username=","password=","submit=","subreddit="])
+      opts, args = getopt.getopt(sys.argv[1:],"",["help","username=","password=","submit=","subreddit=","once="])
     except getopt.GetoptError:
       print 'main.py --help'
       sys.exit(2)
     for opt, arg in opts:
       if opt in ("--help"):
-         print 'main.py -u <username> -p <password> --submit=<(True|False)> --subreddit=<subreddit>'
+         print 'main.py -u <username> -p <password> --submit=<(true|false)>
+         print '    --subreddit=<subreddit> --once=(true|false)'
          print '  any missing arguments will be taken from config.yaml'
          sys.exit()
       elif opt in ("--username"):
@@ -383,5 +387,7 @@ if __name__ == '__main__':
          bot.subreddit = arg
       elif opt in ("--submit"):
          bot.submitpost = arg
+      elice opt in ("--once"):
+         bot.once = arg
 
     bot.run()
