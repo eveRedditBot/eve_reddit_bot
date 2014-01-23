@@ -21,7 +21,7 @@ class EVERedditBot():
         requests_log = logging.getLogger("requests")
         requests_log.setLevel(logging.WARNING)
         
-        socket.setdefaulttimeout(10)
+        socket.setdefaulttimeout(20)
         self.config_path = 'config.yaml'
 
         stream = file(self.config_path, 'r')
