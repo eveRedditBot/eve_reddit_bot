@@ -122,6 +122,28 @@ rss_feeds:
   csm:
     raw: false
     stories:
+    - date: 2014-01-23 19:18:55.699712
+      posturl: http://csm8.org/?guid=94c64b9dad3b1d956cd5e36b3525855e
+    - date: 2014-01-22 23:19:17.398906
+      posturl: http://csm8.org/?guid=e64d6625d7867811147464cc3b0b2fb0
+    - date: 2014-01-22 20:48:01.184139
+      posturl: http://mikeazariah.wordpress.com/?p=1475
+    - date: 2014-01-22 18:37:30.773989
+      posturl: http://csm8.org/?guid=74e2df72d5edb05881349c733326312f
+    - date: 2014-01-22 04:22:49.780717
+      posturl: http://warp-to-sun.tumblr.com/post/74074635538
+    - date: 2014-01-21 10:06:04.436233
+      posturl: http://mikeazariah.wordpress.com/?p=1473
+    - date: 2014-01-20 18:50:48.552653
+      posturl: http://csm8.org/?guid=6f4304025f13bef38ca1f2fa3c676826
+    - date: 2014-01-20 07:40:30.991333
+      posturl: http://csm8.org/?guid=cb807c4b531fe28a37f013294d26a0d3
+    - date: 2014-01-19 09:11:53.238184
+      posturl: http://csm8.org/?guid=4da5ee6483fe6e1b4408f1171a8f56e7
+    - date: 2014-01-18 14:25:24.654987
+      posturl: http://mikeazariah.wordpress.com/?p=1466
+    - date: 2014-01-18 14:25:24.383399
+      posturl: http://warp-to-sun.tumblr.com/post/73523609605
     - date: 2014-01-15 18:11:05.495836
       posturl: http://csm8.org/?guid=4833a1778e40f12184d2154122df765c
     - date: 2014-01-14 20:38:37.740033
@@ -162,6 +184,12 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-01-22 00:37:35.656295
+      posturl: http://community.eveonline.com/news/dev-blogs/tracking-camera-ui-improvements/
+    - date: 2014-01-18 14:25:48.846933
+      posturl: http://community.eveonline.com/news/dev-blogs/new-eden-open-signups-and-more-information/
+    - date: 2014-01-18 14:25:48.544149
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-kirith-kodachi/
     - date: 2014-01-15 01:08:56.054322
       posturl: http://community.eveonline.com/news/dev-blogs/more-deployables-from-super-friends/
     - date: 2014-01-14 20:49:07.918823
@@ -288,6 +316,14 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-01-20 00:49:03.227862
+      posturl: http://www.rssitfor.me/DUST514_Status/status/424877997653762048
+    - date: 2014-01-19 22:21:19.894235
+      posturl: http://www.rssitfor.me/DUST514_Status/status/424870148768813056
+    - date: 2014-01-19 22:11:16.925197
+      posturl: http://www.rssitfor.me/DUST514_Status/status/424873790141923328
+    - date: 2014-01-19 02:41:57.205963
+      posturl: http://www.rssitfor.me/DUST514_Status/status/424547823837671424
     - date: 2014-01-13 22:26:56.409127
       posturl: http://www.rssitfor.me/DUST514_Status/status/422673337119027200
     - date: 2014-01-13 22:16:47.189789
@@ -372,6 +408,8 @@ rss_feeds:
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-01-22 21:09:26.353541
+      posturl: http://dust514.com/news/blog/2014/01/artist-focus-ccp-jusan-aka-bao-juansheng/
     - date: 2014-01-04 06:33:09.672660
       posturl: http://dust514.com/news/blog/2014/01/community-spotlight/
     - date: 2013-12-21 23:57:27.152020
@@ -422,6 +460,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-01-21 17:15:00.614779
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1439276
     - date: 2014-01-13 20:24:30.396016
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1409516
     - date: 2014-01-07 18:22:07.487495
@@ -490,6 +530,8 @@ rss_feeds:
   dust_feedback_suggestions:
     raw: false
     stories:
+    - date: 2014-01-18 14:25:14.574161
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1425988
     - date: 2014-01-04 20:10:01.413701
       posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378794
     - date: 2014-01-04 19:59:54.461317
@@ -500,6 +542,10 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-01-22 23:08:53.188332
+      posturl: http://dust514.com/news/2014/01/one-year-on-the-ground/
+    - date: 2014-01-22 20:59:01.137096
+      posturl: http://dust514.com/news/2014/01/new-in-the-marketplace-january-2014/
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dust514.com/news/2013/12/onwards-to-uprising-1.7/
     - date: 2013-12-21 23:57:27.152020
@@ -594,6 +640,14 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-01-22 23:30:00.931588
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/limited-time-left-to-claim-your-gifts-from-the-yule-lads/
+    - date: 2014-01-20 21:32:53.239174
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-eden-open-ii-signups-closed-auction-now-live/
+    - date: 2014-01-20 19:29:06.352214
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-tuesday-january-21st/
+    - date: 2014-01-18 14:25:28.065384
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/rubicon-feature-site-update-for-eve-online-rubicon-1.1/
     - date: 2014-01-15 04:02:55.817842
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/issues-with-api-management/
     - date: 2014-01-13 20:58:26.811325
@@ -758,6 +812,12 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-01-19 23:19:43.813532
+      posturl: http://www.rssitfor.me/EVE_status/status/424870148743630848
+    - date: 2014-01-19 23:09:40.916803
+      posturl: http://www.rssitfor.me/EVE_status/status/424873790146109440
+    - date: 2014-01-19 22:59:37.858393
+      posturl: http://www.rssitfor.me/EVE_status/status/424877997662162944
     - date: 2014-01-03 06:07:54.776082
       posturl: http://www.rssitfor.me/EVE_status/status/418814421947793408
     - date: 2014-01-02 00:04:02.328276
@@ -1027,7 +1087,8 @@ rss_feeds:
     url: http://gdata.youtube.com/feeds/base/users/CCPGAMES/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
 signature: ''
 sleep_time: 300
-sleep_time_post: 600
+sleep_time_post: 300
 submitpost: true
 subreddit: new_eden_news_bot
 username: new_eden_news_bot
+run_once: false
