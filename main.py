@@ -241,22 +241,22 @@ class EveRssHtmlParser(HTMLParser):
             self.comments[self.cur_comment] += '~~'
 
         elif tag == 'h1':
-            self.comments[self.cur_comment] += '#'
+            self.comments[self.cur_comment] += '\n#'
 
         elif tag == 'h2':
-            self.comments[self.cur_comment] += '##'
+            self.comments[self.cur_comment] += '\n##'
 
         elif tag == 'h3':
-            self.comments[self.cur_comment] += '###'
+            self.comments[self.cur_comment] += '\n###'
 
         elif tag == 'h4':
-            self.comments[self.cur_comment] += '####'
+            self.comments[self.cur_comment] += '\n####'
 
         elif tag == 'h5':
-            self.comments[self.cur_comment] += '#####'
+            self.comments[self.cur_comment] += '\n#####'
 
         elif tag == 'h6':
-            self.comments[self.cur_comment] += '######'
+            self.comments[self.cur_comment] += '\n######'
 
         elif tag == 'table':
             self.in_table = True
