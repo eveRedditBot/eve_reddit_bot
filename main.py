@@ -73,6 +73,7 @@ class EVERedditBot():
             del data['comments'][0]
 
             for comment in data['comments']:
+                time.sleep(2)
                 c = c.reply(comment)
 
     def formatForReddit(self, feedEntry, postType, subreddit, raw):
@@ -100,7 +101,11 @@ class EVERedditBot():
           logging.debug('.....')
         
         # Added the .replace because the parser does something funny to them and removes them before I can handle them
-        parser.feed(content.replace('&nbsp;', ' ').replace('&bull;', '*'))
+        content = content.replace('&nbsp;', ' ')
+        content = content.replace('&bull;', '*').replace('&middot;','*')
+        content = content.replace('&ldquo;','\'').replace('&rdquo;','\'')
+        content = re.sub('( [ ]+)', ' ', content)
+        parser.feed(content)
         parser.comments[0] = '%s\n\n%s' %(feedEntry['link'], parser.comments[0])
         parser.comments[-1] += self.config['signature']
         
