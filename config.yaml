@@ -1,4 +1,4 @@
-api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.7
+api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.8
 password: insert_password_here
 rss_feeds:
   ccp_press:
@@ -122,6 +122,22 @@ rss_feeds:
   csm:
     raw: false
     stories:
+    - date: 2014-01-29 19:21:40.894619
+      posturl: http://csm8.org/?guid=6e9995193f07a942c7419b5864df1a9d
+    - date: 2014-01-29 19:16:38.100691
+      posturl: http://csm8.org/?guid=00d5364b377d7e8288cfa1ef5c33e110
+    - date: 2014-01-28 08:58:05.283264
+      posturl: http://mikeazariah.wordpress.com/?p=1480
+    - date: 2014-01-26 21:50:28.447359
+      posturl: http://csm8.org/?guid=7215cc37ae02422093f9da19c17cdf7e
+    - date: 2014-01-26 20:12:46.009147
+      posturl: http://csm8.org/?guid=3ccbb199d1ac79974f01603a4014e560
+    - date: 2014-01-26 04:26:06.693677
+      posturl: http://csm8.org/?guid=b8c5c8342c03aaeeedac5b46513f94cf
+    - date: 2014-01-24 17:09:56.969938
+      posturl: http://csm8.org/?guid=606cd0aa470c74091db813ae00f12f2e
+    - date: 2014-01-24 02:02:22.874055
+      posturl: http://mikeazariah.wordpress.com/?p=1477
     - date: 2014-01-23 19:18:55.699712
       posturl: http://csm8.org/?guid=94c64b9dad3b1d956cd5e36b3525855e
     - date: 2014-01-22 23:19:17.398906
@@ -184,6 +200,20 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-01-30 03:22:38.994158
+      posturl: http://community.eveonline.com/news/dev-blogs/art-for-rubicon-1.1/
+    - date: 2014-01-30 03:11:51.420190
+      posturl: http://community.eveonline.com/news/dev-blogs/the-bloodbath-of-b-r5rb/
+    - date: 2014-01-29 02:05:50.952713
+      posturl: http://community.eveonline.com/news/dev-blogs/2013-serenity-update/
+    - date: 2014-01-28 03:21:43.050743
+      posturl: http://community.eveonline.com/news/dev-blogs/soe-reinforcements-and-ui-fine-tuning/
+    - date: 2014-01-28 01:39:15.795169
+      posturl: http://community.eveonline.com/news/dev-blogs/little-things-rubicon1.1/
+    - date: 2014-01-25 03:11:02.018390
+      posturl: http://community.eveonline.com/news/dev-blogs/what-a-hed-ache/
+    - date: 2014-01-24 09:43:57.092379
+      posturl: http://community.eveonline.com/news/dev-blogs/rubicon-1.1-mobile-structures/
     - date: 2014-01-22 00:37:35.656295
       posturl: http://community.eveonline.com/news/dev-blogs/tracking-camera-ui-improvements/
     - date: 2014-01-18 14:25:48.846933
@@ -316,6 +346,8 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-01-25 23:01:26.229404
+      posturl: http://www.rssitfor.me/DUST514_Status/status/427044292000219136
     - date: 2014-01-20 00:49:03.227862
       posturl: http://www.rssitfor.me/DUST514_Status/status/424877997653762048
     - date: 2014-01-19 22:21:19.894235
@@ -392,6 +424,8 @@ rss_feeds:
   dust_bug_reports:
     raw: false
     stories:
+    - date: 2014-01-30 22:10:37.423647
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1471235
     - date: 2014-01-18 14:23:54.772866
       posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378817
     - date: 2014-01-18 14:23:36.373329
@@ -460,6 +494,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-01-28 18:52:21.667290
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1463442
     - date: 2014-01-21 17:15:00.614779
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1439276
     - date: 2014-01-13 20:24:30.396016
@@ -530,6 +566,8 @@ rss_feeds:
   dust_feedback_suggestions:
     raw: false
     stories:
+    - date: 2014-01-30 22:21:28.280142
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1471253
     - date: 2014-01-18 14:25:14.574161
       posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1425988
     - date: 2014-01-04 20:10:01.413701
@@ -542,6 +580,8 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-01-24 17:49:23.385231
+      posturl: http://dust514.com/news/2014/01/artist-focus-ccp-jusan-aka-bao-juansheng/
     - date: 2014-01-22 23:08:53.188332
       posturl: http://dust514.com/news/2014/01/one-year-on-the-ground/
     - date: 2014-01-22 20:59:01.137096
@@ -640,6 +680,16 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-01-30 02:55:08.536632
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/rubicon-1.1-live-stream-january-30-19-00-utc/
+    - date: 2014-01-29 02:22:07.998667
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-1.1-plex-sale/
+    - date: 2014-01-28 21:48:51.981223
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-1.1-has-been-deployed/
+    - date: 2014-01-28 03:49:27.762208
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/rubicon-1.1-deployment/
+    - date: 2014-01-24 06:34:55.446492
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/in-development-eve-online-rubicon-1.1/
     - date: 2014-01-22 23:30:00.931588
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/limited-time-left-to-claim-your-gifts-from-the-yule-lads/
     - date: 2014-01-20 21:32:53.239174
@@ -812,6 +862,8 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-01-25 22:16:17.354296
+      posturl: http://www.rssitfor.me/EVE_status/status/427044292004429824
     - date: 2014-01-19 23:19:43.813532
       posturl: http://www.rssitfor.me/EVE_status/status/424870148743630848
     - date: 2014-01-19 23:09:40.916803
@@ -866,6 +918,10 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-01-28 23:15:03.242084
+      posturl: http://community.eveonline.com/news/news-channels/world-news/ishukone-announces-investment-in-malkalen-reconstruction/
+    - date: 2014-01-24 00:54:20.334817
+      posturl: http://community.eveonline.com/news/news-channels/world-news/secure-commerce-commission-press-conference-concludes-yc115-financial-retrospective/
     - date: 2014-01-14 02:49:22.098404
       posturl: http://community.eveonline.com/news/news-channels/world-news/federal-intelligence-office-responds-to-guristas-activity-in-placid/
     - date: 2014-01-01 23:23:51.942790
@@ -1014,6 +1070,8 @@ rss_feeds:
   patch_notes:
     raw: false
     stories:
+    - date: 2014-01-28 03:44:14.580587
+      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-rubicon-1.1/
     - date: 2013-12-21 23:57:27.152020
       posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for/
     - date: 2013-12-21 23:57:27.152020
@@ -1030,6 +1088,8 @@ rss_feeds:
   youtube:
     raw: false
     stories:
+    - date: 2014-01-24 06:40:07.889137
+      posturl: tag:youtube.com,2008:video:cvENBtwXHKA
     - date: 2014-01-09 14:51:24.434212
       posturl: tag:youtube.com,2008:video:pv2RBetzhw0
     - date: 2013-12-26 20:40:16.069297
@@ -1085,10 +1145,10 @@ rss_feeds:
     subreddit: eve
     type: Youtube
     url: http://gdata.youtube.com/feeds/base/users/CCPGAMES/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
+run_once: false
 signature: ''
 sleep_time: 300
 sleep_time_post: 300
 submitpost: true
 subreddit: new_eden_news_bot
 username: new_eden_news_bot
-run_once: false
