@@ -1,4 +1,4 @@
-api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.8
+api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.9
 password: insert_password_here
 rss_feeds:
   ccp_press:
@@ -122,6 +122,14 @@ rss_feeds:
   csm:
     raw: false
     stories:
+    - date: 2014-02-04 18:11:52.801320
+      posturl: http://csm8.org/?guid=7773376820c0af27c450be2523ab3a9b
+    - date: 2014-02-03 15:57:51.406550
+      posturl: http://mikeazariah.wordpress.com/?p=1482
+    - date: 2014-02-02 05:25:56.368453
+      posturl: http://mangala.rvbganked.co.uk/?p=1560
+    - date: 2014-02-01 09:08:00.508156
+      posturl: http://csm8.org/?guid=097568d7cf0fd6faf889ff04bcf1ef54
     - date: 2014-01-29 19:21:40.894619
       posturl: http://csm8.org/?guid=6e9995193f07a942c7419b5864df1a9d
     - date: 2014-01-29 19:16:38.100691
@@ -200,6 +208,8 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-02-01 03:54:44.896329
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-nickfuzzeh/
     - date: 2014-01-30 03:22:38.994158
       posturl: http://community.eveonline.com/news/dev-blogs/art-for-rubicon-1.1/
     - date: 2014-01-30 03:11:51.420190
@@ -346,6 +356,10 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-02-04 00:20:52.800959
+      posturl: http://www.rssitfor.me/DUST514_Status/status/430316438524805120
+    - date: 2014-02-04 00:15:50.073143
+      posturl: http://www.rssitfor.me/DUST514_Status/status/430335206311358464
     - date: 2014-01-25 23:01:26.229404
       posturl: http://www.rssitfor.me/DUST514_Status/status/427044292000219136
     - date: 2014-01-20 00:49:03.227862
@@ -442,6 +456,8 @@ rss_feeds:
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-02-01 04:04:59.883344
+      posturl: http://dust514.com/news/blog/2014/01/community-spotlight-new-players-guide-to-dust-514/
     - date: 2014-01-22 21:09:26.353541
       posturl: http://dust514.com/news/blog/2014/01/artist-focus-ccp-jusan-aka-bao-juansheng/
     - date: 2014-01-04 06:33:09.672660
@@ -680,6 +696,14 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-02-04 19:43:20.175177
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-tuesday-february-4th/
+    - date: 2014-02-04 00:59:55.067195
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-new-pilot-faq-available/
+    - date: 2014-02-01 02:23:47.981993
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/attention-trial-users/
+    - date: 2014-01-31 03:46:11.452067
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/universe-data-migration-test-on-singularity/
     - date: 2014-01-30 02:55:08.536632
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/rubicon-1.1-live-stream-january-30-19-00-utc/
     - date: 2014-01-29 02:22:07.998667
@@ -918,6 +942,8 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-01-31 00:01:49.177644
+      posturl: http://community.eveonline.com/news/news-channels/world-news/capsuleers-light-up-the-night-in-umokka/
     - date: 2014-01-28 23:15:03.242084
       posturl: http://community.eveonline.com/news/news-channels/world-news/ishukone-announces-investment-in-malkalen-reconstruction/
     - date: 2014-01-24 00:54:20.334817
@@ -1085,9 +1111,65 @@ rss_feeds:
     subreddit: eve
     type: Patch Notes
     url: http://newsfeed.eveonline.com/en-US/15/articles/page/1/5
+  valkyrie_twitter:
+    raw: true
+    stories:
+    - date: 2014-02-04 20:49:15.679666
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/370553725183483906
+    - date: 2014-02-04 20:49:15.335878
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/370560094779359234
+    - date: 2014-02-04 20:49:15.005403
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/370918698661343232
+    - date: 2014-02-04 20:49:14.648079
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/370919776089944064
+    - date: 2014-02-04 20:49:14.305507
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/372014771106623488
+    - date: 2014-02-04 20:49:13.962048
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/372127594126139392
+    - date: 2014-02-04 20:49:13.637027
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/372291023084347392
+    - date: 2014-02-04 20:49:13.307084
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/373988699450535936
+    - date: 2014-02-04 20:49:12.959005
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/375303696952750081
+    - date: 2014-02-04 20:49:12.597818
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/375643714690887680
+    - date: 2014-02-04 20:49:12.242608
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/377799627753684993
+    - date: 2014-02-04 20:49:11.894312
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/379613775235514368
+    - date: 2014-02-04 20:49:11.563245
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/387954036676128769
+    - date: 2014-02-04 20:49:11.209958
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/392664160363753472
+    - date: 2014-02-04 20:49:10.858561
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/392743879780233216
+    - date: 2014-02-04 20:49:10.507204
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/401104272500064256
+    - date: 2014-02-04 20:49:10.179059
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/401456058209546242
+    - date: 2014-02-04 20:45:58.711670
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/405015795370950656
+    - date: 2014-02-04 20:38:24.750309
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/409505666361876480
+    - date: 2014-02-04 20:33:21.923752
+      posturl: http://www.rssitfor.me/Sean_Decker/status/422520429975044096
+    subreddit: evevalkyrie
+    type: Twitter
+    url: http://www.rssitfor.me/getrss?name=evevalkyrie
+  valkyrie_youtube:
+    raw: false
+    stories:
+    - date: 2013-12-26 20:37:23.108627
+      posturl: tag:youtube.com,2008:video:hXXb6p8e6ik
+    subreddit: evevalkyrie
+    type: Youtube
+    url: http://gdata.youtube.com/feeds/api/users/EVEValkyrie/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
   youtube:
     raw: false
     stories:
+    - date: 2014-01-31 00:48:53.087707
+      posturl: tag:youtube.com,2008:video:IrKlYEsGvvw
     - date: 2014-01-24 06:40:07.889137
       posturl: tag:youtube.com,2008:video:cvENBtwXHKA
     - date: 2014-01-09 14:51:24.434212
@@ -1144,11 +1226,11 @@ rss_feeds:
       posturl: tag:youtube.com,2008:video:hXXb6p8e6ik
     subreddit: eve
     type: Youtube
-    url: http://gdata.youtube.com/feeds/base/users/CCPGAMES/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
+    url: http://gdata.youtube.com/feeds/api/users/CCPGAMES/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
 run_once: false
 signature: ''
 sleep_time: 300
-sleep_time_post: 300
+sleep_time_post: 600
 submitpost: true
 subreddit: new_eden_news_bot
 username: new_eden_news_bot
