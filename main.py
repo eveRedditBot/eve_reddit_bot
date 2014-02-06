@@ -90,7 +90,8 @@ class EVERedditBot():
         if (raw):
           regex_of_url = '(https?:\/\/[\da-z\.-]+\.[a-z\.]{2,6}[\/\w&#\.-\?]*)'
           title = re.sub(regex_of_url, '', title)
-          clean_content = re.sub(regex_of_url, '<a href="\\1">link</a>', content)
+          clean_content = content.replace(' pic.twitter.com', 'http://pic.twitter.com')
+          clean_content = re.sub(regex_of_url, '<a href="\\1">link</a>', clean_content)
           clean_content = UnicodeDammit.detwingle(clean_content)
           #logging.info(clean_content)
           u = UnicodeDammit(clean_content, 

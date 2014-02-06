@@ -1164,7 +1164,7 @@ rss_feeds:
       posturl: tag:youtube.com,2008:video:hXXb6p8e6ik
     subreddit: evevalkyrie
     type: Youtube
-    url: http://gdata.youtube.com/feeds/api/users/EVEValkyrie/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
+    url: https://gdata.youtube.com/feeds/api/users/EVEValkyrie/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
   youtube:
     raw: false
     stories:
