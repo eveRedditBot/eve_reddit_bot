@@ -4,6 +4,7 @@ import praw
 import yaml
 import re
 import logging
+import warnings
 import feedparser
 import sys, getopt
 
@@ -20,6 +21,7 @@ class EVERedditBot():
     def __init__(self):
         requests_log = logging.getLogger("requests")
         requests_log.setLevel(logging.WARNING)
+        warnings.filterwarnings('ignore', message='.*equal comparison failed.*')
         
         socket.setdefaulttimeout(20)
         self.config_path = 'config.yaml'
