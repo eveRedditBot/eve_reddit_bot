@@ -90,7 +90,7 @@ class EVERedditBot():
 
         # some feeds like Twitter are raw so the parser hates it.
         if (raw):
-          regex_of_url = '(https?:\/\/[\dA-z\.-]+\.[A-z\.]{2,6}[\/\w&#\.\-\?]*)'
+          regex_of_url = '(https?:\/\/[\dA-z\.-]+\.[A-z\.]{2,6}[\/\w&=#\.\-\?]*)'
           title = re.sub(regex_of_url, '', title)
           clean_content = content.replace(' pic.twitter.com', 'http://pic.twitter.com')
           clean_content = re.sub(regex_of_url, '<a href="\\1">link</a>', clean_content)
