@@ -4,6 +4,7 @@ import praw
 import yaml
 import re
 import logging
+import warnings
 import feedparser
 import sys, getopt
 
@@ -20,6 +21,7 @@ class EVERedditBot():
     def __init__(self):
         requests_log = logging.getLogger("requests")
         requests_log.setLevel(logging.WARNING)
+        warnings.filterwarnings('ignore', message='.*equal comparison failed.*')
         
         socket.setdefaulttimeout(20)
         self.config_path = 'config.yaml'
@@ -73,6 +75,7 @@ class EVERedditBot():
             del data['comments'][0]
 
             for comment in data['comments']:
+                time.sleep(2)
                 c = c.reply(comment)
 
     def formatForReddit(self, feedEntry, postType, subreddit, raw):
@@ -87,9 +90,10 @@ class EVERedditBot():
 
         # some feeds like Twitter are raw so the parser hates it.
         if (raw):
-          regex_of_url = '(https?:\/\/[\da-z\.-]+\.[a-z\.]{2,6}[\/\w&#\.-\?]*)'
+          regex_of_url = '(https?:\/\/[\dA-z\.-]+\.[A-z\.]{2,6}[\/\w&=#\.\-\?]*)'
           title = re.sub(regex_of_url, '', title)
-          clean_content = re.sub(regex_of_url, '<a href="\\1">link</a>', content)
+          clean_content = content.replace(' pic.twitter.com', 'http://pic.twitter.com')
+          clean_content = re.sub(regex_of_url, '<a href="\\1">link</a>', clean_content)
           clean_content = UnicodeDammit.detwingle(clean_content)
           #logging.info(clean_content)
           u = UnicodeDammit(clean_content, 
@@ -100,7 +104,11 @@ class EVERedditBot():
           logging.debug('.....')
         
         # Added the .replace because the parser does something funny to them and removes them before I can handle them
-        parser.feed(content.replace('&nbsp;', ' ').replace('&bull;', '*'))
+        content = content.replace('&nbsp;', ' ')
+        content = content.replace('&bull;', '*').replace('&middot;','*')
+        content = content.replace('&ldquo;','\'').replace('&rdquo;','\'')
+        content = re.sub('( [ ]+)', ' ', content)
+        parser.feed(content)
         parser.comments[0] = '%s\n\n%s' %(feedEntry['link'], parser.comments[0])
         parser.comments[-1] += self.config['signature']
         
@@ -236,22 +244,22 @@ class EveRssHtmlParser(HTMLParser):
             self.comments[self.cur_comment] += '~~'
 
         elif tag == 'h1':
-            self.comments[self.cur_comment] += '#'
+            self.comments[self.cur_comment] += '\n#'
 
         elif tag == 'h2':
-            self.comments[self.cur_comment] += '##'
+            self.comments[self.cur_comment] += '\n##'
 
         elif tag == 'h3':
-            self.comments[self.cur_comment] += '###'
+            self.comments[self.cur_comment] += '\n###'
 
         elif tag == 'h4':
-            self.comments[self.cur_comment] += '####'
+            self.comments[self.cur_comment] += '\n####'
 
         elif tag == 'h5':
-            self.comments[self.cur_comment] += '#####'
+            self.comments[self.cur_comment] += '\n#####'
 
         elif tag == 'h6':
-            self.comments[self.cur_comment] += '######'
+            self.comments[self.cur_comment] += '\n######'
 
         elif tag == 'table':
             self.in_table = True
