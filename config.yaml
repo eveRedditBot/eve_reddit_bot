@@ -4,6 +4,8 @@ rss_feeds:
   ccp_press:
     raw: false
     stories:
+    - date: 2014-02-06 04:10:36.914646
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/ccp-to-erect-monument-to-eve-online-players-in-reykjavik-iceland-1/
     - date: 2013-12-21 23:57:27.152020
       posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/74802/ccp-announces-eve-online-odyssey-to-be-released-june-4th
     - date: 2013-12-21 23:57:27.152020
@@ -122,6 +124,14 @@ rss_feeds:
   csm:
     raw: false
     stories:
+    - date: 2014-02-12 18:10:44.659719
+      posturl: http://warp-to-sun.tumblr.com/post/76396257153
+    - date: 2014-02-11 16:40:00.828347
+      posturl: http://csm8.org/?guid=6e80987e3ff5996da66fea5a63f75874
+    - date: 2014-02-09 08:03:24.633179
+      posturl: http://mikeazariah.wordpress.com/?p=1484
+    - date: 2014-02-07 08:42:40.643086
+      posturl: http://warp-to-sun.tumblr.com/post/75808523820
     - date: 2014-02-04 18:11:52.801320
       posturl: http://csm8.org/?guid=7773376820c0af27c450be2523ab3a9b
     - date: 2014-02-03 15:57:51.406550
@@ -208,6 +218,18 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-02-15 03:49:16.897282
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-fly-reckless/
+    - date: 2014-02-15 02:06:32.696081
+      posturl: http://community.eveonline.com/news/dev-blogs/eve-universe-static-data-export/
+    - date: 2014-02-14 02:20:46.080386
+      posturl: http://community.eveonline.com/news/dev-blogs/alliance-logos-you-clarification-on-submissions/
+    - date: 2014-02-14 00:55:57.821820
+      posturl: http://community.eveonline.com/news/dev-blogs/eve-source-limited-edition-open-for-pre-orders/
+    - date: 2014-02-08 03:02:16.774220
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-zao-amadeus/
+    - date: 2014-02-07 01:16:37.798791
+      posturl: http://community.eveonline.com/news/dev-blogs/insights-into-2013-production-and-destruction/
     - date: 2014-02-01 03:54:44.896329
       posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-nickfuzzeh/
     - date: 2014-01-30 03:22:38.994158
@@ -356,6 +378,12 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-02-15 04:22:41.798566
+      posturl: http://www.rssitfor.me/DUST514_Status/status/434357591234584576
+    - date: 2014-02-11 22:02:15.197626
+      posturl: http://www.rssitfor.me/DUST514_Status/status/433200336204226561
+    - date: 2014-02-11 19:14:09.570664
+      posturl: http://www.rssitfor.me/DUST514_Status/status/433143024093515776
     - date: 2014-02-04 00:20:52.800959
       posturl: http://www.rssitfor.me/DUST514_Status/status/430316438524805120
     - date: 2014-02-04 00:15:50.073143
@@ -510,6 +538,10 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-02-11 13:43:43.434036
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1510265
+    - date: 2014-02-07 13:05:07.261445
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1496553
     - date: 2014-01-28 18:52:21.667290
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1463442
     - date: 2014-01-21 17:15:00.614779
@@ -696,6 +728,14 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-02-15 00:41:42.762898
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-1.2-to-be-deployed-tuesday-the/
+    - date: 2014-02-14 23:14:37.507124
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/valentines-day-second-decade-collectors-edition-sale/
+    - date: 2014-02-14 22:58:30.981565
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/upcoming-changes-to-macintosh-minimum-requirements/
+    - date: 2014-02-07 21:38:28.075204
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/disappearing-freight-containers-in-space/
     - date: 2014-02-04 19:43:20.175177
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-tuesday-february-4th/
     - date: 2014-02-04 00:59:55.067195
@@ -886,6 +926,8 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-02-15 03:33:05.015422
+      posturl: http://www.rssitfor.me/EVE_status/status/434357591222009856
     - date: 2014-01-25 22:16:17.354296
       posturl: http://www.rssitfor.me/EVE_status/status/427044292004429824
     - date: 2014-01-19 23:19:43.813532
@@ -942,6 +984,8 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-02-06 03:02:38.356168
+      posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-prime-salvage-plans-announced/
     - date: 2014-01-31 00:01:49.177644
       posturl: http://community.eveonline.com/news/news-channels/world-news/capsuleers-light-up-the-night-in-umokka/
     - date: 2014-01-28 23:15:03.242084
@@ -1114,6 +1158,12 @@ rss_feeds:
   valkyrie_twitter:
     raw: true
     stories:
+    - date: 2014-02-13 10:57:25.392043
+      posturl: http://www.rssitfor.me/Official_AIAS/status/433716758793289729
+    - date: 2014-02-06 21:21:43.720292
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/431120535662379008
+    - date: 2014-02-06 02:39:33.697007
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/431085838660022272
     - date: 2014-02-04 20:49:15.679666
       posturl: http://www.rssitfor.me/EVEValkyrie/status/370553725183483906
     - date: 2014-02-04 20:49:15.335878
@@ -1165,6 +1215,22 @@ rss_feeds:
     subreddit: evevalkyrie
     type: Youtube
     url: https://gdata.youtube.com/feeds/api/users/EVEValkyrie/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
+  valkyrie_youtube_press:
+    raw: false
+    stories:
+    - date: 2014-02-04 21:28:41.555970
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdobNUiYOCZKJpIhdiPIVToQ
+    - date: 2014-02-04 21:28:41.203394
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdiTa5HKoJOPEoCrS03-3T8g
+    - date: 2014-02-04 21:28:40.849837
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdlBcT5pYBqiRWO-_pjcqfP0
+    - date: 2014-02-04 21:23:24.220548
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdq467m0aSg1zp-ndr0ZJ1rk
+    - date: 2014-02-04 21:13:21.391349
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdnStCi4bpPRmApeBTGc87uc
+    subreddit: evevalkyrie
+    type: Press
+    url: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq
   youtube:
     raw: false
     stories:
