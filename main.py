@@ -81,8 +81,10 @@ class EVERedditBot():
     def formatForReddit(self, feedEntry, postType, subreddit, raw):
         if 'content' in feedEntry:
           content = feedEntry['content'][0]['value']
-        else:
+        elif 'description' in feedEntry:
           content = feedEntry.description
+        else:
+          content = ''
         logging.debug(content)
         parser = EveRssHtmlParser()
         
