@@ -1,4 +1,5 @@
-api_header: Eve Online universe news bot by u/SerpentineLogic v 0.0.9
+---
+api_header: Eve Online universe news bot by u/SerpentineLogic v 0.1.0
 password: insert_password_here
 rss_feeds:
   ccp_press:
@@ -65,6 +66,68 @@ rss_feeds:
     subreddit: eve
     type: CCP Press
     url: http://newsfeed.eveonline.com/en-US/43/articles/page/1/20
+  ccp_youtube:
+    raw: false
+    stories:
+    - date: 2014-01-31 00:48:53.087707
+      posturl: tag:youtube.com,2008:video:IrKlYEsGvvw
+    - date: 2014-01-24 06:40:07.889137
+      posturl: tag:youtube.com,2008:video:cvENBtwXHKA
+    - date: 2014-01-09 14:51:24.434212
+      posturl: tag:youtube.com,2008:video:pv2RBetzhw0
+    - date: 2013-12-26 20:40:16.069297
+      posturl: tag:youtube.com,2008:video:OnYJ8nxMRm0
+    - date: 2013-12-26 20:37:30.314533
+      posturl: tag:youtube.com,2008:video:2J46MTETfFc
+    - date: 2013-12-26 20:37:30.003574
+      posturl: tag:youtube.com,2008:video:AxatstKwFJk
+    - date: 2013-12-26 20:37:29.705759
+      posturl: tag:youtube.com,2008:video:40zjfBk5vEE
+    - date: 2013-12-26 20:37:29.405221
+      posturl: tag:youtube.com,2008:video:F18B1SiQFVc
+    - date: 2013-12-26 20:37:29.104305
+      posturl: tag:youtube.com,2008:video:x70cCW0oEco
+    - date: 2013-12-26 20:37:28.814038
+      posturl: tag:youtube.com,2008:video:rTrz7-OOCZE
+    - date: 2013-12-26 20:37:28.524647
+      posturl: tag:youtube.com,2008:video:XHH_MHd0c94
+    - date: 2013-12-26 20:37:28.225315
+      posturl: tag:youtube.com,2008:video:Usv2EjUU3fA
+    - date: 2013-12-26 20:37:27.912391
+      posturl: tag:youtube.com,2008:video:JJxVTNR2XH8
+    - date: 2013-12-26 20:37:27.615930
+      posturl: tag:youtube.com,2008:video:WIEApAFwEqE
+    - date: 2013-12-26 20:37:27.315428
+      posturl: tag:youtube.com,2008:video:YAAMyZ3_wnI
+    - date: 2013-12-26 20:37:27.008292
+      posturl: tag:youtube.com,2008:video:Cc4iuFrBDPM
+    - date: 2013-12-26 20:37:26.698372
+      posturl: tag:youtube.com,2008:video:4weB3wjHMl8
+    - date: 2013-12-26 20:37:26.404797
+      posturl: tag:youtube.com,2008:video:OX1jB9XRD4M
+    - date: 2013-12-26 20:37:26.105447
+      posturl: tag:youtube.com,2008:video:51VH0Hr1gHs
+    - date: 2013-12-26 20:37:25.807928
+      posturl: tag:youtube.com,2008:video:1PDf0gIyGLE
+    - date: 2013-12-26 20:37:25.505384
+      posturl: tag:youtube.com,2008:video:DksknZR7o0o
+    - date: 2013-12-26 20:37:25.204314
+      posturl: tag:youtube.com,2008:video:UcEUB6h4Br0
+    - date: 2013-12-26 20:37:24.912689
+      posturl: tag:youtube.com,2008:video:zMKb9xivh9U
+    - date: 2013-12-26 20:37:24.618472
+      posturl: tag:youtube.com,2008:video:EFegZyOhJjM
+    - date: 2013-12-26 20:37:24.298939
+      posturl: tag:youtube.com,2008:video:Uo6mXf0VmrM
+    - date: 2013-12-26 20:37:24.003663
+      posturl: tag:youtube.com,2008:video:0WX-rDUoAVQ
+    - date: 2013-12-26 20:37:23.690076
+      posturl: tag:youtube.com,2008:video:QzEY-A5JLB4
+    - date: 2013-12-26 20:37:23.108627
+      posturl: tag:youtube.com,2008:video:hXXb6p8e6ik
+    subreddit: eve
+    type: Youtube
+    url: http://gdata.youtube.com/feeds/api/users/CCPGAMES/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
   cpm:
     raw: false
     stories:
@@ -991,6 +1054,66 @@ rss_feeds:
     subreddit: eve
     type: Server
     url: http://www.rssitfor.me/getrss?name=eve_status
+  eve_youtube:
+    raw: false
+    stories:
+    - date: 2014-02-16 12:57:04.741604
+      posturl: tag:youtube.com,2008:video:rrhTOvQ-kq0
+    - date: 2014-02-16 12:57:04.335513
+      posturl: tag:youtube.com,2008:video:tzVHwzXIYsI
+    - date: 2014-02-16 12:57:03.947357
+      posturl: tag:youtube.com,2008:video:_o9cxkwC0N8
+    - date: 2014-02-16 12:57:03.560190
+      posturl: tag:youtube.com,2008:video:zkXQCdAwQsA
+    - date: 2014-02-16 12:57:03.164525
+      posturl: tag:youtube.com,2008:video:rRFc1GaiRuM
+    - date: 2014-02-16 12:57:02.761325
+      posturl: tag:youtube.com,2008:video:5op-EDGbgRc
+    - date: 2014-02-16 12:57:02.362683
+      posturl: tag:youtube.com,2008:video:FhMj8plY5CE
+    - date: 2014-02-16 12:57:01.969169
+      posturl: tag:youtube.com,2008:video:Wm-C6g05yGA
+    - date: 2014-02-16 12:57:01.516577
+      posturl: tag:youtube.com,2008:video:3LDlKkIJCbY
+    - date: 2014-02-16 12:57:01.138762
+      posturl: tag:youtube.com,2008:video:JA-O6sujA6U
+    - date: 2014-02-16 12:57:00.762951
+      posturl: tag:youtube.com,2008:video:vITtEnS1wF8
+    - date: 2014-02-16 12:57:00.380366
+      posturl: tag:youtube.com,2008:video:QA6X0TVCASQ
+    - date: 2014-02-16 12:57:00.005755
+      posturl: tag:youtube.com,2008:video:VqhyntvJpsc
+    - date: 2014-02-16 12:56:59.616522
+      posturl: tag:youtube.com,2008:video:EdDn4jC68a8
+    - date: 2014-02-16 12:56:59.239802
+      posturl: tag:youtube.com,2008:video:B3gkb_lH5uI
+    - date: 2014-02-16 12:56:58.855585
+      posturl: tag:youtube.com,2008:video:2y6WPGp2hDc
+    - date: 2014-02-16 12:56:58.473875
+      posturl: tag:youtube.com,2008:video:293bd96huV8
+    - date: 2014-02-16 12:56:58.095629
+      posturl: tag:youtube.com,2008:video:kuE-d-9kNo4
+    - date: 2014-02-16 12:56:57.710829
+      posturl: tag:youtube.com,2008:video:6ILe_DFNUPI
+    - date: 2014-02-16 12:56:57.327851
+      posturl: tag:youtube.com,2008:video:_Q3Q7wGvZN8
+    - date: 2014-02-16 12:56:56.935503
+      posturl: tag:youtube.com,2008:video:rVPttmO8SO8
+    - date: 2014-02-16 12:56:56.563136
+      posturl: tag:youtube.com,2008:video:2G6qnO_Hdy0
+    - date: 2014-02-16 12:56:56.182066
+      posturl: tag:youtube.com,2008:video:n9ExTsv1pMQ
+    - date: 2014-02-16 12:56:55.772068
+      posturl: tag:youtube.com,2008:video:zCUQJcJhFZo
+    - date: 2014-02-16 12:56:55.385316
+      posturl: tag:youtube.com,2008:video:KwY28rpyKDE
+    - date: 2014-02-16 11:50:19.823127
+      posturl: tag:youtube.com,2008:video:0NsIIGZBSrs
+    - date: 2014-02-04 21:28:41.555970
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdobNUiYOCZKJpIhdiPIVToQ
+    subreddit: eve
+    type: Youtube
+    url: http://gdata.youtube.com/feeds/api/users/UCwF3VyalTHzL0L-GDlwtbRw/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
   game_news:
     raw: false
     stories:
@@ -1241,68 +1364,16 @@ rss_feeds:
     subreddit: evevalkyrie
     type: Press
     url: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq
-  youtube:
+  wod_youtube:
     raw: false
     stories:
-    - date: 2014-01-31 00:48:53.087707
-      posturl: tag:youtube.com,2008:video:IrKlYEsGvvw
-    - date: 2014-01-24 06:40:07.889137
-      posturl: tag:youtube.com,2008:video:cvENBtwXHKA
-    - date: 2014-01-09 14:51:24.434212
-      posturl: tag:youtube.com,2008:video:pv2RBetzhw0
-    - date: 2013-12-26 20:40:16.069297
-      posturl: tag:youtube.com,2008:video:OnYJ8nxMRm0
-    - date: 2013-12-26 20:37:30.314533
-      posturl: tag:youtube.com,2008:video:2J46MTETfFc
-    - date: 2013-12-26 20:37:30.003574
-      posturl: tag:youtube.com,2008:video:AxatstKwFJk
-    - date: 2013-12-26 20:37:29.705759
-      posturl: tag:youtube.com,2008:video:40zjfBk5vEE
-    - date: 2013-12-26 20:37:29.405221
-      posturl: tag:youtube.com,2008:video:F18B1SiQFVc
-    - date: 2013-12-26 20:37:29.104305
-      posturl: tag:youtube.com,2008:video:x70cCW0oEco
-    - date: 2013-12-26 20:37:28.814038
-      posturl: tag:youtube.com,2008:video:rTrz7-OOCZE
-    - date: 2013-12-26 20:37:28.524647
-      posturl: tag:youtube.com,2008:video:XHH_MHd0c94
-    - date: 2013-12-26 20:37:28.225315
-      posturl: tag:youtube.com,2008:video:Usv2EjUU3fA
-    - date: 2013-12-26 20:37:27.912391
-      posturl: tag:youtube.com,2008:video:JJxVTNR2XH8
-    - date: 2013-12-26 20:37:27.615930
-      posturl: tag:youtube.com,2008:video:WIEApAFwEqE
-    - date: 2013-12-26 20:37:27.315428
-      posturl: tag:youtube.com,2008:video:YAAMyZ3_wnI
-    - date: 2013-12-26 20:37:27.008292
-      posturl: tag:youtube.com,2008:video:Cc4iuFrBDPM
-    - date: 2013-12-26 20:37:26.698372
-      posturl: tag:youtube.com,2008:video:4weB3wjHMl8
-    - date: 2013-12-26 20:37:26.404797
-      posturl: tag:youtube.com,2008:video:OX1jB9XRD4M
-    - date: 2013-12-26 20:37:26.105447
-      posturl: tag:youtube.com,2008:video:51VH0Hr1gHs
-    - date: 2013-12-26 20:37:25.807928
-      posturl: tag:youtube.com,2008:video:1PDf0gIyGLE
-    - date: 2013-12-26 20:37:25.505384
-      posturl: tag:youtube.com,2008:video:DksknZR7o0o
-    - date: 2013-12-26 20:37:25.204314
-      posturl: tag:youtube.com,2008:video:UcEUB6h4Br0
-    - date: 2013-12-26 20:37:24.912689
-      posturl: tag:youtube.com,2008:video:zMKb9xivh9U
-    - date: 2013-12-26 20:37:24.618472
-      posturl: tag:youtube.com,2008:video:EFegZyOhJjM
-    - date: 2013-12-26 20:37:24.298939
-      posturl: tag:youtube.com,2008:video:Uo6mXf0VmrM
-    - date: 2013-12-26 20:37:24.003663
-      posturl: tag:youtube.com,2008:video:0WX-rDUoAVQ
-    - date: 2013-12-26 20:37:23.690076
-      posturl: tag:youtube.com,2008:video:QzEY-A5JLB4
-    - date: 2013-12-26 20:37:23.108627
-      posturl: tag:youtube.com,2008:video:hXXb6p8e6ik
-    subreddit: eve
+    - date: 2014-02-16 11:50:19.823127
+      posturl: tag:youtube.com,2008:video:0NsIIGZBSrs
+    - date: 2014-02-04 21:28:41.555970
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdobNUiYOCZKJpIhdiPIVToQ
+    subreddit: worldofdarkness
     type: Youtube
-    url: http://gdata.youtube.com/feeds/api/users/CCPGAMES/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
+    url: http://gdata.youtube.com/feeds/api/users/UCdHaCdyx1FY9O7LinjtxJ2Q/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
 run_once: false
 signature: ''
 sleep_time: 300
