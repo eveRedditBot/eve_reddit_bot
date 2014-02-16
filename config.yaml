@@ -725,6 +725,16 @@ rss_feeds:
     subreddit: dust514
     type: Press
     url: http://newsfeed.eveonline.com/en-US/61/articles/page/1/20/
+  dust_youtube:
+    raw: false
+    stories:
+    - date: 2014-02-16 11:50:19.823127
+      posturl: tag:youtube.com,2008:video:0NsIIGZBSrs
+    - date: 2014-02-04 21:28:41.555970
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdobNUiYOCZKJpIhdiPIVToQ
+    subreddit: dust514
+    type: Youtube
+    url: http://gdata.youtube.com/feeds/api/users/UC7MbNI-oYZAYtF_c0a-Gh7w/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
   eve_news:
     raw: false
     stories:
