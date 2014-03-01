@@ -1,10 +1,13 @@
----
 api_header: Eve Online universe news bot by u/SerpentineLogic v 0.1.0
 password: insert_password_here
 rss_feeds:
   ccp_press:
     raw: false
     stories:
+    - date: 2014-02-28 05:23:37.608892
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/ccp-epic-celebration-eve-online-dust-514-valkyrie-at-eve-fanfest/
+    - date: 2014-02-22 02:00:18.929548
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/eve-true-stories-graphic-novel-available-for-free-download/
     - date: 2014-02-06 04:10:36.914646
       posturl: http://community.eveonline.com/news/news-channels/press-releases/ccp-to-erect-monument-to-eve-online-players-in-reykjavik-iceland-1/
     - date: 2013-12-21 23:57:27.152020
@@ -187,6 +190,14 @@ rss_feeds:
   csm:
     raw: false
     stories:
+    - date: 2014-02-27 13:06:50.586566
+      posturl: http://csm8.org/?guid=7b45e05e656cd67707079d146d32864f
+    - date: 2014-02-26 18:41:46.860111
+      posturl: http://mikeazariah.wordpress.com/?p=1493
+    - date: 2014-02-25 18:42:42.287887
+      posturl: http://csm8.org/?guid=0012b7fe73b576bb7af35f62ba7bec9b
+    - date: 2014-02-18 13:23:21.001004
+      posturl: http://csm8.org/?guid=48652a4e808458c6e75b9ea9e16b032e
     - date: 2014-02-12 18:10:44.659719
       posturl: http://warp-to-sun.tumblr.com/post/76396257153
     - date: 2014-02-11 16:40:00.828347
@@ -281,6 +292,12 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-03-01 03:15:22.684084
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-spectre-fleets/
+    - date: 2014-02-22 02:33:25.308546
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-sir-squeebles/
+    - date: 2014-02-20 05:39:14.923599
+      posturl: http://community.eveonline.com/news/dev-blogs/eve-true-stories-the-comic-book-based-on-true-events-20.000-years-into-the-future/
     - date: 2014-02-15 03:49:16.897282
       posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-fly-reckless/
     - date: 2014-02-15 02:06:32.696081
@@ -441,6 +458,10 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-03-01 00:17:33.372315
+      posturl: http://www.rssitfor.me/DUST514_Status/status/439359669279412224
+    - date: 2014-02-28 21:17:38.118122
+      posturl: http://www.rssitfor.me/DUST514_Status/status/439351724617515008
     - date: 2014-02-15 04:22:41.798566
       posturl: http://www.rssitfor.me/DUST514_Status/status/434357591234584576
     - date: 2014-02-11 22:02:15.197626
@@ -529,6 +550,10 @@ rss_feeds:
   dust_bug_reports:
     raw: false
     stories:
+    - date: 2014-02-27 03:13:38.481690
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1560387
+    - date: 2014-02-17 18:20:06.313785
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1531382
     - date: 2014-01-30 22:10:37.423647
       posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1471235
     - date: 2014-01-18 14:23:54.772866
@@ -547,6 +572,10 @@ rss_feeds:
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-03-01 03:30:37.982858
+      posturl: http://dust514.com/news/blog/2014/02/community-spotlight-dust514.info/
+    - date: 2014-02-25 19:21:21.892530
+      posturl: http://dust514.com/news/blog/2014/02/artist-spotlight-senior-environment-concept-artist-zeng-liang/
     - date: 2014-02-01 04:04:59.883344
       posturl: http://dust514.com/news/blog/2014/01/community-spotlight-new-players-guide-to-dust-514/
     - date: 2014-01-22 21:09:26.353541
@@ -601,6 +630,10 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-02-26 18:52:22.439973
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1559311
+    - date: 2014-02-18 12:31:13.754721
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1534626
     - date: 2014-02-11 13:43:43.434036
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1510265
     - date: 2014-02-07 13:05:07.261445
@@ -677,6 +710,10 @@ rss_feeds:
   dust_feedback_suggestions:
     raw: false
     stories:
+    - date: 2014-02-27 04:09:54.786073
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1560584
+    - date: 2014-02-17 18:35:28.925080
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1531402
     - date: 2014-01-30 22:21:28.280142
       posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1471253
     - date: 2014-01-18 14:25:14.574161
@@ -691,6 +728,10 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-02-26 19:02:31.800453
+      posturl: http://dust514.com/news/2014/02/new-in-the-marketplace-february-25-2014/
+    - date: 2014-02-25 19:31:50.105895
+      posturl: http://dust514.com/news/2014/02/artist-spotlight-senior-environment-concept-artist-zeng-liang/
     - date: 2014-01-24 17:49:23.385231
       posturl: http://dust514.com/news/2014/01/artist-focus-ccp-jusan-aka-bao-juansheng/
     - date: 2014-01-22 23:08:53.188332
@@ -801,6 +842,16 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-03-01 00:56:15.233625
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-eden-open-ii-starts-this-weekend/
+    - date: 2014-02-21 23:22:41.392319
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-player-training-sessions-mining-fleet/
+    - date: 2014-02-20 22:27:49.223086
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/dark-horse-presents-eve-true-stories-chapter-1/
+    - date: 2014-02-19 16:43:18.457032
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-source-now-available-in-australia/
+    - date: 2014-02-18 21:51:40.079183
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-1.2-successfully-deployed-on-feb-18-2014/
     - date: 2014-02-15 00:41:42.762898
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-1.2-to-be-deployed-tuesday-the/
     - date: 2014-02-14 23:14:37.507124
@@ -999,6 +1050,12 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-02-28 23:43:15.734129
+      posturl: http://www.rssitfor.me/EVE_status/status/439359669312950272
+    - date: 2014-02-28 21:01:26.315152
+      posturl: http://www.rssitfor.me/EVE_status/status/439351633152344064
+    - date: 2014-02-26 07:18:23.029489
+      posturl: http://www.rssitfor.me/EVE_status/status/438399978973958144
     - date: 2014-02-15 03:33:05.015422
       posturl: http://www.rssitfor.me/EVE_status/status/434357591222009856
     - date: 2014-01-25 22:16:17.354296
@@ -1117,6 +1174,10 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-02-28 01:00:27.812434
+      posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-navy-announces-discharge-of-courts-martialled-officers/
+    - date: 2014-02-21 03:26:46.366612
+      posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-navy-announces-octopus-squadron-courts-martial/
     - date: 2014-02-06 03:02:38.356168
       posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-prime-salvage-plans-announced/
     - date: 2014-01-31 00:01:49.177644
@@ -1273,6 +1334,8 @@ rss_feeds:
   patch_notes:
     raw: false
     stories:
+    - date: 2014-02-18 20:00:40.644378
+      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-rubicon-1.2/
     - date: 2014-01-28 03:44:14.580587
       posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-rubicon-1.1/
     - date: 2013-12-21 23:57:27.152020
@@ -1291,6 +1354,12 @@ rss_feeds:
   valkyrie_twitter:
     raw: true
     stories:
+    - date: 2014-02-28 02:54:56.165878
+      posturl: http://www.rssitfor.me/EveOnline/status/439067038641057792
+    - date: 2014-02-22 03:47:24.558002
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/436879016742895617
+    - date: 2014-02-21 03:03:32.494248
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/436538337407795200
     - date: 2014-02-13 10:57:25.392043
       posturl: http://www.rssitfor.me/Official_AIAS/status/433716758793289729
     - date: 2014-02-06 21:21:43.720292
