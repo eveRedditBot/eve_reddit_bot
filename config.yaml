@@ -72,6 +72,12 @@ rss_feeds:
   ccp_youtube:
     raw: false
     stories:
+    - date: 2014-03-28 02:04:38.828384
+      posturl: tag:youtube.com,2008:video:jthyWHPmTCs
+    - date: 2014-03-22 08:28:43.924510
+      posturl: tag:youtube.com,2008:video:v6_TAM2i42g
+    - date: 2014-03-06 22:04:25.826068
+      posturl: tag:youtube.com,2008:video:6Ttb4IM9DVw
     - date: 2014-01-31 00:48:53.087707
       posturl: tag:youtube.com,2008:video:IrKlYEsGvvw
     - date: 2014-01-24 06:40:07.889137
@@ -190,6 +196,26 @@ rss_feeds:
   csm:
     raw: false
     stories:
+    - date: 2014-04-02 01:35:47.681752
+      posturl: http://mikeazariah.wordpress.com/?p=1509
+    - date: 2014-04-01 18:17:45.092032
+      posturl: http://csm8.org/?guid=c6568b8b455456a146e202605bb91621
+    - date: 2014-03-26 16:02:22.515335
+      posturl: http://csm8.org/?guid=f5fd2b0921406472e63f5ad93953991b
+    - date: 2014-03-19 15:25:14.043952
+      posturl: http://csm8.org/?guid=da3da1e82ace520180d07c9bc886b39d
+    - date: 2014-03-16 11:09:14.643481
+      posturl: http://mikeazariah.wordpress.com/?p=1502
+    - date: 2014-03-11 14:32:32.391635
+      posturl: http://csm8.org/?guid=070f5d329fb1122f9b5cca6b6424b99f
+    - date: 2014-03-07 14:13:36.936356
+      posturl: http://csm8.org/?guid=9ab5ec1c34f84442d959067dfc6ef7d7
+    - date: 2014-03-05 16:33:11.955900
+      posturl: http://csm8.org/?guid=7cb0f4f7be1931e9484a315f0124224d
+    - date: 2014-03-04 02:27:47.240102
+      posturl: http://csm8.org/?guid=172d24be0be8613e0758c724536be020
+    - date: 2014-03-02 16:06:21.446184
+      posturl: http://mikeazariah.wordpress.com/?p=1497
     - date: 2014-02-27 13:06:50.586566
       posturl: http://csm8.org/?guid=7b45e05e656cd67707079d146d32864f
     - date: 2014-02-26 18:41:46.860111
@@ -292,6 +318,36 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-04-03 02:35:45.701142
+      posturl: http://community.eveonline.com/news/dev-blogs/true-stories-what-did-you-think/
+    - date: 2014-04-02 03:30:48.843808
+      posturl: http://community.eveonline.com/news/dev-blogs/giving-drones-an-assist/
+    - date: 2014-03-29 03:37:38.352288
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-k162-space/
+    - date: 2014-03-28 03:58:17.178209
+      posturl: http://community.eveonline.com/news/dev-blogs/developer-spotlight-rise/
+    - date: 2014-03-28 01:12:08.127822
+      posturl: http://community.eveonline.com/news/dev-blogs/new-player-training-sessions-pvp-track/
+    - date: 2014-03-26 01:32:07.737343
+      posturl: http://community.eveonline.com/news/dev-blogs/mineral-trade-in-the-wake-of-the-battle-of-b-r5rb-price-indices-february-2014/
+    - date: 2014-03-22 07:32:08.147246
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-destiny/
+    - date: 2014-03-22 01:48:02.871135
+      posturl: http://community.eveonline.com/news/dev-blogs/csm9-elections-schedule-election-process-and-candidate-applications/
+    - date: 2014-03-21 00:34:00.407245
+      posturl: http://community.eveonline.com/news/dev-blogs/reprocess-all-the-things/
+    - date: 2014-03-14 03:13:06.324260
+      posturl: http://community.eveonline.com/news/dev-blogs/developer-spotlight-punkturis/
+    - date: 2014-03-12 01:06:56.963856
+      posturl: http://community.eveonline.com/news/dev-blogs/rubicon-1.3-balance-round-up/
+    - date: 2014-03-11 01:07:55.526415
+      posturl: http://community.eveonline.com/news/dev-blogs/u-and-i-through-a-scanner-lightly/
+    - date: 2014-03-07 07:33:47.850936
+      posturl: http://community.eveonline.com/news/dev-blogs/ship-painting-pilot-program/
+    - date: 2014-03-06 21:53:52.881184
+      posturl: http://community.eveonline.com/news/dev-blogs/worlds-within-a-world-1/
+    - date: 2014-03-06 00:20:33.346267
+      posturl: http://community.eveonline.com/news/dev-blogs/just-some-little-things/
     - date: 2014-03-01 03:15:22.684084
       posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-spectre-fleets/
     - date: 2014-02-22 02:33:25.308546
@@ -458,6 +514,44 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-04-01 18:29:47.545006
+      posturl: http://www.rssitfor.me/DUST514_Status/status/450898892855721985
+    - date: 2014-03-31 20:37:50.715432
+      posturl: http://www.rssitfor.me/DUST514_Status/status/450555636997427201
+    - date: 2014-03-28 22:07:05.446082
+      posturl: http://www.rssitfor.me/DUST514_Status/status/449507218178990080
+    - date: 2014-03-27 23:46:17.584744
+      posturl: http://www.rssitfor.me/DUST514_Status/status/449148018223484928
+    - date: 2014-03-27 21:03:08.842665
+      posturl: http://www.rssitfor.me/DUST514_Status/status/449118795916148736
+    - date: 2014-03-27 01:05:28.364785
+      posturl: http://www.rssitfor.me/CCP_Frame/status/448797300597346304
+    - date: 2014-03-25 23:47:45.457913
+      posturl: http://www.rssitfor.me/CCP_Frame/status/448419744941891584
+    - date: 2014-03-25 21:15:12.922030
+      posturl: http://www.rssitfor.me/CCP_Frame/status/448397706713911296
+    - date: 2014-03-25 18:24:35.462495
+      posturl: http://www.rssitfor.me/DUST514_Status/status/448306749758775296
+    - date: 2014-03-24 22:55:40.960413
+      posturl: http://www.rssitfor.me/DUST514_Status/status/448066685850091520
+    - date: 2014-03-15 22:57:23.061063
+      posturl: http://www.rssitfor.me/DUST514_Status/status/444798326844981248
+    - date: 2014-03-15 22:52:20.176375
+      posturl: http://www.rssitfor.me/DUST514_Status/status/444803038482808832
+    - date: 2014-03-13 07:43:40.861779
+      posturl: http://www.rssitfor.me/DUST514_Status/status/443802671750082560
+    - date: 2014-03-13 07:38:37.963957
+      posturl: http://www.rssitfor.me/DUST514_Status/status/443810333606821888
+    - date: 2014-03-11 06:17:17.651768
+      posturl: http://www.rssitfor.me/DUST514_Status/status/443083934336049153
+    - date: 2014-03-06 09:52:20.561741
+      posturl: http://www.rssitfor.me/DUST514_Status/status/441319104541360129
+    - date: 2014-03-06 01:35:15.363320
+      posturl: http://www.rssitfor.me/DUST514_Status/status/441204943132037120
+    - date: 2014-03-05 08:51:41.225598
+      posturl: http://www.rssitfor.me/DUST514_Status/status/440961748158668800
+    - date: 2014-03-04 21:36:39.687331
+      posturl: http://www.rssitfor.me/DUST514_Status/status/440784638093848576
     - date: 2014-03-01 00:17:33.372315
       posturl: http://www.rssitfor.me/DUST514_Status/status/439359669279412224
     - date: 2014-02-28 21:17:38.118122
@@ -550,6 +644,8 @@ rss_feeds:
   dust_bug_reports:
     raw: false
     stories:
+    - date: 2014-03-21 04:00:00.552684
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1633236
     - date: 2014-02-27 03:13:38.481690
       posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1560387
     - date: 2014-02-17 18:20:06.313785
@@ -572,6 +668,14 @@ rss_feeds:
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-03-19 02:22:39.150596
+      posturl: http://dust514.com/news/blog/2014/03/uprising-1.8-overview-patch-notes/
+    - date: 2014-03-15 02:43:49.902825
+      posturl: http://dust514.com/news/blog/2014/03/equipment-uprising-1.8/
+    - date: 2014-03-13 07:09:01.247045
+      posturl: http://dust514.com/news/blog/2014/03/dropsuits-of-uprising-1.8/
+    - date: 2014-03-05 20:19:15.225029
+      posturl: http://dust514.com/news/blog/2014/03/expanding-the-arsenal-with-uprising-1.8/
     - date: 2014-03-01 03:30:37.982858
       posturl: http://dust514.com/news/blog/2014/02/community-spotlight-dust514.info/
     - date: 2014-02-25 19:21:21.892530
@@ -630,6 +734,16 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-04-01 15:53:45.260333
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1681887
+    - date: 2014-03-25 18:13:37.592408
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1647505
+    - date: 2014-03-18 18:14:50.174677
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1624763
+    - date: 2014-03-11 13:24:24.004706
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1600298
+    - date: 2014-03-03 17:45:00.917632
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1574389
     - date: 2014-02-26 18:52:22.439973
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1559311
     - date: 2014-02-18 12:31:13.754721
@@ -710,6 +824,8 @@ rss_feeds:
   dust_feedback_suggestions:
     raw: false
     stories:
+    - date: 2014-03-21 04:33:00.458715
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1633322
     - date: 2014-02-27 04:09:54.786073
       posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1560584
     - date: 2014-02-17 18:35:28.925080
@@ -728,6 +844,18 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-03-25 12:30:54.535182
+      posturl: http://dust514.com/news/2014/03/new-in-the-marketplace-march-25-2014/
+    - date: 2014-03-19 02:28:08.781079
+      posturl: http://dust514.com/news/2014/03/uprising-1.8-overview-patch-notes/
+    - date: 2014-03-15 02:33:27.112640
+      posturl: http://dust514.com/news/2014/03/equipment-uprising-1.8/
+    - date: 2014-03-13 07:15:10.839804
+      posturl: http://dust514.com/news/2014/03/dropsuits-of-uprising-1.8/
+    - date: 2014-03-05 20:29:47.910715
+      posturl: http://dust514.com/news/2014/03/expanding-the-arsenal-with-uprising-1.8/
+    - date: 2014-03-04 14:35:29.013537
+      posturl: http://dust514.com/news/2014/03/new-in-the-marketplace-february-25-2014/
     - date: 2014-02-26 19:02:31.800453
       posturl: http://dust514.com/news/2014/02/new-in-the-marketplace-february-25-2014/
     - date: 2014-02-25 19:31:50.105895
@@ -842,6 +970,38 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-03-28 20:22:31.886265
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2014-ccp-tour-draw-3/
+    - date: 2014-03-28 02:09:52.522189
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/official-eve-source-promo-video/
+    - date: 2014-03-27 19:34:20.662144
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/your-opinions-count-new-eden-open-ii-stream-poll/
+    - date: 2014-03-27 00:31:10.483714
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-ship-models-which-ones-would-you-like-to-own/
+    - date: 2014-03-24 21:05:06.426168
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/early-downtime-25-03-2014-10-00-utc/
+    - date: 2014-03-21 20:58:50.275801
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2014-ccp-tour-draw-2/
+    - date: 2014-03-20 02:59:46.552229
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/bug-reporting-system-downtime-march-20-20-00-to-20-30-utc/
+    - date: 2014-03-15 02:49:03.307912
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2014-ccp-tour-raffle/
+    - date: 2014-03-15 02:28:09.108499
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-eden-open-ii-plex-sale/
+    - date: 2014-03-12 22:16:18.204084
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-1.3-successfully-deployed/
+    - date: 2014-03-12 19:29:50.199916
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/come-play-eve-valkyrie-at-pax-east/
+    - date: 2014-03-10 22:51:48.868729
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-1.3-to-be-deployed-on-march-12/
+    - date: 2014-03-08 01:45:11.832926
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-1.3-to-be-deployed-on-march-11-2014/
+    - date: 2014-03-06 23:19:30.838185
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/second-weekend-of-the-new-eden-open-2/
+    - date: 2014-03-05 20:24:29.472187
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/player-gathering-in-london-this-friday-featuring-valkyrie/
+    - date: 2014-03-04 02:10:03.853681
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-event-on-singularity-march-4/
     - date: 2014-03-01 00:56:15.233625
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-eden-open-ii-starts-this-weekend/
     - date: 2014-02-21 23:22:41.392319
@@ -1050,6 +1210,32 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-03-18 08:19:36.858366
+      posturl: http://www.rssitfor.me/EVE_status/status/445644408512610304
+    - date: 2014-03-18 08:14:33.838431
+      posturl: http://www.rssitfor.me/EVE_status/status/445654248450457600
+    - date: 2014-03-17 22:57:35.895666
+      posturl: http://www.rssitfor.me/EVE_status/status/445522726829445120
+    - date: 2014-03-15 23:49:26.481727
+      posturl: http://www.rssitfor.me/EVE_status/status/444798326823997440
+    - date: 2014-03-15 23:44:23.595906
+      posturl: http://www.rssitfor.me/EVE_status/status/444803038486994944
+    - date: 2014-03-15 01:30:20.843190
+      posturl: http://www.rssitfor.me/EVE_status/status/444466137490030592
+    - date: 2014-03-15 01:25:17.945230
+      posturl: http://www.rssitfor.me/EVE_status/status/444469036790071296
+    - date: 2014-03-13 07:59:22.766500
+      posturl: http://www.rssitfor.me/EVE_status/status/443802671699734528
+    - date: 2014-03-13 07:54:19.912307
+      posturl: http://www.rssitfor.me/EVE_status/status/443810333476798464
+    - date: 2014-03-06 07:18:53.088764
+      posturl: http://www.rssitfor.me/EVE_status/status/441319104553967617
+    - date: 2014-03-06 01:45:56.254292
+      posturl: http://www.rssitfor.me/EVE_status/status/441204943140438016
+    - date: 2014-03-05 09:15:07.716348
+      posturl: http://www.rssitfor.me/EVE_status/status/440961748858724352
+    - date: 2014-03-04 22:28:03.890269
+      posturl: http://www.rssitfor.me/EVE_status/status/440784445902454784
     - date: 2014-02-28 23:43:15.734129
       posturl: http://www.rssitfor.me/EVE_status/status/439359669312950272
     - date: 2014-02-28 21:01:26.315152
@@ -1114,6 +1300,306 @@ rss_feeds:
   eve_youtube:
     raw: false
     stories:
+    - date: 2014-03-17 08:45:25.721085
+      posturl: tag:youtube.com,2008:video:OfZ9tstIdMY
+    - date: 2014-03-17 08:40:22.854344
+      posturl: tag:youtube.com,2008:video:KDHVrXNY_ac
+    - date: 2014-03-17 08:35:19.908030
+      posturl: tag:youtube.com,2008:video:UsSwqajWCYI
+    - date: 2014-03-17 08:30:16.776478
+      posturl: tag:youtube.com,2008:video:Vuv2Q8jdlNI
+    - date: 2014-03-17 08:25:13.924063
+      posturl: tag:youtube.com,2008:video:RTjzoote2LE
+    - date: 2014-03-17 08:14:19.103038
+      posturl: tag:youtube.com,2008:video:-EX6kbgnm_Q
+    - date: 2014-03-17 08:09:16.218230
+      posturl: tag:youtube.com,2008:video:h28zPiyYfxo
+    - date: 2014-03-17 08:04:13.319164
+      posturl: tag:youtube.com,2008:video:C_sDbG7ujpY
+    - date: 2014-03-17 07:59:10.422343
+      posturl: tag:youtube.com,2008:video:VACrmQAEg5I
+    - date: 2014-03-17 07:54:07.568731
+      posturl: tag:youtube.com,2008:video:KoenZWjT5vA
+    - date: 2014-03-16 09:31:53.481601
+      posturl: tag:youtube.com,2008:video:ov-pa547vmE
+    - date: 2014-03-16 09:26:50.596103
+      posturl: tag:youtube.com,2008:video:bhYpzR9BCig
+    - date: 2014-03-16 09:21:47.731254
+      posturl: tag:youtube.com,2008:video:k-xCX5UMN5Y
+    - date: 2014-03-16 09:16:44.782166
+      posturl: tag:youtube.com,2008:video:BmGBgauRmag
+    - date: 2014-03-16 09:11:41.845374
+      posturl: tag:youtube.com,2008:video:P7QtchcV14k
+    - date: 2014-03-16 09:00:13.631517
+      posturl: tag:youtube.com,2008:video:DswUTQRpOuY
+    - date: 2014-03-16 08:55:10.726737
+      posturl: tag:youtube.com,2008:video:j9OuzcYQklI
+    - date: 2014-03-16 08:50:07.707894
+      posturl: tag:youtube.com,2008:video:NPxDQ_t1iD8
+    - date: 2014-03-16 08:45:03.685325
+      posturl: tag:youtube.com,2008:video:eLw-kW-mdmU
+    - date: 2014-03-16 08:40:00.727065
+      posturl: tag:youtube.com,2008:video:whJtxR8LztM
+    - date: 2014-03-16 08:34:57.817193
+      posturl: tag:youtube.com,2008:video:aL2L6AYv5Ks
+    - date: 2014-03-16 08:29:54.896802
+      posturl: tag:youtube.com,2008:video:M7Tf2ysn1RY
+    - date: 2014-03-16 08:24:51.911653
+      posturl: tag:youtube.com,2008:video:JShT6kMAFKs
+    - date: 2014-03-16 08:19:49.025881
+      posturl: tag:youtube.com,2008:video:3rvUiYeWVkc
+    - date: 2014-03-16 08:14:45.894996
+      posturl: tag:youtube.com,2008:video:Cw4oTVRndeo
+    - date: 2014-03-16 08:09:43.052357
+      posturl: tag:youtube.com,2008:video:mNUBjlylM6Y
+    - date: 2014-03-16 08:04:40.142937
+      posturl: tag:youtube.com,2008:video:YJNJBoE_KH8
+    - date: 2014-03-16 07:29:40.094591
+      posturl: tag:youtube.com,2008:video:gQa454fD_AQ
+    - date: 2014-03-10 11:52:23.268736
+      posturl: tag:youtube.com,2008:video:6YgVJ_I96vM
+    - date: 2014-03-10 11:47:20.113623
+      posturl: tag:youtube.com,2008:video:ftkOzvcMPcg
+    - date: 2014-03-10 10:30:55.319631
+      posturl: tag:youtube.com,2008:video:FqCiNhJ8Xd4
+    - date: 2014-03-10 10:25:52.484006
+      posturl: tag:youtube.com,2008:video:EqgqrnAg52k
+    - date: 2014-03-10 10:20:49.634023
+      posturl: tag:youtube.com,2008:video:wewbG5AlROA
+    - date: 2014-03-10 10:15:46.758593
+      posturl: tag:youtube.com,2008:video:dmnKf2ZxQgg
+    - date: 2014-03-10 10:10:43.893098
+      posturl: tag:youtube.com,2008:video:2QYvYDkdSsM
+    - date: 2014-03-10 10:05:41.084095
+      posturl: tag:youtube.com,2008:video:bNpX1maOkaI
+    - date: 2014-03-10 10:00:38.219131
+      posturl: tag:youtube.com,2008:video:qwnmebyZstM
+    - date: 2014-03-10 09:55:35.398364
+      posturl: tag:youtube.com,2008:video:1GHAvOn_wVs
+    - date: 2014-03-10 09:50:32.570640
+      posturl: tag:youtube.com,2008:video:io0AywKrLFA
+    - date: 2014-03-10 09:45:29.749117
+      posturl: tag:youtube.com,2008:video:nSDcoFo0kiY
+    - date: 2014-03-10 09:40:26.882009
+      posturl: tag:youtube.com,2008:video:nw_J_0nWrrU
+    - date: 2014-03-10 09:35:24.060443
+      posturl: tag:youtube.com,2008:video:UZ6-xmsaBfs
+    - date: 2014-03-10 09:30:21.164323
+      posturl: tag:youtube.com,2008:video:bBue_OZrsn0
+    - date: 2014-03-10 09:25:18.313924
+      posturl: tag:youtube.com,2008:video:V9bcYTBbqwk
+    - date: 2014-03-10 09:20:15.441657
+      posturl: tag:youtube.com,2008:video:5v-KcGo-Nyc
+    - date: 2014-03-10 09:15:12.622624
+      posturl: tag:youtube.com,2008:video:tDNY_tNDLjc
+    - date: 2014-03-10 09:10:09.721902
+      posturl: tag:youtube.com,2008:video:0--mLaZeQF8
+    - date: 2014-03-10 09:05:06.851521
+      posturl: tag:youtube.com,2008:video:xcDZgAAmnG8
+    - date: 2014-03-10 09:00:03.981542
+      posturl: tag:youtube.com,2008:video:JY6hEM1iOuw
+    - date: 2014-03-10 08:48:54.955964
+      posturl: tag:youtube.com,2008:video:GgVMd92N-Fo
+    - date: 2014-03-10 08:43:52.144037
+      posturl: tag:youtube.com,2008:video:XJrZq8Uga3k
+    - date: 2014-03-10 08:38:49.293487
+      posturl: tag:youtube.com,2008:video:5prWD5A8lCg
+    - date: 2014-03-10 08:33:45.863592
+      posturl: tag:youtube.com,2008:video:OWajYaSMxoQ
+    - date: 2014-03-10 08:28:43.018757
+      posturl: tag:youtube.com,2008:video:BkOvKP31S6M
+    - date: 2014-03-10 08:23:40.170885
+      posturl: tag:youtube.com,2008:video:d7JzC5x-t9w
+    - date: 2014-03-10 07:55:57.010479
+      posturl: tag:youtube.com,2008:video:uYGqkijc3TE
+    - date: 2014-03-10 07:50:54.083288
+      posturl: tag:youtube.com,2008:video:3OQR71nW1Q0
+    - date: 2014-03-10 03:55:10.620949
+      posturl: tag:youtube.com,2008:video:x0NX8OA2fYc
+    - date: 2014-03-10 03:26:41.814127
+      posturl: tag:youtube.com,2008:video:UjduIPtB7pQ
+    - date: 2014-03-10 03:21:38.995421
+      posturl: tag:youtube.com,2008:video:x0TZXpk1_nk
+    - date: 2014-03-10 03:09:46.401223
+      posturl: tag:youtube.com,2008:video:x4uG1vhghg4
+    - date: 2014-03-10 03:04:43.477538
+      posturl: tag:youtube.com,2008:video:nU9zdfg3yPg
+    - date: 2014-03-10 02:59:40.637710
+      posturl: tag:youtube.com,2008:video:qDiKaZh20PI
+    - date: 2014-03-10 02:54:37.761253
+      posturl: tag:youtube.com,2008:video:VmQa1bqwAr4
+    - date: 2014-03-10 02:49:34.820518
+      posturl: tag:youtube.com,2008:video:PrBtCKXMHE0
+    - date: 2014-03-10 02:44:32.026981
+      posturl: tag:youtube.com,2008:video:-g8LvbuDjL4
+    - date: 2014-03-10 02:39:28.989159
+      posturl: tag:youtube.com,2008:video:HwlLQuXIsQM
+    - date: 2014-03-10 02:34:26.145157
+      posturl: tag:youtube.com,2008:video:1GnXYq4OyaI
+    - date: 2014-03-10 02:29:23.310604
+      posturl: tag:youtube.com,2008:video:Ib07FyQSG_4
+    - date: 2014-03-10 02:24:20.449889
+      posturl: tag:youtube.com,2008:video:sszYVbtXmgQ
+    - date: 2014-03-10 02:19:17.632716
+      posturl: tag:youtube.com,2008:video:V8HRHq_yAos
+    - date: 2014-03-10 02:08:28.349700
+      posturl: tag:youtube.com,2008:video:6rC14XChiPk
+    - date: 2014-03-10 02:03:25.500939
+      posturl: tag:youtube.com,2008:video:0q3-Vmy6SNQ
+    - date: 2014-03-10 01:58:22.708460
+      posturl: tag:youtube.com,2008:video:o1ihN5L6Zsk
+    - date: 2014-03-10 01:53:19.882278
+      posturl: tag:youtube.com,2008:video:49yWD7Friwc
+    - date: 2014-03-10 01:48:17.014062
+      posturl: tag:youtube.com,2008:video:m_BD6aNNK1M
+    - date: 2014-03-10 01:43:14.169776
+      posturl: tag:youtube.com,2008:video:J2Bq7XejKMQ
+    - date: 2014-03-10 01:38:11.397198
+      posturl: tag:youtube.com,2008:video:iIChbvr6-aY
+    - date: 2014-03-10 01:33:08.622673
+      posturl: tag:youtube.com,2008:video:FnZvF65BZfQ
+    - date: 2014-03-10 01:28:05.751894
+      posturl: tag:youtube.com,2008:video:MaHIDh8p1es
+    - date: 2014-03-10 01:23:02.885574
+      posturl: tag:youtube.com,2008:video:cKgTs1NpYsc
+    - date: 2014-03-10 01:17:59.978067
+      posturl: tag:youtube.com,2008:video:NMgyOcuAj7I
+    - date: 2014-03-10 01:12:56.986838
+      posturl: tag:youtube.com,2008:video:PMzonXmK-2c
+    - date: 2014-03-06 01:57:05.956035
+      posturl: tag:youtube.com,2008:video:0ZSZPcQGrEA
+    - date: 2014-03-05 22:42:56.360332
+      posturl: tag:youtube.com,2008:video:sQIR_lmvFTA
+    - date: 2014-03-05 22:25:27.449358
+      posturl: tag:youtube.com,2008:video:aXU4oKiygDo
+    - date: 2014-03-04 11:32:30.661616
+      posturl: tag:youtube.com,2008:video:O0MFoJIVmVU
+    - date: 2014-03-04 09:40:48.578192
+      posturl: tag:youtube.com,2008:video:JAu1REgFq7w
+    - date: 2014-03-04 09:35:45.683224
+      posturl: tag:youtube.com,2008:video:BPC61Dv01eA
+    - date: 2014-03-04 09:30:42.883608
+      posturl: tag:youtube.com,2008:video:TvWxDqnUv8c
+    - date: 2014-03-04 09:25:39.958729
+      posturl: tag:youtube.com,2008:video:P-Q6Pllb8Jc
+    - date: 2014-03-04 09:20:37.096123
+      posturl: tag:youtube.com,2008:video:CraM9vJ9f3c
+    - date: 2014-03-04 09:15:34.294623
+      posturl: tag:youtube.com,2008:video:mjOpUl2cr3Q
+    - date: 2014-03-04 08:59:05.533645
+      posturl: tag:youtube.com,2008:video:CchKUyfTG3U
+    - date: 2014-03-03 23:15:18.768182
+      posturl: tag:youtube.com,2008:video:YYheauujDjc
+    - date: 2014-03-03 23:10:14.338797
+      posturl: tag:youtube.com,2008:video:rPSN0xSTZPY
+    - date: 2014-03-03 23:05:11.099989
+      posturl: tag:youtube.com,2008:video:7KiaBzsyA9s
+    - date: 2014-03-03 23:00:07.555591
+      posturl: tag:youtube.com,2008:video:2AD_qrrDIRY
+    - date: 2014-03-03 22:55:04.789197
+      posturl: tag:youtube.com,2008:video:9Rgmf8Rbrso
+    - date: 2014-03-03 22:50:01.937522
+      posturl: tag:youtube.com,2008:video:Nw7f5Yyq1Zw
+    - date: 2014-03-03 22:44:58.855689
+      posturl: tag:youtube.com,2008:video:EADL6_RxSbM
+    - date: 2014-03-03 22:39:56.014901
+      posturl: tag:youtube.com,2008:video:kciWCMHp3H8
+    - date: 2014-03-03 22:34:53.145081
+      posturl: tag:youtube.com,2008:video:lVFDiCb7qWk
+    - date: 2014-03-03 22:29:50.290461
+      posturl: tag:youtube.com,2008:video:efmHfpXm1AM
+    - date: 2014-03-03 22:24:47.006658
+      posturl: tag:youtube.com,2008:video:q3waStvlpQE
+    - date: 2014-03-03 22:19:44.180070
+      posturl: tag:youtube.com,2008:video:7GkRUfOSfpY
+    - date: 2014-03-03 22:14:41.085476
+      posturl: tag:youtube.com,2008:video:pfrq0B0HJ3c
+    - date: 2014-03-03 22:09:38.133277
+      posturl: tag:youtube.com,2008:video:YNRRRYx5nig
+    - date: 2014-03-03 22:04:35.293034
+      posturl: tag:youtube.com,2008:video:nCP0g9z9mZg
+    - date: 2014-03-03 21:59:32.403824
+      posturl: tag:youtube.com,2008:video:g1ntDB2PTf0
+    - date: 2014-03-03 21:54:29.523958
+      posturl: tag:youtube.com,2008:video:MgfFbmoDUjs
+    - date: 2014-03-03 21:49:26.676316
+      posturl: tag:youtube.com,2008:video:xgnBVH0FQco
+    - date: 2014-03-03 21:44:23.833454
+      posturl: tag:youtube.com,2008:video:dMWPru6LOOU
+    - date: 2014-03-03 21:39:20.734483
+      posturl: tag:youtube.com,2008:video:BMqWFCfhNSs
+    - date: 2014-03-03 21:34:17.877935
+      posturl: tag:youtube.com,2008:video:JuWAxdfLN4g
+    - date: 2014-03-03 21:29:14.929890
+      posturl: tag:youtube.com,2008:video:1pul_WfnWKc
+    - date: 2014-03-03 21:18:23.638737
+      posturl: tag:youtube.com,2008:video:icF4h5sn81c
+    - date: 2014-03-03 21:13:19.975843
+      posturl: tag:youtube.com,2008:video:6xhfu98KqTo
+    - date: 2014-03-03 21:08:17.088050
+      posturl: tag:youtube.com,2008:video:aRFTrMgeur8
+    - date: 2014-03-03 21:03:14.178643
+      posturl: tag:youtube.com,2008:video:ljV8-T5RtX0
+    - date: 2014-03-03 15:08:20.573342
+      posturl: tag:youtube.com,2008:video:U0oz0DHsybc
+    - date: 2014-03-03 15:03:17.776779
+      posturl: tag:youtube.com,2008:video:rxxoalAaagY
+    - date: 2014-03-03 05:54:19.343469
+      posturl: tag:youtube.com,2008:video:w-D9yBFM5GM
+    - date: 2014-03-03 05:49:16.468158
+      posturl: tag:youtube.com,2008:video:tOtJCv-D4CE
+    - date: 2014-03-03 05:44:13.682804
+      posturl: tag:youtube.com,2008:video:YbuP-x9iM9E
+    - date: 2014-03-02 23:38:27.492087
+      posturl: tag:youtube.com,2008:video:AM03ac4fPOM
+    - date: 2014-03-02 23:33:24.680793
+      posturl: tag:youtube.com,2008:video:WitHZmQ-LoQ
+    - date: 2014-03-02 23:28:21.878307
+      posturl: tag:youtube.com,2008:video:odhPtZD3rmU
+    - date: 2014-03-02 23:23:18.870583
+      posturl: tag:youtube.com,2008:video:JtcPlWlY3C0
+    - date: 2014-03-02 23:18:16.015947
+      posturl: tag:youtube.com,2008:video:lyd_a2rW4AM
+    - date: 2014-03-02 23:13:13.214796
+      posturl: tag:youtube.com,2008:video:0_9re_Mmess
+    - date: 2014-03-02 23:08:10.409517
+      posturl: tag:youtube.com,2008:video:PFo3MgNRHdM
+    - date: 2014-03-02 23:03:07.650292
+      posturl: tag:youtube.com,2008:video:G44jUCyQrRs
+    - date: 2014-03-02 22:58:04.864089
+      posturl: tag:youtube.com,2008:video:UhWTq3SHdc4
+    - date: 2014-03-02 22:53:02.006287
+      posturl: tag:youtube.com,2008:video:PvYGyom7P3I
+    - date: 2014-03-02 22:47:59.214243
+      posturl: tag:youtube.com,2008:video:F9tAO-NqfiE
+    - date: 2014-03-02 22:42:56.407815
+      posturl: tag:youtube.com,2008:video:JIAqbuK52tA
+    - date: 2014-03-02 22:37:53.315840
+      posturl: tag:youtube.com,2008:video:vIQgvs95w94
+    - date: 2014-03-02 22:32:50.399218
+      posturl: tag:youtube.com,2008:video:vEGX_YfCOds
+    - date: 2014-03-02 22:27:47.469959
+      posturl: tag:youtube.com,2008:video:ID75ZH3-XtM
+    - date: 2014-03-02 22:22:44.577584
+      posturl: tag:youtube.com,2008:video:HQ6nMCtKyss
+    - date: 2014-03-02 22:17:41.761681
+      posturl: tag:youtube.com,2008:video:rlZuXMJWUt0
+    - date: 2014-03-02 22:12:38.904928
+      posturl: tag:youtube.com,2008:video:a_fqldY7J_A
+    - date: 2014-03-02 22:07:36.044343
+      posturl: tag:youtube.com,2008:video:7MO4-mb_6nE
+    - date: 2014-03-02 22:02:33.231533
+      posturl: tag:youtube.com,2008:video:NCcEADmkeLU
+    - date: 2014-03-02 21:57:30.408008
+      posturl: tag:youtube.com,2008:video:FtjOlW_7Vow
+    - date: 2014-03-02 21:54:11.459834
+      posturl: tag:youtube.com,2008:video:3RDQs_dxpnQ
+    - date: 2014-03-02 21:44:08.664454
+      posturl: tag:youtube.com,2008:video:jBdqcbA9_h8
+    - date: 2014-03-02 21:34:05.862442
+      posturl: tag:youtube.com,2008:video:OaP8EyKWCZE
+    - date: 2014-03-02 21:24:02.979950
+      posturl: tag:youtube.com,2008:video:Pop8qUbi0_0
     - date: 2014-02-16 12:57:04.741604
       posturl: tag:youtube.com,2008:video:rrhTOvQ-kq0
     - date: 2014-02-16 12:57:04.335513
@@ -1168,12 +1654,24 @@ rss_feeds:
       posturl: tag:youtube.com,2008:video:0NsIIGZBSrs
     - date: 2014-02-04 21:28:41.555970
       posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdobNUiYOCZKJpIhdiPIVToQ
-    subreddit: eve
+    subreddit: new_eden_news_bot
     type: Youtube
     url: http://gdata.youtube.com/feeds/api/users/UCwF3VyalTHzL0L-GDlwtbRw/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
   game_news:
     raw: false
     stories:
+    - date: 2014-03-31 12:56:26.679478
+      posturl: http://community.eveonline.com/news/news-channels/world-news/imperial-mining-outfit-posts-first-quarter-slump-in-profit/
+    - date: 2014-03-23 07:18:33.554650
+      posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-prime-administrators-unveil-operation-highlander-monument/
+    - date: 2014-03-22 07:26:54.733783
+      posturl: http://community.eveonline.com/news/news-channels/world-news/capsuleers-to-commemorate-the-battle-of-caldari-prime/
+    - date: 2014-03-20 23:16:47.471496
+      posturl: http://community.eveonline.com/news/news-channels/world-news/ishukone-meets-with-gallente-senate-on-caldari-prime/
+    - date: 2014-03-16 00:00:29.620958
+      posturl: http://community.eveonline.com/news/news-channels/world-news/boundless-creation-reveals-technological-breakthrough/
+    - date: 2014-03-07 01:02:17.923734
+      posturl: http://community.eveonline.com/news/news-channels/world-news/body-of-disgraced-caldari-navy-officer-found-on-caldari-prime/
     - date: 2014-02-28 01:00:27.812434
       posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-navy-announces-discharge-of-courts-martialled-officers/
     - date: 2014-02-21 03:26:46.366612
@@ -1334,6 +1832,8 @@ rss_feeds:
   patch_notes:
     raw: false
     stories:
+    - date: 2014-03-10 22:46:38.772316
+      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-rubicon-1.3/
     - date: 2014-02-18 20:00:40.644378
       posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-rubicon-1.2/
     - date: 2014-01-28 03:44:14.580587
@@ -1354,6 +1854,16 @@ rss_feeds:
   valkyrie_twitter:
     raw: true
     stories:
+    - date: 2014-03-20 02:20:27.616313
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/446315170277916672
+    - date: 2014-03-19 15:14:20.342415
+      posturl: http://www.rssitfor.me/CCP_Pokethulhu/status/446097842738704384
+    - date: 2014-03-14 11:54:51.386484
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/444286883292397568
+    - date: 2014-03-09 23:46:35.252295
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/442639176635138048
+    - date: 2014-03-08 02:01:39.873482
+      posturl: http://www.rssitfor.me/itsJuliaHardy/status/441886948081545216
     - date: 2014-02-28 02:54:56.165878
       posturl: http://www.rssitfor.me/EveOnline/status/439067038641057792
     - date: 2014-02-22 03:47:24.558002
@@ -1446,7 +1956,7 @@ rss_feeds:
 run_once: false
 signature: ''
 sleep_time: 300
-sleep_time_post: 600
+sleep_time_post: 300
 submitpost: true
 subreddit: new_eden_news_bot
 username: new_eden_news_bot
