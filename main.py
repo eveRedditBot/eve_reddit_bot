@@ -273,7 +273,7 @@ class EveRssHtmlParser(HTMLParser):
         elif tag == 'tr':
             pass
             
-        elif tag == 'ul':
+        elif tag == 'ul' or tag == 'ol':
         	pass
         
         elif tag == 'span':
@@ -311,7 +311,7 @@ class EveRssHtmlParser(HTMLParser):
             else:
                 self.comments[self.cur_comment] += '*'
 
-        elif tag == 'ul':
+        elif tag == 'ul' or tag == 'ol':
             self.comments[self.cur_comment] += '\n\n'
 
         elif tag == 'li':
