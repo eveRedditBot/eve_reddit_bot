@@ -196,6 +196,26 @@ rss_feeds:
   csm:
     raw: false
     stories:
+    - date: 2014-04-08 17:02:34.096868
+      posturl: http://csm8.org/?guid=117c6b2d98218d6685d472e0730b5ae9
+    - date: 2014-04-08 16:02:51.814273
+      posturl: http://mikeazariah.wordpress.com/?p=1515
+    - date: 2014-04-08 02:03:12.869719
+      posturl: http://mangala.rvbganked.co.uk/?p=1634
+    - date: 2014-04-07 22:28:40.495459
+      posturl: http://csm8.org/?guid=d065f857ceeb1a4f9ac85dce9c8548d5
+    - date: 2014-04-07 11:11:08.035746
+      posturl: http://csm8.org/?guid=ad61bcf70e5a0de4bc8fe8fe0542082a
+    - date: 2014-04-06 11:46:56.926334
+      posturl: http://mikeazariah.wordpress.com/?p=1506
+    - date: 2014-04-05 21:01:09.148292
+      posturl: http://csm8.org/?guid=a2d52ed77af31508b2401f69cac43f72
+    - date: 2014-04-05 11:27:30.553338
+      posturl: http://csm8.org/?guid=0baaf677955f1c09594e37c9f792d3d2
+    - date: 2014-04-05 09:24:37.802847
+      posturl: http://csm8.org/?guid=0e81264cafaeab1627cc2e6d913a724b
+    - date: 2014-04-05 04:45:23.577188
+      posturl: http://csm8.org/?guid=e901592dce2df48103b2ad786e267253
     - date: 2014-04-02 01:35:47.681752
       posturl: http://mikeazariah.wordpress.com/?p=1509
     - date: 2014-04-01 18:17:45.092032
@@ -318,6 +338,12 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-04-05 03:01:42.678263
+      posturl: http://community.eveonline.com/news/dev-blogs/csm8-second-summit-minutes/
+    - date: 2014-04-05 01:13:15.030427
+      posturl: http://community.eveonline.com/news/dev-blogs/the-49-u6u-slaughterhouse/
+    - date: 2014-04-04 03:08:30.763251
+      posturl: http://community.eveonline.com/news/dev-blogs/introducing-the-recall-program/
     - date: 2014-04-03 02:35:45.701142
       posturl: http://community.eveonline.com/news/dev-blogs/true-stories-what-did-you-think/
     - date: 2014-04-02 03:30:48.843808
@@ -514,6 +540,8 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-04-08 19:17:23.111054
+      posturl: http://www.rssitfor.me/DUST514_Status/status/453457007685939200
     - date: 2014-04-01 18:29:47.545006
       posturl: http://www.rssitfor.me/DUST514_Status/status/450898892855721985
     - date: 2014-03-31 20:37:50.715432
@@ -734,6 +762,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-04-08 15:52:17.277468
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1704680
     - date: 2014-04-01 15:53:45.260333
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1681887
     - date: 2014-03-25 18:13:37.592408
@@ -970,6 +1000,10 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-04-05 03:12:24.815249
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/20-weekend-discount-on-ship-skin-packages/
+    - date: 2014-04-05 01:01:48.528992
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2014-ccp-tour-draw-4/
     - date: 2014-03-28 20:22:31.886265
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2014-ccp-tour-draw-3/
     - date: 2014-03-28 02:09:52.522189
@@ -1660,6 +1694,10 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-04-08 00:34:05.855983
+      posturl: http://community.eveonline.com/news/news-channels/world-news/ishukone-executives-called-to-chief-executive-panel-hearing/
+    - date: 2014-04-05 03:41:48.067384
+      posturl: http://community.eveonline.com/news/news-channels/world-news/ishukone-actions-called-into-question-after-further-talks-with-gallente-senate/
     - date: 2014-03-31 12:56:26.679478
       posturl: http://community.eveonline.com/news/news-channels/world-news/imperial-mining-outfit-posts-first-quarter-slump-in-profit/
     - date: 2014-03-23 07:18:33.554650
@@ -1854,6 +1892,8 @@ rss_feeds:
   valkyrie_twitter:
     raw: true
     stories:
+    - date: 2014-04-04 08:50:46.321215
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/451824186231910400
     - date: 2014-03-20 02:20:27.616313
       posturl: http://www.rssitfor.me/EVEValkyrie/status/446315170277916672
     - date: 2014-03-19 15:14:20.342415
