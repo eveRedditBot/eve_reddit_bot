@@ -10,11 +10,12 @@ import sys, getopt
 
 from HTMLParser import HTMLParser
 from pprint     import pprint
-from datetime   import datetime
+from datetime   import datetime, timedelta
+from dateutil.relativedelta import relativedelta
 from bs4        import UnicodeDammit
 
 logging.basicConfig(format='%(asctime)s %(message)s',
-                    datefmt='%m/%d/%Y %H:%M:%S',
+                    datefmt='%Y-%m-%d %H:%M:%S',
                     level=logging.INFO)
 
 class EVERedditBot():
@@ -34,24 +35,12 @@ class EVERedditBot():
         self.password = self.config['password']
         self.submitpost = self.config['submitpost']
         self.once = self.config['run_once']
+        self.admin_email = None
 
-    def run(self, sleep_time=None):
-        logging.info('Default subreddit: /r/%s' %self.subreddit)
-        logging.info('Selected username: %s' %self.username)
-        logging.info('Submit stories to Reddit: %s' %self.submitpost)
-        #raw_input("Press Enter to continue...")
+    def run(self):
         self.reddit = self.loginToReddit(self.initReddit())
-
-        if sleep_time == None:
-            sleep_time = self.config['sleep_time']
-
-        while True:
-            self.check_rss_feeds()
-            self.check_downvoted_submissions()
-            if (self.once):
-                break
-            logging.info('Sleeping for %d seconds.' %sleep_time)
-            time.sleep(sleep_time)
+        self.check_rss_feeds()
+        self.check_downvoted_submissions()
 
     def initReddit(self):
         r = praw.Reddit(self.config['api_header'])
@@ -127,16 +116,18 @@ class EVERedditBot():
                                             author)}
 
     def rss_parser(self, rss_feed):
-        feed = feedparser.parse(self.config['rss_feeds'][rss_feed]['url'])
+        feed_config = self.config['rss_feeds'][rss_feed]
+        feed = feedparser.parse(feed_config['url'])
+        stories = feed_config['stories']
 
         if feed is None:
             logging.info('The following URL was returned nothing: %s' %url)
             return
 
         for entry in feed['entries']:
-            if entry['id'] not in [ story['posturl'] for story in self.config['rss_feeds'][rss_feed]['stories'] ]:
-                logging.info('New %s! %s to /r/%s' %(self.config['rss_feeds'][rss_feed]['type'], entry['title'], self.config['rss_feeds'][rss_feed]['subreddit']))
-                data = self.formatForReddit(entry, self.config['rss_feeds'][rss_feed]['type'], self.config['rss_feeds'][rss_feed]['subreddit'], self.config['rss_feeds'][rss_feed]['raw'])
+            if entry['id'] not in [ story['posturl'] for story in stories ]:
+                logging.info('New %s! %s to /r/%s' %(feed_config['type'], entry['title'], feed_config['subreddit']))
+                data = self.formatForReddit(entry, feed_config['type'], feed_config['subreddit'], feed_config['raw'])
 
                 self.config['rss_feeds'][rss_feed]['stories'].append({'posturl': str(entry['id']), 'date': datetime.now()})
                 self.save_config()
@@ -151,6 +142,13 @@ class EVERedditBot():
                     logging.info('Skipping the submission...')
                     logging.info(data)
 
+        three_months_ago = datetime.now() + relativedelta( months = -3 )
+        for story in stories[:]:
+            if (story['posturl'] not in [entry['id'] for entry in feed['entries']] and 
+                     (story['date'] < three_months_ago)):
+                logging.info('detected old story %s from %s' %(story['posturl'], story['date']))
+                stories.remove(story)
+        
         return
 
     def check_rss_feeds(self):
@@ -374,19 +372,28 @@ class EveRssHtmlParser(HTMLParser):
                 self.handle_starttag('li', None)
 
         self.comments[self.cur_comment] += data
+        
+
+# exit hook
+def exitexception(e):
+     #print ("Error ", str(e))
+     #exit(1)
+     raise
+
+
 
 if __name__ == '__main__':
     bot = EVERedditBot()
     
     try:
-      opts, args = getopt.getopt(sys.argv[1:],"",["help","username=","password=","submit=","subreddit=","once="])
+      opts, args = getopt.getopt(sys.argv[1:],"",["help","username=","password=","submit=","subreddit=","email="])
     except getopt.GetoptError:
       print 'main.py --help'
       sys.exit(2)
     for opt, arg in opts:
       if opt in ("--help"):
          print 'main.py -u <username> -p <password> --submit=<(true|false)>'
-         print '    --subreddit=<subreddit> --once=(true|false)'
+         print '    --subreddit=<subreddit> --email=<email address>'
          print '  any missing arguments will be taken from config.yaml'
          sys.exit()
       elif opt in ("--username"):
@@ -397,7 +404,41 @@ if __name__ == '__main__':
          bot.subreddit = arg
       elif opt in ("--submit"):
          bot.submitpost = arg
-      elif opt in ("--once"):
-         bot.once = arg
+      elif opt in ("--email"):
+         bot.admin_email = arg
+    
+    logging.info('Default subreddit: /r/%s', bot.subreddit)
+    logging.info('Selected username: %s', bot.username)
+    logging.info('Submit stories to Reddit: %s', bot.submitpost)
+    if bot.admin_email != None: 
+        logging.info('Admin emails to: %s', bot.admin_email)
+    
+    _sleeptime = bot.config['sleep_time']
+    
+    while(True):
+        try:
+            bot.run()
+            if (_sleeptime > (bot.config['sleep_time'])):
+                _sleeptime = round(_sleeptime/2)
+        
+        except Exception as e:
+            #exponential sleeptime bac-koff
+            #if not successful, slow down.
+            
+            catchable_exceptions = ["HTTP Error 504: Gateway Time-out", "timed out", "HTTPSConnectionPool"]
+            if any(substring in str(e) for substring in catchable_exceptions):
+                _sleeptime = round(_sleeptime*2)
+                logging.debug(str(e))
+            else:
+                exitexception(e)
 
-    bot.run()
+        #if sleeping for a long time, email admin.
+        if (_sleeptime > (bot.config['sleep_time'] * 2) and bot.admin_email != None):
+            emailcommand = 'echo "The bot is sleeping for ' + str(_sleeptime/60) + ' minutes." | mutt -s "ALERT: BOT IS SLEEPING" -- root '+bot.admin_email
+            logging.info(emailcommand)
+            #result = subprocess.call(emailcommand, shell=True)
+
+        logging.info("Sleeping for %s minutes", str(_sleeptime/60))
+        time.sleep(_sleeptime)
+
+#end

@@ -4,6 +4,8 @@ rss_feeds:
   ccp_press:
     raw: false
     stories:
+    - date: 2014-04-10 01:21:19.816004
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/ccp-online-streaming-plans-for-eve-fanfest/
     - date: 2014-02-28 05:23:37.608892
       posturl: http://community.eveonline.com/news/news-channels/press-releases/ccp-epic-celebration-eve-online-dust-514-valkyrie-at-eve-fanfest/
     - date: 2014-02-22 02:00:18.929548
@@ -28,30 +30,6 @@ rss_feeds:
       posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/73440/eve-online-retribution-to-bring-true-justice-to-massive
     - date: 2013-12-21 23:57:27.152020
       posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/72874/ccp-announces-new-dust-514-details-at-e3
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/72773/eve-online-inferno-now-available
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/36268/eve-online-successfully-launches-in-japan
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/36267/eve-online-launches-in-japan-march-28th
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/36266/ccp-names-tiancity-exclusive-eve-online-publisher-for
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/36265/a-fond-farewell-to-mike-tinney-president-of-ccp-north
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/36264/ccp-games-names-gaming-industry-veteran-david-reid-as-new
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/36263/eve-online-crucible-expansion-released
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/36262/eve-online-game-community-unlocks-1-75m-of-virtual-goods-as
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/36261/ccp-and-nexon-announce-strategic-partnership-for-eve-online
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/36260/eve-online-incarna-1-0-now-available
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/36259/ccp-s-revolutionary-persistent-shooter-dust-514-to-premiere
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/36258/incursion-1-1-launches-with-industry-leading-character
     - date: 2013-12-21 23:57:27.152020
       posturl: http://community.eveonline.com/news/news-channels/press-releases/leading-scientists-to-share-vision-of-humanitys-future-among-the-stars-at-eve-fanfest-1/
     - date: 2013-12-21 23:57:27.152020
@@ -82,20 +60,8 @@ rss_feeds:
       posturl: tag:youtube.com,2008:video:IrKlYEsGvvw
     - date: 2014-01-24 06:40:07.889137
       posturl: tag:youtube.com,2008:video:cvENBtwXHKA
-    - date: 2014-01-09 14:51:24.434212
-      posturl: tag:youtube.com,2008:video:pv2RBetzhw0
     - date: 2013-12-26 20:40:16.069297
       posturl: tag:youtube.com,2008:video:OnYJ8nxMRm0
-    - date: 2013-12-26 20:37:30.314533
-      posturl: tag:youtube.com,2008:video:2J46MTETfFc
-    - date: 2013-12-26 20:37:30.003574
-      posturl: tag:youtube.com,2008:video:AxatstKwFJk
-    - date: 2013-12-26 20:37:29.705759
-      posturl: tag:youtube.com,2008:video:40zjfBk5vEE
-    - date: 2013-12-26 20:37:29.405221
-      posturl: tag:youtube.com,2008:video:F18B1SiQFVc
-    - date: 2013-12-26 20:37:29.104305
-      posturl: tag:youtube.com,2008:video:x70cCW0oEco
     - date: 2013-12-26 20:37:28.814038
       posturl: tag:youtube.com,2008:video:rTrz7-OOCZE
     - date: 2013-12-26 20:37:28.524647
@@ -196,6 +162,12 @@ rss_feeds:
   csm:
     raw: false
     stories:
+    - date: 2014-04-11 11:07:19.164633
+      posturl: https://mikeazariah.wordpress.com/?p=1506
+    - date: 2014-04-11 11:02:16.252557
+      posturl: https://mikeazariah.wordpress.com/?p=1515
+    - date: 2014-04-09 04:04:08.334368
+      posturl: http://csm8.org/?guid=71c172a2e5bed29d86e24d30f7447156
     - date: 2014-04-08 17:02:34.096868
       posturl: http://csm8.org/?guid=117c6b2d98218d6685d472e0730b5ae9
     - date: 2014-04-08 16:02:51.814273
@@ -304,40 +276,20 @@ rss_feeds:
       posturl: http://mikeazariah.wordpress.com/?p=1464
     - date: 2014-01-14 17:49:23.266556
       posturl: http://csm8.org/?guid=2cf79f9d780df8e1107a4ac4b4a35f9b
-    - date: 2014-01-07 17:26:51.228061
-      posturl: http://csm8.org/?guid=e3a6f0e99593561040c843ef94cc3e49
-    - date: 2014-01-03 12:43:18.242409
-      posturl: http://csm8.org/?guid=44a1eaac4e7e815fa98127e19d216888
-    - date: 2013-12-31 18:09:45.366131
-      posturl: http://csm8.org/?guid=414be14ad30054b5926236a22a99274e
-    - date: 2013-12-31 17:59:36.043691
-      posturl: http://csm8.org/?guid=ba8d5cfa86bb81a89e091ac4445f0568
-    - date: 2013-12-26 20:35:07.910118
-      posturl: http://mikeazariah.wordpress.com/?p=1428
-    - date: 2013-12-26 20:35:07.625341
-      posturl: http://mikeazariah.wordpress.com/?p=1430
-    - date: 2013-12-26 20:35:07.353744
-      posturl: http://mikeazariah.wordpress.com/?p=1434
-    - date: 2013-12-26 20:35:07.072831
-      posturl: http://csm8.org/?guid=3f628a8806bc7871925218d452d268a9
-    - date: 2013-12-26 20:35:06.805075
-      posturl: http://mikeazariah.wordpress.com/?p=1438
-    - date: 2013-12-26 20:35:06.538944
-      posturl: http://csm8.org/?guid=ba33a7dee9a03807f52199fd57d70941
-    - date: 2013-12-26 20:35:06.239867
-      posturl: http://mikeazariah.wordpress.com/?p=1440
-    - date: 2013-12-26 20:35:05.962391
-      posturl: http://csm8.org/?guid=c90d8fdedebd1d081014d8c265f24fee
-    - date: 2013-12-26 20:35:05.675027
-      posturl: http://csm8.org/?guid=3782dc40e9c5a79343d5a45b0ab989a2
-    - date: 2013-12-26 20:35:05.406343
-      posturl: http://csm8.org/?guid=bdea8020af38e8556d693ed29683a693
     subreddit: eve
     type: CSM
     url: http://csm8.org/feed/
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-04-12 03:21:00.188553
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-the-eve-onion/
+    - date: 2014-04-11 03:49:33.144976
+      posturl: http://community.eveonline.com/news/dev-blogs/developer-spotlight-basementben/
+    - date: 2014-04-10 02:11:57.390131
+      posturl: http://community.eveonline.com/news/dev-blogs/this-is-team-security/
+    - date: 2014-04-09 03:28:47.340775
+      posturl: http://community.eveonline.com/news/dev-blogs/csm9-voting-is-now-open/
     - date: 2014-04-05 03:01:42.678263
       posturl: http://community.eveonline.com/news/dev-blogs/csm8-second-summit-minutes/
     - date: 2014-04-05 01:13:15.030427
@@ -418,122 +370,6 @@ rss_feeds:
       posturl: http://community.eveonline.com/news/dev-blogs/more-deployables-from-super-friends/
     - date: 2014-01-14 20:49:07.918823
       posturl: http://community.eveonline.com/news/dev-blogs/new-player-training-sessions-track-3/
-    - date: 2014-01-11 07:16:31.314364
-      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-red-vs-blue/
-    - date: 2014-01-04 06:16:45.106634
-      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-staticmapper/
-    - date: 2014-01-03 07:02:49.292677
-      posturl: http://community.eveonline.com/news/dev-blogs/csm8-meeting-minutes-published/
-    - date: 2014-01-01 22:14:45.526234
-      posturl: http://community.eveonline.com/news/dev-blogs/twitch-integration-is-here/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74845/csm8-final-ballot-and-pre-election-results
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74842/can-you-help-us-find-the-true-stories-of-the-first-decade
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74815/ccp-videocasts
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74807/odyssey-summer-expansion-starbase-iterations
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74759/eve-community-website-updated
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74644/the-battle-for-caldari-prime
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74637/community-spotlight-verite-rendition-influence-maps
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74632/updates-to-team-security-and-the-ongoing-war-on-botting
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74608/end-of-an-eon-eon-magazine-says-farewell
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74594/csm8-candidacy-applications-now-open
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74584/community-spotlight-eve-travel
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74573/all-quiet-on-the-eve-launcher-front
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74398/the-uprising-shaping-new-eden-s-future
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74294/community-spotlight-syndicate-competitive-league
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74283/csm8-election-schedule-and-election-process
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74273/fleet-interface-and-other-improvements-in-retribution-1-1
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74270/no-brakes-ship-and-module-balancing-in-retribution-1-1
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74260/community-spotlight-brave-newbies-inc
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74236/corporation-recruitment-improvements-for-retribution-1-1
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74234/the-great-ship-skill-changes-of-summer-2013
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74232/little-things-from-super-friends
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74231/the-new-ships-of-retribution-price-indices-december-2012
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74227/a-weekend-of-epic-destruction-in-eve-online
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74226/the-battle-of-asakai-and-poinen-must-burn-by-the-numbers
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74218/team-super-friends-runs-some-bounty-numbers
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/2/article/74215/all-hail-the-info-panels
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/we-cant-stop-here/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/warp-drive-active/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/the-new-character-selection-screen/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/the-interbus-ship-identification-system/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/sisters-of-eve-faction-ships/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/plex-for-good-philippines-typhoon-relief/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/plex-for-good-philippines-results/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/plex-for-good-charity-live-stream-1/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/orbital-strike-changes-coming-december-10th/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/operation-spectre-event-breakdown-and-faq/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/new-player-training-session-track-2/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/new-eden-open-ii-rules-signups-and-specifics/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/in-the-navy/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/happy-holidays-from-us-to-you/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/further-eve-launcher-changes-coming-to-a-test-server-near-you/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/fleetchanges_ui/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/eve-vegas-2013-roundup-1/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/eve-the-universe-and-everything/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-thirty-days-in-eve-online/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-pyfa/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-high-drag-podcast/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-declarations-of-war/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-csm8-candidates/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-battleclinic/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/building-a-balanced-universe/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/better-living-through-mobile-structures/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/announcing-the-new-eden-open-ii/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/dev-blogs/a-tale-of-two-reasonable-things/
     subreddit: eve
     type: Dev Blog
     url: http://newsfeed.eveonline.com/en-US/2/articles/page/1/20
@@ -610,68 +446,14 @@ rss_feeds:
       posturl: http://www.rssitfor.me/DUST514_Status/status/422694017109733376
     - date: 2014-01-13 22:06:39.963001
       posturl: http://www.rssitfor.me/DUST514_Status/status/422698985610936321
-    - date: 2014-01-09 19:30:16.604719
-      posturl: http://www.rssitfor.me/DUST514_Status/status/421207939794206721
-    - date: 2014-01-09 19:20:08.265254
-      posturl: http://www.rssitfor.me/DUST514_Status/status/421208230383992832
-    - date: 2014-01-08 22:04:15.633192
-      posturl: http://www.rssitfor.me/DUST514_Status/status/420880019703873537
-    - date: 2014-01-08 19:22:08.308822
-      posturl: http://www.rssitfor.me/DUST514_Status/status/420842820019044352
-    - date: 2014-01-07 21:00:10.728730
-      posturl: http://www.rssitfor.me/DUST514_Status/status/420468310916882432
-    - date: 2014-01-06 21:32:20.587410
-      posturl: http://www.rssitfor.me/DUST514_Status/status/420125800902311936
-    - date: 2014-01-03 06:24:07.050147
-      posturl: http://www.rssitfor.me/DUST514_Status/status/418814422157520896
-    - date: 2014-01-02 22:17:14.615577
-      posturl: http://www.rssitfor.me/DUST514_Status/status/418707282797412352
-    - date: 2014-01-01 23:57:39.701268
-      posturl: http://www.rssitfor.me/DUST514_Status/status/407541250925948928
-    - date: 2014-01-01 23:57:21.815291
-      posturl: http://www.rssitfor.me/DUST514_Status/status/407567898056478721
-    - date: 2014-01-01 23:56:59.704507
-      posturl: http://www.rssitfor.me/DUST514_Status/status/408526701375660032
-    - date: 2014-01-01 21:57:47.983352
-      posturl: http://www.rssitfor.me/DUST514_Status/status/408563658810073088
-    - date: 2014-01-01 21:57:47.694478
-      posturl: http://www.rssitfor.me/DUST514_Status/status/410041871180644352
-    - date: 2014-01-01 21:57:47.397179
-      posturl: http://www.rssitfor.me/DUST514_Status/status/410063433443188736
-    - date: 2014-01-01 21:57:47.106935
-      posturl: http://www.rssitfor.me/DUST514_Status/status/410342119333584896
-    - date: 2014-01-01 21:57:46.798345
-      posturl: http://www.rssitfor.me/DUST514_Status/status/410367515458428928
-    - date: 2014-01-01 21:57:46.505288
-      posturl: http://www.rssitfor.me/DUST514_Status/status/410370521377673216
-    - date: 2014-01-01 21:57:46.200236
-      posturl: http://www.rssitfor.me/DUST514_Status/status/412874056740773888
-    - date: 2014-01-01 21:57:45.903034
-      posturl: http://www.rssitfor.me/DUST514_Status/status/412898283049070593
-    - date: 2014-01-01 21:57:45.601863
-      posturl: http://www.rssitfor.me/DUST514_Status/status/413214745915695104
-    - date: 2014-01-01 21:57:45.312504
-      posturl: http://www.rssitfor.me/DUST514_Status/status/413269291308314624
-    - date: 2014-01-01 21:57:45.024484
-      posturl: http://www.rssitfor.me/DUST514_Status/status/413554630430187522
-    - date: 2014-01-01 21:57:44.730965
-      posturl: http://www.rssitfor.me/DUST514_Status/status/413633187357536256
-    - date: 2014-01-01 21:57:44.437344
-      posturl: http://www.rssitfor.me/DUST514_Status/status/415038226902966272
-    - date: 2014-01-01 21:57:44.131638
-      posturl: http://www.rssitfor.me/DUST514_Status/status/415082073540415488
-    - date: 2014-01-01 21:57:43.828020
-      posturl: http://www.rssitfor.me/DUST514_Status/status/418131966547210240
-    - date: 2014-01-01 21:57:43.536922
-      posturl: http://www.rssitfor.me/DUST514_Status/status/418147926222065664
-    - date: 2014-01-01 21:49:27.464081
-      posturl: http://www.rssitfor.me/DUST514_Status/status/407543609274023936
     subreddit: dust514
     type: Server
     url: http://www.rssitfor.me/getrss?name=dust514_status
   dust_bug_reports:
     raw: false
     stories:
+    - date: 2014-04-10 23:07:12.974661
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1711406
     - date: 2014-03-21 04:00:00.552684
       posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1633236
     - date: 2014-02-27 03:13:38.481690
@@ -686,10 +468,6 @@ rss_feeds:
       posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378818
     - date: 2014-01-18 14:22:56.309897
       posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1425987
-    - date: 2014-01-04 19:49:44.489347
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378794
-    - date: 2014-01-04 19:39:35.489809
-      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378795
     subreddit: dust514
     type: Forums
     url: http://dustsearch.com/feed/thread/133587
@@ -731,31 +509,11 @@ rss_feeds:
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dust514.com/news/blog/2013/11/eve-vegas-2013-roundup/
     - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/blog/2013/11/diary-of-a-level-designer/
-    - date: 2013-12-21 23:57:27.152020
       posturl: http://dust514.com/news/blog/2013/11/community-spotlight-thunder-domes/
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dust514.com/news/blog/2013/11/community-spotlight-ghazbaran/
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dust514.com/news/blog/2013/11/ccp-wolfman-interview-by-ccp-blowout/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/blog/2013/11/battlefields-of-dust-514/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/blog/2013/10/war-point-rewards-in-1.5/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/blog/2013/10/uprising-1.6-overview-1/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/blog/2013/10/npe-in-uprising-1.5/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/blog/2013/10/community-spotlight-judge-rhadamanthus/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/blog/2013/10/community-spotlight-dustcharts/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/blog/2013/10/a-message-from-the-executive-producer/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/blog/2013/09/squad-finder/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/blog/2013/09/community-spotlight-d-legends-portuguese-translations/
     subreddit: dust514
     type: Dev Blog
     url: http://newsfeed.eveonline.com/en-US/60/articles/page/1/20/
@@ -795,26 +553,6 @@ rss_feeds:
     - date: 2013-12-26 20:23:38.131341
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1354296
     - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/986498
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/879235
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/853641
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/828938
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/802468
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/776596
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/746011
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/722038
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/700077
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/667316
-    - date: 2013-12-21 23:57:27.152020
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1323004
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1284563
@@ -832,28 +570,14 @@ rss_feeds:
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1177156
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1160810
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1154410
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1130745
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1117555
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1111755
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1066313
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1048676
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1009310
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1009264
     subreddit: dust514
     type: Forums
     url: http://dustsearch.com/feed/forum/1263/new
   dust_feedback_suggestions:
     raw: false
     stories:
+    - date: 2014-04-10 23:01:43.916504
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1711407
     - date: 2014-03-21 04:33:00.458715
       posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1633322
     - date: 2014-02-27 04:09:54.786073
@@ -915,29 +639,7 @@ rss_feeds:
     - date: 2013-12-21 23:57:27.152020
       posturl: http://dust514.com/news/2013/11/accelerated-sp-week-event-is-here/
     - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/2013/10/w.a.r.-kits-killer-collections-coming-soon-to-the-playstation-store/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/2013/10/uprising-1.6-overview-1/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/2013/10/uprising-1.5-dev-blog-wrapup/
-    - date: 2013-12-21 23:57:27.152020
       posturl: http://dust514.com/news/2013/10/retiring-veteran-and-elite-packs/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/2013/10/get-armed-and-ready-with-w.a.r.-kits-now-available-in-the-playstation-store/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/2013/10/dust-514-tactical-pack/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/2013/10/dust-514-squad-cup-november-2013/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/2013/09/squad-finder/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/2013/09/results-of-molden-heath-conflicted-1/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/2013/09/omega-boosters-october-2013/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/2013/09/introducing-the-daily-bonus-in-uprising-1.4/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://dust514.com/news/2013/09/dust-514-districts-on-dotlan/
     subreddit: dust514
     type: News
     url: http://newsfeed.eveonline.com/en-US/36/articles/page/1/20/
@@ -1000,6 +702,16 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-04-12 03:55:23.871350
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/csm8-winter-minutes-update-ship-balancing/
+    - date: 2014-04-12 02:32:18.272346
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/9th-council-of-stellar-management-elections-now-open/
+    - date: 2014-04-12 00:55:50.480234
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2014-ccp-tour-draw-5/
+    - date: 2014-04-11 03:01:10.353512
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-cruiser-skins-are-coming/
+    - date: 2014-04-10 01:43:32.192670
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-hd-stream-now-on-sale/
     - date: 2014-04-05 03:12:24.815249
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/20-weekend-discount-on-ship-skin-packages/
     - date: 2014-04-05 01:01:48.528992
@@ -1084,160 +796,6 @@ rss_feeds:
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/issues-with-api-management/
     - date: 2014-01-13 20:58:26.811325
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/ccp-brings-eve-valkyrie-to-sundance-film-festival/
-    - date: 2014-01-08 01:41:32.015634
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-eden-open-ii-signups-live/
-    - date: 2014-01-04 01:06:44.529340
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-web-services-downtime-january-7th-2013/
-    - date: 2013-12-28 04:57:46.016224
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-installer-issue-27-12-2013/
-    - date: 2013-12-27 19:12:56.374668
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/holiday-plex-sale-15-off/
-    - date: 2013-12-26 20:23:33.451701
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-player-training-session-on-friday-the-27th-exploration-fleet/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74857/unexpected-eve-account-management-website-downtime
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74850/csm8-election-is-now-live
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74831/csm8-election-schedule-delayed
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74816/the-battle-for-caldari-prime-trailer-is-now-live
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74806/csm-8-pre-elections-now-open
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74798/eve-online-odyssey-the-19th-free-expansion-coming-june-4th
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74797/ccp-supports-get-well-gamers-at-fanfest-2013
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74796/new-chronicle-after-the-fall-by-ccp-abraxas
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74785/population-cap-in-luminaire-22nd-of-march
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74760/a-friendly-message-from-the-gm-team-regarding-current-events
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74638/the-angel-project
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74623/tuskers-deathrace-on-march-16-at-17-00
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74590/new-chronicle-cover-stories-by-ccp-delegate-zero
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74588/capital-flashpoint-jaud-v
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74571/eve-online-featured-in-applied-design-at-the-museum-of
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74304/syndicate-competitive-league-continues-today-live-at-16-00
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74302/dust-514-eve-orbital-bombardment-tournament-continues-this
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74300/api-maintenance-downtime-on-february-22-2013
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74292/clone-tutorial-temporarily-disabled-on-wednesday-february-20
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74289/eve-online-retribution-1-1-1-to-be-deployed-on-wednesday
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74287/eve-online-retribution-1-1-has-been-deployed-on-february-19
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74282/eve-online-retribution-1-1-to-be-released-on-tuesday
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74278/watch-the-first-scl-pvp-tournament-on-february-23-24
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74276/eve-radio-dueling-tournament-to-be-held-friday-feb-22-at-22
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74272/temporary-api-downtime-at-14-00-utc-on-februrary-14
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74264/mass-test-on-tuesday-february-12th
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74262/eve-fanfest-2013-is-now-sold-out
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74244/fanfest-2013-ushering-eve-online-into-the-second-decade
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74240/sirens-of-fear-and-sense-a-new-chronicle-from-ccp-gnauton
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/44/article/74239/eve-online-retribution-1-1-to-be-deployed-on-february-19
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/videocast-eve-online-development-16-00-gmt-today/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/unexpected-api-server-downtime/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/syndicate-competitive-league-begins-again/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/second-decade-collectors-edition-sale-musterbrand/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/plex-for-good-philippines-typhoon-relief-1/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/player-stocking-stuffer-giveaway/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/planetary-conquest-bonuses-delayed-until-may-22/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/phanca-cybernetic-arm-ccp-mystery-code-reward-with-eve-online-rubicon/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/payment-and-plex-systems-downtime-thursday-april-11th/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-eden-open-ii-schedule-changes/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-chronicle-and-i-shall-hide-by-ccp-eterne/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-tuesday-december-3rd/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-thursday-may-16th/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-thursday-april-11th/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/last-chance-to-get-into-big-lottery-10th-anniversary-drawing/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/flight-of-1000-rifters-iii/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fixes-for-graphics-issues-with-rubicon-1/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-early-bird-tickets-almost-sold-out/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2014-ticket-sales-are-live-with-a-nice-early-bird-discount/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2013-live-hd-stream/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/extended-downtime-thursday-december-5th-2013/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/extended-downtime-on-november-29-2013-1/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/extended-downtime-on-monday-may-6th/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/exploit-notification-forcefield-access/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/exploit-notification-forcefield-access-2/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/exploit-bumping-in-order-to-prevent-e-warp/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-the-second-decade-collectors-edition-black-friday-amazon-sale/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-to-be-released-tomorrow-november-19th-2013/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-to-be-released-on-tuesday-november-19th-2013/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-raptr-stream-q-a/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-plex-sale/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-has-been-deployed/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-black-friday-sale-new-account-99-cents/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/early-downtime-09-30-utc-december-10-2013/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/duality-opens-for-eve-universe-data-migration-testing/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/discrepancy-in-statistics-of-two-pirate-rookie-frigates/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/csm8-town-hall-on-november-16/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/community-survey-eve-online-rubicon/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/changes-to-eveonline-dust514-twitter-usage-for-server-status-messaging/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/ccp-rise-hosts-ama-on-reddit/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/additional-snowballs-fireworks-available/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/account-management-issues-13.12.2013/
     subreddit: eve
     type: EVE News
     url: http://newsfeed.eveonline.com/en-US/44/articles/page/1/20
@@ -1286,54 +844,14 @@ rss_feeds:
       posturl: http://www.rssitfor.me/EVE_status/status/424873790146109440
     - date: 2014-01-19 22:59:37.858393
       posturl: http://www.rssitfor.me/EVE_status/status/424877997662162944
-    - date: 2014-01-03 06:07:54.776082
-      posturl: http://www.rssitfor.me/EVE_status/status/418814421947793408
-    - date: 2014-01-02 00:04:02.328276
-      posturl: http://www.rssitfor.me/EVE_status/status/404944819971035136
-    - date: 2014-01-02 00:04:02.003413
-      posturl: http://www.rssitfor.me/EVE_status/status/405660281960800256
-    - date: 2014-01-02 00:04:01.674853
-      posturl: http://www.rssitfor.me/EVE_status/status/405667361610412032
-    - date: 2014-01-02 00:04:01.340639
-      posturl: http://www.rssitfor.me/EVE_status/status/405670713513619457
-    - date: 2014-01-02 00:04:01.004669
-      posturl: http://www.rssitfor.me/EVE_status/status/406369023216328704
-    - date: 2014-01-02 00:04:00.669572
-      posturl: http://www.rssitfor.me/EVE_status/status/407520406942121984
-    - date: 2014-01-02 00:04:00.322752
-      posturl: http://www.rssitfor.me/EVE_status/status/407521041221558273
-    - date: 2014-01-02 00:03:59.989530
-      posturl: http://www.rssitfor.me/EVE_status/status/407526559088533504
-    - date: 2014-01-02 00:03:59.651586
-      posturl: http://www.rssitfor.me/EVE_status/status/407532660953587712
-    - date: 2014-01-02 00:03:59.336813
-      posturl: http://www.rssitfor.me/EVE_status/status/407541351928971264
-    - date: 2014-01-02 00:03:58.989149
-      posturl: http://www.rssitfor.me/EVE_status/status/407543609265631232
-    - date: 2014-01-02 00:03:58.668555
-      posturl: http://www.rssitfor.me/EVE_status/status/407567897993547776
-    - date: 2014-01-02 00:03:58.343649
-      posturl: http://www.rssitfor.me/EVE_status/status/408298965114048513
-    - date: 2014-01-02 00:03:58.017420
-      posturl: http://www.rssitfor.me/EVE_status/status/410065494709121024
-    - date: 2014-01-02 00:03:57.682739
-      posturl: http://www.rssitfor.me/EVE_status/status/411438014293114880
-    - date: 2014-01-02 00:03:57.358757
-      posturl: http://www.rssitfor.me/EVE_status/status/411462213267103744
-    - date: 2014-01-02 00:03:57.050041
-      posturl: http://www.rssitfor.me/EVE_status/status/414545927043813376
-    - date: 2014-01-02 00:03:56.701384
-      posturl: http://www.rssitfor.me/EVE_status/status/416644345673289728
-    - date: 2014-01-02 00:03:56.390633
-      posturl: http://www.rssitfor.me/EVE_status/status/418131967008591872
-    - date: 2014-01-02 00:03:56.075990
-      posturl: http://www.rssitfor.me/EVE_status/status/418147807149973504
     subreddit: eve
     type: Server
     url: http://www.rssitfor.me/getrss?name=eve_status
   eve_youtube:
     raw: false
     stories:
+    - date: 2014-04-12 02:04:29.570924
+      posturl: tag:youtube.com,2008:video:cLXvu_l0ygw
     - date: 2014-03-17 08:45:25.721085
       posturl: tag:youtube.com,2008:video:OfZ9tstIdMY
     - date: 2014-03-17 08:40:22.854344
@@ -1694,6 +1212,10 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-04-12 04:00:42.454003
+      posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-navy-confirms-attack-on-border-region-staging-facility/
+    - date: 2014-04-11 02:38:25.505712
+      posturl: http://community.eveonline.com/news/news-channels/world-news/ishukone-administrators-announce-arcurio-takeover-bid/
     - date: 2014-04-08 00:34:05.855983
       posturl: http://community.eveonline.com/news/news-channels/world-news/ishukone-executives-called-to-chief-executive-panel-hearing/
     - date: 2014-04-05 03:41:48.067384
@@ -1730,140 +1252,6 @@ rss_feeds:
       posturl: http://community.eveonline.com/news/news-channels/world-news/gardieu-sworn-in-as-speaker-of-the-chamber/
     - date: 2013-12-31 04:34:12.237503
       posturl: http://community.eveonline.com/news/news-channels/world-news/5th-annual-new-years-celebration-to-be-held-in-umokka/
-    - date: 2013-12-30 21:04:59.091506
-      posturl: http://community.eveonline.com/news/news-channels/world-news/andon-gardieu-elected-to-lead-gallente-senate/
-    - date: 2013-12-29 01:37:33.760097
-      posturl: http://community.eveonline.com/news/news-channels/world-news/chief-acassa-midular-sets-out-autonomy-doctrine-at-tribal-assembly/
-    - date: 2013-12-26 20:23:47.982333
-      posturl: http://community.eveonline.com/news/news-channels/world-news/minmatar-tribal-assembly-resumes-with-new-sebiestor-chief/
-    - date: 2013-12-26 20:23:47.712478
-      posturl: http://community.eveonline.com/news/news-channels/world-news/senate-releases-statement-regarding-state-border-breaches/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74846/tibus-heth-angrily-denounces-caldari-prime-dmz-blasts
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74835/fed-navy-releases-caldari-prime-details-citizens-react
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74832/caldari-prime-agreement-reached-militants-to-depart
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74829/megacorporations-announce-plans-to-join-ishukone-in-relief
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74824/ishukone-relief-convoy-safely-makes-it-to-caldari-prime
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74810/heth-responds-to-loss-of-shiigeru-and-ishukone-contact-with
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74805/dust-begins-to-clear-full-extent-of-shiigeru-impact-now
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74799/ishukone-access-to-caldari-prime-approved-full-negotiations
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74793/caldari-prime-relief-effort-continues-ishukone-request
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74791/widespread-destruction-hampers-caldari-prime-relief-effort
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74783/shiigeru-wreckage-impacts-caldari-prime-surface-situation
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74781/shiigeru-destroyed-federation-navy-offensive-in-luminaire
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74779/federation-navy-mount-full-scale-offensive-against-caldari
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74777/federation-navy-fleet-arrives-in-luminaire-caldari-navy
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74775/concord-vessel-destroyed-by-caldari-navy-in-luminaire
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74756/federation-navy-releases-caldari-prime-status-report-after
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74749/concord-issues-luminaire-travel-advisory-in-the-wake-of
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74661/admiral-yanala-gives-first-weekly-address-from-orbit-of
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74654/luminaire-situation-still-unstable-revered-caldari-admiral
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74641/unrest-on-caldari-prime-results-in-bombing-of-provist
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74639/civil-unrest-intensifies-on-caldari-prime
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74638/the-angel-project
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74636/federation-navy-announces-inaugural-fedcaft-naval-exercises
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74627/empress-jamyl-i-announces-empire-intent-to-welcome-clone
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74626/breaking-news-jacus-roden-reveals-existence-of-cloned
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74625/breaking-news-ground-fighting-erupts-on-caldari-prime
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74624/deathrace-2013
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74610/tibus-heth-names-unrest-in-the-federation-as-security-threat
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74607/mentas-blaque-speaks-out-about-hedonistic-lifestyle-of-the
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74589/snipehunt-assaults-fio-is-wiped-out-by-black-eagles
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74588/capital-flashpoint-jaud-v
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74587/provists-arrest-at-least-five-executives-supposed-federation
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74586/gallente-digital-activist-group-vows-to-expose-black-eagles
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74579/numerous-caldari-management-resign-heth-promises-significant
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://feeds.feedburner.com/newsfeed/en-US/42/article/74574/mentas-blaque-continues-harsh-condemnation-of-state-roden
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/war-breaks-out-in-ge-8jv/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/terrorist-attack-gallente-cultural-center/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/stolen-ishukone-watch-vessel-located-handed-off-to-capsuleer/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/sisters-of-eve-temporarily-promote-two-agents/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/senate-report-no-evidence-of-widespread-discrimination-against-minmatar/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/sebiestor-tribe-selects-acassa-midular-as-new-chief/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/report-wreckage-of-heths-escort-found-in-aivonen/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/prototype-vessel-stolen-from-ishukone-shipyard/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/pirate-factions-express-interest-in-covert-research-tools/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/operation-highlander-documents-released-implicate-federation-in-widespread-spying/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/mysterious-explosion-detected-in-syndicate/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/minmatar-react-to-senate-report-call-for-elokurs-freedom/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/material-acquisition-announces-plans-to-open-several-new-facilities/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/kw-i6t-escalation-rages-for-hours/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/head-of-senate-resigns-federal-administration-in-uproar/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/further-highlander-leaks-implicate-federation-in-illegal-border-breaches/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/former-minmatar-minister-caille-wounded/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/final-details-of-caldari-prime-dmz-announced/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/empires-led-capsuleer-assault-on-pirates-ends-in-failure/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/empire-navies-put-out-call-for-capsuleer-assistance/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/empire-navies-expand-call-to-action-against-enemy-forces/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/elokur-found-not-guilty-small-scale-riots-erupt/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/conservative-senator-calls-republic-untrustworthy/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/clashes-on-caldari-prime-quelled-by-mordus-legion/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/cep-denounces-operation-highlander-leak/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/capsuleers-rally-to-aid-destruction-of-covert-research-facilities/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-constructions-appoints-onnuta-ahvala-as-ceo/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/news-channels/world-news/breaking-news-heths-ship-spotted-in-black-rise/
     subreddit: eve
     type: Game News
     url: http://newsfeed.eveonline.com/en-US/42/articles/page/1/20
@@ -1877,21 +1265,17 @@ rss_feeds:
     - date: 2014-01-28 03:44:14.580587
       posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-rubicon-1.1/
     - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for/
-    - date: 2013-12-21 23:57:27.152020
       posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-rubicon/
     - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-retribution-1.2/
-    - date: 2013-12-21 23:57:27.152020
       posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-odyssey-1.2/
-    - date: 2013-12-21 23:57:27.152020
-      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-odyssey-1.1/
     subreddit: eve
     type: Patch Notes
     url: http://newsfeed.eveonline.com/en-US/15/articles/page/1/5
   valkyrie_twitter:
     raw: true
     stories:
+    - date: 2014-04-10 03:29:25.910320
+      posturl: http://www.rssitfor.me/EveOnline/status/453927627100024833
     - date: 2014-04-04 08:50:46.321215
       posturl: http://www.rssitfor.me/EVEValkyrie/status/451824186231910400
     - date: 2014-03-20 02:20:27.616313
@@ -1961,9 +1345,7 @@ rss_feeds:
     url: http://www.rssitfor.me/getrss?name=evevalkyrie
   valkyrie_youtube:
     raw: false
-    stories:
-    - date: 2013-12-26 20:37:23.108627
-      posturl: tag:youtube.com,2008:video:hXXb6p8e6ik
+    stories: []
     subreddit: evevalkyrie
     type: Youtube
     url: https://gdata.youtube.com/feeds/api/users/EVEValkyrie/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
