@@ -474,6 +474,8 @@ rss_feeds:
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-04-14 18:27:56.810453
+      posturl: http://dust514.com/news/blog/2014/04/community-spotlight-districts-overview/
     - date: 2014-03-19 02:22:39.150596
       posturl: http://dust514.com/news/blog/2014/03/uprising-1.8-overview-patch-notes/
     - date: 2014-03-15 02:43:49.902825
@@ -520,6 +522,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-04-14 13:13:37.060488
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1721386
     - date: 2014-04-08 15:52:17.277468
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1704680
     - date: 2014-04-01 15:53:45.260333
@@ -702,6 +706,8 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-04-13 04:04:27.077025
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-caldari-navy-manhunt/
     - date: 2014-04-12 03:55:23.871350
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/csm8-winter-minutes-update-ship-balancing/
     - date: 2014-04-12 02:32:18.272346
@@ -1212,6 +1218,16 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-04-14 04:20:03.473429
+      posturl: http://community.eveonline.com/news/news-channels/world-news/tovas-tagahaiken-slain-in-akkio/
+    - date: 2014-04-13 04:09:42.344648
+      posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-navy-announces-manhunt-for-otsasai-aggressors/
+    - date: 2014-04-12 13:58:26.970318
+      posturl: http://community.eveonline.com/news/news-channels/world-news/5th-annual-new-years-celebration-to-be-held-in-umokka/
+    - date: 2014-04-12 13:53:24.091954
+      posturl: http://community.eveonline.com/news/news-channels/world-news/gardieu-sworn-in-as-speaker-of-the-chamber/
+    - date: 2014-04-12 13:48:51.672467
+      posturl: http://community.eveonline.com/news/news-channels/world-news/minmatar-tribal-assembly-closes-after-ratifying-new-political-order/
     - date: 2014-04-12 04:00:42.454003
       posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-navy-confirms-attack-on-border-region-staging-facility/
     - date: 2014-04-11 02:38:25.505712
@@ -1246,12 +1262,6 @@ rss_feeds:
       posturl: http://community.eveonline.com/news/news-channels/world-news/secure-commerce-commission-press-conference-concludes-yc115-financial-retrospective/
     - date: 2014-01-14 02:49:22.098404
       posturl: http://community.eveonline.com/news/news-channels/world-news/federal-intelligence-office-responds-to-guristas-activity-in-placid/
-    - date: 2014-01-01 23:23:51.942790
-      posturl: http://community.eveonline.com/news/news-channels/world-news/minmatar-tribal-assembly-closes-after-ratifying-new-political-order/
-    - date: 2013-12-31 23:37:37.019570
-      posturl: http://community.eveonline.com/news/news-channels/world-news/gardieu-sworn-in-as-speaker-of-the-chamber/
-    - date: 2013-12-31 04:34:12.237503
-      posturl: http://community.eveonline.com/news/news-channels/world-news/5th-annual-new-years-celebration-to-be-held-in-umokka/
     subreddit: eve
     type: Game News
     url: http://newsfeed.eveonline.com/en-US/42/articles/page/1/20
@@ -1274,6 +1284,8 @@ rss_feeds:
   valkyrie_twitter:
     raw: true
     stories:
+    - date: 2014-04-13 05:43:17.904412
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/455063034986119168
     - date: 2014-04-10 03:29:25.910320
       posturl: http://www.rssitfor.me/EveOnline/status/453927627100024833
     - date: 2014-04-04 08:50:46.321215
@@ -1343,6 +1355,14 @@ rss_feeds:
     subreddit: evevalkyrie
     type: Twitter
     url: http://www.rssitfor.me/getrss?name=evevalkyrie
+  eve_live_events_twitter:
+    raw: true
+    stories:
+    - date: 2013-04-13 05:43:17.904412
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/455063034986119168
+    subreddit: eve
+    type: Twitter
+    url: http://www.rssitfor.me/getrss?name=EVE_LiveEvents
   valkyrie_youtube:
     raw: false
     stories: []
