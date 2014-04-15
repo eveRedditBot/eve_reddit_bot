@@ -25,18 +25,26 @@ class EVERedditBot():
         warnings.filterwarnings('ignore', message='.*equal comparison failed.*')
         
         socket.setdefaulttimeout(20)
-        self.config_path = 'config.yaml'
-
-        stream = file(self.config_path, 'r')
-        self.config = yaml.load(stream)
-        stream.close()
+        self.config_path = 'eve_reddit_bot_config.yaml'
+        self.config = self.readYamlFile(self.config_path)
+        self.feed_config_path = 'eve_reddit_bot_feeds.yaml'
+        self.feed_config = self.readYamlFile(self.feed_config_path)
         self.subreddit = self.config['subreddit']
         self.username = self.config['username']
         self.password = self.config['password']
         self.submitpost = self.config['submitpost']
         self.once = self.config['run_once']
         self.admin_email = None
+        
+    def readYamlFile(self, path):
+        with open(path, 'r') as infile:
+           return yaml.load(infile)
 
+    def writeYamlFile(self, yaml_object, path):
+        with open(path, 'w') as outfile:
+           outfile.write( yaml.dump(yaml_object, default_flow_style=False) )
+    
+    
     def run(self):
         self.reddit = self.loginToReddit(self.initReddit())
         self.check_rss_feeds()
@@ -112,12 +120,10 @@ class EVERedditBot():
         return {'comments': parser.comments,
                 'link':     feedEntry['link'],
                 'subreddit': subreddit,
-                'title':    '[%s] %s %s' %(postType,
-                                            title,
-                                            author)}
+                'title':    '[%s] %s %s' %(postType, title, author)}
 
     def rss_parser(self, rss_feed, all_entry_ids):
-        feed_config = self.config['rss_feeds'][rss_feed]
+        feed_config = self.feed_config['rss_feeds'][rss_feed]
         feed = feedparser.parse(feed_config['url'])
         stories = feed_config['stories']
 
@@ -133,9 +139,9 @@ class EVERedditBot():
                 data = self.formatForReddit(entry, feed_config['type'], 
                     feed_config['subreddit'], feed_config['raw'])
 
-                self.config['rss_feeds'][rss_feed]['stories'].append(
+                self.feed_config['rss_feeds'][rss_feed]['stories'].append(
                     {'posturl': str(entry['id']), 'date': datetime.now()})
-                self.save_config()
+                self.save_feed_config()
 
                 if self.submitpost == True:
                     self.postToReddit(data)
@@ -150,8 +156,9 @@ class EVERedditBot():
         return
     
     def prune_old_stories(self, all_entry_ids, threshold):
-        for feed in self.config['rss_feeds']:
-          for story in self.config['rss_feeds'][feed]['stories'][:]:
+        for feed in self.feed_config['rss_feeds']:
+          stories = self.feed_config['rss_feeds'][feed]['stories']
+          for story in stories[:]:
             if (story['posturl'] not in [all_entry_ids] and (story['date'] < threshold)):
               logging.info('detected old story %s from %s' %(story['posturl'], story['date']))
               stories.remove(story)
@@ -159,12 +166,12 @@ class EVERedditBot():
 
     def check_rss_feeds(self):
         all_entry_ids = []
-        for rss_feed in self.config['rss_feeds']:
+        for rss_feed in self.feed_config['rss_feeds']:
             self.rss_parser(rss_feed, all_entry_ids)
 
         six_months_ago = datetime.now() + relativedelta( months = -6 )
         self.prune_old_stories(all_entry_ids, six_months_ago)
-        self.save_config()
+        self.save_feed_config()
         
     def check_downvoted_submissions(self):
         user = self.reddit.get_redditor(self.username)
@@ -181,13 +188,12 @@ class EVERedditBot():
                 else:
                     logging.info('detected %s (score: %d), skipping', submission.url, true_score)
 
-    def save_config(self):
-        for rss_feed in self.config['rss_feeds']:
-            self.config['rss_feeds'][rss_feed]['stories'].sort(key=lambda x: x['date'], reverse=True)
+    def save_feed_config(self):
+        for rss_feed in self.feed_config['rss_feeds']:
+            self.feed_config['rss_feeds'][rss_feed]['stories'].sort(key=lambda x: x['date'], reverse=True)
 
-        stream = file(self.config_path, 'w')
-        yaml.dump(self.config, stream, default_flow_style=False)
-        stream.close()
+        self.writeYamlFile(self.feed_config, self.feed_config_path)
+
 
 class EveRssHtmlParser(HTMLParser):
     def __init__(self):
