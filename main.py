@@ -150,12 +150,11 @@ class EVERedditBot():
         return
     
     def prune_old_stories(self, all_entry_ids, threshold):
-        #for feed in self.config['rss_feeds']:
-        #  for story in self.config['rss_feeds'][feed]['stories'][:]:
-        #    if (story['posturl'] not in [all_entry_ids] and 
-        #             (story['date'] < threshold)):
-        #        logging.info('detected old story %s from %s' %(story['posturl'], story['date']))
-        #        stories.remove(story)
+        for feed in self.config['rss_feeds']:
+          for story in self.config['rss_feeds'][feed]['stories'][:]:
+            if (story['posturl'] not in [all_entry_ids] and (story['date'] < threshold)):
+              logging.info('detected old story %s from %s' %(story['posturl'], story['date']))
+              stories.remove(story)
         return
 
     def check_rss_feeds(self):
