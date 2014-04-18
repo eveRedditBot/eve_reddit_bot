@@ -443,7 +443,7 @@ if __name__ == '__main__':
             #exponential sleeptime back-off
             #if not successful, slow down.
             
-            catchable_exceptions = ["HTTP Error 504: Gateway Time-out", "timed out", "HTTPSConnectionPool"]
+            catchable_exceptions = ["Gateway Time", "timed out", "HTTPSConnectionPool"]
             if any(substring in str(e) for substring in catchable_exceptions):
                 _sleeptime = round(_sleeptime*2)
                 logging.debug(str(e))
