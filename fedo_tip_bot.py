@@ -5,6 +5,7 @@ import logging
 import warnings
 import yaml
 import re
+from decimal    import Decimal
 from datetime   import datetime
 from dateutil.relativedelta import relativedelta
 
@@ -32,7 +33,8 @@ _last_refreshed_subreddits = datetime.now() + relativedelta( days = -2 )
 _regex_start_string = "(\\+(fedo_tip|fedotip|fedo_tip_bot)"
 _regex_redditusername_string ="(\\s(((@)?([A-Za-z0-9_-]{3,20}))))?)"
 _regex_currencyamount_string = "(\\s((\\s?((\\d|\\,){0,10}(\\d\\.?|\\.(\\d|\\,){0,10}))"
-_regex_currencycode_string = "(\\s?(FED(O)?|fedo)(s)?)?)))"
+_regex_currencycode_only_string = "(\\s?(FED(O)?|fedo)(s)?)"
+_regex_currencycode_string = _regex_currencycode_only_string + "?)))"
 _regex_verification_string = "(\\s(NOVERIFY|VERIFY))?"
 
 _regex_tip_string = ('(' + _regex_start_string + _regex_redditusername_string 
@@ -41,8 +43,18 @@ _regex_tip_string = ('(' + _regex_start_string + _regex_redditusername_string
 
 _regex_redditusername = re.compile(_regex_start_string+_regex_redditusername_string,re.IGNORECASE)
 _regex_currency = re.compile(_regex_currencyamount_string+_regex_currencycode_string,re.IGNORECASE)
+_regex_currency_only = re.compile(_regex_currencycode_only_string,re.IGNORECASE)
 _regex_verification = re.compile(_regex_verification_string,re.IGNORECASE)
 _regex_tip = re.compile(_regex_tip_string,re.IGNORECASE)
+
+currencies = { 
+    ('fed','fedo','fedos'): 'Fedo', 
+}
+
+working_currencies = {}
+for k, v in currencies.items():
+    for key in k:
+        working_currencies[key] = v
     
 
 def main():
@@ -67,7 +79,7 @@ def main():
             #exponential sleeptime back-off
             #if not successful, slow down.
             
-            catchable_exceptions = ["Gateway Time", "timed out", "HTTPSConnectionPool"]
+            catchable_exceptions = ["Gateway Time", "timed out", "HTTPSConnectionPool", "Connection reset"]
             if any(substring in str(e) for substring in catchable_exceptions):
                 sleeptime = round(sleeptime*2)
                 logging.debug(str(e))
@@ -107,7 +119,7 @@ def is_probably_actionable(thing):
     return True
 
 def scan_for_comments(session, followed_subreddits):
-    comment_limit = 100
+    comment_limit = 1000
     my_subreddits = create_multi_reddit(followed_subreddits)
     comments = praw.helpers.comment_stream(session, my_subreddits, 
                                                 limit = comment_limit, verbosity = 0)
@@ -134,7 +146,7 @@ def scan_for_comments(session, followed_subreddits):
 
             # If not already replied
             if (actionable == True):
-                logging.info("Actionable comment found at comment #" + index)
+                logging.debug("Actionable comment found at comment #" + index)
                 post_reply(session, scanning)
                 if (_enabled):
                     break
@@ -154,26 +166,29 @@ def post_reply(r, thing):
     to_redditor = get_to_redditor(tip_command, get_parent_author(r, thing)) 
     
     currency_results = _regex_currency.search(tip_command)
-    logging.info(currency_results.groups())
-    amount = currency_results.groups()[4]
-    logging.info(amount)
-    code = currency_results.groups()[-2]
-    logging.info(code)
+    amount = ''.join(c for c in currency_results.groups()[0] if c.isdigit() or c in (',','.'))
     
-
-    #TODO normalise
-    code = 'fedos'
+    currency_code_only = _regex_currency_only.search(tip_command)
+    code = normalise(currency_code_only.groups()[1])
     
     
+    if (Decimal(amount) > 1):
+        code = code + 's'
+    first_line = 'Transaction Verified!\n\n**'
+    second_line = from_redditor + ' --> '
+    second_line+= amount + ' ' + code + ' --> '
+    second_line+= to_redditor
     
-    response = 'Transaction Verified!\n\n'
-    response+= '**' + from_redditor + ' --> '
-    response+= amount + ' ' + code + ' --> '
-    response+= to_redditor + '**\n\n'
+    response = first_line + second_line + '**\n\n'
     if _enabled:
+        display_name = scanning.subreddit.display_name.lower()
+        logging.info('('+display_name+') ' + second_line)
         thing.reply(response + _signature)
     else:
-        logging.info('disabled, but would have replied:\n' + response + _signature)
+        logging.info('disabled, but would have replied: ' + second_line)
+
+def normalise(currency_code):
+    return working_currencies[currency_code.lower()]
 
 def get_to_redditor(tip_command, default_value):
     username_results = _regex_redditusername.search(tip_command)
