@@ -282,6 +282,12 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-04-19 08:20:06.712263
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-garpa/
+    - date: 2014-04-19 08:14:50.956994
+      posturl: http://community.eveonline.com/news/dev-blogs/the-impact-of-the-council-of-stellar-management/
+    - date: 2014-04-16 00:36:18.315815
+      posturl: http://community.eveonline.com/news/dev-blogs/building-better-worlds/
     - date: 2014-04-12 03:21:00.188553
       posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-the-eve-onion/
     - date: 2014-04-11 03:49:33.144976
@@ -376,6 +382,8 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-04-16 20:18:44.725140
+      posturl: http://www.rssitfor.me/DUST514_Status/status/456351145712435200
     - date: 2014-04-15 11:32:44.960618
       posturl: http://www.rssitfor.me/DUST514_Status/status/455847995108786176
     - date: 2014-04-15 08:50:55.082147
@@ -720,6 +728,18 @@ rss_feeds:
   eve_live_events_twitter:
     raw: true
     stories:
+    - date: 2014-04-19 14:13:47.303099
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/457337263039733761
+    - date: 2014-04-19 14:08:44.512710
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/457350436182560768
+    - date: 2014-04-18 08:02:44.075377
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/456885938824966144
+    - date: 2014-04-17 02:52:31.784008
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/456432214105145344
+    - date: 2014-04-17 02:47:28.998388
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/456437097109676032
+    - date: 2014-04-16 04:13:42.316160
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/456129809756995584
     - date: 2014-04-15 00:02:28.701529
       posturl: http://www.rssitfor.me/EVE_LiveEvents/status/455669562101747712
     - date: 2014-04-14 23:57:25.604445
@@ -770,6 +790,12 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-04-19 08:09:23.060611
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2014-ccp-tour-draw-6/
+    - date: 2014-04-17 04:38:02.943474
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-cruiser-skins-week-2/
+    - date: 2014-04-16 19:48:06.129904
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/a-quick-video-from-ccp-karkur/
     - date: 2014-04-15 08:14:32.375050
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/tranquility-restart/
     - date: 2014-04-13 04:04:27.077025
@@ -1292,6 +1318,16 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-04-20 09:59:33.561060
+      posturl: http://community.eveonline.com/news/news-channels/world-news/provist-remnants-slaughtered-in-usi/
+    - date: 2014-04-19 13:04:44.312169
+      posturl: http://community.eveonline.com/news/news-channels/world-news/provists-escape-taisy-due-to-pandemic-legion-assistance/
+    - date: 2014-04-18 06:47:43.515901
+      posturl: http://community.eveonline.com/news/news-channels/world-news/two-more-provists-slain-in-torrinos/
+    - date: 2014-04-17 00:52:31.688944
+      posturl: http://community.eveonline.com/news/news-channels/world-news/provists-routed-in-mastakomo/
+    - date: 2014-04-16 05:27:57.664883
+      posturl: http://community.eveonline.com/news/news-channels/world-news/two-provists-slain-in-okagaiken/
     - date: 2014-04-14 22:08:41.049029
       posturl: http://community.eveonline.com/news/news-channels/world-news/tsatei-uppas-killed-by-capsuleers/
     - date: 2014-04-14 04:20:03.473429
