@@ -36,6 +36,7 @@ _regex_currencyamount_string = "(\\s((\\s?((\\d|\\,){0,10}(\\d\\.?|\\.(\\d|\\,){
 _regex_currencycode_only_string = "(\\s?(FED(O)?|fedo)(s)?)"
 _regex_currencycode_string = _regex_currencycode_only_string + "?)))"
 _regex_verification_string = "(\\s(NOVERIFY|VERIFY))?"
+_regex_shorthand_string = "tips fedo(?!r)"
 
 _regex_tip_string = ('(' + _regex_start_string + _regex_redditusername_string 
     + _regex_currencyamount_string + _regex_currencycode_string 
@@ -45,6 +46,7 @@ _regex_redditusername = re.compile(_regex_start_string+_regex_redditusername_str
 _regex_currency = re.compile(_regex_currencyamount_string+_regex_currencycode_string,re.IGNORECASE)
 _regex_currency_only = re.compile(_regex_currencycode_only_string,re.IGNORECASE)
 _regex_verification = re.compile(_regex_verification_string,re.IGNORECASE)
+_regex_shorthand = re.compile(_regex_shorthand_string,re.IGNORECASE)
 _regex_tip = re.compile(_regex_tip_string,re.IGNORECASE)
 
 currencies = { 
@@ -79,7 +81,7 @@ def main():
             #exponential sleeptime back-off
             #if not successful, slow down.
             
-            catchable_exceptions = ["Gateway Time", "timed out", "HTTPSConnectionPool", "Connection reset"]
+            catchable_exceptions = ["Gateway Time", "timed out", "HTTPSConnectionPool", "Connection reset", "Server Error"]
             if any(substring in str(e) for substring in catchable_exceptions):
                 sleeptime = round(sleeptime*2)
                 logging.debug(str(e))
@@ -113,10 +115,11 @@ def exitexception(e):
 
 def is_probably_actionable(thing):
     tip_command_keyword = _regex_redditusername.search(thing.body)
-    if (not tip_command_keyword):
-        return False
-    # TODO add disallowed user names here if required
-    return True
+    if (tip_command_keyword):
+        return True
+    elif (_regex_shorthand.search(thing.body)):
+        return True
+    return False
 
 def scan_for_comments(session, followed_subreddits):
     comment_limit = 1000
@@ -139,6 +142,10 @@ def scan_for_comments(session, followed_subreddits):
             actionable = True
             # Check replies to see if already replied
             for reply in scanning.replies:
+                if reply.author == None:
+                    logging.debug("No author for comment #" + index)
+                    actionable = False
+                    break
                 if reply.author.name == _username:
                     logging.debug("Already replied to comment #" + index)
                     actionable = False
@@ -149,29 +156,34 @@ def scan_for_comments(session, followed_subreddits):
                 logging.debug("Actionable comment found at comment #" + index)
                 post_reply(session, scanning)
                 if (_enabled):
-                    break
+                    time.sleep(2)
                 
         if (comment_count > comment_limit):
             #Reddit API is being too generous; quit early, go home, play with the kids
             logging.debug('reached limit, breaking off')
             break
 
-def post_reply(r, thing):      
-    tip_command = get_tip_command(thing.body)
-    if (tip_command is None):
-        # shouldn't, but regex mistakes do happen
+def post_reply(r, thing):
+    from_redditor = thing.author.name 
+    if (_regex_shorthand.search(thing.body) is not None):
+        to_redditor = get_parent_author(r, thing)
+        amount = '1'
+        code = 'Fedo'
+    else:
+        tip_command = get_tip_command(thing.body)
+        if (tip_command is None):
+            # shouldn't, but regex mistakes do happen
+            return
+        
+        to_redditor = get_to_redditor(tip_command, get_parent_author(r, thing))
+        currency_results = _regex_currency.search(tip_command)
+        amount = ''.join(c for c in currency_results.groups()[0] if c.isdigit() or c in (',','.'))
+        currency_code_only = _regex_currency_only.search(tip_command)
+        code = normalise(currency_code_only.groups()[1])
+    
+    if to_redditor == None:
+        logging.info('could not determine to_author; probably deleted.')
         return
-
-    from_redditor = thing.author.name
-    to_redditor = get_to_redditor(tip_command, get_parent_author(r, thing)) 
-    
-    currency_results = _regex_currency.search(tip_command)
-    amount = ''.join(c for c in currency_results.groups()[0] if c.isdigit() or c in (',','.'))
-    
-    currency_code_only = _regex_currency_only.search(tip_command)
-    code = normalise(currency_code_only.groups()[1])
-    
-    
     if (Decimal(amount) > 1):
         code = code + 's'
     first_line = 'Transaction Verified!\n\n**'
@@ -181,7 +193,7 @@ def post_reply(r, thing):
     
     response = first_line + second_line + '**\n\n'
     if _enabled:
-        display_name = scanning.subreddit.display_name.lower()
+        display_name = thing.subreddit.display_name.lower()
         logging.info('('+display_name+') ' + second_line)
         thing.reply(response + _signature)
     else:
@@ -216,8 +228,11 @@ def get_parent_author(r, thing):
         parentcomment = r.get_submission(parentpermalink)
     else:
         parentcomment = r.get_submission(parentpermalink).comments[0]
-            
-    return parentcomment.author.name
+    
+    if parentcomment.author == None:
+        return None      
+    else: 
+        return parentcomment.author.name
 
 
 
