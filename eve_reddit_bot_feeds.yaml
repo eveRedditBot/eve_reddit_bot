@@ -1,0 +1,1501 @@
+rss_feeds:
+  ccp_press:
+    raw: false
+    stories:
+    - date: 2014-04-10 01:21:19.816004
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/ccp-online-streaming-plans-for-eve-fanfest/
+    - date: 2014-02-28 05:23:37.608892
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/ccp-epic-celebration-eve-online-dust-514-valkyrie-at-eve-fanfest/
+    - date: 2014-02-22 02:00:18.929548
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/eve-true-stories-graphic-novel-available-for-free-download/
+    - date: 2014-02-06 04:10:36.914646
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/ccp-to-erect-monument-to-eve-online-players-in-reykjavik-iceland-1/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/74802/ccp-announces-eve-online-odyssey-to-be-released-june-4th
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/74569/eve-online-featured-in-applied-design-at-the-museum-of
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/74404/eve-online-surpasses-500-000-subscribers-worldwide
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/74189/in-world-first-ccp-games-merges-dust-514-into-eve-online-s
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/74094/ccp-games-and-tiancity-relaunch-eve-online-in-china
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/74076/eve-online-retribution-now-available
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/73541/ccp-now-accepting-russian-rubles-and-payment-via-yandex
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/73440/eve-online-retribution-to-bring-true-justice-to-massive
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://feeds.feedburner.com/newsfeed/en-US/43/article/72874/ccp-announces-new-dust-514-details-at-e3
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/leading-scientists-to-share-vision-of-humanitys-future-among-the-stars-at-eve-fanfest-1/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/industry-veteran-sean-decker-joins-ccp-as-senior-vice-president-product-development-1/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/eve-the-second-decade-collectors-edition-now-available-1/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/eve-online-rubicon-launches-sows-the-seeds-galactic-revolution/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/eve-online-inferno-now-available-1/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/eve-fanfest-2014-tickets-now-available-1/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/ccp-eve-online-community-raise-190890-for-typhoon-haiyan-relief/
+    subreddit: eve
+    type: CCP Press
+    url: http://newsfeed.eveonline.com/en-US/43/articles/page/1/20
+  ccp_youtube:
+    raw: false
+    stories:
+    - date: 2014-03-28 02:04:38.828384
+      posturl: tag:youtube.com,2008:video:jthyWHPmTCs
+    - date: 2014-03-22 08:28:43.924510
+      posturl: tag:youtube.com,2008:video:v6_TAM2i42g
+    - date: 2014-03-06 22:04:25.826068
+      posturl: tag:youtube.com,2008:video:6Ttb4IM9DVw
+    - date: 2014-01-31 00:48:53.087707
+      posturl: tag:youtube.com,2008:video:IrKlYEsGvvw
+    - date: 2014-01-24 06:40:07.889137
+      posturl: tag:youtube.com,2008:video:cvENBtwXHKA
+    - date: 2013-12-26 20:40:16.069297
+      posturl: tag:youtube.com,2008:video:OnYJ8nxMRm0
+    - date: 2013-12-26 20:37:28.814038
+      posturl: tag:youtube.com,2008:video:rTrz7-OOCZE
+    - date: 2013-12-26 20:37:28.524647
+      posturl: tag:youtube.com,2008:video:XHH_MHd0c94
+    - date: 2013-12-26 20:37:28.225315
+      posturl: tag:youtube.com,2008:video:Usv2EjUU3fA
+    - date: 2013-12-26 20:37:27.912391
+      posturl: tag:youtube.com,2008:video:JJxVTNR2XH8
+    - date: 2013-12-26 20:37:27.615930
+      posturl: tag:youtube.com,2008:video:WIEApAFwEqE
+    - date: 2013-12-26 20:37:27.315428
+      posturl: tag:youtube.com,2008:video:YAAMyZ3_wnI
+    - date: 2013-12-26 20:37:27.008292
+      posturl: tag:youtube.com,2008:video:Cc4iuFrBDPM
+    - date: 2013-12-26 20:37:26.698372
+      posturl: tag:youtube.com,2008:video:4weB3wjHMl8
+    - date: 2013-12-26 20:37:26.404797
+      posturl: tag:youtube.com,2008:video:OX1jB9XRD4M
+    - date: 2013-12-26 20:37:26.105447
+      posturl: tag:youtube.com,2008:video:51VH0Hr1gHs
+    - date: 2013-12-26 20:37:25.807928
+      posturl: tag:youtube.com,2008:video:1PDf0gIyGLE
+    - date: 2013-12-26 20:37:25.505384
+      posturl: tag:youtube.com,2008:video:DksknZR7o0o
+    - date: 2013-12-26 20:37:25.204314
+      posturl: tag:youtube.com,2008:video:UcEUB6h4Br0
+    - date: 2013-12-26 20:37:24.912689
+      posturl: tag:youtube.com,2008:video:zMKb9xivh9U
+    - date: 2013-12-26 20:37:24.618472
+      posturl: tag:youtube.com,2008:video:EFegZyOhJjM
+    - date: 2013-12-26 20:37:24.298939
+      posturl: tag:youtube.com,2008:video:Uo6mXf0VmrM
+    - date: 2013-12-26 20:37:24.003663
+      posturl: tag:youtube.com,2008:video:0WX-rDUoAVQ
+    - date: 2013-12-26 20:37:23.690076
+      posturl: tag:youtube.com,2008:video:QzEY-A5JLB4
+    - date: 2013-12-26 20:37:23.108627
+      posturl: tag:youtube.com,2008:video:hXXb6p8e6ik
+    subreddit: eve
+    type: Youtube
+    url: http://gdata.youtube.com/feeds/api/users/CCPGAMES/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
+  cpm:
+    raw: false
+    stories:
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-965252792909672440
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-8979942416718284615
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-8585135677124976794
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-8407902826585292283
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-7717830227679912640
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-7434634381976528233
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-5830620348045561801
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-5773184912374118961
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-5762648523824117354
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-5690368253851559219
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-5570444761156552034
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-5327798554126709259
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-5241627680135103278
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-5147117944767607496
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-4776291711165079110
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-4604431668295923697
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-4574646533838001522
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-4154897946515762335
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-4033730680984866503
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-3956264710170413997
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-374314964998511391
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-3319275645562130286
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-2247682665445570146
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-1429375923758134466
+    - date: 2013-12-21 23:57:27.152020
+      posturl: tag:blogger.com,1999:blog-3946765581247128607.post-1098222321151226624
+    subreddit: dust514
+    type: CPM
+    url: http://hansshotfirst.blogspot.com/feeds/posts/default
+  csm:
+    raw: false
+    stories:
+    - date: 2014-04-15 18:37:59.680116
+      posturl: http://csm8.org/?guid=2b7eaf2ba16d3d681f91c83cddeb780e
+    - date: 2014-04-11 11:07:19.164633
+      posturl: https://mikeazariah.wordpress.com/?p=1506
+    - date: 2014-04-11 11:02:16.252557
+      posturl: https://mikeazariah.wordpress.com/?p=1515
+    - date: 2014-04-09 04:04:08.334368
+      posturl: http://csm8.org/?guid=71c172a2e5bed29d86e24d30f7447156
+    - date: 2014-04-08 17:02:34.096868
+      posturl: http://csm8.org/?guid=117c6b2d98218d6685d472e0730b5ae9
+    - date: 2014-04-08 16:02:51.814273
+      posturl: http://mikeazariah.wordpress.com/?p=1515
+    - date: 2014-04-08 02:03:12.869719
+      posturl: http://mangala.rvbganked.co.uk/?p=1634
+    - date: 2014-04-07 22:28:40.495459
+      posturl: http://csm8.org/?guid=d065f857ceeb1a4f9ac85dce9c8548d5
+    - date: 2014-04-07 11:11:08.035746
+      posturl: http://csm8.org/?guid=ad61bcf70e5a0de4bc8fe8fe0542082a
+    - date: 2014-04-06 11:46:56.926334
+      posturl: http://mikeazariah.wordpress.com/?p=1506
+    - date: 2014-04-05 21:01:09.148292
+      posturl: http://csm8.org/?guid=a2d52ed77af31508b2401f69cac43f72
+    - date: 2014-04-05 11:27:30.553338
+      posturl: http://csm8.org/?guid=0baaf677955f1c09594e37c9f792d3d2
+    - date: 2014-04-05 09:24:37.802847
+      posturl: http://csm8.org/?guid=0e81264cafaeab1627cc2e6d913a724b
+    - date: 2014-04-05 04:45:23.577188
+      posturl: http://csm8.org/?guid=e901592dce2df48103b2ad786e267253
+    - date: 2014-04-02 01:35:47.681752
+      posturl: http://mikeazariah.wordpress.com/?p=1509
+    - date: 2014-04-01 18:17:45.092032
+      posturl: http://csm8.org/?guid=c6568b8b455456a146e202605bb91621
+    - date: 2014-03-26 16:02:22.515335
+      posturl: http://csm8.org/?guid=f5fd2b0921406472e63f5ad93953991b
+    - date: 2014-03-19 15:25:14.043952
+      posturl: http://csm8.org/?guid=da3da1e82ace520180d07c9bc886b39d
+    - date: 2014-03-16 11:09:14.643481
+      posturl: http://mikeazariah.wordpress.com/?p=1502
+    - date: 2014-03-11 14:32:32.391635
+      posturl: http://csm8.org/?guid=070f5d329fb1122f9b5cca6b6424b99f
+    - date: 2014-03-07 14:13:36.936356
+      posturl: http://csm8.org/?guid=9ab5ec1c34f84442d959067dfc6ef7d7
+    - date: 2014-03-05 16:33:11.955900
+      posturl: http://csm8.org/?guid=7cb0f4f7be1931e9484a315f0124224d
+    - date: 2014-03-04 02:27:47.240102
+      posturl: http://csm8.org/?guid=172d24be0be8613e0758c724536be020
+    - date: 2014-03-02 16:06:21.446184
+      posturl: http://mikeazariah.wordpress.com/?p=1497
+    - date: 2014-02-27 13:06:50.586566
+      posturl: http://csm8.org/?guid=7b45e05e656cd67707079d146d32864f
+    - date: 2014-02-26 18:41:46.860111
+      posturl: http://mikeazariah.wordpress.com/?p=1493
+    - date: 2014-02-25 18:42:42.287887
+      posturl: http://csm8.org/?guid=0012b7fe73b576bb7af35f62ba7bec9b
+    - date: 2014-02-18 13:23:21.001004
+      posturl: http://csm8.org/?guid=48652a4e808458c6e75b9ea9e16b032e
+    - date: 2014-02-12 18:10:44.659719
+      posturl: http://warp-to-sun.tumblr.com/post/76396257153
+    - date: 2014-02-11 16:40:00.828347
+      posturl: http://csm8.org/?guid=6e80987e3ff5996da66fea5a63f75874
+    - date: 2014-02-09 08:03:24.633179
+      posturl: http://mikeazariah.wordpress.com/?p=1484
+    - date: 2014-02-07 08:42:40.643086
+      posturl: http://warp-to-sun.tumblr.com/post/75808523820
+    - date: 2014-02-04 18:11:52.801320
+      posturl: http://csm8.org/?guid=7773376820c0af27c450be2523ab3a9b
+    - date: 2014-02-03 15:57:51.406550
+      posturl: http://mikeazariah.wordpress.com/?p=1482
+    - date: 2014-02-02 05:25:56.368453
+      posturl: http://mangala.rvbganked.co.uk/?p=1560
+    - date: 2014-02-01 09:08:00.508156
+      posturl: http://csm8.org/?guid=097568d7cf0fd6faf889ff04bcf1ef54
+    - date: 2014-01-29 19:21:40.894619
+      posturl: http://csm8.org/?guid=6e9995193f07a942c7419b5864df1a9d
+    - date: 2014-01-29 19:16:38.100691
+      posturl: http://csm8.org/?guid=00d5364b377d7e8288cfa1ef5c33e110
+    - date: 2014-01-28 08:58:05.283264
+      posturl: http://mikeazariah.wordpress.com/?p=1480
+    - date: 2014-01-26 21:50:28.447359
+      posturl: http://csm8.org/?guid=7215cc37ae02422093f9da19c17cdf7e
+    - date: 2014-01-26 20:12:46.009147
+      posturl: http://csm8.org/?guid=3ccbb199d1ac79974f01603a4014e560
+    - date: 2014-01-26 04:26:06.693677
+      posturl: http://csm8.org/?guid=b8c5c8342c03aaeeedac5b46513f94cf
+    - date: 2014-01-24 17:09:56.969938
+      posturl: http://csm8.org/?guid=606cd0aa470c74091db813ae00f12f2e
+    - date: 2014-01-24 02:02:22.874055
+      posturl: http://mikeazariah.wordpress.com/?p=1477
+    - date: 2014-01-23 19:18:55.699712
+      posturl: http://csm8.org/?guid=94c64b9dad3b1d956cd5e36b3525855e
+    - date: 2014-01-22 23:19:17.398906
+      posturl: http://csm8.org/?guid=e64d6625d7867811147464cc3b0b2fb0
+    - date: 2014-01-22 20:48:01.184139
+      posturl: http://mikeazariah.wordpress.com/?p=1475
+    - date: 2014-01-22 18:37:30.773989
+      posturl: http://csm8.org/?guid=74e2df72d5edb05881349c733326312f
+    - date: 2014-01-22 04:22:49.780717
+      posturl: http://warp-to-sun.tumblr.com/post/74074635538
+    - date: 2014-01-21 10:06:04.436233
+      posturl: http://mikeazariah.wordpress.com/?p=1473
+    - date: 2014-01-20 18:50:48.552653
+      posturl: http://csm8.org/?guid=6f4304025f13bef38ca1f2fa3c676826
+    - date: 2014-01-20 07:40:30.991333
+      posturl: http://csm8.org/?guid=cb807c4b531fe28a37f013294d26a0d3
+    - date: 2014-01-19 09:11:53.238184
+      posturl: http://csm8.org/?guid=4da5ee6483fe6e1b4408f1171a8f56e7
+    - date: 2014-01-18 14:25:24.654987
+      posturl: http://mikeazariah.wordpress.com/?p=1466
+    - date: 2014-01-18 14:25:24.383399
+      posturl: http://warp-to-sun.tumblr.com/post/73523609605
+    - date: 2014-01-15 18:11:05.495836
+      posturl: http://csm8.org/?guid=4833a1778e40f12184d2154122df765c
+    - date: 2014-01-14 20:38:37.740033
+      posturl: http://mikeazariah.wordpress.com/?p=1464
+    - date: 2014-01-14 17:49:23.266556
+      posturl: http://csm8.org/?guid=2cf79f9d780df8e1107a4ac4b4a35f9b
+    subreddit: eve
+    type: CSM
+    url: http://csm8.org/feed/
+  dev_blogs:
+    raw: false
+    stories:
+    - date: 2014-04-19 08:20:06.712263
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-garpa/
+    - date: 2014-04-19 08:14:50.956994
+      posturl: http://community.eveonline.com/news/dev-blogs/the-impact-of-the-council-of-stellar-management/
+    - date: 2014-04-16 00:36:18.315815
+      posturl: http://community.eveonline.com/news/dev-blogs/building-better-worlds/
+    - date: 2014-04-12 03:21:00.188553
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-the-eve-onion/
+    - date: 2014-04-11 03:49:33.144976
+      posturl: http://community.eveonline.com/news/dev-blogs/developer-spotlight-basementben/
+    - date: 2014-04-10 02:11:57.390131
+      posturl: http://community.eveonline.com/news/dev-blogs/this-is-team-security/
+    - date: 2014-04-09 03:28:47.340775
+      posturl: http://community.eveonline.com/news/dev-blogs/csm9-voting-is-now-open/
+    - date: 2014-04-05 03:01:42.678263
+      posturl: http://community.eveonline.com/news/dev-blogs/csm8-second-summit-minutes/
+    - date: 2014-04-05 01:13:15.030427
+      posturl: http://community.eveonline.com/news/dev-blogs/the-49-u6u-slaughterhouse/
+    - date: 2014-04-04 03:08:30.763251
+      posturl: http://community.eveonline.com/news/dev-blogs/introducing-the-recall-program/
+    - date: 2014-04-03 02:35:45.701142
+      posturl: http://community.eveonline.com/news/dev-blogs/true-stories-what-did-you-think/
+    - date: 2014-04-02 03:30:48.843808
+      posturl: http://community.eveonline.com/news/dev-blogs/giving-drones-an-assist/
+    - date: 2014-03-29 03:37:38.352288
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-k162-space/
+    - date: 2014-03-28 03:58:17.178209
+      posturl: http://community.eveonline.com/news/dev-blogs/developer-spotlight-rise/
+    - date: 2014-03-28 01:12:08.127822
+      posturl: http://community.eveonline.com/news/dev-blogs/new-player-training-sessions-pvp-track/
+    - date: 2014-03-26 01:32:07.737343
+      posturl: http://community.eveonline.com/news/dev-blogs/mineral-trade-in-the-wake-of-the-battle-of-b-r5rb-price-indices-february-2014/
+    - date: 2014-03-22 07:32:08.147246
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-destiny/
+    - date: 2014-03-22 01:48:02.871135
+      posturl: http://community.eveonline.com/news/dev-blogs/csm9-elections-schedule-election-process-and-candidate-applications/
+    - date: 2014-03-21 00:34:00.407245
+      posturl: http://community.eveonline.com/news/dev-blogs/reprocess-all-the-things/
+    - date: 2014-03-14 03:13:06.324260
+      posturl: http://community.eveonline.com/news/dev-blogs/developer-spotlight-punkturis/
+    - date: 2014-03-12 01:06:56.963856
+      posturl: http://community.eveonline.com/news/dev-blogs/rubicon-1.3-balance-round-up/
+    - date: 2014-03-11 01:07:55.526415
+      posturl: http://community.eveonline.com/news/dev-blogs/u-and-i-through-a-scanner-lightly/
+    - date: 2014-03-07 07:33:47.850936
+      posturl: http://community.eveonline.com/news/dev-blogs/ship-painting-pilot-program/
+    - date: 2014-03-06 21:53:52.881184
+      posturl: http://community.eveonline.com/news/dev-blogs/worlds-within-a-world-1/
+    - date: 2014-03-06 00:20:33.346267
+      posturl: http://community.eveonline.com/news/dev-blogs/just-some-little-things/
+    - date: 2014-03-01 03:15:22.684084
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-spectre-fleets/
+    - date: 2014-02-22 02:33:25.308546
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-sir-squeebles/
+    - date: 2014-02-20 05:39:14.923599
+      posturl: http://community.eveonline.com/news/dev-blogs/eve-true-stories-the-comic-book-based-on-true-events-20.000-years-into-the-future/
+    - date: 2014-02-15 03:49:16.897282
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-fly-reckless/
+    - date: 2014-02-15 02:06:32.696081
+      posturl: http://community.eveonline.com/news/dev-blogs/eve-universe-static-data-export/
+    - date: 2014-02-14 02:20:46.080386
+      posturl: http://community.eveonline.com/news/dev-blogs/alliance-logos-you-clarification-on-submissions/
+    - date: 2014-02-14 00:55:57.821820
+      posturl: http://community.eveonline.com/news/dev-blogs/eve-source-limited-edition-open-for-pre-orders/
+    - date: 2014-02-08 03:02:16.774220
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-zao-amadeus/
+    - date: 2014-02-07 01:16:37.798791
+      posturl: http://community.eveonline.com/news/dev-blogs/insights-into-2013-production-and-destruction/
+    - date: 2014-02-01 03:54:44.896329
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-nickfuzzeh/
+    - date: 2014-01-30 03:22:38.994158
+      posturl: http://community.eveonline.com/news/dev-blogs/art-for-rubicon-1.1/
+    - date: 2014-01-30 03:11:51.420190
+      posturl: http://community.eveonline.com/news/dev-blogs/the-bloodbath-of-b-r5rb/
+    - date: 2014-01-29 02:05:50.952713
+      posturl: http://community.eveonline.com/news/dev-blogs/2013-serenity-update/
+    - date: 2014-01-28 03:21:43.050743
+      posturl: http://community.eveonline.com/news/dev-blogs/soe-reinforcements-and-ui-fine-tuning/
+    - date: 2014-01-28 01:39:15.795169
+      posturl: http://community.eveonline.com/news/dev-blogs/little-things-rubicon1.1/
+    - date: 2014-01-25 03:11:02.018390
+      posturl: http://community.eveonline.com/news/dev-blogs/what-a-hed-ache/
+    - date: 2014-01-24 09:43:57.092379
+      posturl: http://community.eveonline.com/news/dev-blogs/rubicon-1.1-mobile-structures/
+    - date: 2014-01-22 00:37:35.656295
+      posturl: http://community.eveonline.com/news/dev-blogs/tracking-camera-ui-improvements/
+    - date: 2014-01-18 14:25:48.846933
+      posturl: http://community.eveonline.com/news/dev-blogs/new-eden-open-signups-and-more-information/
+    - date: 2014-01-18 14:25:48.544149
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-kirith-kodachi/
+    - date: 2014-01-15 01:08:56.054322
+      posturl: http://community.eveonline.com/news/dev-blogs/more-deployables-from-super-friends/
+    - date: 2014-01-14 20:49:07.918823
+      posturl: http://community.eveonline.com/news/dev-blogs/new-player-training-sessions-track-3/
+    subreddit: eve
+    type: Dev Blog
+    url: http://newsfeed.eveonline.com/en-US/2/articles/page/1/20
+  dust514_status:
+    raw: true
+    stories:
+    - date: 2014-04-16 20:18:44.725140
+      posturl: http://www.rssitfor.me/DUST514_Status/status/456351145712435200
+    - date: 2014-04-15 11:32:44.960618
+      posturl: http://www.rssitfor.me/DUST514_Status/status/455847995108786176
+    - date: 2014-04-15 08:50:55.082147
+      posturl: http://www.rssitfor.me/DUST514_Status/status/455794922944491520
+    - date: 2014-04-15 08:45:52.280507
+      posturl: http://www.rssitfor.me/DUST514_Status/status/455836850348109824
+    - date: 2014-04-15 05:51:27.981764
+      posturl: http://www.rssitfor.me/DUST514_Status/status/455777633390063616
+    - date: 2014-04-08 19:17:23.111054
+      posturl: http://www.rssitfor.me/DUST514_Status/status/453457007685939200
+    - date: 2014-04-01 18:29:47.545006
+      posturl: http://www.rssitfor.me/DUST514_Status/status/450898892855721985
+    - date: 2014-03-31 20:37:50.715432
+      posturl: http://www.rssitfor.me/DUST514_Status/status/450555636997427201
+    - date: 2014-03-28 22:07:05.446082
+      posturl: http://www.rssitfor.me/DUST514_Status/status/449507218178990080
+    - date: 2014-03-27 23:46:17.584744
+      posturl: http://www.rssitfor.me/DUST514_Status/status/449148018223484928
+    - date: 2014-03-27 21:03:08.842665
+      posturl: http://www.rssitfor.me/DUST514_Status/status/449118795916148736
+    - date: 2014-03-27 01:05:28.364785
+      posturl: http://www.rssitfor.me/CCP_Frame/status/448797300597346304
+    - date: 2014-03-25 23:47:45.457913
+      posturl: http://www.rssitfor.me/CCP_Frame/status/448419744941891584
+    - date: 2014-03-25 21:15:12.922030
+      posturl: http://www.rssitfor.me/CCP_Frame/status/448397706713911296
+    - date: 2014-03-25 18:24:35.462495
+      posturl: http://www.rssitfor.me/DUST514_Status/status/448306749758775296
+    - date: 2014-03-24 22:55:40.960413
+      posturl: http://www.rssitfor.me/DUST514_Status/status/448066685850091520
+    - date: 2014-03-15 22:57:23.061063
+      posturl: http://www.rssitfor.me/DUST514_Status/status/444798326844981248
+    - date: 2014-03-15 22:52:20.176375
+      posturl: http://www.rssitfor.me/DUST514_Status/status/444803038482808832
+    - date: 2014-03-13 07:43:40.861779
+      posturl: http://www.rssitfor.me/DUST514_Status/status/443802671750082560
+    - date: 2014-03-13 07:38:37.963957
+      posturl: http://www.rssitfor.me/DUST514_Status/status/443810333606821888
+    - date: 2014-03-11 06:17:17.651768
+      posturl: http://www.rssitfor.me/DUST514_Status/status/443083934336049153
+    - date: 2014-03-06 09:52:20.561741
+      posturl: http://www.rssitfor.me/DUST514_Status/status/441319104541360129
+    - date: 2014-03-06 01:35:15.363320
+      posturl: http://www.rssitfor.me/DUST514_Status/status/441204943132037120
+    - date: 2014-03-05 08:51:41.225598
+      posturl: http://www.rssitfor.me/DUST514_Status/status/440961748158668800
+    - date: 2014-03-04 21:36:39.687331
+      posturl: http://www.rssitfor.me/DUST514_Status/status/440784638093848576
+    - date: 2014-03-01 00:17:33.372315
+      posturl: http://www.rssitfor.me/DUST514_Status/status/439359669279412224
+    - date: 2014-02-28 21:17:38.118122
+      posturl: http://www.rssitfor.me/DUST514_Status/status/439351724617515008
+    - date: 2014-02-15 04:22:41.798566
+      posturl: http://www.rssitfor.me/DUST514_Status/status/434357591234584576
+    - date: 2014-02-11 22:02:15.197626
+      posturl: http://www.rssitfor.me/DUST514_Status/status/433200336204226561
+    - date: 2014-02-11 19:14:09.570664
+      posturl: http://www.rssitfor.me/DUST514_Status/status/433143024093515776
+    - date: 2014-02-04 00:20:52.800959
+      posturl: http://www.rssitfor.me/DUST514_Status/status/430316438524805120
+    - date: 2014-02-04 00:15:50.073143
+      posturl: http://www.rssitfor.me/DUST514_Status/status/430335206311358464
+    - date: 2014-01-25 23:01:26.229404
+      posturl: http://www.rssitfor.me/DUST514_Status/status/427044292000219136
+    - date: 2014-01-20 00:49:03.227862
+      posturl: http://www.rssitfor.me/DUST514_Status/status/424877997653762048
+    - date: 2014-01-19 22:21:19.894235
+      posturl: http://www.rssitfor.me/DUST514_Status/status/424870148768813056
+    - date: 2014-01-19 22:11:16.925197
+      posturl: http://www.rssitfor.me/DUST514_Status/status/424873790141923328
+    - date: 2014-01-19 02:41:57.205963
+      posturl: http://www.rssitfor.me/DUST514_Status/status/424547823837671424
+    - date: 2014-01-13 22:26:56.409127
+      posturl: http://www.rssitfor.me/DUST514_Status/status/422673337119027200
+    - date: 2014-01-13 22:16:47.189789
+      posturl: http://www.rssitfor.me/DUST514_Status/status/422694017109733376
+    - date: 2014-01-13 22:06:39.963001
+      posturl: http://www.rssitfor.me/DUST514_Status/status/422698985610936321
+    subreddit: dust514
+    type: Server
+    url: http://www.rssitfor.me/getrss?name=dust514_status
+  dust_bug_reports:
+    raw: false
+    stories:
+    - date: 2014-04-10 23:07:12.974661
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1711406
+    - date: 2014-03-21 04:00:00.552684
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1633236
+    - date: 2014-02-27 03:13:38.481690
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1560387
+    - date: 2014-02-17 18:20:06.313785
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1531382
+    - date: 2014-01-30 22:10:37.423647
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1471235
+    - date: 2014-01-18 14:23:54.772866
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378817
+    - date: 2014-01-18 14:23:36.373329
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378818
+    - date: 2014-01-18 14:22:56.309897
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1425987
+    subreddit: dust514
+    type: Forums
+    url: http://dustsearch.com/feed/thread/133587
+  dust_dev_blogs:
+    raw: false
+    stories:
+    - date: 2014-04-14 23:00:05.526707
+      posturl: http://dust514.com/news/blog/2014/04/developer-spotlight-ccp-jbot-johann-reynisson/
+    - date: 2014-04-14 18:27:56.810453
+      posturl: http://dust514.com/news/blog/2014/04/community-spotlight-districts-overview/
+    - date: 2014-03-19 02:22:39.150596
+      posturl: http://dust514.com/news/blog/2014/03/uprising-1.8-overview-patch-notes/
+    - date: 2014-03-15 02:43:49.902825
+      posturl: http://dust514.com/news/blog/2014/03/equipment-uprising-1.8/
+    - date: 2014-03-13 07:09:01.247045
+      posturl: http://dust514.com/news/blog/2014/03/dropsuits-of-uprising-1.8/
+    - date: 2014-03-05 20:19:15.225029
+      posturl: http://dust514.com/news/blog/2014/03/expanding-the-arsenal-with-uprising-1.8/
+    - date: 2014-03-01 03:30:37.982858
+      posturl: http://dust514.com/news/blog/2014/02/community-spotlight-dust514.info/
+    - date: 2014-02-25 19:21:21.892530
+      posturl: http://dust514.com/news/blog/2014/02/artist-spotlight-senior-environment-concept-artist-zeng-liang/
+    - date: 2014-02-01 04:04:59.883344
+      posturl: http://dust514.com/news/blog/2014/01/community-spotlight-new-players-guide-to-dust-514/
+    - date: 2014-01-22 21:09:26.353541
+      posturl: http://dust514.com/news/blog/2014/01/artist-focus-ccp-jusan-aka-bao-juansheng/
+    - date: 2014-01-04 06:33:09.672660
+      posturl: http://dust514.com/news/blog/2014/01/community-spotlight/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/blog/2013/12/strengthening-the-link-factional-warfare-in-uprising-1.7/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/blog/2013/12/onwards-to-uprising-1.7/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/blog/2013/12/interview-with-ccp-remnant/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/blog/2013/12/community-spotlight-districts-overview/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/blog/2013/11/weapons-of-uprising-1.7/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/blog/2013/11/vehicles-in-uprising-1.7-1/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/blog/2013/11/looking-at-events-in-dust-514/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/blog/2013/11/eve-vegas-2013-roundup/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/blog/2013/11/community-spotlight-thunder-domes/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/blog/2013/11/community-spotlight-ghazbaran/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/blog/2013/11/ccp-wolfman-interview-by-ccp-blowout/
+    subreddit: dust514
+    type: Dev Blog
+    url: http://newsfeed.eveonline.com/en-US/60/articles/page/1/20/
+  dust_featured_promotions:
+    raw: false
+    stories:
+    - date: 2014-04-14 13:13:37.060488
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1721386
+    - date: 2014-04-08 15:52:17.277468
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1704680
+    - date: 2014-04-01 15:53:45.260333
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1681887
+    - date: 2014-03-25 18:13:37.592408
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1647505
+    - date: 2014-03-18 18:14:50.174677
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1624763
+    - date: 2014-03-11 13:24:24.004706
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1600298
+    - date: 2014-03-03 17:45:00.917632
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1574389
+    - date: 2014-02-26 18:52:22.439973
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1559311
+    - date: 2014-02-18 12:31:13.754721
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1534626
+    - date: 2014-02-11 13:43:43.434036
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1510265
+    - date: 2014-02-07 13:05:07.261445
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1496553
+    - date: 2014-01-28 18:52:21.667290
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1463442
+    - date: 2014-01-21 17:15:00.614779
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1439276
+    - date: 2014-01-13 20:24:30.396016
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1409516
+    - date: 2014-01-07 18:22:07.487495
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1387987
+    - date: 2013-12-26 20:23:38.390795
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1347965
+    - date: 2013-12-26 20:23:38.131341
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1354296
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1323004
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1284563
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1262310
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1245847
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1223288
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1219856
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1199198
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1177156
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1160810
+    subreddit: dust514
+    type: Forums
+    url: http://dustsearch.com/feed/forum/1263/new
+  dust_feedback_suggestions:
+    raw: false
+    stories:
+    - date: 2014-04-10 23:01:43.916504
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1711407
+    - date: 2014-03-21 04:33:00.458715
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1633322
+    - date: 2014-02-27 04:09:54.786073
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1560584
+    - date: 2014-02-17 18:35:28.925080
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1531402
+    - date: 2014-01-30 22:21:28.280142
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1471253
+    - date: 2014-01-18 14:25:14.574161
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1425988
+    - date: 2014-01-04 20:10:01.413701
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378794
+    - date: 2014-01-04 19:59:54.461317
+      posturl: http://dustsearch.com/feed/thread/dustsearch/guid/1378795
+    subreddit: dust514
+    type: Forums
+    url: http://dustsearch.com/feed/thread/133585
+  dust_news:
+    raw: false
+    stories:
+    - date: 2014-04-15 20:21:14.026975
+      posturl: http://dust514.com/news/2014/04/accelerated-sp-week-starts-april-16/
+    - date: 2014-04-14 23:05:37.191662
+      posturl: http://dust514.com/news/2014/04/developer-spotlight-ccp-jbot-johann-reynisson/
+    - date: 2014-03-25 12:30:54.535182
+      posturl: http://dust514.com/news/2014/03/new-in-the-marketplace-march-25-2014/
+    - date: 2014-03-19 02:28:08.781079
+      posturl: http://dust514.com/news/2014/03/uprising-1.8-overview-patch-notes/
+    - date: 2014-03-15 02:33:27.112640
+      posturl: http://dust514.com/news/2014/03/equipment-uprising-1.8/
+    - date: 2014-03-13 07:15:10.839804
+      posturl: http://dust514.com/news/2014/03/dropsuits-of-uprising-1.8/
+    - date: 2014-03-05 20:29:47.910715
+      posturl: http://dust514.com/news/2014/03/expanding-the-arsenal-with-uprising-1.8/
+    - date: 2014-03-04 14:35:29.013537
+      posturl: http://dust514.com/news/2014/03/new-in-the-marketplace-february-25-2014/
+    - date: 2014-02-26 19:02:31.800453
+      posturl: http://dust514.com/news/2014/02/new-in-the-marketplace-february-25-2014/
+    - date: 2014-02-25 19:31:50.105895
+      posturl: http://dust514.com/news/2014/02/artist-spotlight-senior-environment-concept-artist-zeng-liang/
+    - date: 2014-01-24 17:49:23.385231
+      posturl: http://dust514.com/news/2014/01/artist-focus-ccp-jusan-aka-bao-juansheng/
+    - date: 2014-01-22 23:08:53.188332
+      posturl: http://dust514.com/news/2014/01/one-year-on-the-ground/
+    - date: 2014-01-22 20:59:01.137096
+      posturl: http://dust514.com/news/2014/01/new-in-the-marketplace-january-2014/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/2013/12/onwards-to-uprising-1.7/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/2013/12/interview-with-ccp-remnant/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/2013/11/weapons-of-uprising-1.7/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/2013/11/vehicles-in-uprising-1.7/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/2013/11/suit-up-for-black-eagle-friday/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/2013/11/introducing-dust-514-origin-pack/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/2013/11/changes-to-eveonline-dust514-twitter-usage-for-server-status-messaging-1/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/2013/11/ccp-wolfman-interview-by-ccp-blowout/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/2013/11/accelerated-sp-week-event-is-here/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/2013/10/retiring-veteran-and-elite-packs/
+    subreddit: dust514
+    type: News
+    url: http://newsfeed.eveonline.com/en-US/36/articles/page/1/20/
+  dust_press:
+    raw: false
+    stories:
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/10/psu-dust-514-exclusive-interview-creative-director-the-evolution-of-playstations-flagship-f2p-shooter/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/10/polygon-dust-514-new-producer-make-the-game-more-intense/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/10/mmorpg.com-uprising-dusts-off-dust/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/10/massively-ccp-hires-new-executive-producer-for-dust-514-jean-charles-gaudechon/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/07/dust-514-issues-a-challenge-to-all-players/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/07/dust-514-and-the-epic-game-inside-a-game/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/06/psu.com-e3-interview-dust-514-a-universe-like-no-other/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/05/dust-514-will-change-the-rhythm-of-eve/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/05/dust-514-review-ten-ton-hammer/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/05/dust-514-review-playstation-universe-1/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/03/ten-ton-hammer-dust-mercenaries-swarm-eve-online/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/03/gamasutra-on-uprising-may-6th/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/02/penny-arcade-editorial-corporate-gambling/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/02/ign-live-presents-dust-514/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/02/escapist-live-team-plays-dust-514/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/01/penny-arcade-dust-514-hands-on/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/01/massively-hands-on-with-dust-514-open-beta/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/01/g4tv-dust-514-open-beta-hands-on/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/01/eve-online-dust-514-servers-will-merge-tomorrow/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://dust514.com/news/press/2013/01/dust-514-moves-into-open-beta-on-22nd-january/
+    subreddit: dust514
+    type: Press
+    url: http://newsfeed.eveonline.com/en-US/61/articles/page/1/20/
+  dust_youtube:
+    raw: false
+    stories:
+    - date: 2014-02-16 11:50:19.823127
+      posturl: tag:youtube.com,2008:video:0NsIIGZBSrs
+    - date: 2014-02-04 21:28:41.555970
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdobNUiYOCZKJpIhdiPIVToQ
+    subreddit: dust514
+    type: Youtube
+    url: http://gdata.youtube.com/feeds/api/users/UC7MbNI-oYZAYtF_c0a-Gh7w/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
+  eve_live_events_twitter:
+    raw: true
+    stories:
+    - date: 2014-04-19 14:13:47.303099
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/457337263039733761
+    - date: 2014-04-19 14:08:44.512710
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/457350436182560768
+    - date: 2014-04-18 08:02:44.075377
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/456885938824966144
+    - date: 2014-04-17 02:52:31.784008
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/456432214105145344
+    - date: 2014-04-17 02:47:28.998388
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/456437097109676032
+    - date: 2014-04-16 04:13:42.316160
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/456129809756995584
+    - date: 2014-04-15 00:02:28.701529
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/455669562101747712
+    - date: 2014-04-14 23:57:25.604445
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/455675785240920064
+    - date: 2014-04-14 21:21:30.913206
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/455389981381775360
+    - date: 2014-04-14 21:18:43.402579
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/316541471564107776
+    - date: 2014-04-14 21:18:43.029563
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/316670138973843456
+    - date: 2014-04-14 21:18:42.666148
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/316680463517380610
+    - date: 2014-04-14 21:18:42.284542
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/319170222793838592
+    - date: 2014-04-14 21:18:41.930465
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/320599244295766016
+    - date: 2014-04-14 21:18:41.572748
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/322403573172408322
+    - date: 2014-04-14 21:18:41.222105
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/331143849403617280
+    - date: 2014-04-14 21:18:40.867821
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/331150055388090369
+    - date: 2014-04-14 21:18:40.515145
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/331160657795903489
+    - date: 2014-04-14 21:18:40.164941
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/331715532606828544
+    - date: 2014-04-14 21:18:39.818169
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/331779659207421952
+    - date: 2014-04-14 21:18:39.466585
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/331856922590461953
+    - date: 2014-04-14 21:18:39.112225
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/331886296660336640
+    - date: 2014-04-14 21:18:38.740603
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/338265825104523265
+    - date: 2014-04-14 21:18:38.381614
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/340802835056844800
+    - date: 2014-04-14 21:18:38.006923
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/344156910175518720
+    - date: 2014-04-14 21:18:37.653631
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/347076693770526720
+    - date: 2014-04-14 21:18:37.297844
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/398516827359571968
+    - date: 2014-04-14 21:18:36.956904
+      posturl: http://www.rssitfor.me/EVE_LiveEvents/status/455042999735844864
+    subreddit: eve
+    type: Twitter
+    url: http://www.rssitfor.me/getrss?name=EVE_LiveEvents
+  eve_news:
+    raw: false
+    stories:
+    - date: 2014-04-19 08:09:23.060611
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2014-ccp-tour-draw-6/
+    - date: 2014-04-17 04:38:02.943474
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-cruiser-skins-week-2/
+    - date: 2014-04-16 19:48:06.129904
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/a-quick-video-from-ccp-karkur/
+    - date: 2014-04-15 08:14:32.375050
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/tranquility-restart/
+    - date: 2014-04-13 04:04:27.077025
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-caldari-navy-manhunt/
+    - date: 2014-04-12 03:55:23.871350
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/csm8-winter-minutes-update-ship-balancing/
+    - date: 2014-04-12 02:32:18.272346
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/9th-council-of-stellar-management-elections-now-open/
+    - date: 2014-04-12 00:55:50.480234
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2014-ccp-tour-draw-5/
+    - date: 2014-04-11 03:01:10.353512
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-cruiser-skins-are-coming/
+    - date: 2014-04-10 01:43:32.192670
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-hd-stream-now-on-sale/
+    - date: 2014-04-05 03:12:24.815249
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/20-weekend-discount-on-ship-skin-packages/
+    - date: 2014-04-05 01:01:48.528992
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2014-ccp-tour-draw-4/
+    - date: 2014-03-28 20:22:31.886265
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2014-ccp-tour-draw-3/
+    - date: 2014-03-28 02:09:52.522189
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/official-eve-source-promo-video/
+    - date: 2014-03-27 19:34:20.662144
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/your-opinions-count-new-eden-open-ii-stream-poll/
+    - date: 2014-03-27 00:31:10.483714
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-ship-models-which-ones-would-you-like-to-own/
+    - date: 2014-03-24 21:05:06.426168
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/early-downtime-25-03-2014-10-00-utc/
+    - date: 2014-03-21 20:58:50.275801
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2014-ccp-tour-draw-2/
+    - date: 2014-03-20 02:59:46.552229
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/bug-reporting-system-downtime-march-20-20-00-to-20-30-utc/
+    - date: 2014-03-15 02:49:03.307912
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/fanfest-2014-ccp-tour-raffle/
+    - date: 2014-03-15 02:28:09.108499
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-eden-open-ii-plex-sale/
+    - date: 2014-03-12 22:16:18.204084
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-1.3-successfully-deployed/
+    - date: 2014-03-12 19:29:50.199916
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/come-play-eve-valkyrie-at-pax-east/
+    - date: 2014-03-10 22:51:48.868729
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-1.3-to-be-deployed-on-march-12/
+    - date: 2014-03-08 01:45:11.832926
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-1.3-to-be-deployed-on-march-11-2014/
+    - date: 2014-03-06 23:19:30.838185
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/second-weekend-of-the-new-eden-open-2/
+    - date: 2014-03-05 20:24:29.472187
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/player-gathering-in-london-this-friday-featuring-valkyrie/
+    - date: 2014-03-04 02:10:03.853681
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-event-on-singularity-march-4/
+    - date: 2014-03-01 00:56:15.233625
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-eden-open-ii-starts-this-weekend/
+    - date: 2014-02-21 23:22:41.392319
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-player-training-sessions-mining-fleet/
+    - date: 2014-02-20 22:27:49.223086
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/dark-horse-presents-eve-true-stories-chapter-1/
+    - date: 2014-02-19 16:43:18.457032
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-source-now-available-in-australia/
+    - date: 2014-02-18 21:51:40.079183
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-1.2-successfully-deployed-on-feb-18-2014/
+    - date: 2014-02-15 00:41:42.762898
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-1.2-to-be-deployed-tuesday-the/
+    - date: 2014-02-14 23:14:37.507124
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/valentines-day-second-decade-collectors-edition-sale/
+    - date: 2014-02-14 22:58:30.981565
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/upcoming-changes-to-macintosh-minimum-requirements/
+    - date: 2014-02-07 21:38:28.075204
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/disappearing-freight-containers-in-space/
+    - date: 2014-02-04 19:43:20.175177
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-tuesday-february-4th/
+    - date: 2014-02-04 00:59:55.067195
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-new-pilot-faq-available/
+    - date: 2014-02-01 02:23:47.981993
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/attention-trial-users/
+    - date: 2014-01-31 03:46:11.452067
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/universe-data-migration-test-on-singularity/
+    - date: 2014-01-30 02:55:08.536632
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/rubicon-1.1-live-stream-january-30-19-00-utc/
+    - date: 2014-01-29 02:22:07.998667
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-1.1-plex-sale/
+    - date: 2014-01-28 21:48:51.981223
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-rubicon-1.1-has-been-deployed/
+    - date: 2014-01-28 03:49:27.762208
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/rubicon-1.1-deployment/
+    - date: 2014-01-24 06:34:55.446492
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/in-development-eve-online-rubicon-1.1/
+    - date: 2014-01-22 23:30:00.931588
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/limited-time-left-to-claim-your-gifts-from-the-yule-lads/
+    - date: 2014-01-20 21:32:53.239174
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-eden-open-ii-signups-closed-auction-now-live/
+    - date: 2014-01-20 19:29:06.352214
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-tuesday-january-21st/
+    - date: 2014-01-18 14:25:28.065384
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/rubicon-feature-site-update-for-eve-online-rubicon-1.1/
+    - date: 2014-01-15 04:02:55.817842
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/issues-with-api-management/
+    - date: 2014-01-13 20:58:26.811325
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/ccp-brings-eve-valkyrie-to-sundance-film-festival/
+    subreddit: eve
+    type: EVE News
+    url: http://newsfeed.eveonline.com/en-US/44/articles/page/1/20
+  eve_status:
+    raw: true
+    stories:
+    - date: 2014-04-15 10:04:29.169056
+      posturl: http://www.rssitfor.me/EVE_status/status/455836850390069250
+    - date: 2014-04-15 09:59:26.393066
+      posturl: http://www.rssitfor.me/EVE_status/status/455847995129724928
+    - date: 2014-04-15 06:42:51.996787
+      posturl: http://www.rssitfor.me/EVE_status/status/455777633083863040
+    - date: 2014-04-15 06:37:49.216900
+      posturl: http://www.rssitfor.me/EVE_status/status/455794922533441536
+    - date: 2014-03-18 08:19:36.858366
+      posturl: http://www.rssitfor.me/EVE_status/status/445644408512610304
+    - date: 2014-03-18 08:14:33.838431
+      posturl: http://www.rssitfor.me/EVE_status/status/445654248450457600
+    - date: 2014-03-17 22:57:35.895666
+      posturl: http://www.rssitfor.me/EVE_status/status/445522726829445120
+    - date: 2014-03-15 23:49:26.481727
+      posturl: http://www.rssitfor.me/EVE_status/status/444798326823997440
+    - date: 2014-03-15 23:44:23.595906
+      posturl: http://www.rssitfor.me/EVE_status/status/444803038486994944
+    - date: 2014-03-15 01:30:20.843190
+      posturl: http://www.rssitfor.me/EVE_status/status/444466137490030592
+    - date: 2014-03-15 01:25:17.945230
+      posturl: http://www.rssitfor.me/EVE_status/status/444469036790071296
+    - date: 2014-03-13 07:59:22.766500
+      posturl: http://www.rssitfor.me/EVE_status/status/443802671699734528
+    - date: 2014-03-13 07:54:19.912307
+      posturl: http://www.rssitfor.me/EVE_status/status/443810333476798464
+    - date: 2014-03-06 07:18:53.088764
+      posturl: http://www.rssitfor.me/EVE_status/status/441319104553967617
+    - date: 2014-03-06 01:45:56.254292
+      posturl: http://www.rssitfor.me/EVE_status/status/441204943140438016
+    - date: 2014-03-05 09:15:07.716348
+      posturl: http://www.rssitfor.me/EVE_status/status/440961748858724352
+    - date: 2014-03-04 22:28:03.890269
+      posturl: http://www.rssitfor.me/EVE_status/status/440784445902454784
+    - date: 2014-02-28 23:43:15.734129
+      posturl: http://www.rssitfor.me/EVE_status/status/439359669312950272
+    - date: 2014-02-28 21:01:26.315152
+      posturl: http://www.rssitfor.me/EVE_status/status/439351633152344064
+    - date: 2014-02-26 07:18:23.029489
+      posturl: http://www.rssitfor.me/EVE_status/status/438399978973958144
+    - date: 2014-02-15 03:33:05.015422
+      posturl: http://www.rssitfor.me/EVE_status/status/434357591222009856
+    - date: 2014-01-25 22:16:17.354296
+      posturl: http://www.rssitfor.me/EVE_status/status/427044292004429824
+    - date: 2014-01-19 23:19:43.813532
+      posturl: http://www.rssitfor.me/EVE_status/status/424870148743630848
+    - date: 2014-01-19 23:09:40.916803
+      posturl: http://www.rssitfor.me/EVE_status/status/424873790146109440
+    - date: 2014-01-19 22:59:37.858393
+      posturl: http://www.rssitfor.me/EVE_status/status/424877997662162944
+    subreddit: eve
+    type: Server
+    url: http://www.rssitfor.me/getrss?name=eve_status
+  eve_youtube:
+    raw: false
+    stories:
+    - date: 2014-04-12 02:04:29.570924
+      posturl: tag:youtube.com,2008:video:cLXvu_l0ygw
+    - date: 2014-03-17 08:45:25.721085
+      posturl: tag:youtube.com,2008:video:OfZ9tstIdMY
+    - date: 2014-03-17 08:40:22.854344
+      posturl: tag:youtube.com,2008:video:KDHVrXNY_ac
+    - date: 2014-03-17 08:35:19.908030
+      posturl: tag:youtube.com,2008:video:UsSwqajWCYI
+    - date: 2014-03-17 08:30:16.776478
+      posturl: tag:youtube.com,2008:video:Vuv2Q8jdlNI
+    - date: 2014-03-17 08:25:13.924063
+      posturl: tag:youtube.com,2008:video:RTjzoote2LE
+    - date: 2014-03-17 08:14:19.103038
+      posturl: tag:youtube.com,2008:video:-EX6kbgnm_Q
+    - date: 2014-03-17 08:09:16.218230
+      posturl: tag:youtube.com,2008:video:h28zPiyYfxo
+    - date: 2014-03-17 08:04:13.319164
+      posturl: tag:youtube.com,2008:video:C_sDbG7ujpY
+    - date: 2014-03-17 07:59:10.422343
+      posturl: tag:youtube.com,2008:video:VACrmQAEg5I
+    - date: 2014-03-17 07:54:07.568731
+      posturl: tag:youtube.com,2008:video:KoenZWjT5vA
+    - date: 2014-03-16 09:31:53.481601
+      posturl: tag:youtube.com,2008:video:ov-pa547vmE
+    - date: 2014-03-16 09:26:50.596103
+      posturl: tag:youtube.com,2008:video:bhYpzR9BCig
+    - date: 2014-03-16 09:21:47.731254
+      posturl: tag:youtube.com,2008:video:k-xCX5UMN5Y
+    - date: 2014-03-16 09:16:44.782166
+      posturl: tag:youtube.com,2008:video:BmGBgauRmag
+    - date: 2014-03-16 09:11:41.845374
+      posturl: tag:youtube.com,2008:video:P7QtchcV14k
+    - date: 2014-03-16 09:00:13.631517
+      posturl: tag:youtube.com,2008:video:DswUTQRpOuY
+    - date: 2014-03-16 08:55:10.726737
+      posturl: tag:youtube.com,2008:video:j9OuzcYQklI
+    - date: 2014-03-16 08:50:07.707894
+      posturl: tag:youtube.com,2008:video:NPxDQ_t1iD8
+    - date: 2014-03-16 08:45:03.685325
+      posturl: tag:youtube.com,2008:video:eLw-kW-mdmU
+    - date: 2014-03-16 08:40:00.727065
+      posturl: tag:youtube.com,2008:video:whJtxR8LztM
+    - date: 2014-03-16 08:34:57.817193
+      posturl: tag:youtube.com,2008:video:aL2L6AYv5Ks
+    - date: 2014-03-16 08:29:54.896802
+      posturl: tag:youtube.com,2008:video:M7Tf2ysn1RY
+    - date: 2014-03-16 08:24:51.911653
+      posturl: tag:youtube.com,2008:video:JShT6kMAFKs
+    - date: 2014-03-16 08:19:49.025881
+      posturl: tag:youtube.com,2008:video:3rvUiYeWVkc
+    - date: 2014-03-16 08:14:45.894996
+      posturl: tag:youtube.com,2008:video:Cw4oTVRndeo
+    - date: 2014-03-16 08:09:43.052357
+      posturl: tag:youtube.com,2008:video:mNUBjlylM6Y
+    - date: 2014-03-16 08:04:40.142937
+      posturl: tag:youtube.com,2008:video:YJNJBoE_KH8
+    - date: 2014-03-16 07:29:40.094591
+      posturl: tag:youtube.com,2008:video:gQa454fD_AQ
+    - date: 2014-03-10 11:52:23.268736
+      posturl: tag:youtube.com,2008:video:6YgVJ_I96vM
+    - date: 2014-03-10 11:47:20.113623
+      posturl: tag:youtube.com,2008:video:ftkOzvcMPcg
+    - date: 2014-03-10 10:30:55.319631
+      posturl: tag:youtube.com,2008:video:FqCiNhJ8Xd4
+    - date: 2014-03-10 10:25:52.484006
+      posturl: tag:youtube.com,2008:video:EqgqrnAg52k
+    - date: 2014-03-10 10:20:49.634023
+      posturl: tag:youtube.com,2008:video:wewbG5AlROA
+    - date: 2014-03-10 10:15:46.758593
+      posturl: tag:youtube.com,2008:video:dmnKf2ZxQgg
+    - date: 2014-03-10 10:10:43.893098
+      posturl: tag:youtube.com,2008:video:2QYvYDkdSsM
+    - date: 2014-03-10 10:05:41.084095
+      posturl: tag:youtube.com,2008:video:bNpX1maOkaI
+    - date: 2014-03-10 10:00:38.219131
+      posturl: tag:youtube.com,2008:video:qwnmebyZstM
+    - date: 2014-03-10 09:55:35.398364
+      posturl: tag:youtube.com,2008:video:1GHAvOn_wVs
+    - date: 2014-03-10 09:50:32.570640
+      posturl: tag:youtube.com,2008:video:io0AywKrLFA
+    - date: 2014-03-10 09:45:29.749117
+      posturl: tag:youtube.com,2008:video:nSDcoFo0kiY
+    - date: 2014-03-10 09:40:26.882009
+      posturl: tag:youtube.com,2008:video:nw_J_0nWrrU
+    - date: 2014-03-10 09:35:24.060443
+      posturl: tag:youtube.com,2008:video:UZ6-xmsaBfs
+    - date: 2014-03-10 09:30:21.164323
+      posturl: tag:youtube.com,2008:video:bBue_OZrsn0
+    - date: 2014-03-10 09:25:18.313924
+      posturl: tag:youtube.com,2008:video:V9bcYTBbqwk
+    - date: 2014-03-10 09:20:15.441657
+      posturl: tag:youtube.com,2008:video:5v-KcGo-Nyc
+    - date: 2014-03-10 09:15:12.622624
+      posturl: tag:youtube.com,2008:video:tDNY_tNDLjc
+    - date: 2014-03-10 09:10:09.721902
+      posturl: tag:youtube.com,2008:video:0--mLaZeQF8
+    - date: 2014-03-10 09:05:06.851521
+      posturl: tag:youtube.com,2008:video:xcDZgAAmnG8
+    - date: 2014-03-10 09:00:03.981542
+      posturl: tag:youtube.com,2008:video:JY6hEM1iOuw
+    - date: 2014-03-10 08:48:54.955964
+      posturl: tag:youtube.com,2008:video:GgVMd92N-Fo
+    - date: 2014-03-10 08:43:52.144037
+      posturl: tag:youtube.com,2008:video:XJrZq8Uga3k
+    - date: 2014-03-10 08:38:49.293487
+      posturl: tag:youtube.com,2008:video:5prWD5A8lCg
+    - date: 2014-03-10 08:33:45.863592
+      posturl: tag:youtube.com,2008:video:OWajYaSMxoQ
+    - date: 2014-03-10 08:28:43.018757
+      posturl: tag:youtube.com,2008:video:BkOvKP31S6M
+    - date: 2014-03-10 08:23:40.170885
+      posturl: tag:youtube.com,2008:video:d7JzC5x-t9w
+    - date: 2014-03-10 07:55:57.010479
+      posturl: tag:youtube.com,2008:video:uYGqkijc3TE
+    - date: 2014-03-10 07:50:54.083288
+      posturl: tag:youtube.com,2008:video:3OQR71nW1Q0
+    - date: 2014-03-10 03:55:10.620949
+      posturl: tag:youtube.com,2008:video:x0NX8OA2fYc
+    - date: 2014-03-10 03:26:41.814127
+      posturl: tag:youtube.com,2008:video:UjduIPtB7pQ
+    - date: 2014-03-10 03:21:38.995421
+      posturl: tag:youtube.com,2008:video:x0TZXpk1_nk
+    - date: 2014-03-10 03:09:46.401223
+      posturl: tag:youtube.com,2008:video:x4uG1vhghg4
+    - date: 2014-03-10 03:04:43.477538
+      posturl: tag:youtube.com,2008:video:nU9zdfg3yPg
+    - date: 2014-03-10 02:59:40.637710
+      posturl: tag:youtube.com,2008:video:qDiKaZh20PI
+    - date: 2014-03-10 02:54:37.761253
+      posturl: tag:youtube.com,2008:video:VmQa1bqwAr4
+    - date: 2014-03-10 02:49:34.820518
+      posturl: tag:youtube.com,2008:video:PrBtCKXMHE0
+    - date: 2014-03-10 02:44:32.026981
+      posturl: tag:youtube.com,2008:video:-g8LvbuDjL4
+    - date: 2014-03-10 02:39:28.989159
+      posturl: tag:youtube.com,2008:video:HwlLQuXIsQM
+    - date: 2014-03-10 02:34:26.145157
+      posturl: tag:youtube.com,2008:video:1GnXYq4OyaI
+    - date: 2014-03-10 02:29:23.310604
+      posturl: tag:youtube.com,2008:video:Ib07FyQSG_4
+    - date: 2014-03-10 02:24:20.449889
+      posturl: tag:youtube.com,2008:video:sszYVbtXmgQ
+    - date: 2014-03-10 02:19:17.632716
+      posturl: tag:youtube.com,2008:video:V8HRHq_yAos
+    - date: 2014-03-10 02:08:28.349700
+      posturl: tag:youtube.com,2008:video:6rC14XChiPk
+    - date: 2014-03-10 02:03:25.500939
+      posturl: tag:youtube.com,2008:video:0q3-Vmy6SNQ
+    - date: 2014-03-10 01:58:22.708460
+      posturl: tag:youtube.com,2008:video:o1ihN5L6Zsk
+    - date: 2014-03-10 01:53:19.882278
+      posturl: tag:youtube.com,2008:video:49yWD7Friwc
+    - date: 2014-03-10 01:48:17.014062
+      posturl: tag:youtube.com,2008:video:m_BD6aNNK1M
+    - date: 2014-03-10 01:43:14.169776
+      posturl: tag:youtube.com,2008:video:J2Bq7XejKMQ
+    - date: 2014-03-10 01:38:11.397198
+      posturl: tag:youtube.com,2008:video:iIChbvr6-aY
+    - date: 2014-03-10 01:33:08.622673
+      posturl: tag:youtube.com,2008:video:FnZvF65BZfQ
+    - date: 2014-03-10 01:28:05.751894
+      posturl: tag:youtube.com,2008:video:MaHIDh8p1es
+    - date: 2014-03-10 01:23:02.885574
+      posturl: tag:youtube.com,2008:video:cKgTs1NpYsc
+    - date: 2014-03-10 01:17:59.978067
+      posturl: tag:youtube.com,2008:video:NMgyOcuAj7I
+    - date: 2014-03-10 01:12:56.986838
+      posturl: tag:youtube.com,2008:video:PMzonXmK-2c
+    - date: 2014-03-06 01:57:05.956035
+      posturl: tag:youtube.com,2008:video:0ZSZPcQGrEA
+    - date: 2014-03-05 22:42:56.360332
+      posturl: tag:youtube.com,2008:video:sQIR_lmvFTA
+    - date: 2014-03-05 22:25:27.449358
+      posturl: tag:youtube.com,2008:video:aXU4oKiygDo
+    - date: 2014-03-04 11:32:30.661616
+      posturl: tag:youtube.com,2008:video:O0MFoJIVmVU
+    - date: 2014-03-04 09:40:48.578192
+      posturl: tag:youtube.com,2008:video:JAu1REgFq7w
+    - date: 2014-03-04 09:35:45.683224
+      posturl: tag:youtube.com,2008:video:BPC61Dv01eA
+    - date: 2014-03-04 09:30:42.883608
+      posturl: tag:youtube.com,2008:video:TvWxDqnUv8c
+    - date: 2014-03-04 09:25:39.958729
+      posturl: tag:youtube.com,2008:video:P-Q6Pllb8Jc
+    - date: 2014-03-04 09:20:37.096123
+      posturl: tag:youtube.com,2008:video:CraM9vJ9f3c
+    - date: 2014-03-04 09:15:34.294623
+      posturl: tag:youtube.com,2008:video:mjOpUl2cr3Q
+    - date: 2014-03-04 08:59:05.533645
+      posturl: tag:youtube.com,2008:video:CchKUyfTG3U
+    - date: 2014-03-03 23:15:18.768182
+      posturl: tag:youtube.com,2008:video:YYheauujDjc
+    - date: 2014-03-03 23:10:14.338797
+      posturl: tag:youtube.com,2008:video:rPSN0xSTZPY
+    - date: 2014-03-03 23:05:11.099989
+      posturl: tag:youtube.com,2008:video:7KiaBzsyA9s
+    - date: 2014-03-03 23:00:07.555591
+      posturl: tag:youtube.com,2008:video:2AD_qrrDIRY
+    - date: 2014-03-03 22:55:04.789197
+      posturl: tag:youtube.com,2008:video:9Rgmf8Rbrso
+    - date: 2014-03-03 22:50:01.937522
+      posturl: tag:youtube.com,2008:video:Nw7f5Yyq1Zw
+    - date: 2014-03-03 22:44:58.855689
+      posturl: tag:youtube.com,2008:video:EADL6_RxSbM
+    - date: 2014-03-03 22:39:56.014901
+      posturl: tag:youtube.com,2008:video:kciWCMHp3H8
+    - date: 2014-03-03 22:34:53.145081
+      posturl: tag:youtube.com,2008:video:lVFDiCb7qWk
+    - date: 2014-03-03 22:29:50.290461
+      posturl: tag:youtube.com,2008:video:efmHfpXm1AM
+    - date: 2014-03-03 22:24:47.006658
+      posturl: tag:youtube.com,2008:video:q3waStvlpQE
+    - date: 2014-03-03 22:19:44.180070
+      posturl: tag:youtube.com,2008:video:7GkRUfOSfpY
+    - date: 2014-03-03 22:14:41.085476
+      posturl: tag:youtube.com,2008:video:pfrq0B0HJ3c
+    - date: 2014-03-03 22:09:38.133277
+      posturl: tag:youtube.com,2008:video:YNRRRYx5nig
+    - date: 2014-03-03 22:04:35.293034
+      posturl: tag:youtube.com,2008:video:nCP0g9z9mZg
+    - date: 2014-03-03 21:59:32.403824
+      posturl: tag:youtube.com,2008:video:g1ntDB2PTf0
+    - date: 2014-03-03 21:54:29.523958
+      posturl: tag:youtube.com,2008:video:MgfFbmoDUjs
+    - date: 2014-03-03 21:49:26.676316
+      posturl: tag:youtube.com,2008:video:xgnBVH0FQco
+    - date: 2014-03-03 21:44:23.833454
+      posturl: tag:youtube.com,2008:video:dMWPru6LOOU
+    - date: 2014-03-03 21:39:20.734483
+      posturl: tag:youtube.com,2008:video:BMqWFCfhNSs
+    - date: 2014-03-03 21:34:17.877935
+      posturl: tag:youtube.com,2008:video:JuWAxdfLN4g
+    - date: 2014-03-03 21:29:14.929890
+      posturl: tag:youtube.com,2008:video:1pul_WfnWKc
+    - date: 2014-03-03 21:18:23.638737
+      posturl: tag:youtube.com,2008:video:icF4h5sn81c
+    - date: 2014-03-03 21:13:19.975843
+      posturl: tag:youtube.com,2008:video:6xhfu98KqTo
+    - date: 2014-03-03 21:08:17.088050
+      posturl: tag:youtube.com,2008:video:aRFTrMgeur8
+    - date: 2014-03-03 21:03:14.178643
+      posturl: tag:youtube.com,2008:video:ljV8-T5RtX0
+    - date: 2014-03-03 15:08:20.573342
+      posturl: tag:youtube.com,2008:video:U0oz0DHsybc
+    - date: 2014-03-03 15:03:17.776779
+      posturl: tag:youtube.com,2008:video:rxxoalAaagY
+    - date: 2014-03-03 05:54:19.343469
+      posturl: tag:youtube.com,2008:video:w-D9yBFM5GM
+    - date: 2014-03-03 05:49:16.468158
+      posturl: tag:youtube.com,2008:video:tOtJCv-D4CE
+    - date: 2014-03-03 05:44:13.682804
+      posturl: tag:youtube.com,2008:video:YbuP-x9iM9E
+    - date: 2014-03-02 23:38:27.492087
+      posturl: tag:youtube.com,2008:video:AM03ac4fPOM
+    - date: 2014-03-02 23:33:24.680793
+      posturl: tag:youtube.com,2008:video:WitHZmQ-LoQ
+    - date: 2014-03-02 23:28:21.878307
+      posturl: tag:youtube.com,2008:video:odhPtZD3rmU
+    - date: 2014-03-02 23:23:18.870583
+      posturl: tag:youtube.com,2008:video:JtcPlWlY3C0
+    - date: 2014-03-02 23:18:16.015947
+      posturl: tag:youtube.com,2008:video:lyd_a2rW4AM
+    - date: 2014-03-02 23:13:13.214796
+      posturl: tag:youtube.com,2008:video:0_9re_Mmess
+    - date: 2014-03-02 23:08:10.409517
+      posturl: tag:youtube.com,2008:video:PFo3MgNRHdM
+    - date: 2014-03-02 23:03:07.650292
+      posturl: tag:youtube.com,2008:video:G44jUCyQrRs
+    - date: 2014-03-02 22:58:04.864089
+      posturl: tag:youtube.com,2008:video:UhWTq3SHdc4
+    - date: 2014-03-02 22:53:02.006287
+      posturl: tag:youtube.com,2008:video:PvYGyom7P3I
+    - date: 2014-03-02 22:47:59.214243
+      posturl: tag:youtube.com,2008:video:F9tAO-NqfiE
+    - date: 2014-03-02 22:42:56.407815
+      posturl: tag:youtube.com,2008:video:JIAqbuK52tA
+    - date: 2014-03-02 22:37:53.315840
+      posturl: tag:youtube.com,2008:video:vIQgvs95w94
+    - date: 2014-03-02 22:32:50.399218
+      posturl: tag:youtube.com,2008:video:vEGX_YfCOds
+    - date: 2014-03-02 22:27:47.469959
+      posturl: tag:youtube.com,2008:video:ID75ZH3-XtM
+    - date: 2014-03-02 22:22:44.577584
+      posturl: tag:youtube.com,2008:video:HQ6nMCtKyss
+    - date: 2014-03-02 22:17:41.761681
+      posturl: tag:youtube.com,2008:video:rlZuXMJWUt0
+    - date: 2014-03-02 22:12:38.904928
+      posturl: tag:youtube.com,2008:video:a_fqldY7J_A
+    - date: 2014-03-02 22:07:36.044343
+      posturl: tag:youtube.com,2008:video:7MO4-mb_6nE
+    - date: 2014-03-02 22:02:33.231533
+      posturl: tag:youtube.com,2008:video:NCcEADmkeLU
+    - date: 2014-03-02 21:57:30.408008
+      posturl: tag:youtube.com,2008:video:FtjOlW_7Vow
+    - date: 2014-03-02 21:54:11.459834
+      posturl: tag:youtube.com,2008:video:3RDQs_dxpnQ
+    - date: 2014-03-02 21:44:08.664454
+      posturl: tag:youtube.com,2008:video:jBdqcbA9_h8
+    - date: 2014-03-02 21:34:05.862442
+      posturl: tag:youtube.com,2008:video:OaP8EyKWCZE
+    - date: 2014-03-02 21:24:02.979950
+      posturl: tag:youtube.com,2008:video:Pop8qUbi0_0
+    - date: 2014-02-16 12:57:04.741604
+      posturl: tag:youtube.com,2008:video:rrhTOvQ-kq0
+    - date: 2014-02-16 12:57:04.335513
+      posturl: tag:youtube.com,2008:video:tzVHwzXIYsI
+    - date: 2014-02-16 12:57:03.947357
+      posturl: tag:youtube.com,2008:video:_o9cxkwC0N8
+    - date: 2014-02-16 12:57:03.560190
+      posturl: tag:youtube.com,2008:video:zkXQCdAwQsA
+    - date: 2014-02-16 12:57:03.164525
+      posturl: tag:youtube.com,2008:video:rRFc1GaiRuM
+    - date: 2014-02-16 12:57:02.761325
+      posturl: tag:youtube.com,2008:video:5op-EDGbgRc
+    - date: 2014-02-16 12:57:02.362683
+      posturl: tag:youtube.com,2008:video:FhMj8plY5CE
+    - date: 2014-02-16 12:57:01.969169
+      posturl: tag:youtube.com,2008:video:Wm-C6g05yGA
+    - date: 2014-02-16 12:57:01.516577
+      posturl: tag:youtube.com,2008:video:3LDlKkIJCbY
+    - date: 2014-02-16 12:57:01.138762
+      posturl: tag:youtube.com,2008:video:JA-O6sujA6U
+    - date: 2014-02-16 12:57:00.762951
+      posturl: tag:youtube.com,2008:video:vITtEnS1wF8
+    - date: 2014-02-16 12:57:00.380366
+      posturl: tag:youtube.com,2008:video:QA6X0TVCASQ
+    - date: 2014-02-16 12:57:00.005755
+      posturl: tag:youtube.com,2008:video:VqhyntvJpsc
+    - date: 2014-02-16 12:56:59.616522
+      posturl: tag:youtube.com,2008:video:EdDn4jC68a8
+    - date: 2014-02-16 12:56:59.239802
+      posturl: tag:youtube.com,2008:video:B3gkb_lH5uI
+    - date: 2014-02-16 12:56:58.855585
+      posturl: tag:youtube.com,2008:video:2y6WPGp2hDc
+    - date: 2014-02-16 12:56:58.473875
+      posturl: tag:youtube.com,2008:video:293bd96huV8
+    - date: 2014-02-16 12:56:58.095629
+      posturl: tag:youtube.com,2008:video:kuE-d-9kNo4
+    - date: 2014-02-16 12:56:57.710829
+      posturl: tag:youtube.com,2008:video:6ILe_DFNUPI
+    - date: 2014-02-16 12:56:57.327851
+      posturl: tag:youtube.com,2008:video:_Q3Q7wGvZN8
+    - date: 2014-02-16 12:56:56.935503
+      posturl: tag:youtube.com,2008:video:rVPttmO8SO8
+    - date: 2014-02-16 12:56:56.563136
+      posturl: tag:youtube.com,2008:video:2G6qnO_Hdy0
+    - date: 2014-02-16 12:56:56.182066
+      posturl: tag:youtube.com,2008:video:n9ExTsv1pMQ
+    - date: 2014-02-16 12:56:55.772068
+      posturl: tag:youtube.com,2008:video:zCUQJcJhFZo
+    - date: 2014-02-16 12:56:55.385316
+      posturl: tag:youtube.com,2008:video:KwY28rpyKDE
+    - date: 2014-02-16 11:50:19.823127
+      posturl: tag:youtube.com,2008:video:0NsIIGZBSrs
+    - date: 2014-02-04 21:28:41.555970
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdobNUiYOCZKJpIhdiPIVToQ
+    subreddit: new_eden_news_bot
+    type: Youtube
+    url: http://gdata.youtube.com/feeds/api/users/UCwF3VyalTHzL0L-GDlwtbRw/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
+  game_news:
+    raw: false
+    stories:
+    - date: 2014-04-20 09:59:33.561060
+      posturl: http://community.eveonline.com/news/news-channels/world-news/provist-remnants-slaughtered-in-usi/
+    - date: 2014-04-19 13:04:44.312169
+      posturl: http://community.eveonline.com/news/news-channels/world-news/provists-escape-taisy-due-to-pandemic-legion-assistance/
+    - date: 2014-04-18 06:47:43.515901
+      posturl: http://community.eveonline.com/news/news-channels/world-news/two-more-provists-slain-in-torrinos/
+    - date: 2014-04-17 00:52:31.688944
+      posturl: http://community.eveonline.com/news/news-channels/world-news/provists-routed-in-mastakomo/
+    - date: 2014-04-16 05:27:57.664883
+      posturl: http://community.eveonline.com/news/news-channels/world-news/two-provists-slain-in-okagaiken/
+    - date: 2014-04-14 22:08:41.049029
+      posturl: http://community.eveonline.com/news/news-channels/world-news/tsatei-uppas-killed-by-capsuleers/
+    - date: 2014-04-14 04:20:03.473429
+      posturl: http://community.eveonline.com/news/news-channels/world-news/tovas-tagahaiken-slain-in-akkio/
+    - date: 2014-04-13 04:09:42.344648
+      posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-navy-announces-manhunt-for-otsasai-aggressors/
+    - date: 2014-04-12 13:58:26.970318
+      posturl: http://community.eveonline.com/news/news-channels/world-news/5th-annual-new-years-celebration-to-be-held-in-umokka/
+    - date: 2014-04-12 13:53:24.091954
+      posturl: http://community.eveonline.com/news/news-channels/world-news/gardieu-sworn-in-as-speaker-of-the-chamber/
+    - date: 2014-04-12 13:48:51.672467
+      posturl: http://community.eveonline.com/news/news-channels/world-news/minmatar-tribal-assembly-closes-after-ratifying-new-political-order/
+    - date: 2014-04-12 04:00:42.454003
+      posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-navy-confirms-attack-on-border-region-staging-facility/
+    - date: 2014-04-11 02:38:25.505712
+      posturl: http://community.eveonline.com/news/news-channels/world-news/ishukone-administrators-announce-arcurio-takeover-bid/
+    - date: 2014-04-08 00:34:05.855983
+      posturl: http://community.eveonline.com/news/news-channels/world-news/ishukone-executives-called-to-chief-executive-panel-hearing/
+    - date: 2014-04-05 03:41:48.067384
+      posturl: http://community.eveonline.com/news/news-channels/world-news/ishukone-actions-called-into-question-after-further-talks-with-gallente-senate/
+    - date: 2014-03-31 12:56:26.679478
+      posturl: http://community.eveonline.com/news/news-channels/world-news/imperial-mining-outfit-posts-first-quarter-slump-in-profit/
+    - date: 2014-03-23 07:18:33.554650
+      posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-prime-administrators-unveil-operation-highlander-monument/
+    - date: 2014-03-22 07:26:54.733783
+      posturl: http://community.eveonline.com/news/news-channels/world-news/capsuleers-to-commemorate-the-battle-of-caldari-prime/
+    - date: 2014-03-20 23:16:47.471496
+      posturl: http://community.eveonline.com/news/news-channels/world-news/ishukone-meets-with-gallente-senate-on-caldari-prime/
+    - date: 2014-03-16 00:00:29.620958
+      posturl: http://community.eveonline.com/news/news-channels/world-news/boundless-creation-reveals-technological-breakthrough/
+    - date: 2014-03-07 01:02:17.923734
+      posturl: http://community.eveonline.com/news/news-channels/world-news/body-of-disgraced-caldari-navy-officer-found-on-caldari-prime/
+    - date: 2014-02-28 01:00:27.812434
+      posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-navy-announces-discharge-of-courts-martialled-officers/
+    - date: 2014-02-21 03:26:46.366612
+      posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-navy-announces-octopus-squadron-courts-martial/
+    - date: 2014-02-06 03:02:38.356168
+      posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-prime-salvage-plans-announced/
+    - date: 2014-01-31 00:01:49.177644
+      posturl: http://community.eveonline.com/news/news-channels/world-news/capsuleers-light-up-the-night-in-umokka/
+    - date: 2014-01-28 23:15:03.242084
+      posturl: http://community.eveonline.com/news/news-channels/world-news/ishukone-announces-investment-in-malkalen-reconstruction/
+    - date: 2014-01-24 00:54:20.334817
+      posturl: http://community.eveonline.com/news/news-channels/world-news/secure-commerce-commission-press-conference-concludes-yc115-financial-retrospective/
+    - date: 2014-01-14 02:49:22.098404
+      posturl: http://community.eveonline.com/news/news-channels/world-news/federal-intelligence-office-responds-to-guristas-activity-in-placid/
+    subreddit: eve
+    type: Game News
+    url: http://newsfeed.eveonline.com/en-US/42/articles/page/1/20
+  patch_notes:
+    raw: false
+    stories:
+    - date: 2014-03-10 22:46:38.772316
+      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-rubicon-1.3/
+    - date: 2014-02-18 20:00:40.644378
+      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-rubicon-1.2/
+    - date: 2014-01-28 03:44:14.580587
+      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-rubicon-1.1/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-rubicon/
+    - date: 2013-12-21 23:57:27.152020
+      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-odyssey-1.2/
+    subreddit: eve
+    type: Patch Notes
+    url: http://newsfeed.eveonline.com/en-US/15/articles/page/1/5
+  valkyrie_twitter:
+    raw: true
+    stories:
+    - date: 2014-04-13 05:43:17.904412
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/455063034986119168
+    - date: 2014-04-10 03:29:25.910320
+      posturl: http://www.rssitfor.me/EveOnline/status/453927627100024833
+    - date: 2014-04-04 08:50:46.321215
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/451824186231910400
+    - date: 2014-03-20 02:20:27.616313
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/446315170277916672
+    - date: 2014-03-19 15:14:20.342415
+      posturl: http://www.rssitfor.me/CCP_Pokethulhu/status/446097842738704384
+    - date: 2014-03-14 11:54:51.386484
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/444286883292397568
+    - date: 2014-03-09 23:46:35.252295
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/442639176635138048
+    - date: 2014-03-08 02:01:39.873482
+      posturl: http://www.rssitfor.me/itsJuliaHardy/status/441886948081545216
+    - date: 2014-02-28 02:54:56.165878
+      posturl: http://www.rssitfor.me/EveOnline/status/439067038641057792
+    - date: 2014-02-22 03:47:24.558002
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/436879016742895617
+    - date: 2014-02-21 03:03:32.494248
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/436538337407795200
+    - date: 2014-02-13 10:57:25.392043
+      posturl: http://www.rssitfor.me/Official_AIAS/status/433716758793289729
+    - date: 2014-02-06 21:21:43.720292
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/431120535662379008
+    - date: 2014-02-06 02:39:33.697007
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/431085838660022272
+    - date: 2014-02-04 20:49:15.679666
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/370553725183483906
+    - date: 2014-02-04 20:49:15.335878
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/370560094779359234
+    - date: 2014-02-04 20:49:15.005403
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/370918698661343232
+    - date: 2014-02-04 20:49:14.648079
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/370919776089944064
+    - date: 2014-02-04 20:49:14.305507
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/372014771106623488
+    - date: 2014-02-04 20:49:13.962048
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/372127594126139392
+    - date: 2014-02-04 20:49:13.637027
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/372291023084347392
+    - date: 2014-02-04 20:49:13.307084
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/373988699450535936
+    - date: 2014-02-04 20:49:12.959005
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/375303696952750081
+    - date: 2014-02-04 20:49:12.597818
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/375643714690887680
+    - date: 2014-02-04 20:49:12.242608
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/377799627753684993
+    - date: 2014-02-04 20:49:11.894312
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/379613775235514368
+    - date: 2014-02-04 20:49:11.563245
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/387954036676128769
+    - date: 2014-02-04 20:49:11.209958
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/392664160363753472
+    - date: 2014-02-04 20:49:10.858561
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/392743879780233216
+    - date: 2014-02-04 20:49:10.507204
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/401104272500064256
+    - date: 2014-02-04 20:49:10.179059
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/401456058209546242
+    - date: 2014-02-04 20:45:58.711670
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/405015795370950656
+    - date: 2014-02-04 20:38:24.750309
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/409505666361876480
+    - date: 2014-02-04 20:33:21.923752
+      posturl: http://www.rssitfor.me/Sean_Decker/status/422520429975044096
+    subreddit: evevalkyrie
+    type: Twitter
+    url: http://www.rssitfor.me/getrss?name=evevalkyrie
+  valkyrie_youtube:
+    raw: false
+    stories: []
+    subreddit: evevalkyrie
+    type: Youtube
+    url: https://gdata.youtube.com/feeds/api/users/EVEValkyrie/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
+  valkyrie_youtube_press:
+    raw: false
+    stories:
+    - date: 2014-02-04 21:28:41.555970
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdobNUiYOCZKJpIhdiPIVToQ
+    - date: 2014-02-04 21:28:41.203394
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdiTa5HKoJOPEoCrS03-3T8g
+    - date: 2014-02-04 21:28:40.849837
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdlBcT5pYBqiRWO-_pjcqfP0
+    - date: 2014-02-04 21:23:24.220548
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdq467m0aSg1zp-ndr0ZJ1rk
+    - date: 2014-02-04 21:13:21.391349
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdnStCi4bpPRmApeBTGc87uc
+    subreddit: evevalkyrie
+    type: Press
+    url: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq
+  wod_youtube:
+    raw: false
+    stories:
+    - date: 2014-02-16 11:50:19.823127
+      posturl: tag:youtube.com,2008:video:0NsIIGZBSrs
+    - date: 2014-02-04 21:28:41.555970
+      posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdobNUiYOCZKJpIhdiPIVToQ
+    subreddit: worldofdarkness
+    type: Youtube
+    url: http://gdata.youtube.com/feeds/api/users/UCdHaCdyx1FY9O7LinjtxJ2Q/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
