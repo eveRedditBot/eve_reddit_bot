@@ -145,10 +145,11 @@ class EVERedditBot():
 
                 if self.submitpost == True:
                     self.postToReddit(data)
+                    after_posting_sleep_time = 30
 
-                    logging.info('Just posted to Reddit, sleeping for %d seconds' 
-                        %self.config['sleep_time_post'])
-                    time.sleep(self.config['sleep_time_post'])
+                    logging.info('Just posted to Reddit, sleeping for %s seconds' 
+                        , after_posting_sleep_time)
+                    time.sleep(after_posting_sleep_time)
 
                 else:
                     logging.info('Skipping the submission...')
