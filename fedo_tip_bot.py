@@ -81,7 +81,7 @@ def main():
             #exponential sleeptime back-off
             #if not successful, slow down.
             
-            catchable_exceptions = ["Gateway Time", "timed out", "HTTPSConnectionPool", "Connection reset", "Server Error"]
+            catchable_exceptions = ["Gateway Time", "timed out", "HTTPSConnectionPool", "Connection reset", "Server Error", "try again"]
             if any(substring in str(e) for substring in catchable_exceptions):
                 sleeptime = round(sleeptime*2)
                 logging.debug(str(e))

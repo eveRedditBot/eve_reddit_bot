@@ -145,11 +145,8 @@ class EVERedditBot():
 
                 if self.submitpost == True:
                     self.postToReddit(data)
-                    after_posting_sleep_time = 30
-
-                    logging.info('Just posted to Reddit, sleeping for %s seconds' 
-                        , after_posting_sleep_time)
-                    time.sleep(after_posting_sleep_time)
+                    logging.info('Posted to Reddit')
+                    return
 
                 else:
                     logging.info('Skipping the submission...')
@@ -444,7 +441,7 @@ if __name__ == '__main__':
             #exponential sleeptime back-off
             #if not successful, slow down.
             
-            catchable_exceptions = ["Gateway Time", "timed out", "HTTPSConnectionPool", "Connection reset", "Server Error"]
+            catchable_exceptions = ["Gateway Time", "timed out", "HTTPSConnectionPool", "Connection reset", "Server Error", "try again"]
             if any(substring in str(e) for substring in catchable_exceptions):
                 _sleeptime = round(_sleeptime*2)
                 logging.debug(str(e))
