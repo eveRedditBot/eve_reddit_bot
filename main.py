@@ -141,16 +141,17 @@ class EVERedditBot():
 
                 self.feed_config['rss_feeds'][rss_feed]['stories'].append(
                     {'posturl': str(entry['id']), 'date': datetime.now()})
-                self.save_feed_config()
 
                 if self.submitpost == True:
                     self.postToReddit(data)
                     logging.info('Posted to Reddit')
+                    self.save_feed_config()
                     return
 
                 else:
                     logging.info('Skipping the submission...')
                     logging.info(data)
+                
         return
     
     def prune_old_stories(self, all_entry_ids, threshold):
@@ -160,6 +161,7 @@ class EVERedditBot():
             if (story['posturl'] not in [all_entry_ids] and (story['date'] < threshold)):
               logging.info('detected old story %s from %s' %(story['posturl'], story['date']))
               stories.remove(story)
+        self.save_feed_config()
         return
 
     def check_rss_feeds(self):
