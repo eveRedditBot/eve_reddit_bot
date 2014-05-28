@@ -50,6 +50,76 @@ rss_feeds:
   ccp_youtube:
     raw: false
     stories:
+    - date: 2014-05-21 01:20:19.594343
+      posturl: tag:youtube.com,2008:video:3O56g8KC6CM
+    - date: 2014-05-10 05:40:28.421860
+      posturl: tag:youtube.com,2008:video:twRDTraUvEU
+    - date: 2014-05-10 05:34:20.462040
+      posturl: tag:youtube.com,2008:video:SNkc0Y4RHVY
+    - date: 2014-05-10 05:28:08.388445
+      posturl: tag:youtube.com,2008:video:EbS8HRHJ4nY
+    - date: 2014-05-10 05:21:56.744893
+      posturl: tag:youtube.com,2008:video:mA-7d27_0xQ
+    - date: 2014-05-10 05:15:28.329345
+      posturl: tag:youtube.com,2008:video:pnsLCz10CVU
+    - date: 2014-05-10 01:45:49.207700
+      posturl: tag:youtube.com,2008:video:JSkuKQUVuMI
+    - date: 2014-05-10 01:39:15.007428
+      posturl: tag:youtube.com,2008:video:IOpLRs9tB5E
+    - date: 2014-05-10 01:32:46.216404
+      posturl: tag:youtube.com,2008:video:g5ZE0xOJLCg
+    - date: 2014-05-10 01:26:14.305819
+      posturl: tag:youtube.com,2008:video:Md396UNjnBM
+    - date: 2014-05-10 01:13:10.495097
+      posturl: tag:youtube.com,2008:video:rLvJ04vXjGs
+    - date: 2014-05-08 22:10:44.519507
+      posturl: tag:youtube.com,2008:video:Hly8HsKXbpc
+    - date: 2014-05-08 22:04:36.335716
+      posturl: tag:youtube.com,2008:video:syCeu3JaQqg
+    - date: 2014-05-08 21:57:56.432883
+      posturl: tag:youtube.com,2008:video:w2hsqEvPGWQ
+    - date: 2014-05-08 04:24:00.857704
+      posturl: tag:youtube.com,2008:video:sbHqFgn4SOw
+    - date: 2014-05-08 04:17:13.117714
+      posturl: tag:youtube.com,2008:video:bNXqsxz8V50
+    - date: 2014-05-08 04:10:23.708517
+      posturl: tag:youtube.com,2008:video:gYyk-d7sMbM
+    - date: 2014-05-08 04:03:35.534839
+      posturl: tag:youtube.com,2008:video:apyD43WQjQ4
+    - date: 2014-05-08 03:56:47.632736
+      posturl: tag:youtube.com,2008:video:eFJ2p8yhxvU
+    - date: 2014-05-08 03:49:53.084327
+      posturl: tag:youtube.com,2008:video:2oz4rzP-CAY
+    - date: 2014-05-08 03:42:43.158845
+      posturl: tag:youtube.com,2008:video:8h9pJyrPOZE
+    - date: 2014-05-07 22:15:49.580686
+      posturl: tag:youtube.com,2008:video:PiKGaXuYxiU
+    - date: 2014-05-07 22:08:57.107085
+      posturl: tag:youtube.com,2008:video:cZ6k2vq6EdU
+    - date: 2014-05-07 22:01:34.363774
+      posturl: tag:youtube.com,2008:video:8KbpAcEMmyU
+    - date: 2014-05-07 21:54:46.898747
+      posturl: tag:youtube.com,2008:video:1CZR9w3ftjY
+    - date: 2014-05-07 21:47:57.105486
+      posturl: tag:youtube.com,2008:video:diGYlJNpPEo
+    - date: 2014-05-07 21:09:09.566258
+      posturl: tag:youtube.com,2008:video:WTTyMhSKY9E
+    - date: 2014-05-07 05:26:36.972767
+      posturl: tag:youtube.com,2008:video:k07Uu7qUEa0
+    - date: 2014-05-07 05:20:29.317582
+      posturl: tag:youtube.com,2008:video:pLifyl4cGJU
+    - date: 2014-05-07 05:14:02.086510
+      posturl: tag:youtube.com,2008:video:S7UoMIvNrOo
+    - date: 2014-05-07 05:07:32.910942
+      posturl: tag:youtube.com,2008:video:JKafw3dUT4Y
+    - date: 2014-05-07 05:01:02.447101
+      posturl: tag:youtube.com,2008:video:z_GRjNL7l40
+    - date: 2014-05-07 04:13:54.188214
+      posturl: tag:youtube.com,2008:video:JSxNW5dDYEY
+    - date: 2014-05-07 03:45:33.952443
+      posturl: tag:youtube.com,2008:video:q8NoUwHJtNY
+    - date: 2014-05-07 03:38:42.528132
+      posturl: tag:youtube.com,2008:video:uoglNT5hB3M
     - date: 2014-05-04 05:24:40.319032
       posturl: tag:youtube.com,2008:video:yFTUazuGdTw
     - date: 2014-05-04 05:17:47.917598
@@ -313,29 +383,201 @@ rss_feeds:
     subreddit: eve
     type: CSM8
     url: http://csm8.org/feed/
+  csm9_ali:
+    raw: false
+    stories:
+    - date: 2014-05-18 14:05:30.889646
+      posturl: http://warp-to-sun.tumblr.com/post/54772597091
+    - date: 2014-05-18 13:59:09.195654
+      posturl: http://warp-to-sun.tumblr.com/post/55040828777
+    - date: 2014-05-18 13:52:11.768941
+      posturl: http://warp-to-sun.tumblr.com/post/55324561221
+    - date: 2014-05-18 13:45:13.961127
+      posturl: http://warp-to-sun.tumblr.com/post/55355994709
+    - date: 2014-05-18 13:38:15.809181
+      posturl: http://warp-to-sun.tumblr.com/post/55439633538
+    - date: 2014-05-18 13:31:20.147151
+      posturl: http://warp-to-sun.tumblr.com/post/55694420087
+    - date: 2014-05-18 13:24:23.899933
+      posturl: http://warp-to-sun.tumblr.com/post/57793942432
+    - date: 2014-05-18 13:17:22.590362
+      posturl: http://warp-to-sun.tumblr.com/post/58709603802
+    - date: 2014-05-18 13:10:27.370251
+      posturl: http://warp-to-sun.tumblr.com/post/61797503125
+    - date: 2014-05-18 13:03:27.251061
+      posturl: http://warp-to-sun.tumblr.com/post/66037481400
+    - date: 2014-05-18 12:56:29.363448
+      posturl: http://warp-to-sun.tumblr.com/post/67173455933
+    - date: 2014-05-18 12:49:29.566833
+      posturl: http://warp-to-sun.tumblr.com/post/73343452630
+    - date: 2014-05-18 12:42:32.929765
+      posturl: http://warp-to-sun.tumblr.com/post/73523609605
+    - date: 2014-05-18 12:35:34.061943
+      posturl: http://warp-to-sun.tumblr.com/post/74074635538
+    - date: 2014-05-18 12:28:38.618677
+      posturl: http://warp-to-sun.tumblr.com/post/75808523820
+    - date: 2014-05-18 12:21:41.189020
+      posturl: http://warp-to-sun.tumblr.com/post/76396257153
+    - date: 2014-05-18 12:14:40.898896
+      posturl: http://warp-to-sun.tumblr.com/post/77887345827
+    - date: 2014-05-18 12:07:39.457933
+      posturl: http://warp-to-sun.tumblr.com/post/78442026703
+    - date: 2014-05-18 12:00:31.725384
+      posturl: http://warp-to-sun.tumblr.com/post/81970518859
+    - date: 2014-05-18 11:53:27.599926
+      posturl: http://warp-to-sun.tumblr.com/post/82107658604
+    subreddit: eve
+    type: CSM9
+    url: http://warp-to-sun.tumblr.com/rss
+  csm9_bacon:
+    raw: false
+    stories:
+    - date: 2014-05-20 04:52:06.382345
+      posturl: tag:blogger.com,1999:blog-1490340916886486838.post-5007772860778741805
+    - date: 2014-05-18 11:53:08.335635
+      posturl: tag:blogger.com,1999:blog-1490340916886486838.post-4632881751446683114
+    subreddit: eve
+    type: CSM9
+    url: http://funkybacon.blogspot.com/feeds/posts/default/-/CSM9
+  csm9_corbexx:
+    raw: false
+    stories:
+    - date: 2014-05-27 03:10:27.907420
+      posturl: tag:blogger.com,1999:blog-3313686641816452828.post-4771404822421089674
+    - date: 2014-05-18 12:07:32.258596
+      posturl: tag:blogger.com,1999:blog-3313686641816452828.post-2883515171057197789
+    - date: 2014-05-18 12:00:24.727832
+      posturl: tag:blogger.com,1999:blog-3313686641816452828.post-4836108783759691596
+    - date: 2014-05-18 11:53:20.475769
+      posturl: tag:blogger.com,1999:blog-3313686641816452828.post-5962195996016027812
+    subreddit: eve
+    type: CSM9
+    url: http://corbexx.blogspot.com/feeds/posts/default
+  csm9_fuzzy:
+    raw: false
+    stories:
+    - date: 2014-05-18 12:00:42.668483
+      posturl: https://www.fuzzwork.co.uk/?p=493
+    - date: 2014-05-18 11:53:38.765685
+      posturl: https://www.fuzzwork.co.uk/?p=503
+    subreddit: eve
+    type: CSM9
+    url: https://www.fuzzwork.co.uk/tag/csm9/feed/
+  csm9_mike:
+    raw: false
+    stories:
+    - date: 2014-05-20 11:50:54.054021
+      posturl: http://mikeazariah.wordpress.com/?p=1530
+    - date: 2014-05-18 12:07:48.656504
+      posturl: http://mikeazariah.wordpress.com/?p=1524
+    - date: 2014-05-18 12:00:46.371664
+      posturl: http://mikeazariah.wordpress.com/?p=1526
+    - date: 2014-05-18 11:53:42.366881
+      posturl: http://mikeazariah.wordpress.com/?p=1528
+    subreddit: eve
+    type: CSM9
+    url: http://mikeazariah.wordpress.com/tag/csm9/feed/
+  csm9_mynnna:
+    raw: false
+    stories:
+    - date: 2014-05-26 05:04:02.772774
+      posturl: http://thethirdn.wordpress.com/?p=266
+    - date: 2014-05-19 05:39:56.731152
+      posturl: http://thethirdn.wordpress.com/?p=253
+    - date: 2014-05-18 12:00:36.061881
+      posturl: http://thethirdn.wordpress.com/?p=216
+    - date: 2014-05-18 11:53:31.538557
+      posturl: http://thethirdn.wordpress.com/?p=237
+    subreddit: eve
+    type: CSM9
+    url: http://thethirdn.wordpress.com/category/csm/csm9/feed/
   csm9_sugar:
     raw: false
     stories:
+    - date: 2014-05-25 18:06:01.276285
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-3503043216314400635
+    - date: 2014-05-18 18:05:06.178329
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-4654603652048184314
+    - date: 2014-05-11 18:04:25.143845
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-2308860141814720994
     - date: 2014-05-06 18:59:08.705486
       posturl: tag:blogger.com,1999:blog-238324579504790.post-3527684733137765460
-    - date: 2012-05-02 04:39:41.922637
-      posturl: tag:youtube.com,2008:video:j6mAu1IqibA
-    - date: 2012-05-02 04:39:29.120614
-      posturl: tag:youtube.com,2008:video:6EwQWb5IAD4
     subreddit: eve
     type: CSM9
     url: http://www.lowseclifestyle.com/feeds/posts/default/-/csm9
   csm9_xander:
     raw: false
     stories:
-    - date: 2012-05-02 04:39:29.120614
-      posturl: tag:youtube.com,2008:video:6EwQWb5IAD4
+    - date: 2014-05-25 01:22:51.737466
+      posturl: http://crossingzebras.com/?p=2431
+    - date: 2014-05-23 17:24:40.919703
+      posturl: http://crossingzebras.com/?p=2415
+    - date: 2014-05-17 18:31:33.475267
+      posturl: http://crossingzebras.com/?p=2379
+    - date: 2014-05-13 18:20:45.387465
+      posturl: http://crossingzebras.com/?p=2345
+    - date: 2014-05-10 23:57:01.483488
+      posturl: http://crossingzebras.com/?p=2325
+    - date: 2014-05-07 07:44:28.032117
+      posturl: http://crossingzebras.com/?p=2301
+    - date: 2014-05-06 23:46:33.345194
+      posturl: http://crossingzebras.com/?p=2294
+    - date: 2014-05-06 20:14:35.555065
+      posturl: http://crossingzebras.com/?p=1647
+    - date: 2014-05-06 20:08:16.812668
+      posturl: http://crossingzebras.com/?p=1837
+    - date: 2014-05-06 20:02:07.654106
+      posturl: http://crossingzebras.com/?p=1895
+    - date: 2014-05-06 19:56:00.080975
+      posturl: http://crossingzebras.com/?p=1915
+    - date: 2014-05-06 19:49:51.144453
+      posturl: http://crossingzebras.com/?p=2111
+    - date: 2014-05-06 19:43:41.798541
+      posturl: http://crossingzebras.com/?p=2123
+    - date: 2014-05-06 19:37:13.110039
+      posturl: http://crossingzebras.com/?p=2138
+    - date: 2014-05-06 19:30:44.542096
+      posturl: http://crossingzebras.com/?p=2169
+    - date: 2014-05-06 19:24:15.134122
+      posturl: http://crossingzebras.com/?p=2200
+    - date: 2014-05-06 19:17:47.384824
+      posturl: http://crossingzebras.com/?p=2203
+    - date: 2014-05-06 19:11:16.183571
+      posturl: http://crossingzebras.com/?p=2289
     subreddit: eve
     type: CSM9
     url: http://crossingzebras.com/tag/csm9/feed/
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-05-28 23:40:57.722955
+      posturl: http://community.eveonline.com/news/dev-blogs/alliance-tournament-xii-signups-format-and-rules/
+    - date: 2014-05-28 05:29:08.691435
+      posturl: http://community.eveonline.com/news/dev-blogs/fanfest-2014-a-summary/
+    - date: 2014-05-28 00:50:59.763024
+      posturl: http://community.eveonline.com/news/dev-blogs/little-things-in-kronos/
+    - date: 2014-05-24 02:59:54.462203
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-open-university-of-celestial-hardships/
+    - date: 2014-05-21 00:55:16.902273
+      posturl: http://community.eveonline.com/news/dev-blogs/the-etc-is-dead-long-live-the-plex-activation-code/
+    - date: 2014-05-17 02:30:42.266435
+      posturl: http://community.eveonline.com/news/dev-blogs/atx11-commentator-applications/
+    - date: 2014-05-17 01:34:30.526713
+      posturl: http://community.eveonline.com/news/dev-blogs/coming-in-kronos/
+    - date: 2014-05-16 02:36:49.045484
+      posturl: http://community.eveonline.com/news/dev-blogs/fanfest-2015-tickets-are-now-available/
+    - date: 2014-05-16 01:59:40.385930
+      posturl: http://community.eveonline.com/news/dev-blogs/developer-spotlight-xhagen/
+    - date: 2014-05-16 01:12:42.099294
+      posturl: http://community.eveonline.com/news/dev-blogs/fanfest-2014-live-art-sketch/
+    - date: 2014-05-14 01:23:57.920831
+      posturl: http://community.eveonline.com/news/dev-blogs/dev-blog-tiptoe-through-the-tooltips/
+    - date: 2014-05-13 04:02:11.182966
+      posturl: http://community.eveonline.com/news/dev-blogs/delivering-the-industry-new-eden-deserves/
+    - date: 2014-05-13 03:56:14.321982
+      posturl: http://community.eveonline.com/news/dev-blogs/from-2-expansions-to-10-releases-eve-onlines-new-release-model-explained/
+    - date: 2014-05-10 01:20:36.402519
+      posturl: http://community.eveonline.com/news/dev-blogs/csm9-presenting-the-new-council-members-election-data-and-officer-changes/
     - date: 2014-05-03 05:10:33.823645
       posturl: http://community.eveonline.com/news/dev-blogs/fortune-favors-the-bold/
     - date: 2014-05-01 04:13:11.277955
@@ -456,6 +698,8 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-05-20 00:00:19.365812
+      posturl: http://www.rssitfor.me/DUST514_Status/status/468389152158154752
     - date: 2014-04-22 19:24:28.689686
       posturl: http://www.rssitfor.me/DUST514_Status/status/458523770773577728
     - date: 2014-04-16 20:18:44.725140
@@ -566,6 +810,10 @@ rss_feeds:
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-05-26 11:20:41.385602
+      posturl: http://dust514.com/news/blog/2014/05/developer-spotlight-ccp-space-dog-bin-luo/
+    - date: 2014-05-16 18:19:16.656966
+      posturl: http://dust514.com/news/blog/2014/05/developer-spotlight-ccp-rattati/
     - date: 2014-05-02 23:43:14.143048
       posturl: http://dust514.com/news/blog/2014/05/introducing-project-legion/
     - date: 2014-04-24 01:31:20.242498
@@ -622,6 +870,12 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-05-27 11:29:46.867138
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1840258
+    - date: 2014-05-20 11:32:07.906318
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1830064
+    - date: 2014-05-13 14:14:20.968673
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1817588
     - date: 2014-05-06 14:42:35.458051
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1800320
     - date: 2014-04-29 12:52:19.410163
@@ -708,6 +962,14 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-05-26 11:21:09.028866
+      posturl: http://dust514.com/news/2014/05/developer-spotlight-ccp-space-dog-bin-luo/
+    - date: 2014-05-16 18:19:45.189340
+      posturl: http://dust514.com/news/2014/05/developer-spotlight-ccp-rattati/
+    - date: 2014-05-15 00:27:49.850692
+      posturl: http://dust514.com/news/2014/05/dust-514-is-one-year-old-enjoy-a-3-day-active-omega-booster/
+    - date: 2014-05-13 17:02:25.584787
+      posturl: http://dust514.com/news/2014/05/playstation-home-exclusive-creodron-lav/
     - date: 2014-05-02 23:50:23.265326
       posturl: http://dust514.com/news/2014/05/introducing-project-legion/
     - date: 2014-04-30 22:27:03.855854
@@ -824,6 +1086,34 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-05-28 22:33:05.411116
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/supercarrier-changes-coming-in-kronos/
+    - date: 2014-05-28 02:06:07.704883
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-player-training-session-schedule/
+    - date: 2014-05-28 00:56:38.558057
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-products-available-at-the-eve-store/
+    - date: 2014-05-27 03:57:41.288540
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-wednesday-may-28th/
+    - date: 2014-05-25 04:02:36.916418
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-comes-to-the-humble-bundle/
+    - date: 2014-05-20 22:26:31.294543
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-thursday-may-22nd/
+    - date: 2014-05-14 21:28:33.932613
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/kronos-is-now-available-for-testing-on-singularity/
+    - date: 2014-05-14 02:25:15.499915
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-thursday-may-15th/
+    - date: 2014-05-14 00:15:47.892056
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/extra-geckos-now-available/
+    - date: 2014-05-13 04:01:42.938261
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/industry-features-coming-in-the-crius-release/
+    - date: 2014-05-13 01:33:29.344524
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-eden-store-available-for-testing/
+    - date: 2014-05-09 19:40:01.860013
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/reminder-alliance-tournament-xii-commentators-wanted/
+    - date: 2014-05-08 00:28:39.850365
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/updates-to-sell-order-forum-rules/
+    - date: 2014-05-07 03:39:32.723276
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-is-11-earn-more-geckos-with-cluster-wide-challenges/
     - date: 2014-05-06 18:37:13.242473
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/happy-anniversary-eve-is-11-today/
     - date: 2014-05-06 08:49:59.351867
@@ -970,6 +1260,10 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-05-28 23:22:31.290171
+      posturl: http://www.rssitfor.me/EVE_status/status/471613649199857664
+    - date: 2014-05-28 23:16:33.916596
+      posturl: http://www.rssitfor.me/EVE_status/status/471620962325372930
     - date: 2014-04-15 10:04:29.169056
       posturl: http://www.rssitfor.me/EVE_status/status/455836850390069250
     - date: 2014-04-15 09:59:26.393066
@@ -1470,6 +1764,10 @@ rss_feeds:
   valkyrie_twitter:
     raw: true
     stories:
+    - date: 2014-05-24 12:17:37.915819
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/466582820346146820
+    - date: 2014-05-09 08:14:46.552616
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/464471632665669633
     - date: 2014-05-04 23:24:23.193526
       posturl: http://www.rssitfor.me/EVEValkyrie/status/462922245539893248
     - date: 2014-05-04 04:56:41.209766

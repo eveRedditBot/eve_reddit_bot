@@ -72,7 +72,7 @@ class EVERedditBot():
             del data['comments'][0]
 
             for comment in data['comments']:
-                time.sleep(2)
+                time.sleep(5)
                 c = c.reply(comment)
 
     def formatForReddit(self, feedEntry, postType, subreddit, raw):
@@ -169,8 +169,8 @@ class EVERedditBot():
         for rss_feed in self.feed_config['rss_feeds']:
             self.rss_parser(rss_feed, all_entry_ids)
 
-        six_months_ago = datetime.now() + relativedelta( months = -6 )
-        self.prune_old_stories(all_entry_ids, six_months_ago)
+        many_months_ago = datetime.now() + relativedelta( months = -18 )
+        self.prune_old_stories(all_entry_ids, many_months_ago)
         self.save_feed_config()
         
     def check_downvoted_submissions(self):
