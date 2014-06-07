@@ -442,6 +442,8 @@ rss_feeds:
   csm9_corbexx:
     raw: false
     stories:
+    - date: 2014-06-01 19:31:33.143022
+      posturl: tag:blogger.com,1999:blog-3313686641816452828.post-4278728587351988034
     - date: 2014-05-27 03:10:27.907420
       posturl: tag:blogger.com,1999:blog-3313686641816452828.post-4771404822421089674
     - date: 2014-05-18 12:07:32.258596
@@ -466,6 +468,8 @@ rss_feeds:
   csm9_mike:
     raw: false
     stories:
+    - date: 2014-06-02 03:54:31.996056
+      posturl: http://mikeazariah.wordpress.com/?p=1537
     - date: 2014-05-20 11:50:54.054021
       posturl: http://mikeazariah.wordpress.com/?p=1530
     - date: 2014-05-18 12:07:48.656504
@@ -480,6 +484,8 @@ rss_feeds:
   csm9_mynnna:
     raw: false
     stories:
+    - date: 2014-06-02 08:03:51.203982
+      posturl: http://thethirdn.wordpress.com/?p=277
     - date: 2014-05-26 05:04:02.772774
       posturl: http://thethirdn.wordpress.com/?p=266
     - date: 2014-05-19 05:39:56.731152
@@ -494,6 +500,12 @@ rss_feeds:
   csm9_sugar:
     raw: false
     stories:
+    - date: 2014-06-03 10:32:18.026212
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-930771894882124789
+    - date: 2014-06-01 20:54:32.789464
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-6803068416422106928
+    - date: 2014-06-01 18:21:33.035794
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-6462400287800931587
     - date: 2014-05-25 18:06:01.276285
       posturl: tag:blogger.com,1999:blog-238324579504790.post-3503043216314400635
     - date: 2014-05-18 18:05:06.178329
@@ -508,6 +520,10 @@ rss_feeds:
   csm9_xander:
     raw: false
     stories:
+    - date: 2014-06-06 06:36:06.454202
+      posturl: http://crossingzebras.com/?p=2571
+    - date: 2014-05-31 19:47:35.916606
+      posturl: http://crossingzebras.com/?p=2516
     - date: 2014-05-25 01:22:51.737466
       posturl: http://crossingzebras.com/?p=2431
     - date: 2014-05-23 17:24:40.919703
@@ -550,6 +566,28 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-06-06 01:37:13.948148
+      posturl: http://community.eveonline.com/news/dev-blogs/pocos-and-wars-coming-to-an-api-near-you/
+    - date: 2014-06-03 02:24:11.650203
+      posturl: http://community.eveonline.com/news/dev-blogs/the-new-eden-store/
+    - date: 2014-05-31 02:49:45.283173
+      posturl: http://community.eveonline.com/news/dev-blogs/alliance-tournament-xii-commentators-revealed/
+    - date: 2014-05-31 01:48:24.251188
+      posturl: http://community.eveonline.com/news/dev-blogs/the-meaning-of-life-the-universe-and-everything/
+    - date: 2014-05-31 01:17:49.827505
+      posturl: http://community.eveonline.com/news/dev-blogs/community-spotlight-eve-planets/
+    - date: 2014-05-31 00:22:50.827194
+      posturl: http://community.eveonline.com/news/dev-blogs/sweeping-death-and-chaos/
+    - date: 2014-05-30 02:34:53.332841
+      posturl: http://community.eveonline.com/news/dev-blogs/mordus-legion-fleet/
+    - date: 2014-05-30 01:09:54.230421
+      posturl: http://community.eveonline.com/news/dev-blogs/coming-in-kronos-part-ii/
+    - date: 2014-05-29 22:33:15.295519
+      posturl: http://community.eveonline.com/news/dev-blogs/developer-spotlight-foxfour/
+    - date: 2014-05-29 02:35:31.793530
+      posturl: http://community.eveonline.com/news/dev-blogs/solar-flares/
+    - date: 2014-05-29 01:10:35.501296
+      posturl: http://community.eveonline.com/news/dev-blogs/audio-customization/
     - date: 2014-05-28 23:40:57.722955
       posturl: http://community.eveonline.com/news/dev-blogs/alliance-tournament-xii-signups-format-and-rules/
     - date: 2014-05-28 05:29:08.691435
@@ -698,6 +736,10 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-05-29 00:28:36.457870
+      posturl: http://www.rssitfor.me/DUST514_Status/status/471620105076768768
+    - date: 2014-05-29 00:22:39.248650
+      posturl: http://www.rssitfor.me/DUST514_Status/status/471620961566195712
     - date: 2014-05-20 00:00:19.365812
       posturl: http://www.rssitfor.me/DUST514_Status/status/468389152158154752
     - date: 2014-04-22 19:24:28.689686
@@ -810,6 +852,8 @@ rss_feeds:
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-06-04 21:30:36.882267
+      posturl: http://dust514.com/news/blog/2014/06/hotfix-alpha-is-live/
     - date: 2014-05-26 11:20:41.385602
       posturl: http://dust514.com/news/blog/2014/05/developer-spotlight-ccp-space-dog-bin-luo/
     - date: 2014-05-16 18:19:16.656966
@@ -962,6 +1006,8 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-06-04 21:25:03.314532
+      posturl: http://dust514.com/news/2014/06/hotfix-alpha-is-live/
     - date: 2014-05-26 11:21:09.028866
       posturl: http://dust514.com/news/2014/05/developer-spotlight-ccp-space-dog-bin-luo/
     - date: 2014-05-16 18:19:45.189340
@@ -1086,6 +1132,24 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-06-07 03:11:35.160810
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/alliance-tournament-xii-practice-server-information/
+    - date: 2014-06-05 04:15:50.805493
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/alliance-tournament-xii-signups-are-ongoing/
+    - date: 2014-06-03 23:52:23.285112
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/two-new-kronos-chronicles/
+    - date: 2014-06-03 23:16:07.453721
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/kronos-has-been-successfully-deployed/
+    - date: 2014-06-03 23:10:09.656111
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/guristas-infiltration-event-is-now-live/
+    - date: 2014-06-03 06:31:43.621290
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/freighter-changes-coming-in-kronos/
+    - date: 2014-06-02 21:19:47.420527
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/changes-to-macintosh-minimum-requirements-with-kronos/
+    - date: 2014-05-31 00:40:45.855294
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/extended-downtime-on-june-3-2014-publication-of-kronos/
+    - date: 2014-05-30 08:09:41.046410
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/patch-notes-for-kronos-are-now-available/
     - date: 2014-05-28 22:33:05.411116
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/supercarrier-changes-coming-in-kronos/
     - date: 2014-05-28 02:06:07.704883
@@ -1682,6 +1746,10 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-06-03 23:16:18.995222
+      posturl: http://community.eveonline.com/news/news-channels/world-news/ishukone-re-opens-flagship-station/
+    - date: 2014-06-03 21:12:12.561137
+      posturl: http://community.eveonline.com/news/news-channels/world-news/mordus-legion-puts-out-call-for-capsuleer-assistance/
     - date: 2014-04-25 23:17:39.937306
       posturl: http://community.eveonline.com/news/news-channels/world-news/caldari-navy-distributes-bounties-for-provist-destruction/
     - date: 2014-04-20 09:59:33.561060
@@ -1746,6 +1814,10 @@ rss_feeds:
   patch_notes:
     raw: false
     stories:
+    - date: 2014-06-04 20:19:08.687935
+      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-kronos-1.1/
+    - date: 2014-05-30 08:09:14.740677
+      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-kronos/
     - date: 2014-04-28 21:23:01.246644
       posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-rubicon-1.4/
     - date: 2014-03-10 22:46:38.772316
