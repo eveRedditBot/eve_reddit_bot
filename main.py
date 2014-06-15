@@ -113,7 +113,7 @@ class EVERedditBot():
         parser.comments[-1] += self.config['signature']
         
         if 'author' in feedEntry:
-          author = '~' + feedEntry['author']
+          author = '~' + feedEntry['author'].replace('@', ' at ')
         else:
           author = ''
 

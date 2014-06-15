@@ -484,6 +484,8 @@ rss_feeds:
   csm9_mynnna:
     raw: false
     stories:
+    - date: 2014-06-09 10:43:00.922049
+      posturl: http://thethirdn.wordpress.com/?p=296
     - date: 2014-06-02 08:03:51.203982
       posturl: http://thethirdn.wordpress.com/?p=277
     - date: 2014-05-26 05:04:02.772774
@@ -500,6 +502,12 @@ rss_feeds:
   csm9_sugar:
     raw: false
     stories:
+    - date: 2014-06-15 17:01:10.486256
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-3386222694981286202
+    - date: 2014-06-09 12:06:50.090603
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-1689764070852964376
+    - date: 2014-06-08 17:01:44.943702
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-1001440615915778976
     - date: 2014-06-03 10:32:18.026212
       posturl: tag:blogger.com,1999:blog-238324579504790.post-930771894882124789
     - date: 2014-06-01 20:54:32.789464
@@ -520,6 +528,8 @@ rss_feeds:
   csm9_xander:
     raw: false
     stories:
+    - date: 2014-06-08 17:38:15.409736
+      posturl: http://crossingzebras.com/?p=2586
     - date: 2014-06-06 06:36:06.454202
       posturl: http://crossingzebras.com/?p=2571
     - date: 2014-05-31 19:47:35.916606
@@ -914,6 +924,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-06-10 19:50:33.927408
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1860159
     - date: 2014-05-27 11:29:46.867138
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1840258
     - date: 2014-05-20 11:32:07.906318
@@ -1132,6 +1144,12 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-06-12 21:43:26.295110
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-on-humble-bundle-in-the-twitch-e3-digital-ticket/
+    - date: 2014-06-12 02:42:19.262893
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/alliance-tournament-late-signups-until-friday-13th/
+    - date: 2014-06-11 03:57:04.537313
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/freighter-changes-with-kronos-end-of-transition-grace-period-june-11/
     - date: 2014-06-07 03:11:35.160810
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/alliance-tournament-xii-practice-server-information/
     - date: 2014-06-05 04:15:50.805493
@@ -1324,6 +1342,8 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-06-14 05:47:41.485422
+      posturl: http://www.rssitfor.me/EVE_status/status/477500234709630976
     - date: 2014-05-28 23:22:31.290171
       posturl: http://www.rssitfor.me/EVE_status/status/471613649199857664
     - date: 2014-05-28 23:16:33.916596
@@ -1746,6 +1766,8 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-06-10 19:44:17.198406
+      posturl: http://community.eveonline.com/news/news-channels/world-news/federal-government-announces-handover-of-arcurio/
     - date: 2014-06-03 23:16:18.995222
       posturl: http://community.eveonline.com/news/news-channels/world-news/ishukone-re-opens-flagship-station/
     - date: 2014-06-03 21:12:12.561137
@@ -1836,6 +1858,10 @@ rss_feeds:
   valkyrie_twitter:
     raw: true
     stories:
+    - date: 2014-06-13 06:12:42.565225
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/477149485693284352
+    - date: 2014-06-12 05:39:42.100759
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/476790640810795008
     - date: 2014-05-24 12:17:37.915819
       posturl: http://www.rssitfor.me/EVEValkyrie/status/466582820346146820
     - date: 2014-05-09 08:14:46.552616
