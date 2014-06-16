@@ -72,7 +72,7 @@ class EVERedditBot():
             del data['comments'][0]
 
             for comment in data['comments']:
-                time.sleep(2)
+                time.sleep(5)
                 c = c.reply(comment)
 
     def formatForReddit(self, feedEntry, postType, subreddit, raw):
@@ -113,7 +113,7 @@ class EVERedditBot():
         parser.comments[-1] += self.config['signature']
         
         if 'author' in feedEntry:
-          author = '~' + feedEntry['author']
+          author = '~' + feedEntry['author'].replace('@', ' at ')
         else:
           author = ''
 
@@ -141,18 +141,17 @@ class EVERedditBot():
 
                 self.feed_config['rss_feeds'][rss_feed]['stories'].append(
                     {'posturl': str(entry['id']), 'date': datetime.now()})
-                self.save_feed_config()
 
                 if self.submitpost == True:
                     self.postToReddit(data)
-
-                    logging.info('Just posted to Reddit, sleeping for %d seconds' 
-                        %self.config['sleep_time_post'])
-                    time.sleep(self.config['sleep_time_post'])
+                    logging.info('Posted to Reddit')
+                    self.save_feed_config()
+                    return
 
                 else:
                     logging.info('Skipping the submission...')
                     logging.info(data)
+                
         return
     
     def prune_old_stories(self, all_entry_ids, threshold):
@@ -162,6 +161,7 @@ class EVERedditBot():
             if (story['posturl'] not in [all_entry_ids] and (story['date'] < threshold)):
               logging.info('detected old story %s from %s' %(story['posturl'], story['date']))
               stories.remove(story)
+        self.save_feed_config()
         return
 
     def check_rss_feeds(self):
@@ -169,8 +169,8 @@ class EVERedditBot():
         for rss_feed in self.feed_config['rss_feeds']:
             self.rss_parser(rss_feed, all_entry_ids)
 
-        six_months_ago = datetime.now() + relativedelta( months = -6 )
-        self.prune_old_stories(all_entry_ids, six_months_ago)
+        many_months_ago = datetime.now() + relativedelta( months = -18 )
+        self.prune_old_stories(all_entry_ids, many_months_ago)
         self.save_feed_config()
         
     def check_downvoted_submissions(self):
@@ -443,7 +443,7 @@ if __name__ == '__main__':
             #exponential sleeptime back-off
             #if not successful, slow down.
             
-            catchable_exceptions = ["Gateway Time", "timed out", "HTTPSConnectionPool", "Connection reset", "Server Error"]
+            catchable_exceptions = ["Gateway Time", "timed out", "HTTPSConnectionPool", "Connection reset", "Server Error", "try again"]
             if any(substring in str(e) for substring in catchable_exceptions):
                 _sleeptime = round(_sleeptime*2)
                 logging.debug(str(e))
