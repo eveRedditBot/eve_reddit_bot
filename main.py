@@ -216,6 +216,9 @@ class EveRssHtmlParser(HTMLParser):
             
         elif tag == 'br':
             self.comments[self.cur_comment] += '\n\n'
+        
+        elif tag == 'blockquote':
+            self.comments[self.cur_comment] += '\n\n> '
 
         elif tag == 'hr':
             self.comments[self.cur_comment] += '\n\n-----\n\n'
@@ -325,7 +328,7 @@ class EveRssHtmlParser(HTMLParser):
             else:
                 self.comments[self.cur_comment] += '*'
 
-        elif tag == 'ul' or tag == 'ol':
+        elif tag == 'ul' or tag == 'ol' or tag == 'blockquote':
             self.comments[self.cur_comment] += '\n\n'
 
         elif tag == 'li':
