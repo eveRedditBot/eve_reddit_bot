@@ -5,13 +5,15 @@ import logging
 import warnings
 import yaml
 import re
+import random
 from decimal    import Decimal
 from datetime   import datetime
 from dateutil.relativedelta import relativedelta
 
 logging.basicConfig(format='%(asctime)s %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
-                    level=logging.INFO)
+#                    level=logging.INFO)
+                    level=logging.DEBUG)
 requests_log = logging.getLogger("requests")
 requests_log.setLevel(logging.WARNING)
 _sleeptime = 60
@@ -31,17 +33,6 @@ _enabled = _config['enabled']
 _sleeptime = _config['sleep_time']
 _signature = _config['signature']
 _last_refreshed_subreddits = datetime.now() + relativedelta( days = -2 )
-
-currencies = { 
-    ('trial','buddy'): 'trial',
-    ('recall'): 'recall',
-}
-
-working_currencies = {}
-for k, v in currencies.items():
-    for key in k:
-        working_currencies[key] = v
-    
 
 def main():
     global _last_refreshed_subreddits
@@ -65,7 +56,7 @@ def main():
             #exponential sleeptime back-off
             #if not successful, slow down.
             
-            catchable_exceptions = ["Gateway Time", "timed out", "HTTPSConnectionPool", "Connection reset", "Server Error", "try again"]
+            catchable_exceptions = ["Gateway Time", "timed out", "ConnectionPool", "Connection reset", "Server Error", "try again", "Too Big"]
             if any(substring in str(e) for substring in catchable_exceptions):
                 sleeptime = round(sleeptime*2)
                 logging.debug(str(e))
@@ -87,17 +78,18 @@ def get_subreddits_to_follow(r):
         subreddits_to_follow.append(subreddit.display_name.lower())
     return subreddits_to_follow
 
+# TODO follow particular threads as well?
+#def get_threads_to_follow(r):
+#    threads_to_follow = []
+#    logging.info('refreshing saved links to follow')
+#    for thread in r.user.get_saved():
+#        name = thread.url
+#        logging.info('\tfollowing ' + name)
+#        threads_to_follow.append(thread)
+#    return threads_to_follow
 
-def get_threads_to_follow(r):
-    threads_to_follow = []
-    logging.info('refreshing saved links to follow')
-    for thread in r.user.get_saved():
-        name = thread.url
-        logging.info('\tfollowing ' + name)
-        threads_to_follow.append(thread)
-    return threads_to_follow
-
-
+def create_multi_reddit(followed_subreddits):
+    return '+'.join(followed_subreddits)
 
 # exit hook
 def exitexception(e):
@@ -106,19 +98,29 @@ def exitexception(e):
      #exit(1)
      raise
 
-def is_probably_actionable(thing):
-    tip_command_keyword = _regex_redditusername.search(thing.body)
-    if (tip_command_keyword):
-        return True
-    elif (_regex_shorthand.search(thing.body)):
-        return True
-    return False
+def is_probably_actionable(text):
+    return get_link_type(text) is not None
+
+def get_link_type(text):
+    for link_type in _config['links']:
+      for regex in _config['links'][link_type]['regexes']:
+        #TODO optimise regex compilation
+        found = re.compile(regex, re.IGNORECASE).search(text)
+        name = _config['links'][link_type]['name']
+        if(found):
+          logging.debug(name + " detected in <" + text + ">")
+          return name
+          
+    return None
 
 def scan_for_comments(session, followed_subreddits):
-    comment_limit = 1000
+    comment_limit = 50
     my_subreddits = create_multi_reddit(followed_subreddits)
-    comments = praw.helpers.comment_stream(session, my_subreddits, 
-                                                limit = comment_limit, verbosity = 0)
+    #comments = praw.helpers.comment_stream(session, my_subreddits, 
+    #                                            limit = comment_limit, verbosity = 0)
+    comments = praw.helpers.submission_stream(session, my_subreddits, 
+                                                limit = comment_limit, verbosity = 1)
+    
     comment_count = 0   # Number of comments scanned (for logging)
 
     # Read each comment
@@ -127,14 +129,19 @@ def scan_for_comments(session, followed_subreddits):
         index = str(comment_count)
         display_name = scanning.subreddit.display_name.lower()
         logging.debug('comment ' + index + ' from ' + display_name)
-        if not hasattr(scanning, 'body'):
+        text = None
+        if hasattr(scanning, 'body'):
+            text = scanning.body
+        elif hasattr(scanning, 'selftext'):
+            text = scanning.selftext
+        else:
             logging.debug('skipping comment #' + index + ' because ' + str(type(scanning)))
             continue
         
-        if is_probably_actionable(scanning):
+        if is_probably_actionable(text):
             actionable = True
             # Check replies to see if already replied
-            for reply in scanning.replies:
+            for reply in scanning.replies if hasattr(scanning, 'replies') else scanning.comments:
                 if reply.author == None:
                     logging.debug("No author for comment #" + index)
                     actionable = False
@@ -147,7 +154,7 @@ def scan_for_comments(session, followed_subreddits):
             # If not already replied
             if (actionable == True):
                 logging.debug("Actionable comment found at comment #" + index)
-                post_reply(session, scanning)
+                post_reply(session, scanning, text)
                 if (_enabled):
                     time.sleep(2)
                 
@@ -156,33 +163,21 @@ def scan_for_comments(session, followed_subreddits):
             logging.debug('reached limit, breaking off')
             break
 
-def post_reply(r, thing):
-    from_redditor = thing.author.name 
-    if (_regex_shorthand.search(thing.body) is not None):
-        to_redditor = get_parent_author(r, thing)
-        amount = '1'
-        code = 'Fedo'
-    else:
-        tip_command = get_tip_command(thing.body)
-        if (tip_command is None):
-            # shouldn't, but regex mistakes do happen
-            return
-        
-        to_redditor = get_to_redditor(tip_command, get_parent_author(r, thing))
-        currency_results = _regex_currency.search(tip_command)
-        amount = ''.join(c for c in currency_results.groups()[0] if c.isdigit() or c in (',','.'))
-        currency_code_only = _regex_currency_only.search(tip_command)
-        code = normalise(currency_code_only.groups()[1])
-    
-    if to_redditor == None:
-        logging.info('could not determine to_author; probably deleted.')
+def post_reply(r, thing, text):
+    recipient = thing.author.name 
+    link_type = get_link_type(text)
+    if (link_type is None):
+        # shouldn't, but regex mistakes do happen
         return
-    if (Decimal(amount) > 1):
-        code = code + 's'
+        
+        provider = get_link_provider(link_type)
+    
+    if recipient == None:
+        logging.info('could not determine recipient; probably deleted.')
+        return
     first_line = 'Transaction Verified!\n\n**'
-    second_line = from_redditor + ' --> '
-    second_line+= amount + ' ' + code + ' --> '
-    second_line+= to_redditor
+    second_line = recipient + ' --> '
+
     
     response = first_line + second_line + '**\n\n'
     if _enabled:
@@ -192,15 +187,9 @@ def post_reply(r, thing):
     else:
         logging.info('disabled, but would have replied: ' + second_line)
 
-def normalise(currency_code):
-    return working_currencies[currency_code.lower()]
-
-def get_to_redditor(tip_command, default_value):
-    username_results = _regex_redditusername.search(tip_command)
-    if (username_results.groups()[3] is not None):
-        return username_results.groups()[3]
-    else:
-        return default_value
+# randomly find someone who offers that type of link
+def get_link_provider(tip_command):
+    return random.choice(_links[tip_command])
 
 def get_tip_command(body):
     full_command_search_results = _regex_tip.search(body)
