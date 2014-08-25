@@ -22,6 +22,10 @@ def readYamlFile(path):
     with open(path, 'r') as infile:
         return yaml.load(infile)
 
+def writeYamlFile(yaml_object, path):
+        with open(path, 'w') as outfile:
+           outfile.write( yaml.dump(yaml_object, default_flow_style=False ))
+
 _config_file_name = 'eve_buddy_link_bot_config.yaml'
 _config = readYamlFile(_config_file_name)
 _links_file_name = 'eve_buddy_link_bot_links.yaml'
@@ -39,6 +43,7 @@ def main():
     sleeptime = _sleeptime
     r = praw.Reddit(_api_header)
     r.login(_username, _password)
+    r.config.decode_html_entities = True
     logging.info('Logged into reddit as ' + _username)
     
     while(True):
@@ -47,6 +52,7 @@ def main():
                 followed_subreddits = get_subreddits_to_follow(r)
                 _last_refreshed_subreddits = datetime.now()
             
+            scan_for_messages(r)
             scan_for_comments(r, followed_subreddits)
             
             if (sleeptime > (_sleeptime)):
@@ -113,6 +119,47 @@ def get_link_type(text):
           
     return None
 
+def scan_for_messages(session):
+    logging.debug("scanning for messages")
+    unread = [message for message in session.get_unread() if message.was_comment == False 
+                and message.subject in ('add trial', 'add recall')]
+    for message in unread:
+        time.sleep(2)
+        author = str(message.author.name)
+        subject = str(message.subject)
+        body = str(message.body).replace('&amp;', '&')
+        if(subject == "add recall"):
+            type = 'recall'
+            valid = body.startswith('https://secure.eveonline.com/RecallProgram/?invc=')
+        else:
+            type = 'trial'
+            valid = body.startswith('https://secure.eveonline.com/trial/?invc=')
+        
+        if (not valid):
+            message.reply('your link was invalid soz.')
+            logging.info('discarded invalid ' + type + ' message from ' + author)
+            message.mark_as_read()
+            continue
+        
+        is_duplicate = [link for link in _links[type] if link['url'] == body or link['username'] == author]
+        if (is_duplicate):
+            message.reply('You already have a link. Get out.')
+            logging.info('discarded duplicate ' + type + ' message from ' + author)
+            message.mark_as_read()
+            continue
+        
+        _links[type].append({
+            'username': author,
+            'url': body,
+            'added': datetime.now()
+        })
+        writeYamlFile(_links, _links_file_name)
+        message.reply('added a ' + type + ' link for you kthxbye.')
+        logging.info('added a ' + type + ' link for ' + author)
+        
+        message.mark_as_read()
+
+
 def scan_for_comments(session, followed_subreddits):
     comment_limit = 50
     my_subreddits = create_multi_reddit(followed_subreddits)
@@ -164,32 +211,37 @@ def scan_for_comments(session, followed_subreddits):
             break
 
 def post_reply(r, thing, text):
-    recipient = thing.author.name 
+    recipient = str(thing.author.name)
     link_type = get_link_type(text)
     if (link_type is None):
         # shouldn't, but regex mistakes do happen
         return
-        
-        provider = get_link_provider(link_type)
     
     if recipient == None:
         logging.info('could not determine recipient; probably deleted.')
-        return
-    first_line = 'Transaction Verified!\n\n**'
-    second_line = recipient + ' --> '
-
+        return 
+    provider = get_link_provider(link_type)
+    response = 'Hi. I detected that you\'re looking for a ' + link_type +' link\n\n'
+    response+= '/u/' + provider['username'] + ' has offered theirs:\n\n'
+    response+= provider['url'] + '\n\nEnjoy!\n\n&nbsp;\n\n&nbsp;\n\n'
     
-    response = first_line + second_line + '**\n\n'
+
     if _enabled:
         display_name = thing.subreddit.display_name.lower()
-        logging.info('('+display_name+') ' + second_line)
+        logging.info('('+display_name+') provided a ' + link_type + ' link')
         thing.reply(response + _signature)
     else:
-        logging.info('disabled, but would have replied: ' + second_line)
+        logging.info('disabled, but would have replied: ' + response)
 
 # randomly find someone who offers that type of link
-def get_link_provider(tip_command):
-    return random.choice(_links[tip_command])
+def get_link_provider(link_name):
+    logging.debug(_config['links'])
+    logging.debug(_config['links'].keys())
+    link_key = [key for key in _config['links'].keys() if _config['links'][key]['name'] == link_name]
+    for link in link_key:
+        return random.choice(_links[link])
+    
+    return None # shouldn't happen
 
 def get_tip_command(body):
     full_command_search_results = _regex_tip.search(body)
