@@ -216,6 +216,9 @@ class EveRssHtmlParser(HTMLParser):
             
         elif tag == 'br':
             self.comments[self.cur_comment] += '\n\n'
+        
+        elif tag == 'blockquote':
+            self.comments[self.cur_comment] += '\n\n> '
 
         elif tag == 'hr':
             self.comments[self.cur_comment] += '\n\n-----\n\n'
@@ -284,7 +287,7 @@ class EveRssHtmlParser(HTMLParser):
         elif tag == 'tbody':
             pass
         	
-        elif tag == 'tr':
+        elif tag == 'tr' or tag == 'th':
             pass
             
         elif tag == 'ul' or tag == 'ol':
@@ -325,7 +328,7 @@ class EveRssHtmlParser(HTMLParser):
             else:
                 self.comments[self.cur_comment] += '*'
 
-        elif tag == 'ul' or tag == 'ol':
+        elif tag == 'ul' or tag == 'ol' or tag == 'blockquote':
             self.comments[self.cur_comment] += '\n\n'
 
         elif tag == 'li':
@@ -365,7 +368,7 @@ class EveRssHtmlParser(HTMLParser):
         elif tag == 'table':
             self.in_table = False
 
-        elif tag == 'tr':
+        elif tag == 'tr' or tag =='th':
             if self.first_row:
                 self.comments[self.cur_comment] += '|\n%s' %self.table_header
                 self.first_row = False
@@ -443,7 +446,7 @@ if __name__ == '__main__':
             #exponential sleeptime back-off
             #if not successful, slow down.
             
-            catchable_exceptions = ["Gateway Time", "timed out", "HTTPSConnectionPool", "Connection reset", "Server Error", "try again"]
+            catchable_exceptions = ["Gateway Time", "timed out", "ConnectionPool", "Connection reset", "Server Error", "try again", "Too Big"]
             if any(substring in str(e) for substring in catchable_exceptions):
                 _sleeptime = round(_sleeptime*2)
                 logging.debug(str(e))

@@ -1,0 +1,6 @@
+api_header: Eve Buddy Link Bot by u/SerpentineLogic v 0.0.1
+username: eve_buddy_link_bot
+password: insert_password_here
+enabled: true
+sleep_time: 60
+signature: "---\n[^[about]](http://goo.gl/F9V265) [^[Issues]](http://www.reddit.com/message/compose/?to=eve_buddy_link_bot&subject=Issue)"
