@@ -2,3 +2,5 @@
 *.pyc
 
 .vagrant
+
+eve_buddy_link_bot_config.yaml
