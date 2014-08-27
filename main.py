@@ -440,7 +440,7 @@ if __name__ == '__main__':
         try:
             bot.run()
             if (_sleeptime > (bot.config['sleep_time'])):
-                _sleeptime = round(_sleeptime/2)
+                _sleeptime = int(_sleeptime/2)
         
         except Exception as e:
             #exponential sleeptime back-off
