@@ -81,7 +81,6 @@ def get_subreddits_to_follow(r):
     for subreddit in r.get_my_subreddits():
         name = subreddit.display_name.lower()
         logging.info('\tfollowing ' + name)
-        subreddits_to_follow.append(subreddit.display_name.lower())
     return subreddits_to_follow
 
 # TODO follow particular threads as well?
