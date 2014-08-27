@@ -36,52 +36,47 @@ _password = _config['password']
 _enabled = _config['enabled']
 _sleeptime = _config['sleep_time']
 _signature = _config['signature']
-_last_refreshed_subreddits = datetime.now() + relativedelta( days = -2 )
+_last_daily_job = datetime.now() + relativedelta( days = -2 )
 
 def main():
-    global _last_refreshed_subreddits
+    global _last_daily_job
     sleeptime = _sleeptime
     r = praw.Reddit(_api_header)
     r.login(_username, _password)
-    r.config.decode_html_entities = True
+    #r.config.decode_html_entities = True
     logging.info('Logged into reddit as ' + _username)
     
     while(True):
         try:
-            if (should_refresh_subreddits()):
-                followed_subreddits = get_subreddits_to_follow(r)
-                _last_refreshed_subreddits = datetime.now()
+            if (should_do_daily_jobs()):
+                # put jobs here, e.g. clearing out old links
+                print_followed_subreddits(r)
+                _last_daily_job = datetime.now()
             
-            scan_for_messages(r)
-            scan_for_comments(r, followed_subreddits)
+            scan_messages(r)
+            scan_submissions(r)
             
             if (sleeptime > (_sleeptime)):
-                sleeptime = round(sleeptime/2)
-        
+                sleeptime = int(sleeptime/2)
+            
+            logging.info("Sleeping for %s seconds", str(sleeptime))
+            time.sleep(sleeptime)
         except Exception as e:
             #exponential sleeptime back-off
             #if not successful, slow down.
             
             catchable_exceptions = ["Gateway Time", "timed out", "ConnectionPool", "Connection reset", "Server Error", "try again", "Too Big"]
             if any(substring in str(e) for substring in catchable_exceptions):
-                sleeptime = round(sleeptime*2)
+                sleeptime = int(sleeptime*2)
                 logging.debug(str(e))
             else:
                 exitexception(e)
 
-        if (_enabled):
-            logging.info("Sleeping for %s seconds", str(sleeptime))
-            time.sleep(sleeptime)
-        else: 
-            exit(0)
-
-def get_subreddits_to_follow(r):
+def print_followed_subreddits(r):
     subreddits_to_follow = []
-    logging.info('refreshing followed subreddits')
     for subreddit in r.get_my_subreddits():
         name = subreddit.display_name.lower()
         logging.info('\tfollowing ' + name)
-    return subreddits_to_follow
 
 # TODO follow particular threads as well?
 #def get_threads_to_follow(r):
@@ -92,9 +87,6 @@ def get_subreddits_to_follow(r):
 #        logging.info('\tfollowing ' + name)
 #        threads_to_follow.append(thread)
 #    return threads_to_follow
-
-def create_multi_reddit(followed_subreddits):
-    return '+'.join(followed_subreddits)
 
 # exit hook
 def exitexception(e):
@@ -113,20 +105,18 @@ def get_link_type(text):
         found = re.compile(regex, re.IGNORECASE).search(text)
         name = _config['links'][link_type]['name']
         if(found):
-          logging.debug(name + " detected in <" + text + ">")
           return name
           
     return None
 
-def scan_for_messages(session):
-    logging.debug("scanning for messages")
+def scan_messages(session):
     unread = [message for message in session.get_unread() if message.was_comment == False 
                 and message.subject in ('add trial', 'add recall')]
     for message in unread:
         time.sleep(2)
         author = str(message.author.name)
         subject = str(message.subject)
-        body = str(message.body).replace('&amp;', '&')
+        body = str(message.body).replace('&amp;', '&') # minimal decoding
         if(subject == "add recall"):
             type = 'recall'
             valid = body.startswith('https://secure.eveonline.com/RecallProgram/?invc=')
@@ -135,14 +125,14 @@ def scan_for_messages(session):
             valid = body.startswith('https://secure.eveonline.com/trial/?invc=')
         
         if (not valid):
-            message.reply('your link was invalid soz.')
+            message.reply('your ' + type +' link was invalid soz.')
             logging.info('discarded invalid ' + type + ' message from ' + author)
             message.mark_as_read()
             continue
         
         is_duplicate = [link for link in _links[type] if link['url'] == body or link['username'] == author]
         if (is_duplicate):
-            message.reply('You already have a link. Get out.')
+            message.reply('You already have a ' + type + ' link. Get out.')
             logging.info('discarded duplicate ' + type + ' message from ' + author)
             message.mark_as_read()
             continue
@@ -159,52 +149,54 @@ def scan_for_messages(session):
         message.mark_as_read()
 
 
-def scan_for_comments(session, followed_subreddits):
-    comment_limit = 50
-    my_subreddits = create_multi_reddit(followed_subreddits)
-    #comments = praw.helpers.comment_stream(session, my_subreddits, 
-    #                                            limit = comment_limit, verbosity = 0)
-    comments = praw.helpers.submission_stream(session, my_subreddits, 
-                                                limit = comment_limit, verbosity = 1)
+def scan_submissions(session):
+    submission_limit = 10
+    submissions = session.get_new(limit = submission_limit)
     
-    comment_count = 0   # Number of comments scanned (for logging)
+    submission_count = 0   # Number of submissions scanned (for logging)
 
-    # Read each comment
-    for scanning in comments:
-        comment_count += 1
-        index = str(comment_count)
+    # Read each submission
+    for scanning in submissions:
+        submission_count += 1
+        index = str(submission_count)
         display_name = scanning.subreddit.display_name.lower()
-        logging.debug('comment ' + index + ' from ' + display_name)
+        logging.debug('submission ' + index + ' from ' + display_name)
         text = None
         if hasattr(scanning, 'body'):
             text = scanning.body
         elif hasattr(scanning, 'selftext'):
             text = scanning.selftext
         else:
-            logging.debug('skipping comment #' + index + ' because ' + str(type(scanning)))
+            logging.debug('skipping submission #' + index + ' because ' + str(type(scanning)))
             continue
         
+        if hasattr(scanning, 'title'):
+            text+= scanning.title
         if is_probably_actionable(text):
+
             actionable = True
             # Check replies to see if already replied
             for reply in scanning.replies if hasattr(scanning, 'replies') else scanning.comments:
                 if reply.author == None:
-                    logging.debug("No author for comment #" + index)
-                    actionable = False
-                    break
+                    logging.debug("No author for submission #" + index)
+                    continue
                 if reply.author.name == _username:
-                    logging.debug("Already replied to comment #" + index)
+                    logging.debug("Already replied to submission #" + index)
                     actionable = False
                     break
+                # you know what? for now, if anyone has beat us, skip;
+                logging.debug("submission #" + index + " already has replies; skipping")
+                actionable = False
+                break
 
             # If not already replied
             if (actionable == True):
-                logging.debug("Actionable comment found at comment #" + index)
+                logging.debug("Actionable submission found at submission #" + index)
+                logging.debug("replying to " + scanning.url)
                 post_reply(session, scanning, text)
-                if (_enabled):
-                    time.sleep(2)
+                time.sleep(2)
                 
-        if (comment_count > comment_limit):
+        if (submission_count > submission_limit):
             #Reddit API is being too generous; quit early, go home, play with the kids
             logging.debug('reached limit, breaking off')
             break
@@ -219,58 +211,52 @@ def post_reply(r, thing, text):
     if recipient == None:
         logging.info('could not determine recipient; probably deleted.')
         return 
+    response = 'Hi. It looks like you\'re looking for a ' + link_type +' link.\n\n'
     provider = get_link_provider(link_type)
-    response = 'Hi. I detected that you\'re looking for a ' + link_type +' link\n\n'
-    response+= '/u/' + provider['username'] + ' has offered theirs:\n\n'
-    response+= provider['url'] + '\n\nEnjoy!\n\n&nbsp;\n\n&nbsp;\n\n'
+    if (provider is None):
+        response+= 'I don\'t think those links are available any more.'
+    else:
+        response+= '/u/' + provider['username'] + ' has offered theirs:\n\n'
+        response+= provider['url'] + '\n\nEnjoy!'
+    
+    response+='\n\n&nbsp;\n\n&nbsp;\n\n'
+    response+='^(*If this message isn\'t helpful or you think it was posted in error, '
+    response+='respond to this comment and let me know, or feel free to have the comment '
+    response+='removed by a moderator.*)\n\n'
+
     
 
     if _enabled:
-        display_name = thing.subreddit.display_name.lower()
-        logging.info('('+display_name+') provided a ' + link_type + ' link')
-        thing.reply(response + _signature)
+        subreddit_name = thing.subreddit.display_name.lower()
+        provider_name = provider['username'] if (provider is not None) else 'Nobody'
+        logging.info(provider_name + ' provided a ' + link_type + ' link to ' + recipient + ' in /r/' + subreddit_name)
+        #reply only works on comments
+        #thing.reply(response + _signature)
+        
+        thing.add_comment(response + _signature)
+        
+        if (provider is not None):
+            notify_provider(r, link_type, provider['username'], recipient, thing.url)
+        
     else:
         logging.info('disabled, but would have replied: ' + response)
 
+def notify_provider(session, link_type, username, recipient, url):
+    subject = link_type + ' link sent to ' + recipient
+    msg = 'Hi. I sent a link on your behalf. Check it out here:\n\n' + url
+    session.send_message(username, subject, msg)
+    
+
 # randomly find someone who offers that type of link
 def get_link_provider(link_name):
-    logging.debug(_config['links'])
-    logging.debug(_config['links'].keys())
     link_key = [key for key in _config['links'].keys() if _config['links'][key]['name'] == link_name]
     for link in link_key:
         return random.choice(_links[link])
     
-    return None # shouldn't happen
+    return None # shouldn't happen, but maybe that type is empty.
 
-def get_tip_command(body):
-    full_command_search_results = _regex_tip.search(body)
-    if (full_command_search_results):
-        return full_command_search_results.groups()[0]
-    else:
-        logging.info('could not find valid command in body')   
-        return None 
-    
-
-def get_parent_author(r, thing):
-    commentlinkid = thing.link_id[3:]
-    parentid = thing.parent_id[3:]
-    authorid = thing.author.name
-    parentpermalink = thing.permalink.replace(thing.id, thing.parent_id[3:])
-
-    if (commentlinkid==parentid):
-        parentcomment = r.get_submission(parentpermalink)
-    else:
-        parentcomment = r.get_submission(parentpermalink).comments[0]
-    
-    if parentcomment.author == None:
-        return None      
-    else: 
-        return parentcomment.author.name
-
-
-
-def should_refresh_subreddits():
-    return datetime.now() > _last_refreshed_subreddits + relativedelta(days = 1)
+def should_do_daily_jobs():
+    return datetime.now() > _last_daily_job + relativedelta(days = 1)
 
 
 if __name__ == '__main__':
