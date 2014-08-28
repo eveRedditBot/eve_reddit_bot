@@ -12,8 +12,8 @@ from dateutil.relativedelta import relativedelta
 
 logging.basicConfig(format='%(asctime)s %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
-#                    level=logging.INFO)
-                    level=logging.DEBUG)
+                    level=logging.INFO)
+#                    level=logging.DEBUG)
 requests_log = logging.getLogger("requests")
 requests_log.setLevel(logging.WARNING)
 _sleeptime = 60
@@ -67,7 +67,7 @@ def main():
             
             catchable_exceptions = ["Gateway Time", "timed out", "ConnectionPool", "Connection reset", "Server Error", "try again", "Too Big"]
             if any(substring in str(e) for substring in catchable_exceptions):
-                sleeptime = int(sleeptime*2)
+                sleeptime = round(sleeptime*2)
                 logging.debug(str(e))
             else:
                 exitexception(e)
