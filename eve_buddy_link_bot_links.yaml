@@ -1,5 +1,4 @@
-recall:
-- null
+recall: null
 trial:
 - added: 2014-08-26 23:29:26.662719
   url: https://secure.eveonline.com/trial/?invc=d4513ea1-7716-470a-8c8f-a9eb0fa1cae8&action=buddy
@@ -37,3 +36,9 @@ trial:
 - added: 2014-08-28 07:26:56.177369
   url: https://secure.eveonline.com/trial/?invc=9c3e2b93-2090-47ff-a97e-f48af3bf39d7&action=buddy
   username: Ponytron200
+- added: 2014-09-01 03:09:40.390491
+  url: https://secure.eveonline.com/trial/?invc=c3e27477-6f60-4444-8bc7-4ba55ff48069&action=buddy
+  username: josejimenez896
+- added: 2014-09-01 10:57:42.445655
+  url: https://secure.eveonline.com/trial/?invc=c1d63647-5025-4678-a2b0-31d9fbfee6e5&action=buddy
+  username: videogamechamp
