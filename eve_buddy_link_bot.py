@@ -61,8 +61,6 @@ def main():
             if (sleeptime > (_sleeptime)):
                 sleeptime = int(sleeptime/2)
             
-            logging.info("Sleeping for %s seconds", str(sleeptime))
-            time.sleep(sleeptime)
         except Exception as e:
             #exponential sleeptime back-off
             #if not successful, slow down.
@@ -73,6 +71,9 @@ def main():
                 logging.debug(str(e))
             else:
                 exitexception(e)
+        
+        logging.info("Sleeping for %s seconds", str(sleeptime))
+        time.sleep(sleeptime)
 
 def print_followed_subreddits(r):
     subreddits_to_follow = []
@@ -219,7 +220,10 @@ def post_reply(r, thing, text):
         response+= 'I don\'t think those links are available any more.'
     else:
         response+= '/u/' + provider['username'] + ' has offered theirs:\n\n'
-        response+= provider['url'] + '\n\nEnjoy!'
+        response+= provider['url'] + '\n\n'
+        response+= '~As part of the agreement of using this bot, they must give you *at '
+        response+= 'least 50%* of the rewards they receive if you subscribe~\n\n'
+        response+='Enjoy!'
     
     response+='\n\n&nbsp;\n\n&nbsp;\n\n'
     response+='^(*If this message isn\'t helpful or you think it was posted in error, '
@@ -271,7 +275,7 @@ def purge_old_providers_of_type(session, key, expiration_threshold):
                  if provider['added'] < expiration_threshold]
         for old_provider in old_providers[:]:
             old_username = old_provider['username']
-            logging.info('detected old ' + key + ' link from ' + old_username)
+            logging.info('\tdetected old ' + key + ' link from ' + old_username)
             notify_link_removal(session, key, old_username, old_provider['url'])
             _links[key].remove(old_provider)
             writeYamlFile(_links, _links_file_name)
