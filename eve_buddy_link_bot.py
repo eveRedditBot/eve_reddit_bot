@@ -71,8 +71,10 @@ def main():
                 logging.debug(str(e))
             else:
                 exitexception(e)
-        
-        logging.info("Sleeping for %s seconds", str(sleeptime))
+        if (sleeptime > (_sleeptime)):
+            logging.info("Sleeping for %s seconds", str(sleeptime))
+        else:
+            logging.debug("Sleeping for %s seconds", str(sleeptime))
         time.sleep(sleeptime)
 
 def print_followed_subreddits(r):
