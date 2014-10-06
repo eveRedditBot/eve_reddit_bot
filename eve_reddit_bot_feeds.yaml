@@ -51,6 +51,16 @@ rss_feeds:
     subreddit: eve
     type: CCP Press
     url: http://newsfeed.eveonline.com/en-US/43/articles/page/1/20
+
+  eve_dev:
+    raw: false
+    stories:
+    - date: 2011-08-21 20:33:38.728026
+      posturl: tag:youtube.com,2008:video:EGVN3ObA6Ic
+    subreddit: evetech
+    type: evedevs
+    url: http://newsfeed.eveonline.com/en-US/95/articles
+
   ccp_youtube:
     raw: false
     stories:
@@ -332,6 +342,10 @@ rss_feeds:
   csm9_mike:
     raw: false
     stories:
+    - date: 2014-10-03 15:38:30.118143
+      posturl: http://mikeazariah.wordpress.com/?p=1605
+    - date: 2014-10-02 09:40:39.963235
+      posturl: http://mikeazariah.wordpress.com/?p=1603
     - date: 2014-09-14 17:13:13.981896
       posturl: http://mikeazariah.wordpress.com/?p=1598
     - date: 2014-08-20 04:16:02.258472
@@ -398,6 +412,8 @@ rss_feeds:
   csm9_sugar:
     raw: false
     stories:
+    - date: 2014-10-05 17:00:53.594270
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-3245831674816107277
     - date: 2014-09-28 17:06:07.116124
       posturl: tag:blogger.com,1999:blog-238324579504790.post-209775240422798301
     - date: 2014-09-21 17:02:04.310706
@@ -458,6 +474,8 @@ rss_feeds:
   csm9_xander:
     raw: false
     stories:
+    - date: 2014-10-02 00:42:24.667808
+      posturl: http://crossingzebras.com/?p=3740
     - date: 2014-09-25 08:14:10.090259
       posturl: http://crossingzebras.com/?p=3696
     - date: 2014-09-23 08:47:59.270906
@@ -536,6 +554,8 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-10-02 02:51:30.419586
+      posturl: http://community.eveonline.com/news/dev-blogs/long-distance-travel-changes-inbound/
     - date: 2014-09-30 02:06:14.648995
       posturl: http://community.eveonline.com/news/dev-blogs/import-export-fittings/
     - date: 2014-09-26 02:19:05.531281
@@ -1314,6 +1334,12 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-10-06 22:44:25.776546
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/developer-site-is-now-live-on-singularity/
+    - date: 2014-10-03 00:35:41.253769
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/all-systems-go-for-fanfest-2015/
+    - date: 2014-10-01 23:59:15.745688
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/four-new-vegas-raffle-winners/
     - date: 2014-10-01 00:05:43.630708
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/oceanus-has-been-deployed/
     - date: 2014-09-30 01:25:11.809874
@@ -1818,6 +1844,12 @@ rss_feeds:
   eve_youtube:
     raw: false
     stories:
+    - date: 2014-10-01 19:19:51.900118
+      posturl: tag:youtube.com,2008:video:CtY-sJJNucg
+    - date: 2014-10-01 19:13:16.187493
+      posturl: tag:youtube.com,2008:video:z3gJ-eKqyHU
+    - date: 2014-10-01 19:06:41.288636
+      posturl: tag:youtube.com,2008:video:gLzJZSRnvzA
     - date: 2014-09-25 04:52:00.871373
       posturl: tag:youtube.com,2008:video:-Zwf4F1saLU
     - date: 2014-09-12 19:50:29.787648
@@ -2192,7 +2224,7 @@ rss_feeds:
       posturl: tag:youtube.com,2008:video:0NsIIGZBSrs
     - date: 2014-02-04 21:28:41.555970
       posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdobNUiYOCZKJpIhdiPIVToQ
-    subreddit: eve
+    subreddit: new_eden_news_bot
     type: Youtube
     url: http://gdata.youtube.com/feeds/api/users/UCwF3VyalTHzL0L-GDlwtbRw/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
   game_news:
