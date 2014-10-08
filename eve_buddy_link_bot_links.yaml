@@ -1,5 +1,4 @@
-recall:
-- null
+recall: null
 trial:
 - added: 2014-08-26 23:29:26.662719
   url: https://secure.eveonline.com/trial/?invc=d4513ea1-7716-470a-8c8f-a9eb0fa1cae8&action=buddy
@@ -34,3 +33,27 @@ trial:
 - added: 2014-08-27 19:35:17.038311
   url: https://secure.eveonline.com/trial/?invc=aa23b8a5-8310-4ad9-82ee-687cb4070793&action=buddy
   username: Soarin
+- added: 2014-08-28 07:26:56.177369
+  url: https://secure.eveonline.com/trial/?invc=9c3e2b93-2090-47ff-a97e-f48af3bf39d7&action=buddy
+  username: Ponytron200
+- added: 2014-09-01 03:09:40.390491
+  url: https://secure.eveonline.com/trial/?invc=c3e27477-6f60-4444-8bc7-4ba55ff48069&action=buddy
+  username: josejimenez896
+- added: 2014-09-01 10:57:42.445655
+  url: https://secure.eveonline.com/trial/?invc=c1d63647-5025-4678-a2b0-31d9fbfee6e5&action=buddy
+  username: videogamechamp
+- added: 2014-09-11 21:19:15.707686
+  url: https://secure.eveonline.com/trial/?invc=c6f5c5d0-8655-4cdf-aeb8-45abfaa2d457&action=buddy
+  username: Llujoo
+- added: 2014-09-11 21:28:05.393699
+  url: https://secure.eveonline.com/trial/?invc=3c072f2e-1e05-44e4-8fff-d598fa1ec993&action=buddy
+  username: Marksman_X
+- added: 2014-09-14 14:16:12.261827
+  url: https://secure.eveonline.com/trial/?invc=880c1f26-28d2-40d6-8fd7-208babdcb63c&action=buddy
+  username: rudest
+- added: 2014-09-16 08:23:16.364725
+  url: https://secure.eveonline.com/trial/?invc=fc6848ec-1c35-4762-95f0-6ab74ff6aec9&action=buddy
+  username: cccino
+- added: 2014-10-01 10:29:07.962616
+  url: https://secure.eveonline.com/trial/?invc=e0db71e3-5997-4841-879d-36b4c07aec44&action=buddy
+  username: kegaroo85

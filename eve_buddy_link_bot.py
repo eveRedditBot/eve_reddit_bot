@@ -12,8 +12,8 @@ from dateutil.relativedelta import relativedelta
 
 logging.basicConfig(format='%(asctime)s %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
-#                    level=logging.INFO)
-                    level=logging.DEBUG)
+                    level=logging.INFO)
+#                    level=logging.DEBUG)
 requests_log = logging.getLogger("requests")
 requests_log.setLevel(logging.WARNING)
 _sleeptime = 60
@@ -36,6 +36,7 @@ _password = _config['password']
 _enabled = _config['enabled']
 _sleeptime = _config['sleep_time']
 _signature = _config['signature']
+_home_subreddit = _config['home_subreddit']
 _last_daily_job = datetime.now() + relativedelta( days = -2 )
 
 def main():
@@ -51,6 +52,7 @@ def main():
             if (should_do_daily_jobs()):
                 # put jobs here, e.g. clearing out old links
                 print_followed_subreddits(r)
+                purge_old_providers(r)
                 _last_daily_job = datetime.now()
             
             scan_messages(r)
@@ -59,18 +61,21 @@ def main():
             if (sleeptime > (_sleeptime)):
                 sleeptime = int(sleeptime/2)
             
-            logging.info("Sleeping for %s seconds", str(sleeptime))
-            time.sleep(sleeptime)
         except Exception as e:
             #exponential sleeptime back-off
             #if not successful, slow down.
             
             catchable_exceptions = ["Gateway Time", "timed out", "ConnectionPool", "Connection reset", "Server Error", "try again", "Too Big"]
             if any(substring in str(e) for substring in catchable_exceptions):
-                sleeptime = int(sleeptime*2)
+                sleeptime = round(sleeptime*2)
                 logging.debug(str(e))
             else:
                 exitexception(e)
+        if (sleeptime > (_sleeptime)):
+            logging.info("Sleeping for %s seconds", str(sleeptime))
+        else:
+            logging.debug("Sleeping for %s seconds", str(sleeptime))
+        time.sleep(sleeptime)
 
 def print_followed_subreddits(r):
     subreddits_to_follow = []
@@ -125,7 +130,7 @@ def scan_messages(session):
             valid = body.startswith('https://secure.eveonline.com/trial/?invc=')
         
         if (not valid):
-            message.reply('your ' + type +' link was invalid soz.')
+            message.reply('your ' + type +' link was invalid soz. Send ONLY the link in the body of the message.')
             logging.info('discarded invalid ' + type + ' message from ' + author)
             message.mark_as_read()
             continue
@@ -217,14 +222,15 @@ def post_reply(r, thing, text):
         response+= 'I don\'t think those links are available any more.'
     else:
         response+= '/u/' + provider['username'] + ' has offered theirs:\n\n'
-        response+= provider['url'] + '\n\nEnjoy!'
+        response+= provider['url'] + '\n\n'
+        response+= '~As part of the agreement of using this bot, they must give you *at '
+        response+= 'least 50%* of the rewards they receive if you subscribe~\n\n'
+        response+='Enjoy!'
     
     response+='\n\n&nbsp;\n\n&nbsp;\n\n'
     response+='^(*If this message isn\'t helpful or you think it was posted in error, '
     response+='respond to this comment and let me know, or feel free to have the comment '
     response+='removed by a moderator.*)\n\n'
-
-    
 
     if _enabled:
         subreddit_name = thing.subreddit.display_name.lower()
@@ -241,11 +247,50 @@ def post_reply(r, thing, text):
     else:
         logging.info('disabled, but would have replied: ' + response)
 
+
 def notify_provider(session, link_type, username, recipient, url):
     subject = link_type + ' link sent to ' + recipient
     msg = 'Hi. I sent a link on your behalf. Check it out here:\n\n' + url
     session.send_message(username, subject, msg)
-    
+
+def notify_link_removal(session, link_type, recipient, url):
+    subject = link_type + ' link expired and removed'
+    msg = 'Hi ' + recipient + '.\n\n'
+    msg+='The link you have provided has expired. Links are valid for a few months '
+    msg+= ' then retired, in case you are no longer playing.\n\n'
+    msg+= 'You are welcome to resubmit your link in the '
+    msg+= '[usual manner](http://www.reddit.com/message/compose/?to='
+    msg+= _username
+    msg+= '&subject=add ' + link_type
+    msg+= '&message=' + url.replace('&', '%26') + ').'
+    session.send_message(recipient, subject, msg)
+
+def purge_old_providers(session):
+    expiration_threshold = datetime.now() + relativedelta( months = -3)
+    for key in _config['links'].keys():
+        purge_old_providers_of_type(session, key, expiration_threshold)
+
+def purge_old_providers_of_type(session, key, expiration_threshold):
+    logging.info('purging old ' + key + ' providers')
+    if _links[key]:
+        old_providers = [provider for provider in _links[key] 
+                 if provider['added'] < expiration_threshold]
+        for old_provider in old_providers[:]:
+            old_username = old_provider['username']
+            logging.info('\tdetected old ' + key + ' link from ' + old_username)
+            notify_link_removal(session, key, old_username, old_provider['url'])
+            _links[key].remove(old_provider)
+            writeYamlFile(_links, _links_file_name)
+            time.sleep(2)
+
+
+def get_flair_text(session, username):
+    flair = session.get_flair(_home_subreddit, username)
+    if (flair is None):
+        flair_text = ''
+    else:
+        flair_text = flair['flair_text']
+    return flair_text
 
 # randomly find someone who offers that type of link
 def get_link_provider(link_name):

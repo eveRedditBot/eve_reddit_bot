@@ -2,6 +2,8 @@ rss_feeds:
   ccp_press:
     raw: false
     stories:
+    - date: 2014-08-27 10:32:11.497731
+      posturl: http://community.eveonline.com/news/news-channels/press-releases/eve-online-expands-wormhole-and-mission-gameplay-with-new-release/
     - date: 2014-07-26 01:44:03.878365
       posturl: http://community.eveonline.com/news/news-channels/press-releases/ccp-names-andie-nordgren-exec-producer-eve-online/
     - date: 2014-04-22 23:58:12.003049
@@ -49,9 +51,23 @@ rss_feeds:
     subreddit: eve
     type: CCP Press
     url: http://newsfeed.eveonline.com/en-US/43/articles/page/1/20
+
+  eve_dev:
+    raw: false
+    stories:
+    - date: 2011-08-21 20:33:38.728026
+      posturl: tag:youtube.com,2008:video:EGVN3ObA6Ic
+    subreddit: evetech
+    type: evedevs
+    url: http://newsfeed.eveonline.com/en-US/95/articles
+
   ccp_youtube:
     raw: false
     stories:
+    - date: 2014-08-21 20:33:38.728026
+      posturl: tag:youtube.com,2008:video:EGVN3ObA6Ic
+    - date: 2014-08-17 08:41:06.909167
+      posturl: tag:youtube.com,2008:video:aQc7fS4_Cq0
     - date: 2014-08-02 02:32:59.890397
       posturl: tag:youtube.com,2008:video:gTT0K_u9XyY
     - date: 2014-07-16 01:25:10.412987
@@ -193,6 +209,34 @@ rss_feeds:
     subreddit: eve
     type: Youtube
     url: http://gdata.youtube.com/feeds/api/users/CCPGAMES/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
+  cpm1:
+    raw: false
+    stories:
+    - date: 2014-09-25 19:17:59.993945
+      posturl: http://www.dustcpm.com/?p=82
+    - date: 2014-09-24 00:22:00.695276
+      posturl: http://www.dustcpm.com/?p=80
+    - date: 2014-09-13 03:15:08.228360
+      posturl: http://www.dustcpm.com/?p=75
+    - date: 2014-09-03 05:04:19.416355
+      posturl: http://www.dustcpm.com/?p=65
+    - date: 2014-08-27 02:12:04.007412
+      posturl: http://www.dustcpm.com/?p=60
+    - date: 2014-08-27 01:31:18.002499
+      posturl: http://www.dustcpm.com/?p=56
+    - date: 2014-08-23 03:27:57.490001
+      posturl: http://www.dustcpm.com/?p=54
+    - date: 2014-08-12 20:59:25.292062
+      posturl: http://dustcpm.com/?p=1
+    - date: 2014-08-12 20:52:47.519797
+      posturl: http://www.dustcpm.com/?p=19
+    - date: 2014-08-12 20:46:03.064091
+      posturl: http://www.dustcpm.com/?p=12
+    - date: 2014-08-12 20:39:11.343253
+      posturl: http://www.dustcpm.com/?p=45
+    subreddit: dust514
+    type: CPM1
+    url: http://www.dustcpm.com/?feed=rss2
   csm9_ali:
     raw: false
     stories:
@@ -242,6 +286,16 @@ rss_feeds:
   csm9_bacon:
     raw: false
     stories:
+    - date: 2014-09-12 06:30:34.958535
+      posturl: tag:blogger.com,1999:blog-1490340916886486838.post-6233654056866146896
+    - date: 2014-08-27 20:34:42.379937
+      posturl: tag:blogger.com,1999:blog-1490340916886486838.post-8666607629823006578
+    - date: 2014-08-20 11:18:24.087674
+      posturl: tag:blogger.com,1999:blog-1490340916886486838.post-1655381646689956044
+    - date: 2014-08-19 13:04:20.989103
+      posturl: tag:blogger.com,1999:blog-1490340916886486838.post-8661026664070178578
+    - date: 2014-08-18 12:24:28.788455
+      posturl: tag:blogger.com,1999:blog-1490340916886486838.post-2536101300686541429
     - date: 2014-07-17 07:06:35.873025
       posturl: tag:blogger.com,1999:blog-1490340916886486838.post-5169756574878438027
     - date: 2014-05-20 04:52:06.382345
@@ -251,17 +305,13 @@ rss_feeds:
     subreddit: eve
     type: CSM9
     url: http://funkybacon.blogspot.com/feeds/posts/default/-/CSM9
-  cpm1:
-    raw: false
-    stories:
-    - date: 2011-05-18 11:53:08.335635
-      posturl: tag:blogger.com,1999:blog-1490340916886486838.post-4632881751446683114
-    subreddit: dust514
-    type: CPM1
-    url: http://www.dustcpm.com/?feed=rss2
   csm9_corbexx:
     raw: false
     stories:
+    - date: 2014-09-04 08:11:31.704992
+      posturl: tag:blogger.com,1999:blog-3313686641816452828.post-5106833073563672816
+    - date: 2014-09-01 01:39:56.089213
+      posturl: tag:blogger.com,1999:blog-3313686641816452828.post-8299277759659115444
     - date: 2014-08-07 23:59:29.368334
       posturl: tag:blogger.com,1999:blog-3313686641816452828.post-1258836676907242346
     - date: 2014-07-02 03:26:10.990399
@@ -292,6 +342,18 @@ rss_feeds:
   csm9_mike:
     raw: false
     stories:
+    - date: 2014-10-03 15:38:30.118143
+      posturl: http://mikeazariah.wordpress.com/?p=1605
+    - date: 2014-10-02 09:40:39.963235
+      posturl: http://mikeazariah.wordpress.com/?p=1603
+    - date: 2014-09-14 17:13:13.981896
+      posturl: http://mikeazariah.wordpress.com/?p=1598
+    - date: 2014-08-20 04:16:02.258472
+      posturl: http://mikeazariah.wordpress.com/?p=1584
+    - date: 2014-08-18 07:58:31.647470
+      posturl: http://mikeazariah.wordpress.com/?p=1582
+    - date: 2014-08-13 04:33:09.241127
+      posturl: http://mikeazariah.wordpress.com/?p=1577
     - date: 2014-08-11 05:43:37.840490
       posturl: http://mikeazariah.wordpress.com/?p=1574
     - date: 2014-08-01 02:01:13.318893
@@ -320,6 +382,10 @@ rss_feeds:
   csm9_mynnna:
     raw: false
     stories:
+    - date: 2014-08-26 16:07:39.641271
+      posturl: http://thethirdn.wordpress.com/?p=380
+    - date: 2014-08-18 06:46:54.449973
+      posturl: http://thethirdn.wordpress.com/?p=371
     - date: 2014-07-15 16:24:13.410163
       posturl: http://thethirdn.wordpress.com/?p=357
     - date: 2014-07-07 14:36:38.064110
@@ -346,6 +412,26 @@ rss_feeds:
   csm9_sugar:
     raw: false
     stories:
+    - date: 2014-10-05 17:00:53.594270
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-3245831674816107277
+    - date: 2014-09-28 17:06:07.116124
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-209775240422798301
+    - date: 2014-09-21 17:02:04.310706
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-3618312935054588372
+    - date: 2014-09-14 17:02:54.616576
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-4016630704033062386
+    - date: 2014-09-07 17:02:24.570474
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-8866305531014145231
+    - date: 2014-08-31 17:05:23.295338
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-5716434236708866193
+    - date: 2014-08-24 16:10:21.151834
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-7521294156709491392
+    - date: 2014-08-19 22:31:17.620218
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-433114751477670488
+    - date: 2014-08-18 22:25:29.451510
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-1326128823643688208
+    - date: 2014-08-17 17:05:27.055167
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-109207428849476297
     - date: 2014-08-10 17:06:37.465093
       posturl: tag:blogger.com,1999:blog-238324579504790.post-7437591016424179088
     - date: 2014-08-03 17:02:34.817265
@@ -388,6 +474,24 @@ rss_feeds:
   csm9_xander:
     raw: false
     stories:
+    - date: 2014-10-02 00:42:24.667808
+      posturl: http://crossingzebras.com/?p=3740
+    - date: 2014-09-25 08:14:10.090259
+      posturl: http://crossingzebras.com/?p=3696
+    - date: 2014-09-23 08:47:59.270906
+      posturl: http://crossingzebras.com/?p=3674
+    - date: 2014-09-16 06:36:48.858499
+      posturl: http://crossingzebras.com/?p=3599
+    - date: 2014-09-10 09:13:18.508275
+      posturl: http://crossingzebras.com/?p=3562
+    - date: 2014-09-08 21:14:19.169329
+      posturl: http://crossingzebras.com/?p=3545
+    - date: 2014-09-01 05:24:58.909323
+      posturl: http://crossingzebras.com/?p=3450
+    - date: 2014-08-25 08:52:47.722710
+      posturl: http://crossingzebras.com/?p=3386
+    - date: 2014-08-21 18:18:57.447954
+      posturl: http://crossingzebras.com/?p=3330
     - date: 2014-07-31 21:50:33.854582
       posturl: http://crossingzebras.com/?p=3025
     - date: 2014-07-20 09:28:51.830108
@@ -450,6 +554,38 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-10-02 02:51:30.419586
+      posturl: http://community.eveonline.com/news/dev-blogs/long-distance-travel-changes-inbound/
+    - date: 2014-09-30 02:06:14.648995
+      posturl: http://community.eveonline.com/news/dev-blogs/import-export-fittings/
+    - date: 2014-09-26 02:19:05.531281
+      posturl: http://community.eveonline.com/news/dev-blogs/rebalancing-eve-one-module-at-a-time/
+    - date: 2014-09-25 02:03:22.014976
+      posturl: http://community.eveonline.com/news/dev-blogs/one-file-to-rule-them-all/
+    - date: 2014-09-24 02:17:10.936121
+      posturl: http://community.eveonline.com/news/dev-blogs/oceanus-the-new-cloaking-effect/
+    - date: 2014-09-19 02:27:43.271370
+      posturl: http://community.eveonline.com/news/dev-blogs/visual-update-for-wormhole-space/
+    - date: 2014-09-19 02:21:12.851186
+      posturl: http://community.eveonline.com/news/dev-blogs/visual-update-of-wormhole-space/
+    - date: 2014-09-18 02:04:52.404282
+      posturl: http://community.eveonline.com/news/dev-blogs/some-npcs-just-want-to-watch-the-world-burn/
+    - date: 2014-09-17 02:26:05.740099
+      posturl: http://community.eveonline.com/news/dev-blogs/opt-in-notification-changes-for-oceanus/
+    - date: 2014-09-12 23:11:19.989550
+      posturl: http://community.eveonline.com/news/dev-blogs/coming-in-oceanus-on-september-30/
+    - date: 2014-09-12 00:20:46.894269
+      posturl: http://community.eveonline.com/news/dev-blogs/lighting-the-invention-bulb/
+    - date: 2014-08-22 01:03:32.238254
+      posturl: http://community.eveonline.com/news/dev-blogs/what-third-party-developers-probably-want-to-know-about-hyperion/
+    - date: 2014-08-21 02:18:48.678645
+      posturl: http://community.eveonline.com/news/dev-blogs/sharing-is-caring/
+    - date: 2014-08-20 02:20:18.231207
+      posturl: http://community.eveonline.com/news/dev-blogs/an-update-on-bug-reporting-part-3/
+    - date: 2014-08-20 01:14:57.298720
+      posturl: http://community.eveonline.com/news/dev-blogs/incursion-changes-in-hyperion/
+    - date: 2014-08-15 01:27:40.316984
+      posturl: http://community.eveonline.com/news/dev-blogs/size-matters-introducing-burner-missions/
     - date: 2014-08-12 01:12:18.670133
       posturl: http://community.eveonline.com/news/dev-blogs/coming-in-hyperion-on-august-26th/
     - date: 2014-08-07 00:28:27.363279
@@ -652,6 +788,66 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-09-29 23:41:22.302975
+      posturl: http://www.rssitfor.me/EveOnline/status/516533191893856256
+    - date: 2014-09-29 23:34:47.983708
+      posturl: http://www.rssitfor.me/EVE_status/status/516533191889678336
+    - date: 2014-09-23 23:16:52.249822
+      posturl: http://www.rssitfor.me/dust514/status/514390333065789440
+    - date: 2014-09-23 07:15:05.832850
+      posturl: http://www.rssitfor.me/dust514/status/514121960545353728
+    - date: 2014-09-22 03:58:33.660626
+      posturl: http://www.rssitfor.me/DUST514_Status/status/513734124209963008
+    - date: 2014-09-17 23:07:12.904424
+      posturl: http://www.rssitfor.me/DUST514_Status/status/512180424077217792
+    - date: 2014-09-12 01:41:26.342501
+      posturl: http://www.rssitfor.me/DUST514_Status/status/510014748646440960
+    - date: 2014-09-10 23:46:36.288450
+      posturl: http://www.rssitfor.me/DUST514_Status/status/509667377181892608
+    - date: 2014-09-10 23:40:08.855007
+      posturl: http://www.rssitfor.me/DUST514_Status/status/509676572161626112
+    - date: 2014-08-30 16:09:26.114487
+      posturl: http://www.rssitfor.me/DUST514_Status/status/505513073302839296
+    - date: 2014-08-30 16:03:04.391211
+      posturl: http://www.rssitfor.me/DUST514_Status/status/505515933990158337
+    - date: 2014-08-30 02:40:49.986198
+      posturl: http://www.rssitfor.me/DUST514_Status/status/505352229684252673
+    - date: 2014-08-29 23:46:59.416361
+      posturl: http://www.rssitfor.me/DUST514_Status/status/505336946487738368
+    - date: 2014-08-29 03:31:37.086076
+      posturl: http://www.rssitfor.me/DUST514_Status/status/505005581544194049
+    - date: 2014-08-29 03:25:13.582508
+      posturl: http://www.rssitfor.me/DUST514_Status/status/505006559622336513
+    - date: 2014-08-22 22:40:43.332501
+      posturl: http://www.rssitfor.me/DUST514_Status/status/502735064707641344
+    - date: 2014-08-22 22:34:21.803860
+      posturl: http://www.rssitfor.me/DUST514_Status/status/502765090748506112
+    - date: 2014-08-22 18:35:12.635831
+      posturl: http://www.rssitfor.me/DUST514_Status/status/502722825900548097
+    - date: 2014-08-22 09:38:56.707643
+      posturl: http://www.rssitfor.me/DUST514_Status/status/502550964730331136
+    - date: 2014-08-22 09:32:12.968890
+      posturl: http://www.rssitfor.me/DUST514_Status/status/502582688562544642
+    - date: 2014-08-22 05:44:23.624588
+      posturl: http://www.rssitfor.me/DUST514_Status/status/502508923308752896
+    - date: 2014-08-22 05:37:36.008875
+      posturl: http://www.rssitfor.me/DUST514_Status/status/502510896246456320
+    - date: 2014-08-21 23:16:33.022074
+      posturl: http://www.rssitfor.me/DUST514_Status/status/502425480717684736
+    - date: 2014-08-13 01:41:42.725061
+      posturl: http://www.rssitfor.me/DUST514_Status/status/499152409365856256
+    - date: 2014-08-13 01:35:06.035856
+      posturl: http://www.rssitfor.me/DUST514_Status/status/499153502514728960
+    - date: 2014-08-13 01:28:40.074754
+      posturl: http://www.rssitfor.me/DUST514_Status/status/499166320572006400
+    - date: 2014-08-13 01:21:24.913466
+      posturl: http://www.rssitfor.me/DUST514_Status/status/499176233545236480
+    - date: 2014-08-13 01:14:50.199280
+      posturl: http://www.rssitfor.me/DUST514_Status/status/499194199116632064
+    - date: 2014-08-13 01:08:26.478728
+      posturl: http://www.rssitfor.me/DUST514_Status/status/499206432034922496
+    - date: 2014-08-12 20:53:15.370713
+      posturl: http://www.rssitfor.me/DUST514_Status/status/499118082359848960
     - date: 2014-08-08 00:05:34.444158
       posturl: http://www.rssitfor.me/DUST514_Status/status/497344823830253569
     - date: 2014-08-07 23:59:05.619180
@@ -784,6 +980,16 @@ rss_feeds:
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-09-24 21:24:48.599932
+      posturl: http://dust514.com/news/blog/2014/09/hotfix-delta-is-now-live/
+    - date: 2014-09-22 23:04:39.946827
+      posturl: http://dust514.com/news/blog/2014/09/the-million-clone-challenge-battle-report/
+    - date: 2014-09-18 12:27:03.502630
+      posturl: http://dust514.com/news/blog/2014/09/developer-spotlight-haoliang-yang-ccp-patriot/
+    - date: 2014-08-20 00:10:32.466751
+      posturl: http://dust514.com/news/blog/2014/08/developer-spotlight-ccp-potato-lesen-li/
+    - date: 2014-08-13 21:35:11.298610
+      posturl: http://dust514.com/news/blog/2014/08/hotfix-charlie-is-now-live/
     - date: 2014-07-18 20:07:00.460672
       posturl: http://dust514.com/news/blog/2014/07/developer-spotlight-ccp-garlakadl-kjartan-rs-lsson/
     - date: 2014-07-04 17:18:19.017815
@@ -856,6 +1062,22 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-09-29 16:22:36.984698
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2028972
+    - date: 2014-09-23 15:01:21.590798
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2018710
+    - date: 2014-09-16 12:11:18.781396
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2009596
+    - date: 2014-09-11 11:33:09.229353
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2004254
+    - date: 2014-09-02 12:54:56.729896
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1991106
+    - date: 2014-08-25 19:56:19.355428
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1979512
+    - date: 2014-08-19 20:54:56.825289
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1970508
+    - date: 2014-08-14 00:34:16.848491
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1959852
     - date: 2014-08-04 20:30:04.736073
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/1944450
     - date: 2014-07-29 12:01:03.584127
@@ -946,6 +1168,26 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-09-26 20:07:46.292039
+      posturl: http://dust514.com/news/2014/09/destructive-data-mining-the-sidearm-expert-challenge/
+    - date: 2014-09-24 21:25:54.755134
+      posturl: http://dust514.com/news/2014/09/hotfix-delta-is-now-live/
+    - date: 2014-09-23 22:23:45.225173
+      posturl: http://dust514.com/news/2014/09/new-dust-514-wallpaper/
+    - date: 2014-09-22 23:05:26.917614
+      posturl: http://dust514.com/news/2014/09/the-million-clone-challenge-battle-report/
+    - date: 2014-09-18 12:27:51.177725
+      posturl: http://dust514.com/news/2014/09/developer-spotlight-haoliang-yang-ccp-patriot/
+    - date: 2014-09-12 23:18:05.922100
+      posturl: http://dust514.com/news/2014/09/the-million-clone-challenge-returns-2/
+    - date: 2014-09-02 20:40:27.478422
+      posturl: http://dust514.com/news/2014/09/from-the-collectors-cache-vintage-dropsuit-bpos/
+    - date: 2014-08-27 03:00:34.308706
+      posturl: http://dust514.com/news/2014/08/accelerated-sp-week-starts-27-august/
+    - date: 2014-08-20 00:11:38.640863
+      posturl: http://dust514.com/news/2014/08/developer-spotlight-ccp-potato-lesen-li/
+    - date: 2014-08-13 05:05:05.871863
+      posturl: http://dust514.com/news/2014/08/hotfix-charlie-deployment/
     - date: 2014-07-28 23:35:38.186470
       posturl: http://dust514.com/news/2014/07/destructive-data-mining-the-expert-challenge-results/
     - date: 2014-07-25 23:06:34.842251
@@ -1092,6 +1334,106 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-10-06 22:44:25.776546
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/developer-site-is-now-live-on-singularity/
+    - date: 2014-10-03 00:35:41.253769
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/all-systems-go-for-fanfest-2015/
+    - date: 2014-10-01 23:59:15.745688
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/four-new-vegas-raffle-winners/
+    - date: 2014-10-01 00:05:43.630708
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/oceanus-has-been-deployed/
+    - date: 2014-09-30 01:25:11.809874
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/oceanus-scheduled-for-deployment-tomorrow-september-30th/
+    - date: 2014-09-27 03:13:06.492477
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/extended-downtimes-on-september-29-and-30/
+    - date: 2014-09-26 20:49:49.075095
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-vegas-alliance-prize-draw-status/
+    - date: 2014-09-25 04:05:36.394325
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/twitter-contest-for-o7/
+    - date: 2014-09-24 21:52:54.932528
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/another-eve-vegas-raffle-winner-revealed/
+    - date: 2014-09-24 04:28:43.751593
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/o7-premieres-this-thursday/
+    - date: 2014-09-24 02:44:00.881354
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/nyc-cc-gathering/
+    - date: 2014-09-20 01:43:44.064984
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-tuesday-september-23rd/
+    - date: 2014-09-18 05:31:55.487316
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/another-eve-vegas-winner-revealed/
+    - date: 2014-09-17 22:03:25.522902
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/play-eve-valkyrie-at-tokyo-game-show-and-egx-london/
+    - date: 2014-09-16 20:34:19.032118
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-online-player-gathering-in-paris/
+    - date: 2014-09-12 00:54:36.221782
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-the-test-server-singularity-on-september-16/
+    - date: 2014-09-11 21:42:15.293423
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-comes-to-paris/
+    - date: 2014-09-11 20:50:27.810300
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/issues-with-eve-voice-on-september-11-2014/
+    - date: 2014-09-11 20:02:32.730248
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-vegas-player-showcase/
+    - date: 2014-09-11 03:56:13.139158
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/four-more-eve-vegas-prize-draw-winners-revealed/
+    - date: 2014-09-09 21:59:49.797598
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/changes-xml-api-during-todays-downtime/
+    - date: 2014-09-08 06:52:01.159269
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/congratulations-to-the-camel-empire-champion-of-alliance-tournament-xii/
+    - date: 2014-09-07 00:36:15.004424
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/alliance-tournament-xii-finale-weekend/
+    - date: 2014-09-06 08:48:06.074162
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/friends-pilots-fleetmates-send-us-your-ears/
+    - date: 2014-09-05 00:13:47.458792
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/come-kill-a-revenant/
+    - date: 2014-09-04 03:55:46.764946
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/next-eve-vegas-winner-revealed-1/
+    - date: 2014-08-30 03:07:31.213228
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/alliance-tournament-xii-third-weekend-inbound-with-eve-tv-broadcasting/
+    - date: 2014-08-29 00:42:05.848519
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-in-hyperion-donate-game-time-explained/
+    - date: 2014-08-28 04:10:34.183382
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/next-eve-vegas-winner-revealed/
+    - date: 2014-08-27 03:51:12.884578
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/critical-issue-discovered-with-overview-profiles-on-august-26th/
+    - date: 2014-08-27 02:26:23.206808
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/try-eve-valkyrie-at-pax-prime-2014/
+    - date: 2014-08-26 21:37:58.454458
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/hyperion-release-has-been-deployed/
+    - date: 2014-08-25 20:50:01.859729
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/alliance-tournament-xii-summary-of-the-second-weekend/
+    - date: 2014-08-24 00:45:44.973567
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/alliance-tournament-xii-action-on-the-second-weekend-about-to-kick-off/
+    - date: 2014-08-22 20:37:55.488457
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/extended-downtime-on-august-22-from-11-00-to-12-00-utc/
+    - date: 2014-08-22 09:54:18.542461
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/patch-notes-for-hyperion-release/
+    - date: 2014-08-22 02:14:27.541245
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/alliance-tournament-xii-prepare-for-round-2/
+    - date: 2014-08-21 04:17:34.588142
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/hyperion-release-page-now-live/
+    - date: 2014-08-21 03:50:08.834148
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/first-round-of-eve-vegas-player-prize-draw-winners/
+    - date: 2014-08-20 20:03:48.825688
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/extended-downtime-on-august-21-from-11-00-to-12-00-utc/
+    - date: 2014-08-20 06:26:53.299946
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/digital-items-available-for-eve-vegas-ticket-holders/
+    - date: 2014-08-18 23:15:48.241110
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/alliance-tournament-xii-review-of-the-first-weekend/
+    - date: 2014-08-17 00:05:51.775139
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/welcome-to-the-first-weeked-of-alliance-tournament-xii/
+    - date: 2014-08-16 04:33:37.216723
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-event-on-singularity-august/
+    - date: 2014-08-16 00:30:29.678873
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/account-management-downtime-on-august-15-from-15-30-to-16-30-utc/
+    - date: 2014-08-15 23:16:49.837878
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/csm9-summer-summit/
+    - date: 2014-08-14 23:39:09.358187
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-vegas-competition-2/
+    - date: 2014-08-14 04:19:11.401738
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-vegas-competition/
+    - date: 2014-08-14 03:13:59.680144
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/hyperion-live-broadcast/
+    - date: 2014-08-13 21:48:56.564085
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/scheduled-downtime-extension-14-08-2014/
     - date: 2014-08-12 02:20:52.811537
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/try-eve-valkyrie-at-gamescom-2014/
     - date: 2014-08-07 03:06:11.823936
@@ -1336,6 +1678,72 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-10-01 02:09:53.335236
+      posturl: http://www.rssitfor.me/EVE_status/status/516940260883042304
+    - date: 2014-10-01 02:02:43.002716
+      posturl: http://www.rssitfor.me/EVE_status/status/516948819255504896
+    - date: 2014-10-01 01:55:18.232264
+      posturl: http://www.rssitfor.me/EveOnline/status/516952208806772737
+    - date: 2014-09-30 23:05:05.294846
+      posturl: http://www.rssitfor.me/EVE_status/status/516932337549189120
+    - date: 2014-09-29 23:06:36.554054
+      posturl: http://www.rssitfor.me/EVE_status/status/516533191889678336
+    - date: 2014-09-28 08:13:40.758133
+      posturl: http://www.rssitfor.me/EVE_status/status/515947458590146561
+    - date: 2014-09-27 08:28:11.699541
+      posturl: http://www.rssitfor.me/EVE_status/status/515596993251774464
+    - date: 2014-09-23 05:30:38.190354
+      posturl: http://www.rssitfor.me/EVE_status/status/514114995895140353
+    - date: 2014-09-22 04:45:43.380961
+      posturl: http://www.rssitfor.me/EVE_status/status/513734124214173696
+    - date: 2014-09-11 21:03:30.402584
+      posturl: http://www.rssitfor.me/EVE_status/status/510014749472747520
+    - date: 2014-09-11 00:24:57.783339
+      posturl: http://www.rssitfor.me/EVE_status/status/509667377190289408
+    - date: 2014-09-11 00:18:33.874460
+      posturl: http://www.rssitfor.me/EVE_status/status/509676572207759360
+    - date: 2014-08-30 12:31:18.685065
+      posturl: http://www.rssitfor.me/EVE_status/status/505513073239928832
+    - date: 2014-08-30 12:24:15.590516
+      posturl: http://www.rssitfor.me/EVE_status/status/505515933994348544
+    - date: 2014-08-30 03:13:30.049906
+      posturl: http://www.rssitfor.me/EVE_status/status/505352229688463360
+    - date: 2014-08-29 23:46:34.016382
+      posturl: http://www.rssitfor.me/EVE_status/status/505336946319962113
+    - date: 2014-08-29 03:11:24.029824
+      posturl: http://www.rssitfor.me/EVE_status/status/505005581552599042
+    - date: 2014-08-29 03:04:40.069934
+      posturl: http://www.rssitfor.me/EVE_status/status/505006559626526720
+    - date: 2014-08-22 22:40:19.392374
+      posturl: http://www.rssitfor.me/EVE_status/status/502765091042107392
+    - date: 2014-08-22 19:58:38.857665
+      posturl: http://www.rssitfor.me/EVE_status/status/502722825908912128
+    - date: 2014-08-22 19:52:11.970204
+      posturl: http://www.rssitfor.me/EVE_status/status/502735064732823552
+    - date: 2014-08-22 17:08:48.817386
+      posturl: http://www.rssitfor.me/EVE_status/status/502711925235793922
+    - date: 2014-08-22 11:07:25.751909
+      posturl: http://www.rssitfor.me/EVE_status/status/502582688625475585
+    - date: 2014-08-22 07:22:51.479722
+      posturl: http://www.rssitfor.me/EVE_status/status/502550964784885761
+    - date: 2014-08-22 04:23:27.496082
+      posturl: http://www.rssitfor.me/EVE_status/status/502508924017594368
+    - date: 2014-08-22 04:16:47.729842
+      posturl: http://www.rssitfor.me/EVE_status/status/502510896271597568
+    - date: 2014-08-21 22:55:36.803597
+      posturl: http://www.rssitfor.me/EVE_status/status/502425480721858560
+    - date: 2014-08-13 03:18:07.416671
+      posturl: http://www.rssitfor.me/EVE_status/status/499206432018165760
+    - date: 2014-08-13 00:48:00.600800
+      posturl: http://www.rssitfor.me/EVE_status/status/499152409407815680
+    - date: 2014-08-13 00:41:23.979385
+      posturl: http://www.rssitfor.me/EVE_status/status/499153769910009856
+    - date: 2014-08-13 00:34:38.927064
+      posturl: http://www.rssitfor.me/EVE_status/status/499166320555220992
+    - date: 2014-08-13 00:27:59.146246
+      posturl: http://www.rssitfor.me/EVE_status/status/499192982638456832
+    - date: 2014-08-13 00:21:18.317970
+      posturl: http://www.rssitfor.me/EVE_status/status/499194199099838464
     - date: 2014-08-12 19:34:39.745635
       posturl: http://www.rssitfor.me/EVE_status/status/499118082695397376
     - date: 2014-08-08 00:05:08.494692
@@ -1436,6 +1844,30 @@ rss_feeds:
   eve_youtube:
     raw: false
     stories:
+    - date: 2014-10-01 19:19:51.900118
+      posturl: tag:youtube.com,2008:video:CtY-sJJNucg
+    - date: 2014-10-01 19:13:16.187493
+      posturl: tag:youtube.com,2008:video:z3gJ-eKqyHU
+    - date: 2014-10-01 19:06:41.288636
+      posturl: tag:youtube.com,2008:video:gLzJZSRnvzA
+    - date: 2014-09-25 04:52:00.871373
+      posturl: tag:youtube.com,2008:video:-Zwf4F1saLU
+    - date: 2014-09-12 19:50:29.787648
+      posturl: tag:youtube.com,2008:video:loAFSCxHaVM
+    - date: 2014-09-12 19:43:23.765956
+      posturl: tag:youtube.com,2008:video:JuLpX-B7PDc
+    - date: 2014-09-12 19:36:18.763483
+      posturl: tag:youtube.com,2008:video:433XwkOF5Zo
+    - date: 2014-09-12 19:29:25.840253
+      posturl: tag:youtube.com,2008:video:tmZUpLzCHuc
+    - date: 2014-08-29 07:22:32.910005
+      posturl: tag:youtube.com,2008:video:p7_p4ylXfWc
+    - date: 2014-08-25 08:59:11.124416
+      posturl: tag:youtube.com,2008:video:OznM9ZHC8a4
+    - date: 2014-08-25 08:52:42.330699
+      posturl: tag:youtube.com,2008:video:PXKMB1AYags
+    - date: 2014-08-25 08:35:57.324705
+      posturl: tag:youtube.com,2008:video:Jx99_S5E-nY
     - date: 2014-04-12 02:04:29.570924
       posturl: tag:youtube.com,2008:video:cLXvu_l0ygw
     - date: 2014-03-17 08:45:25.721085
@@ -1798,6 +2230,14 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-08-22 09:47:22.277133
+      posturl: http://community.eveonline.com/news/news-channels/world-news/muryia-mordu-issues-operation-highlander-decoration/
+    - date: 2014-08-20 20:29:32.049927
+      posturl: http://community.eveonline.com/news/news-channels/world-news/alliance-tournament-xii-team-spotlight-clockwork-pineapple/
+    - date: 2014-08-15 20:25:45.580269
+      posturl: http://community.eveonline.com/news/news-channels/world-news/alliance-tournament-xii-team-spotlight-nulli-secunda/
+    - date: 2014-08-13 01:42:04.492010
+      posturl: http://community.eveonline.com/news/news-channels/world-news/alliance-tournament-xii-team-spotlight-test-alliance-please-ignore/
     - date: 2014-08-08 20:07:04.719301
       posturl: http://community.eveonline.com/news/news-channels/world-news/alliance-tournament-xii-team-spotlight-surely-youre-joking/
     - date: 2014-08-06 02:00:23.974011
@@ -1874,6 +2314,10 @@ rss_feeds:
   patch_notes:
     raw: false
     stories:
+    - date: 2014-09-26 01:57:37.045787
+      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-oceanus/
+    - date: 2014-08-22 05:44:18.166608
+      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-hyperion/
     - date: 2014-07-19 02:06:08.050019
       posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-crius/
     - date: 2014-06-04 20:19:08.687935
@@ -1898,6 +2342,8 @@ rss_feeds:
   valkyrie_twitter:
     raw: true
     stories:
+    - date: 2014-08-27 03:06:05.831350
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/504306066520563713
     - date: 2014-08-12 05:46:45.334121
       posturl: http://www.rssitfor.me/EVEValkyrie/status/498872540702715905
     - date: 2014-07-18 02:46:05.427524
