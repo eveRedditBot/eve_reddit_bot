@@ -224,7 +224,7 @@ def post_reply(r, thing, text):
         response+= '/u/' + provider['username'] + ' has offered theirs:\n\n'
         response+= provider['url'] + '\n\n'
         response+= '~As part of the agreement of using this bot, they must give you *at '
-        response+= 'least 50%* of the rewards they receive if you subscribe~\n\n'
+        response+= 'least 75%* of the rewards they receive if you subscribe~\n\n'
         response+='Enjoy!'
     
     response+='\n\n&nbsp;\n\n&nbsp;\n\n'
