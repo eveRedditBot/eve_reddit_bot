@@ -51,16 +51,6 @@ rss_feeds:
     subreddit: eve
     type: CCP Press
     url: http://newsfeed.eveonline.com/en-US/43/articles/page/1/20
-
-  eve_dev:
-    raw: false
-    stories:
-    - date: 2011-08-21 20:33:38.728026
-      posturl: tag:youtube.com,2008:video:EGVN3ObA6Ic
-    subreddit: evetech
-    type: evedevs
-    url: http://newsfeed.eveonline.com/en-US/95/articles
-
   ccp_youtube:
     raw: false
     stories:
@@ -342,6 +332,8 @@ rss_feeds:
   csm9_mike:
     raw: false
     stories:
+    - date: 2014-10-19 06:01:18.540480
+      posturl: http://mikeazariah.wordpress.com/?p=1607
     - date: 2014-10-03 15:38:30.118143
       posturl: http://mikeazariah.wordpress.com/?p=1605
     - date: 2014-10-02 09:40:39.963235
@@ -412,6 +404,8 @@ rss_feeds:
   csm9_sugar:
     raw: false
     stories:
+    - date: 2014-10-12 17:03:37.990232
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-8229565477817982175
     - date: 2014-10-05 17:00:53.594270
       posturl: tag:blogger.com,1999:blog-238324579504790.post-3245831674816107277
     - date: 2014-09-28 17:06:07.116124
@@ -474,6 +468,8 @@ rss_feeds:
   csm9_xander:
     raw: false
     stories:
+    - date: 2014-10-14 06:21:31.842832
+      posturl: http://crossingzebras.com/?p=3860
     - date: 2014-10-02 00:42:24.667808
       posturl: http://crossingzebras.com/?p=3740
     - date: 2014-09-25 08:14:10.090259
@@ -554,6 +550,16 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-10-16 01:14:03.751259
+      posturl: http://community.eveonline.com/news/dev-blogs/all-that-is-gold-does-not-glitter-data-sites-expeditions-and-more/
+    - date: 2014-10-11 02:38:28.578215
+      posturl: http://community.eveonline.com/news/dev-blogs/coming-to-eve-online-in-the-phoebe-release-on-november-4th/
+    - date: 2014-10-10 03:13:20.549731
+      posturl: http://community.eveonline.com/news/dev-blogs/upcoming-forum-changes-phase-1-of-2/
+    - date: 2014-10-09 02:20:44.322517
+      posturl: http://community.eveonline.com/news/dev-blogs/sensor-overlay-2.0-bigger-better-bookmarks-in-spacier/
+    - date: 2014-10-07 21:14:40.260330
+      posturl: http://community.eveonline.com/news/dev-blogs/anomalous-materials/
     - date: 2014-10-02 02:51:30.419586
       posturl: http://community.eveonline.com/news/dev-blogs/long-distance-travel-changes-inbound/
     - date: 2014-09-30 02:06:14.648995
@@ -980,6 +986,8 @@ rss_feeds:
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-10-16 20:12:43.133488
+      posturl: http://dust514.com/news/blog/2014/10/dust-514-dev-update/
     - date: 2014-09-24 21:24:48.599932
       posturl: http://dust514.com/news/blog/2014/09/hotfix-delta-is-now-live/
     - date: 2014-09-22 23:04:39.946827
@@ -1062,6 +1070,10 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-10-14 12:21:07.203245
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2046047
+    - date: 2014-10-08 12:42:47.334457
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2039510
     - date: 2014-09-29 16:22:36.984698
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2028972
     - date: 2014-09-23 15:01:21.590798
@@ -1168,6 +1180,8 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-10-16 20:13:30.389941
+      posturl: http://dust514.com/news/2014/10/dust-514-dev-update/
     - date: 2014-09-26 20:07:46.292039
       posturl: http://dust514.com/news/2014/09/destructive-data-mining-the-sidearm-expert-challenge/
     - date: 2014-09-24 21:25:54.755134
@@ -1331,9 +1345,45 @@ rss_feeds:
     subreddit: dust514
     type: Youtube
     url: http://gdata.youtube.com/feeds/api/users/UC7MbNI-oYZAYtF_c0a-Gh7w/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
+  eve_dev:
+    raw: false
+    stories:
+    - date: 2014-10-14 02:33:13.852840
+      posturl: http://developers.eveonline.com/blog/industry-changes-for-phoebe/
+    - date: 2014-10-14 01:54:31.311825
+      posturl: http://developers.eveonline.com/blog/welcome-to-developers.testeveonline.com/
+    - date: 2014-10-14 01:47:30.826981
+      posturl: http://developers.eveonline.com/blog/a-note-about-caching-in-public-crest/
+    - date: 2014-10-14 01:37:09.730656
+      posturl: http://developers.eveonline.com/blog/lowering-the-blueprints-cache-time/
+    - date: 2014-10-14 01:30:35.075129
+      posturl: http://developers.eveonline.com/blog/jump-clones-implants-skills-and-more/
+    - date: 2014-10-14 01:07:10.588507
+      posturl: http://www.developers.eveonline.com/blog/jump-clones-implants-skills-and-more/
+    - date: 2014-10-06 23:25:53.577329
+      posturl: http://www.developers.eveonline.com/blog/welcome-to-developers.testeveonline.com/
+    - date: 2014-10-06 23:15:34.055222
+      posturl: http://www.developers.eveonline.com/blog/a-note-about-caching-in-public-crest/
+    - date: 2014-10-06 23:09:02.013119
+      posturl: http://www.developers.eveonline.com/blog/lowering-the-blueprints-cache-time/
+    subreddit: evetech
+    type: evedevs
+    url: http://newsfeed.eveonline.com/en-US/95/articles
   eve_news:
     raw: false
     stories:
+    - date: 2014-10-14 23:16:15.494598
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-mass-test-on-tuesday-october-14/
+    - date: 2014-10-14 22:09:27.946563
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-vegas-2014-is-sold-out/
+    - date: 2014-10-14 01:47:53.378604
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-vegas-alliance-prize-draw-winner-revealed/
+    - date: 2014-10-10 02:59:44.520974
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-source-limited-edition-on-sale-at-ny-comic-con/
+    - date: 2014-10-09 22:40:04.372123
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-vegas-stream-sales-have-started/
+    - date: 2014-10-09 01:38:50.640523
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/final-eve-vegas-winners-revealed/
     - date: 2014-10-06 22:44:25.776546
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/developer-site-is-now-live-on-singularity/
     - date: 2014-10-03 00:35:41.253769
@@ -1844,6 +1894,8 @@ rss_feeds:
   eve_youtube:
     raw: false
     stories:
+    - date: 2014-10-20 10:52:30.388879
+      posturl: tag:youtube.com,2008:video:OmNYWjHWwdg
     - date: 2014-10-01 19:19:51.900118
       posturl: tag:youtube.com,2008:video:CtY-sJJNucg
     - date: 2014-10-01 19:13:16.187493
@@ -2224,12 +2276,16 @@ rss_feeds:
       posturl: tag:youtube.com,2008:video:0NsIIGZBSrs
     - date: 2014-02-04 21:28:41.555970
       posturl: http://gdata.youtube.com/feeds/api/playlists/PL6DaldsEDFp229tZcMMcN08REAEIK0gCq/PLv2mGiTblTDjysv5JcESMdobNUiYOCZKJpIhdiPIVToQ
-    subreddit: new_eden_news_bot
+    subreddit: eve
     type: Youtube
     url: http://gdata.youtube.com/feeds/api/users/UCwF3VyalTHzL0L-GDlwtbRw/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
   game_news:
     raw: false
     stories:
+    - date: 2014-10-07 21:07:13.022923
+      posturl: http://community.eveonline.com/news/news-channels/world-news/breaking-news-navies-request-capsuleer-assistance/
+    - date: 2014-10-07 03:57:51.117633
+      posturl: http://community.eveonline.com/news/news-channels/world-news/sisters-of-eve-release-sleeper-research-findings/
     - date: 2014-08-22 09:47:22.277133
       posturl: http://community.eveonline.com/news/news-channels/world-news/muryia-mordu-issues-operation-highlander-decoration/
     - date: 2014-08-20 20:29:32.049927
@@ -2342,6 +2398,12 @@ rss_feeds:
   valkyrie_twitter:
     raw: true
     stories:
+    - date: 2014-10-14 01:00:17.946051
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/521650229758926848
+    - date: 2014-10-13 00:17:02.828399
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/521281503431782400
+    - date: 2014-10-13 00:09:46.267042
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/521281940109135872
     - date: 2014-08-27 03:06:05.831350
       posturl: http://www.rssitfor.me/EVEValkyrie/status/504306066520563713
     - date: 2014-08-12 05:46:45.334121
