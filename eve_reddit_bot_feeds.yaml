@@ -202,6 +202,8 @@ rss_feeds:
   cpm1:
     raw: false
     stories:
+    - date: 2014-10-21 01:37:49.460798
+      posturl: http://www.dustcpm.com/?p=85
     - date: 2014-09-25 19:17:59.993945
       posturl: http://www.dustcpm.com/?p=82
     - date: 2014-09-24 00:22:00.695276
@@ -276,6 +278,8 @@ rss_feeds:
   csm9_bacon:
     raw: false
     stories:
+    - date: 2014-11-02 20:01:04.823903
+      posturl: tag:blogger.com,1999:blog-1490340916886486838.post-586365654237354425
     - date: 2014-09-12 06:30:34.958535
       posturl: tag:blogger.com,1999:blog-1490340916886486838.post-6233654056866146896
     - date: 2014-08-27 20:34:42.379937
@@ -298,6 +302,8 @@ rss_feeds:
   csm9_corbexx:
     raw: false
     stories:
+    - date: 2014-10-21 23:58:18.654074
+      posturl: tag:blogger.com,1999:blog-3313686641816452828.post-910678444383133673
     - date: 2014-09-04 08:11:31.704992
       posturl: tag:blogger.com,1999:blog-3313686641816452828.post-5106833073563672816
     - date: 2014-09-01 01:39:56.089213
@@ -332,6 +338,8 @@ rss_feeds:
   csm9_mike:
     raw: false
     stories:
+    - date: 2014-11-03 11:30:36.309516
+      posturl: http://mikeazariah.wordpress.com/?p=1614
     - date: 2014-10-19 06:01:18.540480
       posturl: http://mikeazariah.wordpress.com/?p=1607
     - date: 2014-10-03 15:38:30.118143
@@ -404,6 +412,12 @@ rss_feeds:
   csm9_sugar:
     raw: false
     stories:
+    - date: 2014-11-02 17:07:25.996175
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-4395590816561610367
+    - date: 2014-10-26 17:00:15.158203
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-3108800325591200476
+    - date: 2014-10-20 15:38:16.122606
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-1120669414962562336
     - date: 2014-10-12 17:03:37.990232
       posturl: tag:blogger.com,1999:blog-238324579504790.post-8229565477817982175
     - date: 2014-10-05 17:00:53.594270
@@ -468,6 +482,8 @@ rss_feeds:
   csm9_xander:
     raw: false
     stories:
+    - date: 2014-11-04 10:20:40.187328
+      posturl: http://crossingzebras.com/?p=4077
     - date: 2014-10-14 06:21:31.842832
       posturl: http://crossingzebras.com/?p=3860
     - date: 2014-10-02 00:42:24.667808
@@ -550,6 +566,22 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-10-31 23:56:53.619390
+      posturl: http://community.eveonline.com/news/dev-blogs/u-and-i-assets-overview-and-scanner/
+    - date: 2014-10-31 02:53:00.711927
+      posturl: http://community.eveonline.com/news/dev-blogs/phoebe-travel-change-update/
+    - date: 2014-10-31 00:19:19.140429
+      posturl: http://community.eveonline.com/news/dev-blogs/invention-updates/
+    - date: 2014-10-30 02:10:53.711378
+      posturl: http://community.eveonline.com/news/dev-blogs/csm9-summer-summit-minutes/
+    - date: 2014-10-30 00:46:47.898677
+      posturl: http://community.eveonline.com/news/dev-blogs/guiding-light-the-mission-objective-guidance-system/
+    - date: 2014-10-29 00:22:54.787325
+      posturl: http://community.eveonline.com/news/dev-blogs/longer-queues-expected-skill-training-above-and-beyond-24-hours/
+    - date: 2014-10-25 02:34:54.925553
+      posturl: http://community.eveonline.com/news/dev-blogs/trials-and-tribulations/
+    - date: 2014-10-22 00:18:36.929299
+      posturl: http://community.eveonline.com/news/dev-blogs/sell-all-the-things-with-phoebe/
     - date: 2014-10-16 01:14:03.751259
       posturl: http://community.eveonline.com/news/dev-blogs/all-that-is-gold-does-not-glitter-data-sites-expeditions-and-more/
     - date: 2014-10-11 02:38:28.578215
@@ -794,6 +826,12 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-10-31 23:22:17.260985
+      posturl: http://www.rssitfor.me/DUST514_Status/status/528137517325774848
+    - date: 2014-10-21 12:24:28.291204
+      posturl: http://www.rssitfor.me/DUST514_Status/status/524356086069866496
+    - date: 2014-10-21 12:17:55.456806
+      posturl: http://www.rssitfor.me/DUST514_Status/status/524364346638344192
     - date: 2014-09-29 23:41:22.302975
       posturl: http://www.rssitfor.me/EveOnline/status/516533191893856256
     - date: 2014-09-29 23:34:47.983708
@@ -986,6 +1024,10 @@ rss_feeds:
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-10-29 16:52:22.289605
+      posturl: http://dust514.com/news/blog/2014/10/developer-spotlight-craig-ritchie-ccp-blowout/
+    - date: 2014-10-28 21:15:35.766830
+      posturl: http://dust514.com/news/blog/2014/10/uprising-1.9-overview-patch-notes/
     - date: 2014-10-16 20:12:43.133488
       posturl: http://dust514.com/news/blog/2014/10/dust-514-dev-update/
     - date: 2014-09-24 21:24:48.599932
@@ -1070,6 +1112,12 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-11-04 04:05:56.752852
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2076961
+    - date: 2014-10-27 20:22:15.026462
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2064448
+    - date: 2014-10-21 12:31:43.835455
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2056383
     - date: 2014-10-14 12:21:07.203245
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2046047
     - date: 2014-10-08 12:42:47.334457
@@ -1180,6 +1228,16 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-10-30 18:39:07.991330
+      posturl: http://dust514.com/news/2014/10/new-event-officer-weapons-week/
+    - date: 2014-10-29 16:53:11.222250
+      posturl: http://dust514.com/news/2014/10/developer-spotlight-craig-ritchie-ccp-blowout/
+    - date: 2014-10-28 21:16:48.088526
+      posturl: http://dust514.com/news/2014/10/uprising-1.9-overview-patch-notes/
+    - date: 2014-10-24 00:33:36.487522
+      posturl: http://dust514.com/news/2014/10/sidearm-expert-challenge-results/
+    - date: 2014-10-23 18:31:52.752016
+      posturl: http://dust514.com/news/2014/10/new-dust-514-wallpaper-1/
     - date: 2014-10-16 20:13:30.389941
       posturl: http://dust514.com/news/2014/10/dust-514-dev-update/
     - date: 2014-09-26 20:07:46.292039
@@ -1348,6 +1406,20 @@ rss_feeds:
   eve_dev:
     raw: false
     stories:
+    - date: 2014-11-01 02:30:48.935147
+      posturl: http://developers.eveonline.com/blog/article/and-now-welcome-to-developers-eveonline-com/
+    - date: 2014-10-30 02:29:20.707679
+      posturl: http://developers.eveonline.com/blog/article/more-additions-to-char-charactersheet/
+    - date: 2014-10-24 02:30:58.382601
+      posturl: http://developers.eveonline.com/blog/article/welcome-to-developers.testeveonline.com/
+    - date: 2014-10-24 02:20:38.782193
+      posturl: http://developers.eveonline.com/blog/article/a-note-about-caching-in-public-crest/
+    - date: 2014-10-24 02:13:48.689454
+      posturl: http://developers.eveonline.com/blog/article/lowering-the-blueprints-cache-time/
+    - date: 2014-10-24 02:03:28.899898
+      posturl: http://developers.eveonline.com/blog/article/jump-clones-implants-skills-and-more/
+    - date: 2014-10-24 01:56:41.185445
+      posturl: http://developers.eveonline.com/blog/article/industry-changes-for-phoebe/
     - date: 2014-10-14 02:33:13.852840
       posturl: http://developers.eveonline.com/blog/industry-changes-for-phoebe/
     - date: 2014-10-14 01:54:31.311825
@@ -1372,6 +1444,20 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-11-04 00:46:17.347584
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/o7-november-6/
+    - date: 2014-10-31 03:57:19.849977
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/pheobe-release-coming-november-4-downtime-details-and-patchnotes/
+    - date: 2014-10-30 01:56:49.752480
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/get-your-tickets-for-fanfest-2015/
+    - date: 2014-10-28 05:14:21.569851
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-mass-test-on-thuesday-october-28th/
+    - date: 2014-10-24 23:04:45.748595
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/extra-life-donation-on-october-25th-1/
+    - date: 2014-10-24 04:27:35.833525
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/valkyrie-at-paris-pax-australia-and-dreamhack/
+    - date: 2014-10-21 23:44:54.085509
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-forum-update-on-october-21-2014/
     - date: 2014-10-14 23:16:15.494598
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-mass-test-on-tuesday-october-14/
     - date: 2014-10-14 22:09:27.946563
@@ -1728,6 +1814,12 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-10-31 04:29:20.719375
+      posturl: http://www.rssitfor.me/EVE_status/status/527883569176526850
+    - date: 2014-10-21 13:36:18.981251
+      posturl: http://www.rssitfor.me/EVE_status/status/524364346747396096
+    - date: 2014-10-21 10:55:54.140864
+      posturl: http://www.rssitfor.me/EVE_status/status/524356086027923456
     - date: 2014-10-01 02:09:53.335236
       posturl: http://www.rssitfor.me/EVE_status/status/516940260883042304
     - date: 2014-10-01 02:02:43.002716
@@ -1894,6 +1986,10 @@ rss_feeds:
   eve_youtube:
     raw: false
     stories:
+    - date: 2014-10-29 02:16:32.894940
+      posturl: tag:youtube.com,2008:video:9Ib4JucJYKo
+    - date: 2014-10-24 02:14:43.211644
+      posturl: tag:youtube.com,2008:video:ppcJ-Bt_KAY
     - date: 2014-10-20 10:52:30.388879
       posturl: tag:youtube.com,2008:video:OmNYWjHWwdg
     - date: 2014-10-01 19:19:51.900118
@@ -2282,6 +2378,14 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-11-01 03:11:17.327954
+      posturl: http://community.eveonline.com/news/news-channels/world-news/inner-circle-call-short-notice-wormhole-summit/
+    - date: 2014-10-30 02:10:18.810789
+      posturl: http://community.eveonline.com/news/news-channels/world-news/scc-set-to-increase-prices-on-sleeper-components/
+    - date: 2014-10-30 00:52:50.633027
+      posturl: http://community.eveonline.com/news/news-channels/world-news/scc-set-to-increase-prices-on-sleeper-salvage/
+    - date: 2014-10-29 01:00:00.951631
+      posturl: http://community.eveonline.com/news/news-channels/world-news/imperial-navy-declares-success-in-research-race/
     - date: 2014-10-07 21:07:13.022923
       posturl: http://community.eveonline.com/news/news-channels/world-news/breaking-news-navies-request-capsuleer-assistance/
     - date: 2014-10-07 03:57:51.117633
@@ -2370,6 +2474,8 @@ rss_feeds:
   patch_notes:
     raw: false
     stories:
+    - date: 2014-10-31 02:18:27.137784
+      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-phoebe/
     - date: 2014-09-26 01:57:37.045787
       posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-oceanus/
     - date: 2014-08-22 05:44:18.166608
@@ -2398,6 +2504,8 @@ rss_feeds:
   valkyrie_twitter:
     raw: true
     stories:
+    - date: 2014-10-24 07:21:52.229336
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/525364718354329600
     - date: 2014-10-14 01:00:17.946051
       posturl: http://www.rssitfor.me/EVEValkyrie/status/521650229758926848
     - date: 2014-10-13 00:17:02.828399
