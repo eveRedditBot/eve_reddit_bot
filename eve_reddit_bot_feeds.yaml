@@ -278,6 +278,8 @@ rss_feeds:
   csm9_bacon:
     raw: false
     stories:
+    - date: 2014-11-07 21:52:16.315312
+      posturl: tag:blogger.com,1999:blog-1490340916886486838.post-2210912079530492089
     - date: 2014-11-02 20:01:04.823903
       posturl: tag:blogger.com,1999:blog-1490340916886486838.post-586365654237354425
     - date: 2014-09-12 06:30:34.958535
@@ -338,6 +340,8 @@ rss_feeds:
   csm9_mike:
     raw: false
     stories:
+    - date: 2014-11-06 13:04:59.108181
+      posturl: http://mikeazariah.wordpress.com/?p=1617
     - date: 2014-11-03 11:30:36.309516
       posturl: http://mikeazariah.wordpress.com/?p=1614
     - date: 2014-10-19 06:01:18.540480
@@ -1444,6 +1448,8 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-11-04 22:02:52.653112
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/phoebe-has-been-successfully-deployed/
     - date: 2014-11-04 00:46:17.347584
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/o7-november-6/
     - date: 2014-10-31 03:57:19.849977
@@ -1814,6 +1820,8 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-11-04 23:14:30.816631
+      posturl: http://www.rssitfor.me/EVE_status/status/529604575771521024
     - date: 2014-10-31 04:29:20.719375
       posturl: http://www.rssitfor.me/EVE_status/status/527883569176526850
     - date: 2014-10-21 13:36:18.981251
@@ -1986,6 +1994,10 @@ rss_feeds:
   eve_youtube:
     raw: false
     stories:
+    - date: 2014-11-07 22:39:34.598345
+      posturl: tag:youtube.com,2008:video:NKI514FHYiI
+    - date: 2014-11-07 22:33:04.627855
+      posturl: tag:youtube.com,2008:video:d1Ej6lhd-bE
     - date: 2014-10-29 02:16:32.894940
       posturl: tag:youtube.com,2008:video:9Ib4JucJYKo
     - date: 2014-10-24 02:14:43.211644
@@ -2378,6 +2390,8 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-11-07 22:26:25.109292
+      posturl: http://community.eveonline.com/news/news-channels/world-news/eifyr-co-respond-to-tukoss-messaging/
     - date: 2014-11-01 03:11:17.327954
       posturl: http://community.eveonline.com/news/news-channels/world-news/inner-circle-call-short-notice-wormhole-summit/
     - date: 2014-10-30 02:10:18.810789
