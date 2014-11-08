@@ -570,6 +570,8 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-11-08 08:00:21.732842
+      posturl: http://community.eveonline.com/news/dev-blogs/a-new-look-for-eves-ui-feedback-needed/
     - date: 2014-10-31 23:56:53.619390
       posturl: http://community.eveonline.com/news/dev-blogs/u-and-i-assets-overview-and-scanner/
     - date: 2014-10-31 02:53:00.711927
@@ -1994,6 +1996,8 @@ rss_feeds:
   eve_youtube:
     raw: false
     stories:
+    - date: 2014-11-08 07:59:11.785343
+      posturl: tag:youtube.com,2008:video:Q0aRE4BBg0I
     - date: 2014-11-07 22:39:34.598345
       posturl: tag:youtube.com,2008:video:NKI514FHYiI
     - date: 2014-11-07 22:33:04.627855
@@ -2518,6 +2522,8 @@ rss_feeds:
   valkyrie_twitter:
     raw: true
     stories:
+    - date: 2014-11-08 08:13:17.708666
+      posturl: http://www.rssitfor.me/EVEValkyrie/status/530761188049960960
     - date: 2014-10-24 07:21:52.229336
       posturl: http://www.rssitfor.me/EVEValkyrie/status/525364718354329600
     - date: 2014-10-14 01:00:17.946051
