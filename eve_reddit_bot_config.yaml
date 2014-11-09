@@ -1,9 +1,9 @@
-api_header: Eve Online universe news bot by u/SerpentineLogic v 0.1.1
+api_header: Eve Online universe news bot by u/SerpentineLogic v 0.1.2
 subreddit: new_eden_news_bot
 username: new_eden_news_bot
 password: insert_password_here
 run_once: false
 signature: ''
 sleep_time: 300
-sleep_time_post: 60
+sleep_time_post: 300
 submitpost: true
