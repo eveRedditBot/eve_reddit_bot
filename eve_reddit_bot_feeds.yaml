@@ -278,6 +278,10 @@ rss_feeds:
   csm9_bacon:
     raw: false
     stories:
+    - date: 2014-11-12 08:02:49.068854
+      posturl: tag:blogger.com,1999:blog-1490340916886486838.post-5719659935285006916
+    - date: 2014-11-11 04:05:55.782571
+      posturl: tag:blogger.com,1999:blog-1490340916886486838.post-3355774342894319516
     - date: 2014-11-07 21:52:16.315312
       posturl: tag:blogger.com,1999:blog-1490340916886486838.post-2210912079530492089
     - date: 2014-11-02 20:01:04.823903
@@ -572,6 +576,8 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-11-12 00:52:03.666510
+      posturl: http://community.eveonline.com/news/dev-blogs/new-exploration-sites-new-modules/
     - date: 2014-11-08 08:00:21.732842
       posturl: http://community.eveonline.com/news/dev-blogs/a-new-look-for-eves-ui-feedback-needed/
     - date: 2014-10-31 23:56:53.619390
@@ -834,6 +840,10 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-11-11 22:47:22.821806
+      posturl: http://www.rssitfor.me/dust514/status/532126435197333504
+    - date: 2014-11-11 20:01:26.671454
+      posturl: http://www.rssitfor.me/CCP_Frame/status/532093433352310784
     - date: 2014-10-31 23:22:17.260985
       posturl: http://www.rssitfor.me/DUST514_Status/status/528137517325774848
     - date: 2014-10-21 12:24:28.291204
@@ -1032,6 +1042,8 @@ rss_feeds:
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-11-11 21:02:56.583733
+      posturl: http://dust514.com/news/blog/2014/11/introducing-apex-series-bpo-dropsuits/
     - date: 2014-10-29 16:52:22.289605
       posturl: http://dust514.com/news/blog/2014/10/developer-spotlight-craig-ritchie-ccp-blowout/
     - date: 2014-10-28 21:15:35.766830
@@ -1120,6 +1132,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-11-11 21:10:58.008479
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2094258
     - date: 2014-11-04 04:05:56.752852
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2076961
     - date: 2014-10-27 20:22:15.026462
@@ -1236,6 +1250,8 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-11-11 21:03:52.449235
+      posturl: http://dust514.com/news/2014/11/introducing-apex-series-bpo-dropsuits/
     - date: 2014-10-30 18:39:07.991330
       posturl: http://dust514.com/news/2014/10/new-event-officer-weapons-week/
     - date: 2014-10-29 16:53:11.222250
