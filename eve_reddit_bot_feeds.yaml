@@ -344,6 +344,8 @@ rss_feeds:
   csm9_mike:
     raw: false
     stories:
+    - date: 2014-11-13 18:08:47.893368
+      posturl: http://mikeazariah.wordpress.com/?p=1624
     - date: 2014-11-06 13:04:59.108181
       posturl: http://mikeazariah.wordpress.com/?p=1617
     - date: 2014-11-03 11:30:36.309516
