@@ -578,6 +578,12 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-11-15 02:26:05.904553
+      posturl: http://community.eveonline.com/news/dev-blogs/coming-to-eve-online-in-the-rhea-release-on-december-9th/
+    - date: 2014-11-15 00:14:56.439486
+      posturl: http://community.eveonline.com/news/dev-blogs/quick-give-me-manual-control/
+    - date: 2014-11-14 02:28:14.425452
+      posturl: http://community.eveonline.com/news/dev-blogs/thera-and-the-shattered-wormholes/
     - date: 2014-11-12 00:52:03.666510
       posturl: http://community.eveonline.com/news/dev-blogs/new-exploration-sites-new-modules/
     - date: 2014-11-08 08:00:21.732842
@@ -842,6 +848,8 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-11-14 21:56:10.969805
+      posturl: http://www.rssitfor.me/DUST514_Status/status/533221006656434176
     - date: 2014-11-11 22:47:22.821806
       posturl: http://www.rssitfor.me/dust514/status/532126435197333504
     - date: 2014-11-11 20:01:26.671454
@@ -1842,6 +1850,8 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-11-15 00:34:45.154314
+      posturl: http://www.rssitfor.me/EVE_status/status/533221006673215488
     - date: 2014-11-04 23:14:30.816631
       posturl: http://www.rssitfor.me/EVE_status/status/529604575771521024
     - date: 2014-10-31 04:29:20.719375
