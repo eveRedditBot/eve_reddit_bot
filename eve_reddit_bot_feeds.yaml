@@ -1473,7 +1473,7 @@ rss_feeds:
     - date: 2014-10-06 23:09:02.013119
       posturl: http://www.developers.eveonline.com/blog/lowering-the-blueprints-cache-time/
     subreddit: evetech
-    type: evedevs
+    type: devblog
     url: http://newsfeed.eveonline.com/en-US/95/articles
   eve_news:
     raw: false
