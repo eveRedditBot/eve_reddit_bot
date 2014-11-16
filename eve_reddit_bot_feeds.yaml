@@ -422,6 +422,8 @@ rss_feeds:
   csm9_sugar:
     raw: false
     stories:
+    - date: 2014-11-16 18:01:00.107913
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-6312301918401585356
     - date: 2014-11-09 18:05:08.268828
       posturl: tag:blogger.com,1999:blog-238324579504790.post-7721945558566897677
     - date: 2014-11-02 17:07:25.996175
@@ -2424,6 +2426,8 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-11-16 16:15:37.641380
+      posturl: http://community.eveonline.com/news/news-channels/world-news/gallente-federal-elections-commission-sets-presidential-election-date/
     - date: 2014-11-07 22:26:25.109292
       posturl: http://community.eveonline.com/news/news-channels/world-news/eifyr-co-respond-to-tukoss-messaging/
     - date: 2014-11-01 03:11:17.327954
