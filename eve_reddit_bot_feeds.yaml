@@ -1144,6 +1144,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-11-18 19:13:42.897988
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2107429
     - date: 2014-11-11 21:10:58.008479
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2094258
     - date: 2014-11-04 04:05:56.752852
@@ -1442,6 +1444,8 @@ rss_feeds:
   eve_dev:
     raw: false
     stories:
+    - date: 2014-11-19 00:19:36.646763
+      posturl: http://developers.eveonline.com/blog/article/public-crest-rate-limit/
     - date: 2014-11-01 02:30:48.935147
       posturl: http://developers.eveonline.com/blog/article/and-now-welcome-to-developers-eveonline-com/
     - date: 2014-10-30 02:29:20.707679
@@ -1480,6 +1484,8 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-11-17 23:42:15.795298
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-mass-test-on-wednesday-november-19th/
     - date: 2014-11-04 22:02:52.653112
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/phoebe-has-been-successfully-deployed/
     - date: 2014-11-04 00:46:17.347584
