@@ -1,12 +1,4 @@
 rss_feeds:
-  now:
-    raw: false
-    stories:
-    - date: 2000-08-27 10:32:11.497731
-      posturl: http://community.eveonline.com/news/news-channels/press-releases/eve-online-expands-wormhole-and-mission-gameplay-with-new-release/
-    subreddit: eve
-    type: Now
-    url: http://now.eveonline.com/rss/
   ccp_press:
     raw: false
     stories:
@@ -2537,6 +2529,42 @@ rss_feeds:
     subreddit: eve
     type: Game News
     url: http://newsfeed.eveonline.com/en-US/42/articles/page/1/20
+  now:
+    raw: false
+    stories:
+    - date: 2014-11-19 01:28:18.117494
+      posturl: http://now.eveonline.com/post/102558042163
+    - date: 2014-11-19 01:25:46.713950
+      posturl: http://now.eveonline.com/post/102610618703
+    - date: 2014-11-19 01:23:48.970111
+      posturl: http://now.eveonline.com/post/102610870433
+    - date: 2014-11-19 01:22:05.829813
+      posturl: http://now.eveonline.com/post/102610995653
+    - date: 2014-11-19 01:20:25.795503
+      posturl: http://now.eveonline.com/post/102618011368
+    - date: 2014-11-19 01:18:43.068437
+      posturl: http://now.eveonline.com/post/102618067808
+    - date: 2014-11-19 01:16:58.997461
+      posturl: http://now.eveonline.com/post/102618115643
+    - date: 2014-11-19 01:15:16.623184
+      posturl: http://now.eveonline.com/post/102618166083
+    - date: 2014-11-19 01:13:32.401039
+      posturl: http://now.eveonline.com/post/102618212163
+    - date: 2014-11-19 01:11:12.659631
+      posturl: http://now.eveonline.com/post/102618262133
+    - date: 2014-11-19 01:08:17.117333
+      posturl: http://now.eveonline.com/post/102618333823
+    - date: 2014-11-19 01:01:07.491412
+      posturl: http://now.eveonline.com/post/102618366778
+    - date: 2014-11-19 00:54:15.602631
+      posturl: http://now.eveonline.com/post/102618612338
+    - date: 2014-11-19 00:47:01.679504
+      posturl: http://now.eveonline.com/post/102880019858
+    - date: 2014-11-19 00:38:54.218176
+      posturl: http://now.eveonline.com/post/102954189473
+    subreddit: eve
+    type: Tumblr
+    url: http://now.eveonline.com/rss/
   patch_notes:
     raw: false
     stories:
