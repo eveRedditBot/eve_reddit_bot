@@ -850,6 +850,8 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-11-19 20:14:08.254184
+      posturl: http://www.rssitfor.me/CCP_Frame/status/534999423022284800
     - date: 2014-11-14 21:56:10.969805
       posturl: http://www.rssitfor.me/DUST514_Status/status/533221006656434176
     - date: 2014-11-11 22:47:22.821806
@@ -2532,6 +2534,8 @@ rss_feeds:
   now:
     raw: false
     stories:
+    - date: 2014-11-19 08:44:34.136716
+      posturl: http://now.eveonline.com/post/102972884433
     - date: 2014-11-19 01:37:06.173978
       posturl: http://now.eveonline.com/post/102554399338
     - date: 2014-11-19 01:37:06.173565
@@ -2573,7 +2577,7 @@ rss_feeds:
     - date: 2014-11-19 00:38:54.218176
       posturl: http://now.eveonline.com/post/102954189473
     subreddit: eve
-    type: Tumblr
+    type: EveNow
     url: http://now.eveonline.com/rss/
   patch_notes:
     raw: false
