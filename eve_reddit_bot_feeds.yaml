@@ -1266,6 +1266,8 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-11-20 11:41:12.636047
+      posturl: http://dust514.com/news/2014/11/new-dust-514-wallpaper-2/
     - date: 2014-11-11 21:03:52.449235
       posturl: http://dust514.com/news/2014/11/introducing-apex-series-bpo-dropsuits/
     - date: 2014-10-30 18:39:07.991330
@@ -1446,6 +1448,8 @@ rss_feeds:
   eve_dev:
     raw: false
     stories:
+    - date: 2014-11-21 01:09:19.081138
+      posturl: http://developers.eveonline.com/blog/article/nom-nom-tastey-market-data/
     - date: 2014-11-19 00:19:36.646763
       posturl: http://developers.eveonline.com/blog/article/public-crest-rate-limit/
     - date: 2014-11-01 02:30:48.935147
@@ -1486,6 +1490,10 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-11-21 20:12:27.677467
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/play-eve-valkyrie-at-dreamhack-in-sweden-and-playstation-experience-in-las-vegas/
+    - date: 2014-11-21 02:14:58.405796
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-portraits-returns-to-new-eden/
     - date: 2014-11-17 23:42:15.795298
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-mass-test-on-wednesday-november-19th/
     - date: 2014-11-04 22:02:52.653112
@@ -2534,6 +2542,10 @@ rss_feeds:
   now:
     raw: false
     stories:
+    - date: 2014-11-21 05:05:01.830553
+      posturl: http://now.eveonline.com/post/103127443133
+    - date: 2014-11-20 00:49:45.304935
+      posturl: http://now.eveonline.com/post/103040287158
     - date: 2014-11-19 08:44:34.136716
       posturl: http://now.eveonline.com/post/102972884433
     - date: 2014-11-19 01:37:06.173978
