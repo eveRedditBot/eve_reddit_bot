@@ -308,6 +308,8 @@ rss_feeds:
   csm9_corbexx:
     raw: false
     stories:
+    - date: 2014-11-22 01:25:27.834259
+      posturl: tag:blogger.com,1999:blog-3313686641816452828.post-5036005240229172850
     - date: 2014-10-21 23:58:18.654074
       posturl: tag:blogger.com,1999:blog-3313686641816452828.post-910678444383133673
     - date: 2014-09-04 08:11:31.704992
@@ -850,6 +852,8 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-11-19 20:14:08.254184
+      posturl: http://www.rssitfor.me/CCP_Frame/status/534999423022284800
     - date: 2014-11-14 21:56:10.969805
       posturl: http://www.rssitfor.me/DUST514_Status/status/533221006656434176
     - date: 2014-11-11 22:47:22.821806
@@ -1144,6 +1148,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-11-18 19:13:42.897988
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2107429
     - date: 2014-11-11 21:10:58.008479
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2094258
     - date: 2014-11-04 04:05:56.752852
@@ -1262,6 +1268,8 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-11-20 11:41:12.636047
+      posturl: http://dust514.com/news/2014/11/new-dust-514-wallpaper-2/
     - date: 2014-11-11 21:03:52.449235
       posturl: http://dust514.com/news/2014/11/introducing-apex-series-bpo-dropsuits/
     - date: 2014-10-30 18:39:07.991330
@@ -1442,6 +1450,10 @@ rss_feeds:
   eve_dev:
     raw: false
     stories:
+    - date: 2014-11-21 01:09:19.081138
+      posturl: http://developers.eveonline.com/blog/article/nom-nom-tastey-market-data/
+    - date: 2014-11-19 00:19:36.646763
+      posturl: http://developers.eveonline.com/blog/article/public-crest-rate-limit/
     - date: 2014-11-01 02:30:48.935147
       posturl: http://developers.eveonline.com/blog/article/and-now-welcome-to-developers-eveonline-com/
     - date: 2014-10-30 02:29:20.707679
@@ -1480,6 +1492,14 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-11-22 09:38:07.563926
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-trailer-this-is-eve/
+    - date: 2014-11-21 20:12:27.677467
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/play-eve-valkyrie-at-dreamhack-in-sweden-and-playstation-experience-in-las-vegas/
+    - date: 2014-11-21 02:14:58.405796
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-portraits-returns-to-new-eden/
+    - date: 2014-11-17 23:42:15.795298
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-mass-test-on-wednesday-november-19th/
     - date: 2014-11-04 22:02:52.653112
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/phoebe-has-been-successfully-deployed/
     - date: 2014-11-04 00:46:17.347584
@@ -2028,6 +2048,10 @@ rss_feeds:
   eve_youtube:
     raw: false
     stories:
+    - date: 2014-11-22 15:34:30.630939
+      posturl: tag:youtube.com,2008:video:e2X1MIR1KMs
+    - date: 2014-11-22 15:27:13.379020
+      posturl: tag:youtube.com,2008:video:AdfFnTt2UT0
     - date: 2014-11-08 07:59:11.785343
       posturl: tag:youtube.com,2008:video:Q0aRE4BBg0I
     - date: 2014-11-07 22:39:34.598345
@@ -2523,6 +2547,64 @@ rss_feeds:
     subreddit: eve
     type: Game News
     url: http://newsfeed.eveonline.com/en-US/42/articles/page/1/20
+  now:
+    raw: false
+    stories:
+    - date: 2014-11-22 13:21:08.621743
+      posturl: http://now.eveonline.com/post/103239722413
+    - date: 2014-11-22 05:11:13.431241
+      posturl: http://now.eveonline.com/post/103212806938
+    - date: 2014-11-22 01:10:45.964898
+      posturl: http://now.eveonline.com/post/103201964793
+    - date: 2014-11-21 05:05:01.830553
+      posturl: http://now.eveonline.com/post/103127443133
+    - date: 2014-11-20 00:49:45.304935
+      posturl: http://now.eveonline.com/post/103040287158
+    - date: 2014-11-19 08:44:34.136716
+      posturl: http://now.eveonline.com/post/102972884433
+    - date: 2014-11-19 01:37:06.173978
+      posturl: http://now.eveonline.com/post/102554399338
+    - date: 2014-11-19 01:37:06.173565
+      posturl: http://now.eveonline.com/post/102554460913
+    - date: 2014-11-19 01:37:06.173141
+      posturl: http://now.eveonline.com/post/102554612928
+    - date: 2014-11-19 01:37:06.172679
+      posturl: http://now.eveonline.com/post/102554669163
+    - date: 2014-11-19 01:31:03.638092
+      posturl: http://now.eveonline.com/post/102555832603
+    - date: 2014-11-19 01:28:18.117494
+      posturl: http://now.eveonline.com/post/102558042163
+    - date: 2014-11-19 01:25:46.713950
+      posturl: http://now.eveonline.com/post/102610618703
+    - date: 2014-11-19 01:23:48.970111
+      posturl: http://now.eveonline.com/post/102610870433
+    - date: 2014-11-19 01:22:05.829813
+      posturl: http://now.eveonline.com/post/102610995653
+    - date: 2014-11-19 01:20:25.795503
+      posturl: http://now.eveonline.com/post/102618011368
+    - date: 2014-11-19 01:18:43.068437
+      posturl: http://now.eveonline.com/post/102618067808
+    - date: 2014-11-19 01:16:58.997461
+      posturl: http://now.eveonline.com/post/102618115643
+    - date: 2014-11-19 01:15:16.623184
+      posturl: http://now.eveonline.com/post/102618166083
+    - date: 2014-11-19 01:13:32.401039
+      posturl: http://now.eveonline.com/post/102618212163
+    - date: 2014-11-19 01:11:12.659631
+      posturl: http://now.eveonline.com/post/102618262133
+    - date: 2014-11-19 01:08:17.117333
+      posturl: http://now.eveonline.com/post/102618333823
+    - date: 2014-11-19 01:01:07.491412
+      posturl: http://now.eveonline.com/post/102618366778
+    - date: 2014-11-19 00:54:15.602631
+      posturl: http://now.eveonline.com/post/102618612338
+    - date: 2014-11-19 00:47:01.679504
+      posturl: http://now.eveonline.com/post/102880019858
+    - date: 2014-11-19 00:38:54.218176
+      posturl: http://now.eveonline.com/post/102954189473
+    subreddit: eve
+    type: EveNow
+    url: http://now.eveonline.com/rss/
   patch_notes:
     raw: false
     stories:
