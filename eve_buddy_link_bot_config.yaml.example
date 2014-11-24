@@ -1,6 +1,19 @@
 api_header: Eve Buddy Link Bot by u/SerpentineLogic v 0.0.1
-username: eve_buddy_link_bot
+home_subreddit: new_eden_link_bot
+username: new_eden_link_bot
 password: insert_password_here
 enabled: true
 sleep_time: 60
-signature: "---\n[^[about]](http://goo.gl/F9V265) [^[Issues]](http://www.reddit.com/message/compose/?to=eve_buddy_link_bot&subject=Issue)"
+signature: "---\n[^[about]](http://goo.gl/F9V265) [^[Issues]](http://www.reddit.com/message/compose/?to=new_eden_link_bot&subject=Issue)"
+links:
+  trial:
+    name: "21-day extended trial"
+    regexes: 
+      - ".*extended trial.*"
+      - ".*day trial.*"
+      - ".*buddy .*"
+  recall:
+    name: "recall program"
+    regexes:
+      - ".* recall link.*"
+      - ".*recall program.*"
