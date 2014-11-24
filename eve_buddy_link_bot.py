@@ -271,13 +271,18 @@ def post_reply(r, thing, text):
         subreddit_name = thing.subreddit.display_name.lower()
         provider_name = provider['username'] if (provider is not None) else 'Nobody'
         logging.info(provider_name + ' provided a ' + link_type + ' link to ' + recipient + ' in /r/' + subreddit_name)
-        #reply only works on comments
-        #thing.reply(response + _signature)
-        
-        thing.add_comment(response + _signature)
+        if (hasattr(thing, 'add_comment')):
+            thing.add_comment(response + _signature)
+        else: 
+            thing.reply(response + _signature)
+            
+        if (hasattr(thing, url)):
+            url = thing.url
+        else:
+            url = thing.permalink
         
         if (provider is not None):
-            notify_provider(r, link_type, provider['username'], recipient, thing.url)
+            notify_provider(r, link_type, provider['username'], recipient, url)
         
     else:
         logging.info('disabled, but would have replied: ' + response)
