@@ -586,6 +586,8 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-11-25 02:49:25.415042
+      posturl: http://community.eveonline.com/news/dev-blogs/rookie-resources/
     - date: 2014-11-15 02:26:05.904553
       posturl: http://community.eveonline.com/news/dev-blogs/coming-to-eve-online-in-the-rhea-release-on-december-9th/
     - date: 2014-11-15 00:14:56.439486
@@ -2556,6 +2558,10 @@ rss_feeds:
   now:
     raw: false
     stories:
+    - date: 2014-11-25 02:28:08.710433
+      posturl: http://now.eveonline.com/post/103461388338
+    - date: 2014-11-25 02:20:37.503957
+      posturl: http://now.eveonline.com/post/103465981788
     - date: 2014-11-22 13:21:08.621743
       posturl: http://now.eveonline.com/post/103239722413
     - date: 2014-11-22 05:11:13.431241
