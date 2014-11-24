@@ -1494,6 +1494,8 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-11-24 07:31:34.613428
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-eve-university-super-lecture-session-on-november-23-24-fleet-action-included/
     - date: 2014-11-22 09:38:07.563926
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-trailer-this-is-eve/
     - date: 2014-11-21 20:12:27.677467
