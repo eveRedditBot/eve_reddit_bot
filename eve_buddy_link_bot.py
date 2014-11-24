@@ -156,7 +156,7 @@ def scan_messages(session):
 def scan_threads(session):
     threads = get_threads_to_follow(session)
     for thread in threads:
-        logging.info('\tChecking ' + thread.url)
+        logging.debug('\tChecking ' + thread.url)
         # thread.replace_more_comments(limit=None, threshold=0)
         # just getting top-level comments
         all_comments = thread.comments
