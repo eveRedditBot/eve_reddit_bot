@@ -276,7 +276,7 @@ def post_reply(r, thing, text):
         else: 
             thing.reply(response + _signature)
             
-        if (hasattr(thing, url)):
+        if (hasattr(thing, 'url')):
             url = thing.url
         else:
             url = thing.permalink
