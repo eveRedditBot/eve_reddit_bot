@@ -308,6 +308,8 @@ rss_feeds:
   csm9_corbexx:
     raw: false
     stories:
+    - date: 2014-11-24 22:17:31.929848
+      posturl: tag:blogger.com,1999:blog-3313686641816452828.post-9183358796644229659
     - date: 2014-11-22 01:25:27.834259
       posturl: tag:blogger.com,1999:blog-3313686641816452828.post-5036005240229172850
     - date: 2014-10-21 23:58:18.654074
