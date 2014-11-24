@@ -57,6 +57,7 @@ def main():
             
             scan_messages(r)
             scan_submissions(r)
+            scan_threads(r)
             
             if (sleeptime > (_sleeptime)):
                 sleeptime = int(sleeptime/2)
@@ -83,15 +84,14 @@ def print_followed_subreddits(r):
         name = subreddit.display_name.lower()
         logging.info('\tfollowing ' + name)
 
-# TODO follow particular threads as well?
-#def get_threads_to_follow(r):
-#    threads_to_follow = []
-#    logging.info('refreshing saved links to follow')
-#    for thread in r.user.get_saved():
-#        name = thread.url
-#        logging.info('\tfollowing ' + name)
-#        threads_to_follow.append(thread)
-#    return threads_to_follow
+def get_threads_to_follow(r):
+    threads_to_follow = []
+    #logging.info('refreshing saved links to follow')
+    for thread in r.user.get_saved():
+        #name = thread.url
+        #logging.info('\tfollowing ' + name)
+        threads_to_follow.append(thread)
+    return threads_to_follow
 
 # exit hook
 def exitexception(e):
@@ -153,6 +153,41 @@ def scan_messages(session):
         
         message.mark_as_read()
 
+def scan_threads(session):
+    threads = get_threads_to_follow(session)
+    for thread in threads:
+        logging.info('\tChecking ' + thread.url)
+        # thread.replace_more_comments(limit=None, threshold=0)
+        # just getting top-level comments
+        all_comments = thread.comments
+        comment_count = 0
+        for comment in all_comments:
+            comment_count += 1
+            index = str(comment_count)
+            text = comment.body
+            if is_probably_actionable(text):
+              actionable = True
+              # Check replies to see if already replied
+              for reply in comment.replies:
+                if reply.author == None:
+                    logging.debug("No author for comment #" + index)
+                    continue
+                if reply.author.name == _username:
+                    logging.debug("Already replied to comment #" + index)
+                    actionable = False
+                    break
+                # you know what? for now, if anyone has beat us, skip;
+                logging.debug("comment #" + index + " already has replies; skipping")
+                actionable = False
+                break
+
+              # If not already replied
+              if (actionable == True):
+                logging.debug("Actionable comment found at comment #" + index)
+                logging.debug("replying to " + comment.permalink)
+                post_reply(session, comment, text)
+                time.sleep(2)
+              
 
 def scan_submissions(session):
     submission_limit = 10
