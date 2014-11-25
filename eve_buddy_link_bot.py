@@ -157,7 +157,7 @@ def scan_threads(session):
     threads = get_threads_to_follow(session)
     for thread in threads:
         logging.debug('\tChecking ' + thread.url)
-        # thread.replace_more_comments(limit=None, threshold=0)
+        thread.replace_more_comments(limit=None, threshold=0)
         # just getting top-level comments
         all_comments = thread.comments
         comment_count = 0
