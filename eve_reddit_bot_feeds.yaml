@@ -2466,6 +2466,8 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-11-26 06:54:05.935465
+      posturl: http://community.eveonline.com/news/news-channels/world-news/ded-report-on-nation-activity/
     - date: 2014-11-16 16:15:37.641380
       posturl: http://community.eveonline.com/news/news-channels/world-news/gallente-federal-elections-commission-sets-presidential-election-date/
     - date: 2014-11-07 22:26:25.109292
