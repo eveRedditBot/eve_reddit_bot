@@ -119,6 +119,8 @@ def scan_messages(session):
                 and message.subject in ('add trial', 'add recall')]
     for message in unread:
         time.sleep(2)
+        if (message.author is None):
+            continue
         author = str(message.author.name)
         subject = str(message.subject)
         body = str(message.body).replace('&amp;', '&') # minimal decoding
