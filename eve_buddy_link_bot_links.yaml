@@ -1,41 +1,5 @@
 recall: null
 trial:
-- added: 2014-08-26 23:29:26.662719
-  url: https://secure.eveonline.com/trial/?invc=d4513ea1-7716-470a-8c8f-a9eb0fa1cae8&action=buddy
-  username: SerpentineLogic
-- added: 2014-08-27 00:10:58.762398
-  url: https://secure.eveonline.com/trial/?invc=9b82856e-741a-4595-95b7-1b4f9b54642e&action=buddy
-  username: WillusMollusc
-- added: 2014-08-27 00:31:36.932067
-  url: https://secure.eveonline.com/trial/?invc=7a565f58-82c0-480e-a2d1-07e34eec2451&action=buddy
-  username: Maldrantus
-- added: 2014-08-27 01:22:48.184421
-  url: https://secure.eveonline.com/trial/?invc=53d0f990-5764-4ba5-80b2-b4e4efe48834&action=buddy
-  username: jimtho
-- added: 2014-08-27 05:07:41.320832
-  url: https://secure.eveonline.com/trial/?invc=78aa1c0f-ab78-4775-b4f8-648e97602e7f&action=buddy
-  username: Madd_73
-- added: 2014-08-27 06:19:20.515275
-  url: https://secure.eveonline.com/trial/?invc=0837ceb7-99bf-4d8c-88eb-e191e7e1ee5b&action=buddy
-  username: ForgotMyPasswordx2
-- added: 2014-08-27 08:06:48.526632
-  url: https://secure.eveonline.com/trial/?invc=0b8b338c-e75b-4125-8e9f-28b1e874a686&action=buddy
-  username: Herlock
-- added: 2014-08-27 16:05:35.447283
-  url: https://secure.eveonline.com/trial/?invc=a4e95cd3-5f3b-4de0-85eb-58ab7f19f7f5&action=buddy
-  username: EvFishie
-- added: 2014-08-27 18:18:29.335223
-  url: https://secure.eveonline.com/trial/?invc=a32dbfaa-c83a-41c0-bfd6-750adffb4194&action=buddy
-  username: lord-carlos
-- added: 2014-08-27 18:44:05.688021
-  url: https://secure.eveonline.com/trial/?invc=e04800c8-0935-4052-bb32-ba977f93179a&action=buddy
-  username: jackdadada
-- added: 2014-08-27 19:35:17.038311
-  url: https://secure.eveonline.com/trial/?invc=aa23b8a5-8310-4ad9-82ee-687cb4070793&action=buddy
-  username: Soarin
-- added: 2014-08-28 07:26:56.177369
-  url: https://secure.eveonline.com/trial/?invc=9c3e2b93-2090-47ff-a97e-f48af3bf39d7&action=buddy
-  username: Ponytron200
 - added: 2014-09-01 10:57:42.445655
   url: https://secure.eveonline.com/trial/?invc=c1d63647-5025-4678-a2b0-31d9fbfee6e5&action=buddy
   username: videogamechamp
@@ -733,3 +697,39 @@ trial:
 - added: 2014-11-26 10:38:58.366014
   url: https://secure.eveonline.com/trial/?invc=2607c608-15fd-4957-b8f2-cb8772d34462&action=buddy
   username: David_B55
+- added: 2014-11-28 21:37:56.281428
+  url: https://secure.eveonline.com/trial/?invc=a32dbfaa-c83a-41c0-bfd6-750adffb4194&action=buddy
+  username: lord-carlos
+- added: 2014-11-28 21:38:01.181280
+  url: https://secure.eveonline.com/trial/?invc=d860709e-3682-4048-b464-5f9f8ee96e68&action=buddy
+  username: D1g1talDragon
+- added: 2014-11-28 21:38:06.094449
+  url: https://secure.eveonline.com/trial/?invc=9c73dbdb-fc63-4bea-84e4-690327030515&action=buddy
+  username: hulkomania
+- added: 2014-11-28 21:38:11.012640
+  url: https://secure.eveonline.com/trial/?invc=6d216e9f-5d98-4c9b-8fa5-62ac50573415&action=buddy
+  username: Arteriamus
+- added: 2014-11-28 21:38:16.828859
+  url: https://secure.eveonline.com/trial/?invc=ca3ec20c-129c-4ba9-9adc-0f4da9ad73d1&action=buddy
+  username: heterosapiensapien
+- added: 2014-11-28 21:38:21.452819
+  url: https://secure.eveonline.com/trial/?invc=350cd2ad-3e47-407b-b22f-370d9b8e862b&action=buddy
+  username: nubosabuk
+- added: 2014-11-28 21:38:26.372864
+  url: https://secure.eveonline.com/trial/?invc=0b727a5b-c01b-498e-b1f4-f23b7ac5f5a7&action=buddy
+  username: Schwayble
+- added: 2014-11-28 21:38:40.298647
+  url: https://secure.eveonline.com/trial/?invc=37f67784-ce93-45f1-b3af-87bdb6884d2b&action=buddy
+  username: taraki_orani
+- added: 2014-11-28 21:38:49.718550
+  url: https://secure.eveonline.com/trial/?invc=880c1f26-28d2-40d6-8fd7-208babdcb63c&action=buddy
+  username: rudest
+- added: 2014-11-28 21:38:54.333658
+  url: https://secure.eveonline.com/trial/?invc=fad7eb31-9497-494a-be61-35777f7ef889&action=buddy
+  username: Qvar
+- added: 2014-11-28 21:38:59.756024
+  url: https://secure.eveonline.com/trial/?invc=4c593713-764a-440f-97b6-c14bf5f0dec5&action=buddy
+  username: jimtho
+- added: 2014-11-28 21:40:54.338367
+  url: https://secure.eveonline.com/trial/?invc=d4513ea1-7716-470a-8c8f-a9eb0fa1cae8&action=buddy
+  username: SerpentineLogic

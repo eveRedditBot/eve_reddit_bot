@@ -2578,6 +2578,8 @@ rss_feeds:
   now:
     raw: false
     stories:
+    - date: 2014-11-28 21:42:45.803877
+      posturl: http://now.eveonline.com/post/103636470078
     - date: 2014-11-28 21:35:36.170177
       posturl: http://now.eveonline.com/post/103719889718
     - date: 2014-11-28 21:27:58.257915
