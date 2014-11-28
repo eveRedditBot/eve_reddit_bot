@@ -1068,6 +1068,8 @@ rss_feeds:
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-11-28 21:27:11.277167
+      posturl: http://dust514.com/news/blog/2014/11/developer-spotlight-vladislav-perge-ccp-frame/
     - date: 2014-11-11 21:02:56.583733
       posturl: http://dust514.com/news/blog/2014/11/introducing-apex-series-bpo-dropsuits/
     - date: 2014-10-29 16:52:22.289605
@@ -1282,6 +1284,8 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-11-28 21:28:37.955788
+      posturl: http://dust514.com/news/2014/11/developer-spotlight-vladislav-perge-ccp-frame/
     - date: 2014-11-20 11:41:12.636047
       posturl: http://dust514.com/news/2014/11/new-dust-514-wallpaper-2/
     - date: 2014-11-11 21:03:52.449235
@@ -1506,6 +1510,8 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-11-28 21:28:05.511164
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-wednesday-november-26th/
     - date: 2014-11-24 07:31:34.613428
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-eve-university-super-lecture-session-on-november-23-24-fleet-action-included/
     - date: 2014-11-22 09:38:07.563926
@@ -1888,6 +1894,8 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-11-28 21:34:47.062257
+      posturl: http://www.rssitfor.me/EVE_status/status/537565737272238080
     - date: 2014-11-15 00:34:45.154314
       posturl: http://www.rssitfor.me/EVE_status/status/533221006673215488
     - date: 2014-11-04 23:14:30.816631
@@ -2466,6 +2474,8 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-11-28 21:28:23.562247
+      posturl: http://community.eveonline.com/news/news-channels/world-news/stellar-anomaly-detected-by-capsuleers/
     - date: 2014-11-26 06:54:05.935465
       posturl: http://community.eveonline.com/news/news-channels/world-news/ded-report-on-nation-activity/
     - date: 2014-11-16 16:15:37.641380
@@ -2568,6 +2578,10 @@ rss_feeds:
   now:
     raw: false
     stories:
+    - date: 2014-11-28 21:35:36.170177
+      posturl: http://now.eveonline.com/post/103719889718
+    - date: 2014-11-28 21:27:58.257915
+      posturl: http://now.eveonline.com/post/103739807003
     - date: 2014-11-26 00:17:26.448565
       posturl: http://now.eveonline.com/post/103544776808
     - date: 2014-11-25 02:28:08.710433
