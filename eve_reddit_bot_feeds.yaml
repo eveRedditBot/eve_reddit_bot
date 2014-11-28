@@ -858,6 +858,8 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-11-28 22:29:07.630280
+      posturl: http://www.rssitfor.me/DUST514_Status/status/537556150062178305
     - date: 2014-11-25 23:02:58.721894
       posturl: http://www.rssitfor.me/DUST514_Status/status/537209805786853376
     - date: 2014-11-25 22:55:47.240350
@@ -1510,6 +1512,8 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-11-29 06:58:05.708933
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/holiday-sale-special-second-decade-collectors-edition-with-90-day-game-time-bonus/
     - date: 2014-11-28 21:28:05.511164
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-wednesday-november-26th/
     - date: 2014-11-24 07:31:34.613428
@@ -2578,6 +2582,8 @@ rss_feeds:
   now:
     raw: false
     stories:
+    - date: 2014-11-29 06:57:57.647108
+      posturl: http://now.eveonline.com/post/103800402683
     - date: 2014-11-28 21:42:45.803877
       posturl: http://now.eveonline.com/post/103636470078
     - date: 2014-11-28 21:35:36.170177
