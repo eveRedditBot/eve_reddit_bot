@@ -320,7 +320,15 @@ def purge_old_providers_of_type(session, key, expiration_threshold):
         for old_provider in old_providers[:]:
             old_username = old_provider['username']
             logging.info('\tdetected old ' + key + ' link from ' + old_username)
-            notify_link_removal(session, key, old_username, old_provider['url'])
+            try:
+              notify_link_removal(session, key, old_username, old_provider['url'])
+            except Exception as e:            
+              catchable_exceptions = ["that user doesn't exist"]
+              if any(substring in str(e) for substring in catchable_exceptions):
+                logging.debug(str(e))
+              else:
+                exitexception(e)
+            
             _links[key].remove(old_provider)
             writeYamlFile(_links, _links_file_name)
             time.sleep(2)
