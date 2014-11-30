@@ -75,7 +75,7 @@ def main():
         if (sleeptime > (_sleeptime)):
             logging.info("Sleeping for %s seconds", str(sleeptime))
         else:
-            logging.debug("Sleeping for %s seconds", str(sleeptime))
+            logging.info("Sleeping for %s seconds", str(sleeptime))
         time.sleep(sleeptime)
 
 def print_followed_subreddits(r):
@@ -272,12 +272,22 @@ def post_reply(r, thing, text):
     if _enabled:
         subreddit_name = thing.subreddit.display_name.lower()
         provider_name = provider['username'] if (provider is not None) else 'Nobody'
+        
+        
+        try:        
+            if (hasattr(thing, 'add_comment')):
+                thing.add_comment(response + _signature)
+            else: 
+                thing.reply(response + _signature)
+        except Exception as e:            
+            catchable_exceptions = ["that user doesn't exist", "that comment has been deleted"]
+            if any(substring in str(e) for substring in catchable_exceptions):
+                logging.debug(str(e))
+                return
+            else:
+                exitexception(e)
+        
         logging.info(provider_name + ' provided a ' + link_type + ' link to ' + recipient + ' in /r/' + subreddit_name)
-        if (hasattr(thing, 'add_comment')):
-            thing.add_comment(response + _signature)
-        else: 
-            thing.reply(response + _signature)
-            
         if (hasattr(thing, 'url')):
             url = thing.url
         else:
