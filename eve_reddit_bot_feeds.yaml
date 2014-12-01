@@ -1288,6 +1288,8 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-12-02 07:00:16.180065
+      posturl: http://dust514.com/news/2014/12/accelerated-lp-week-2/
     - date: 2014-11-28 21:28:37.955788
       posturl: http://dust514.com/news/2014/11/developer-spotlight-vladislav-perge-ccp-frame/
     - date: 2014-11-20 11:41:12.636047
@@ -1514,6 +1516,8 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-12-02 06:59:47.945714
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-mass-test-on-thursday-december-4th/
     - date: 2014-11-29 06:58:05.708933
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/holiday-sale-special-second-decade-collectors-edition-with-90-day-game-time-bonus/
     - date: 2014-11-28 21:28:05.511164
