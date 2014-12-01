@@ -12,8 +12,8 @@ from dateutil.relativedelta import relativedelta
 
 logging.basicConfig(format='%(asctime)s %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
-                    level=logging.INFO)
-#                    level=logging.DEBUG)
+#                    level=logging.INFO)
+                    level=logging.DEBUG)
 requests_log = logging.getLogger("requests")
 requests_log.setLevel(logging.WARNING)
 _sleeptime = 60
@@ -174,12 +174,21 @@ def scan_threads(session):
                 if reply.author == None:
                     logging.debug("No author for comment #" + index)
                     continue
+                if reply.banned_by is not None:
+                    logging.debug("Detected a banned comment")                    
+                    if (reply.banned_by == True):
+                      logging.debug("Found reply by " + reply.author.name + " but it was banned")
+                    elif (reply.banned_by.user_name == _username):
+                      logging.debug("Found reply by " + reply.author.name + " but it was banned by me")
+                    else:
+                      logging.debug("Found reply by " + reply.author.name + " but it was banned by " + str(vars(reply.banned_by)))
                 if reply.author.name == _username:
                     logging.debug("Already replied to comment #" + index)
                     actionable = False
                     break
+                
                 # you know what? for now, if anyone has beat us, skip;
-                logging.debug("comment #" + index + " already has replies; skipping")
+                logging.debug("comment #" + index + " already has a reply by " + reply.author.name + "; skipping")
                 actionable = False
                 break
 
@@ -222,12 +231,21 @@ def scan_submissions(session):
                 if reply.author == None:
                     logging.debug("No author for submission #" + index)
                     continue
+                if reply.banned_by is not None:
+                    logging.debug("Detected a banned comment")                    
+                    if (reply.banned_by == True):
+                      logging.debug("Found reply by " + reply.author.name + " but it was banned")
+                    elif (reply.banned_by.user_name == _username):
+                      logging.debug("Found reply by " + reply.author.name + " but it was banned by me")
+                    else:
+                      logging.debug("Found reply by " + reply.author.name + " but it was banned by " + str(vars(reply.banned_by)))
                 if reply.author.name == _username:
                     logging.debug("Already replied to submission #" + index)
                     actionable = False
                     break
+                    
                 # you know what? for now, if anyone has beat us, skip;
-                logging.debug("submission #" + index + " already has replies; skipping")
+                logging.debug("submission #" + index + " already has a reply by " + reply.author.name + "; skipping")
                 actionable = False
                 break
 
