@@ -1,8 +1,5 @@
 recall: null
 trial:
-- added: 2014-09-01 10:57:42.445655
-  url: https://secure.eveonline.com/trial/?invc=c1d63647-5025-4678-a2b0-31d9fbfee6e5&action=buddy
-  username: videogamechamp
 - added: 2014-09-11 21:19:15.707686
   url: https://secure.eveonline.com/trial/?invc=c6f5c5d0-8655-4cdf-aeb8-45abfaa2d457&action=buddy
   username: Llujoo
@@ -763,3 +760,15 @@ trial:
 - added: 2014-12-01 10:03:27.372782
   url: https://secure.eveonline.com/trial/?invc=f22ef8f4-af91-4842-825f-b2407382ef1f&action=buddy
   username: ericjames
+- added: 2014-12-01 12:14:32.645275
+  url: https://secure.eveonline.com/trial/?invc=776efbb2-80bd-4ffc-b639-886704bc88c2&action=buddy
+  username: nomoredice
+- added: 2014-12-01 15:22:27.370786
+  url: https://secure.eveonline.com/trial/?invc=c1d63647-5025-4678-a2b0-31d9fbfee6e5&action=buddy
+  username: videogamechamp
+- added: 2014-12-02 06:58:14.192174
+  url: https://secure.eveonline.com/trial/?invc=45f10e57-924a-4707-8845-6b914c412b75&action=buddy
+  username: mwojo
+- added: 2014-12-02 06:58:23.371606
+  url: https://secure.eveonline.com/trial/?invc=e04800c8-0935-4052-bb32-ba977f93179a&action=buddy
+  username: jackdadada
