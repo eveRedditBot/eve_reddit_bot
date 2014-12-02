@@ -12,8 +12,8 @@ from dateutil.relativedelta import relativedelta
 
 logging.basicConfig(format='%(asctime)s %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
-#                    level=logging.INFO)
-                    level=logging.DEBUG)
+                    level=logging.INFO)
+#                    level=logging.DEBUG)
 requests_log = logging.getLogger("requests")
 requests_log.setLevel(logging.WARNING)
 _sleeptime = 60
@@ -175,10 +175,11 @@ def scan_threads(session):
                     logging.debug("No author for comment #" + index)
                     continue
                 if reply.banned_by is not None:
-                    logging.debug("Detected a banned comment")                    
+                    logging.debug("Detected a banned comment")
+                    logging.debug(reply.banned_by)             
                     if (reply.banned_by == True):
                       logging.debug("Found reply by " + reply.author.name + " but it was banned")
-                    elif (reply.banned_by.user_name == _username):
+                    elif (reply.banned_by.name == _username):
                       logging.debug("Found reply by " + reply.author.name + " but it was banned by me")
                     else:
                       logging.debug("Found reply by " + reply.author.name + " but it was banned by " + str(vars(reply.banned_by)))
@@ -231,18 +232,22 @@ def scan_submissions(session):
                 if reply.author == None:
                     logging.debug("No author for submission #" + index)
                     continue
+                if reply.author.name == _username:
+                    logging.debug("Already replied to submission #" + index)
+                    if (reply.subreddit.display_name.lower() == _home_subreddit and
+                            reply.banned_by == True):
+                        logging.info('unbanning my own comment')
+                        reply.approve()
+                    actionable = False
+                    break
                 if reply.banned_by is not None:
-                    logging.debug("Detected a banned comment")                    
+                    logging.debug("Detected a banned comment")                 
                     if (reply.banned_by == True):
                       logging.debug("Found reply by " + reply.author.name + " but it was banned")
-                    elif (reply.banned_by.user_name == _username):
+                    elif (reply.banned_by.name == _username):
                       logging.debug("Found reply by " + reply.author.name + " but it was banned by me")
                     else:
                       logging.debug("Found reply by " + reply.author.name + " but it was banned by " + str(vars(reply.banned_by)))
-                if reply.author.name == _username:
-                    logging.debug("Already replied to submission #" + index)
-                    actionable = False
-                    break
                     
                 # you know what? for now, if anyone has beat us, skip;
                 logging.debug("submission #" + index + " already has a reply by " + reply.author.name + "; skipping")
