@@ -588,6 +588,8 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-12-03 01:19:23.647867
+      posturl: http://community.eveonline.com/news/dev-blogs/a-new-era-of-clones/
     - date: 2014-11-25 02:49:25.415042
       posturl: http://community.eveonline.com/news/dev-blogs/rookie-resources/
     - date: 2014-11-15 02:26:05.904553
@@ -860,6 +862,12 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-12-03 14:03:48.274557
+      posturl: http://www.rssitfor.me/DUST514_Status/status/539949310129876992
+    - date: 2014-12-03 13:54:28.872135
+      posturl: http://www.rssitfor.me/DUST514_Status/status/539960992051245057
+    - date: 2014-12-03 01:46:24.994351
+      posturl: http://www.rssitfor.me/dust514/status/539797151468232704
     - date: 2014-12-02 22:37:09.459779
       posturl: http://www.rssitfor.me/DUST514_Status/status/539742079174574080
     - date: 2014-11-28 22:29:07.630280
@@ -1074,6 +1082,8 @@ rss_feeds:
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-12-03 01:04:08.761413
+      posturl: http://dust514.com/news/blog/2014/12/uprising-1.10-overview-patch-notes/
     - date: 2014-11-28 21:27:11.277167
       posturl: http://dust514.com/news/blog/2014/11/developer-spotlight-vladislav-perge-ccp-frame/
     - date: 2014-11-11 21:02:56.583733
@@ -1294,6 +1304,8 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-12-03 01:05:07.951083
+      posturl: http://dust514.com/news/2014/12/uprising-1.10-overview-patch-notes/
     - date: 2014-12-02 07:00:16.180065
       posturl: http://dust514.com/news/2014/12/accelerated-lp-week-2/
     - date: 2014-11-28 21:28:37.955788
@@ -2088,6 +2100,8 @@ rss_feeds:
   eve_youtube:
     raw: false
     stories:
+    - date: 2014-12-03 02:33:11.747851
+      posturl: tag:youtube.com,2008:video:glWbOZsC5Js
     - date: 2014-11-22 15:34:30.630939
       posturl: tag:youtube.com,2008:video:e2X1MIR1KMs
     - date: 2014-11-22 15:27:13.379020
@@ -2594,6 +2608,8 @@ rss_feeds:
   now:
     raw: false
     stories:
+    - date: 2014-12-03 03:44:51.688877
+      posturl: http://now.eveonline.com/post/104165504298
     - date: 2014-11-29 06:57:57.647108
       posturl: http://now.eveonline.com/post/103800402683
     - date: 2014-11-28 21:42:45.803877
