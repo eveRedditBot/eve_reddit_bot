@@ -308,6 +308,8 @@ rss_feeds:
   csm9_corbexx:
     raw: false
     stories:
+    - date: 2014-11-24 22:17:31.929848
+      posturl: tag:blogger.com,1999:blog-3313686641816452828.post-9183358796644229659
     - date: 2014-11-22 01:25:27.834259
       posturl: tag:blogger.com,1999:blog-3313686641816452828.post-5036005240229172850
     - date: 2014-10-21 23:58:18.654074
@@ -424,6 +426,10 @@ rss_feeds:
   csm9_sugar:
     raw: false
     stories:
+    - date: 2014-11-30 18:00:41.957633
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-3600361209847682156
+    - date: 2014-11-23 18:01:56.609640
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-968164656704142518
     - date: 2014-11-16 18:01:00.107913
       posturl: tag:blogger.com,1999:blog-238324579504790.post-6312301918401585356
     - date: 2014-11-09 18:05:08.268828
@@ -582,6 +588,10 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-12-03 01:19:23.647867
+      posturl: http://community.eveonline.com/news/dev-blogs/a-new-era-of-clones/
+    - date: 2014-11-25 02:49:25.415042
+      posturl: http://community.eveonline.com/news/dev-blogs/rookie-resources/
     - date: 2014-11-15 02:26:05.904553
       posturl: http://community.eveonline.com/news/dev-blogs/coming-to-eve-online-in-the-rhea-release-on-december-9th/
     - date: 2014-11-15 00:14:56.439486
@@ -852,6 +862,20 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-12-03 14:03:48.274557
+      posturl: http://www.rssitfor.me/DUST514_Status/status/539949310129876992
+    - date: 2014-12-03 13:54:28.872135
+      posturl: http://www.rssitfor.me/DUST514_Status/status/539960992051245057
+    - date: 2014-12-03 01:46:24.994351
+      posturl: http://www.rssitfor.me/dust514/status/539797151468232704
+    - date: 2014-12-02 22:37:09.459779
+      posturl: http://www.rssitfor.me/DUST514_Status/status/539742079174574080
+    - date: 2014-11-28 22:29:07.630280
+      posturl: http://www.rssitfor.me/DUST514_Status/status/537556150062178305
+    - date: 2014-11-25 23:02:58.721894
+      posturl: http://www.rssitfor.me/DUST514_Status/status/537209805786853376
+    - date: 2014-11-25 22:55:47.240350
+      posturl: http://www.rssitfor.me/DUST514_Status/status/537210860700467202
     - date: 2014-11-19 20:14:08.254184
       posturl: http://www.rssitfor.me/CCP_Frame/status/534999423022284800
     - date: 2014-11-14 21:56:10.969805
@@ -1058,6 +1082,10 @@ rss_feeds:
   dust_dev_blogs:
     raw: false
     stories:
+    - date: 2014-12-03 01:04:08.761413
+      posturl: http://dust514.com/news/blog/2014/12/uprising-1.10-overview-patch-notes/
+    - date: 2014-11-28 21:27:11.277167
+      posturl: http://dust514.com/news/blog/2014/11/developer-spotlight-vladislav-perge-ccp-frame/
     - date: 2014-11-11 21:02:56.583733
       posturl: http://dust514.com/news/blog/2014/11/introducing-apex-series-bpo-dropsuits/
     - date: 2014-10-29 16:52:22.289605
@@ -1148,6 +1176,14 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-12-02 19:43:55.657112
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2132512
+    - date: 2014-12-02 19:36:24.341413
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2132523
+    - date: 2014-11-25 18:31:20.245561
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2120097
+    - date: 2014-11-25 18:24:26.713859
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2120089
     - date: 2014-11-18 19:13:42.897988
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2107429
     - date: 2014-11-11 21:10:58.008479
@@ -1268,6 +1304,12 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-12-03 01:05:07.951083
+      posturl: http://dust514.com/news/2014/12/uprising-1.10-overview-patch-notes/
+    - date: 2014-12-02 07:00:16.180065
+      posturl: http://dust514.com/news/2014/12/accelerated-lp-week-2/
+    - date: 2014-11-28 21:28:37.955788
+      posturl: http://dust514.com/news/2014/11/developer-spotlight-vladislav-perge-ccp-frame/
     - date: 2014-11-20 11:41:12.636047
       posturl: http://dust514.com/news/2014/11/new-dust-514-wallpaper-2/
     - date: 2014-11-11 21:03:52.449235
@@ -1492,6 +1534,14 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-12-02 06:59:47.945714
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-mass-test-on-thursday-december-4th/
+    - date: 2014-11-29 06:58:05.708933
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/holiday-sale-special-second-decade-collectors-edition-with-90-day-game-time-bonus/
+    - date: 2014-11-28 21:28:05.511164
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/mass-test-on-wednesday-november-26th/
+    - date: 2014-11-24 07:31:34.613428
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-eve-university-super-lecture-session-on-november-23-24-fleet-action-included/
     - date: 2014-11-22 09:38:07.563926
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/new-trailer-this-is-eve/
     - date: 2014-11-21 20:12:27.677467
@@ -1872,6 +1922,8 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-11-28 21:34:47.062257
+      posturl: http://www.rssitfor.me/EVE_status/status/537565737272238080
     - date: 2014-11-15 00:34:45.154314
       posturl: http://www.rssitfor.me/EVE_status/status/533221006673215488
     - date: 2014-11-04 23:14:30.816631
@@ -2048,6 +2100,8 @@ rss_feeds:
   eve_youtube:
     raw: false
     stories:
+    - date: 2014-12-03 02:33:11.747851
+      posturl: tag:youtube.com,2008:video:glWbOZsC5Js
     - date: 2014-11-22 15:34:30.630939
       posturl: tag:youtube.com,2008:video:e2X1MIR1KMs
     - date: 2014-11-22 15:27:13.379020
@@ -2450,6 +2504,10 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-11-28 21:28:23.562247
+      posturl: http://community.eveonline.com/news/news-channels/world-news/stellar-anomaly-detected-by-capsuleers/
+    - date: 2014-11-26 06:54:05.935465
+      posturl: http://community.eveonline.com/news/news-channels/world-news/ded-report-on-nation-activity/
     - date: 2014-11-16 16:15:37.641380
       posturl: http://community.eveonline.com/news/news-channels/world-news/gallente-federal-elections-commission-sets-presidential-election-date/
     - date: 2014-11-07 22:26:25.109292
@@ -2550,6 +2608,22 @@ rss_feeds:
   now:
     raw: false
     stories:
+    - date: 2014-12-03 03:44:51.688877
+      posturl: http://now.eveonline.com/post/104165504298
+    - date: 2014-11-29 06:57:57.647108
+      posturl: http://now.eveonline.com/post/103800402683
+    - date: 2014-11-28 21:42:45.803877
+      posturl: http://now.eveonline.com/post/103636470078
+    - date: 2014-11-28 21:35:36.170177
+      posturl: http://now.eveonline.com/post/103719889718
+    - date: 2014-11-28 21:27:58.257915
+      posturl: http://now.eveonline.com/post/103739807003
+    - date: 2014-11-26 00:17:26.448565
+      posturl: http://now.eveonline.com/post/103544776808
+    - date: 2014-11-25 02:28:08.710433
+      posturl: http://now.eveonline.com/post/103461388338
+    - date: 2014-11-25 02:20:37.503957
+      posturl: http://now.eveonline.com/post/103465981788
     - date: 2014-11-22 13:21:08.621743
       posturl: http://now.eveonline.com/post/103239722413
     - date: 2014-11-22 05:11:13.431241

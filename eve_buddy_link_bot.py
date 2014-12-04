@@ -57,6 +57,7 @@ def main():
             
             scan_messages(r)
             scan_submissions(r)
+            scan_threads(r)
             
             if (sleeptime > (_sleeptime)):
                 sleeptime = int(sleeptime/2)
@@ -74,7 +75,7 @@ def main():
         if (sleeptime > (_sleeptime)):
             logging.info("Sleeping for %s seconds", str(sleeptime))
         else:
-            logging.debug("Sleeping for %s seconds", str(sleeptime))
+            logging.info("Sleeping for %s seconds", str(sleeptime))
         time.sleep(sleeptime)
 
 def print_followed_subreddits(r):
@@ -83,15 +84,14 @@ def print_followed_subreddits(r):
         name = subreddit.display_name.lower()
         logging.info('\tfollowing ' + name)
 
-# TODO follow particular threads as well?
-#def get_threads_to_follow(r):
-#    threads_to_follow = []
-#    logging.info('refreshing saved links to follow')
-#    for thread in r.user.get_saved():
-#        name = thread.url
-#        logging.info('\tfollowing ' + name)
-#        threads_to_follow.append(thread)
-#    return threads_to_follow
+def get_threads_to_follow(r):
+    threads_to_follow = []
+    #logging.info('refreshing saved links to follow')
+    for thread in r.user.get_saved():
+        #name = thread.url
+        #logging.info('\tfollowing ' + name)
+        threads_to_follow.append(thread)
+    return threads_to_follow
 
 # exit hook
 def exitexception(e):
@@ -119,6 +119,8 @@ def scan_messages(session):
                 and message.subject in ('add trial', 'add recall')]
     for message in unread:
         time.sleep(2)
+        if (message.author is None):
+            continue
         author = str(message.author.name)
         subject = str(message.subject)
         body = str(message.body).replace('&amp;', '&') # minimal decoding
@@ -153,6 +155,51 @@ def scan_messages(session):
         
         message.mark_as_read()
 
+def scan_threads(session):
+    threads = get_threads_to_follow(session)
+    for thread in threads:
+        logging.debug('\tChecking ' + thread.url)
+        thread.replace_more_comments(limit=None, threshold=0)
+        # just getting top-level comments
+        all_comments = thread.comments
+        comment_count = 0
+        for comment in all_comments:
+            comment_count += 1
+            index = str(comment_count)
+            text = comment.body
+            if is_probably_actionable(text):
+              actionable = True
+              # Check replies to see if already replied
+              for reply in comment.replies:
+                if reply.author == None:
+                    logging.debug("No author for comment #" + index)
+                    continue
+                if reply.banned_by is not None:
+                    logging.debug("Detected a banned comment")
+                    logging.debug(reply.banned_by)             
+                    if (reply.banned_by == True):
+                      logging.debug("Found reply by " + reply.author.name + " but it was banned")
+                    elif (reply.banned_by.name == _username):
+                      logging.debug("Found reply by " + reply.author.name + " but it was banned by me")
+                    else:
+                      logging.debug("Found reply by " + reply.author.name + " but it was banned by " + str(vars(reply.banned_by)))
+                if reply.author.name == _username:
+                    logging.debug("Already replied to comment #" + index)
+                    actionable = False
+                    break
+                
+                # you know what? for now, if anyone has beat us, skip;
+                logging.debug("comment #" + index + " already has a reply by " + reply.author.name + "; skipping")
+                actionable = False
+                break
+
+              # If not already replied
+              if (actionable == True):
+                logging.debug("Actionable comment found at comment #" + index)
+                logging.debug("replying to " + comment.permalink)
+                post_reply(session, comment, text)
+                time.sleep(2)
+              
 
 def scan_submissions(session):
     submission_limit = 10
@@ -187,10 +234,23 @@ def scan_submissions(session):
                     continue
                 if reply.author.name == _username:
                     logging.debug("Already replied to submission #" + index)
+                    if (reply.subreddit.display_name.lower() == _home_subreddit and
+                            reply.banned_by == True):
+                        logging.info('unbanning my own comment')
+                        reply.approve()
                     actionable = False
                     break
+                if reply.banned_by is not None:
+                    logging.debug("Detected a banned comment")                 
+                    if (reply.banned_by == True):
+                      logging.debug("Found reply by " + reply.author.name + " but it was banned")
+                    elif (reply.banned_by.name == _username):
+                      logging.debug("Found reply by " + reply.author.name + " but it was banned by me")
+                    else:
+                      logging.debug("Found reply by " + reply.author.name + " but it was banned by " + str(vars(reply.banned_by)))
+                    
                 # you know what? for now, if anyone has beat us, skip;
-                logging.debug("submission #" + index + " already has replies; skipping")
+                logging.debug("submission #" + index + " already has a reply by " + reply.author.name + "; skipping")
                 actionable = False
                 break
 
@@ -235,14 +295,29 @@ def post_reply(r, thing, text):
     if _enabled:
         subreddit_name = thing.subreddit.display_name.lower()
         provider_name = provider['username'] if (provider is not None) else 'Nobody'
-        logging.info(provider_name + ' provided a ' + link_type + ' link to ' + recipient + ' in /r/' + subreddit_name)
-        #reply only works on comments
-        #thing.reply(response + _signature)
         
-        thing.add_comment(response + _signature)
+        
+        try:        
+            if (hasattr(thing, 'add_comment')):
+                thing.add_comment(response + _signature)
+            else: 
+                thing.reply(response + _signature)
+        except Exception as e:            
+            catchable_exceptions = ["that user doesn't exist", "that comment has been deleted"]
+            if any(substring in str(e) for substring in catchable_exceptions):
+                logging.debug(str(e))
+                return
+            else:
+                exitexception(e)
+        
+        logging.info(provider_name + ' provided a ' + link_type + ' link to ' + recipient + ' in /r/' + subreddit_name)
+        if (hasattr(thing, 'url')):
+            url = thing.url
+        else:
+            url = thing.permalink
         
         if (provider is not None):
-            notify_provider(r, link_type, provider['username'], recipient, thing.url)
+            notify_provider(r, link_type, provider['username'], recipient, url)
         
     else:
         logging.info('disabled, but would have replied: ' + response)
@@ -278,7 +353,15 @@ def purge_old_providers_of_type(session, key, expiration_threshold):
         for old_provider in old_providers[:]:
             old_username = old_provider['username']
             logging.info('\tdetected old ' + key + ' link from ' + old_username)
-            notify_link_removal(session, key, old_username, old_provider['url'])
+            try:
+              notify_link_removal(session, key, old_username, old_provider['url'])
+            except Exception as e:            
+              catchable_exceptions = ["that user doesn't exist"]
+              if any(substring in str(e) for substring in catchable_exceptions):
+                logging.debug(str(e))
+              else:
+                exitexception(e)
+            
             _links[key].remove(old_provider)
             writeYamlFile(_links, _links_file_name)
             time.sleep(2)

@@ -102,6 +102,10 @@ class EVERedditBot():
           content = u.unicode_markup.replace(unichr(8230),' ...')
           logging.debug('.....')
         
+        if "tumblr.com" in content:
+          # Replace with larger images (hopefully such images exist)
+          content = content.replace('_500.', '_1280.')
+        
         # Added the .replace because the parser does something funny to them and 
         # removes them before I can handle them
         content = content.replace('&nbsp;', ' ')
