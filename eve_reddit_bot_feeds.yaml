@@ -588,6 +588,8 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-12-05 01:16:33.126729
+      posturl: http://community.eveonline.com/news/dev-blogs/a-map-to-treasure/
     - date: 2014-12-03 01:19:23.647867
       posturl: http://community.eveonline.com/news/dev-blogs/a-new-era-of-clones/
     - date: 2014-11-25 02:49:25.415042
@@ -1534,6 +1536,8 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-12-05 02:06:19.342498
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/calling-all-movie-makers-this-is-eve-trailer-competition/
     - date: 2014-12-02 06:59:47.945714
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-mass-test-on-thursday-december-4th/
     - date: 2014-11-29 06:58:05.708933
