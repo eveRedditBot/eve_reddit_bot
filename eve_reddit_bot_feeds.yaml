@@ -1536,6 +1536,8 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-12-06 03:13:51.797107
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/rhea-release-downtime-schedule-now-available/
     - date: 2014-12-05 02:06:19.342498
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/calling-all-movie-makers-this-is-eve-trailer-competition/
     - date: 2014-12-02 06:59:47.945714
@@ -2104,6 +2106,8 @@ rss_feeds:
   eve_youtube:
     raw: false
     stories:
+    - date: 2014-12-06 01:03:27.903936
+      posturl: tag:youtube.com,2008:video:3uK0eiKZYe0
     - date: 2014-12-03 02:33:11.747851
       posturl: tag:youtube.com,2008:video:glWbOZsC5Js
     - date: 2014-11-22 15:34:30.630939
@@ -2612,6 +2616,8 @@ rss_feeds:
   now:
     raw: false
     stories:
+    - date: 2014-12-06 02:53:48.090961
+      posturl: http://now.eveonline.com/post/104414758438
     - date: 2014-12-03 03:44:51.688877
       posturl: http://now.eveonline.com/post/104165504298
     - date: 2014-11-29 06:57:57.647108
@@ -2686,6 +2692,8 @@ rss_feeds:
   patch_notes:
     raw: false
     stories:
+    - date: 2014-12-06 03:00:25.544947
+      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-rhea/
     - date: 2014-10-31 02:18:27.137784
       posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-phoebe/
     - date: 2014-09-26 01:57:37.045787
