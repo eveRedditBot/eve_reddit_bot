@@ -181,6 +181,7 @@ def scan_threads(session):
                       logging.debug("Found reply by " + reply.author.name + " but it was banned")
                     elif (reply.banned_by.name == _username):
                       logging.debug("Found reply by " + reply.author.name + " but it was banned by me")
+                      continue
                     else:
                       logging.debug("Found reply by " + reply.author.name + " but it was banned by " + str(vars(reply.banned_by)))
                 if reply.author.name == _username:
@@ -246,6 +247,7 @@ def scan_submissions(session):
                       logging.debug("Found reply by " + reply.author.name + " but it was banned")
                     elif (reply.banned_by.name == _username):
                       logging.debug("Found reply by " + reply.author.name + " but it was banned by me")
+                      continue
                     else:
                       logging.debug("Found reply by " + reply.author.name + " but it was banned by " + str(vars(reply.banned_by)))
                     
