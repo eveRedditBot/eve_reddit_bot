@@ -426,6 +426,8 @@ rss_feeds:
   csm9_sugar:
     raw: false
     stories:
+    - date: 2014-12-07 18:04:13.735283
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-1050108190141853878
     - date: 2014-11-30 18:00:41.957633
       posturl: tag:blogger.com,1999:blog-238324579504790.post-3600361209847682156
     - date: 2014-11-23 18:01:56.609640
