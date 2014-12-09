@@ -590,6 +590,8 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-12-09 01:49:17.314293
+      posturl: http://community.eveonline.com/news/dev-blogs/pbr-and-making-eve-look-real/
     - date: 2014-12-05 01:16:33.126729
       posturl: http://community.eveonline.com/news/dev-blogs/a-map-to-treasure/
     - date: 2014-12-03 01:19:23.647867
@@ -866,6 +868,8 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-12-08 20:59:09.830768
+      posturl: http://www.rssitfor.me/DUST514_Status/status/541868431948410880
     - date: 2014-12-03 14:03:48.274557
       posturl: http://www.rssitfor.me/DUST514_Status/status/539949310129876992
     - date: 2014-12-03 13:54:28.872135
@@ -1180,6 +1184,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-12-09 18:13:58.726978
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2145332
     - date: 2014-12-02 19:43:55.657112
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2132512
     - date: 2014-12-02 19:36:24.341413
@@ -1538,6 +1544,10 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-12-09 21:24:50.230054
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/rhea-has-been-successfully-deployed/
+    - date: 2014-12-09 20:49:38.653916
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/who-will-be-the-first-capsuleer-to-reach-thera/
     - date: 2014-12-06 03:13:51.797107
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/rhea-release-downtime-schedule-now-available/
     - date: 2014-12-05 02:06:19.342498
@@ -2514,6 +2524,8 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-12-09 21:03:47.379749
+      posturl: http://community.eveonline.com/news/news-channels/world-news/sisters-of-eve-wormhole-colony-lost-sanctuary-scientist-goes-public/
     - date: 2014-11-28 21:28:23.562247
       posturl: http://community.eveonline.com/news/news-channels/world-news/stellar-anomaly-detected-by-capsuleers/
     - date: 2014-11-26 06:54:05.935465
