@@ -868,6 +868,8 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-12-10 00:37:21.941479
+      posturl: http://www.rssitfor.me/dust514/status/542281134458273792
     - date: 2014-12-08 20:59:09.830768
       posturl: http://www.rssitfor.me/DUST514_Status/status/541868431948410880
     - date: 2014-12-03 14:03:48.274557
@@ -1502,6 +1504,8 @@ rss_feeds:
   eve_dev:
     raw: false
     stories:
+    - date: 2014-12-10 01:24:32.673528
+      posturl: http://developers.eveonline.com/blog/article/december-2014-third-party-developer-update/
     - date: 2014-11-21 01:09:19.081138
       posturl: http://developers.eveonline.com/blog/article/nom-nom-tastey-market-data/
     - date: 2014-11-19 00:19:36.646763
@@ -2118,6 +2122,14 @@ rss_feeds:
   eve_youtube:
     raw: false
     stories:
+    - date: 2014-12-10 02:35:20.941373
+      posturl: tag:youtube.com,2008:video:Dd0UMpib8Ds
+    - date: 2014-12-10 02:27:51.546165
+      posturl: tag:youtube.com,2008:video:3wPmJ3bx6Eo
+    - date: 2014-12-10 02:19:10.383534
+      posturl: tag:youtube.com,2008:video:uzGLk4F6aLc
+    - date: 2014-12-10 02:11:15.655257
+      posturl: tag:youtube.com,2008:video:wVbiGsiL5KY
     - date: 2014-12-06 01:03:27.903936
       posturl: tag:youtube.com,2008:video:3uK0eiKZYe0
     - date: 2014-12-03 02:33:11.747851
@@ -2630,6 +2642,8 @@ rss_feeds:
   now:
     raw: false
     stories:
+    - date: 2014-12-10 00:02:33.205244
+      posturl: http://now.eveonline.com/post/104752266338
     - date: 2014-12-07 03:07:50.939426
       posturl: http://now.eveonline.com/post/104493785413
     - date: 2014-12-06 02:53:48.090961
