@@ -868,6 +868,10 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-12-11 20:18:33.334308
+      posturl: http://www.rssitfor.me/DUST514_Status/status/542838412899016706
+    - date: 2014-12-11 20:11:37.753310
+      posturl: http://www.rssitfor.me/DUST514_Status/status/542845799353573376
     - date: 2014-12-10 00:37:21.941479
       posturl: http://www.rssitfor.me/dust514/status/542281134458273792
     - date: 2014-12-08 20:59:09.830768
@@ -1548,6 +1552,12 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-12-12 01:16:40.851422
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-probe-new-version-available/
+    - date: 2014-12-11 10:31:26.167937
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/exploit-notification-standard-sleeper-cache-loot-timers/
+    - date: 2014-12-11 04:42:55.125810
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/tune-in-to-o7-this-thursday/
     - date: 2014-12-09 21:24:50.230054
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/rhea-has-been-successfully-deployed/
     - date: 2014-12-09 20:49:38.653916
@@ -1944,6 +1954,10 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-12-11 14:37:29.988047
+      posturl: http://www.rssitfor.me/EVE_status/status/542838603324608512
+    - date: 2014-12-11 14:29:06.808628
+      posturl: http://www.rssitfor.me/EVE_status/status/542845799353577472
     - date: 2014-11-28 21:34:47.062257
       posturl: http://www.rssitfor.me/EVE_status/status/537565737272238080
     - date: 2014-11-15 00:34:45.154314
@@ -2642,6 +2656,8 @@ rss_feeds:
   now:
     raw: false
     stories:
+    - date: 2014-12-12 05:23:34.675983
+      posturl: http://now.eveonline.com/post/104932548638
     - date: 2014-12-10 08:09:03.008401
       posturl: http://now.eveonline.com/post/104773759418
     - date: 2014-12-10 00:02:33.205244
