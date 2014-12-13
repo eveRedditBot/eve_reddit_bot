@@ -348,6 +348,8 @@ rss_feeds:
   csm9_mike:
     raw: false
     stories:
+    - date: 2014-12-12 11:26:57.905465
+      posturl: http://mikeazariah.wordpress.com/?p=1645
     - date: 2014-11-13 18:08:47.893368
       posturl: http://mikeazariah.wordpress.com/?p=1624
     - date: 2014-11-06 13:04:59.108181
@@ -1552,6 +1554,10 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-12-13 01:50:58.281449
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/inactive-trial-account-renaming-reminder/
+    - date: 2014-12-12 20:11:54.079382
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/community-spotlight-standings-organization-celebrates-5th-anniversary/
     - date: 2014-12-12 01:16:40.851422
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-probe-new-version-available/
     - date: 2014-12-11 10:31:26.167937
@@ -2136,6 +2142,8 @@ rss_feeds:
   eve_youtube:
     raw: false
     stories:
+    - date: 2014-12-13 02:47:15.651434
+      posturl: tag:youtube.com,2008:video:tZtkhfySboA
     - date: 2014-12-10 02:35:20.941373
       posturl: tag:youtube.com,2008:video:Dd0UMpib8Ds
     - date: 2014-12-10 02:27:51.546165
@@ -2550,6 +2558,8 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-12-13 04:35:52.875877
+      posturl: http://community.eveonline.com/news/news-channels/world-news/concord-inner-circle-statement-on-carolines-star-and-the-thera-system/
     - date: 2014-12-09 21:03:47.379749
       posturl: http://community.eveonline.com/news/news-channels/world-news/sisters-of-eve-wormhole-colony-lost-sanctuary-scientist-goes-public/
     - date: 2014-11-28 21:28:23.562247

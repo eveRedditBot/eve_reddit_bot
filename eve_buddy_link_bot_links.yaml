@@ -1,11 +1,5 @@
 recall: null
 trial:
-- added: 2014-09-11 21:19:15.707686
-  url: https://secure.eveonline.com/trial/?invc=c6f5c5d0-8655-4cdf-aeb8-45abfaa2d457&action=buddy
-  username: Llujoo
-- added: 2014-09-11 21:28:05.393699
-  url: https://secure.eveonline.com/trial/?invc=3c072f2e-1e05-44e4-8fff-d598fa1ec993&action=buddy
-  username: Marksman_X
 - added: 2014-10-01 10:29:07.962616
   url: https://secure.eveonline.com/trial/?invc=e0db71e3-5997-4841-879d-36b4c07aec44&action=buddy
   username: kegaroo85
@@ -835,3 +829,12 @@ trial:
 - added: 2014-12-11 19:23:25.911562
   url: https://secure.eveonline.com/trial/?invc=0ddc15ce-8a93-4d9d-b5ad-fc653f0f2255&action=buddy
   username: girrafage
+- added: 2014-12-12 21:12:35.322161
+  url: https://secure.eveonline.com/trial/?invc=d3459469-320d-4f13-b268-48cc57d68388&action=buddy
+  username: haqbar
+- added: 2014-12-12 21:25:28.173849
+  url: https://secure.eveonline.com/trial/?invc=c6f5c5d0-8655-4cdf-aeb8-45abfaa2d457&action=buddy
+  username: Llujoo
+- added: 2014-12-13 15:27:52.141923
+  url: https://secure.eveonline.com/trial/?invc=a27b1596-4764-42a2-bf2c-24c0ba9b8ef2&action=buddy
+  username: azuled
