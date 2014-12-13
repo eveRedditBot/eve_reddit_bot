@@ -348,6 +348,8 @@ rss_feeds:
   csm9_mike:
     raw: false
     stories:
+    - date: 2014-12-12 11:26:57.905465
+      posturl: http://mikeazariah.wordpress.com/?p=1645
     - date: 2014-11-13 18:08:47.893368
       posturl: http://mikeazariah.wordpress.com/?p=1624
     - date: 2014-11-06 13:04:59.108181
@@ -426,6 +428,8 @@ rss_feeds:
   csm9_sugar:
     raw: false
     stories:
+    - date: 2014-12-07 18:04:13.735283
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-1050108190141853878
     - date: 2014-11-30 18:00:41.957633
       posturl: tag:blogger.com,1999:blog-238324579504790.post-3600361209847682156
     - date: 2014-11-23 18:01:56.609640
@@ -588,6 +592,10 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-12-09 01:49:17.314293
+      posturl: http://community.eveonline.com/news/dev-blogs/pbr-and-making-eve-look-real/
+    - date: 2014-12-05 01:16:33.126729
+      posturl: http://community.eveonline.com/news/dev-blogs/a-map-to-treasure/
     - date: 2014-12-03 01:19:23.647867
       posturl: http://community.eveonline.com/news/dev-blogs/a-new-era-of-clones/
     - date: 2014-11-25 02:49:25.415042
@@ -862,6 +870,14 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-12-11 20:18:33.334308
+      posturl: http://www.rssitfor.me/DUST514_Status/status/542838412899016706
+    - date: 2014-12-11 20:11:37.753310
+      posturl: http://www.rssitfor.me/DUST514_Status/status/542845799353573376
+    - date: 2014-12-10 00:37:21.941479
+      posturl: http://www.rssitfor.me/dust514/status/542281134458273792
+    - date: 2014-12-08 20:59:09.830768
+      posturl: http://www.rssitfor.me/DUST514_Status/status/541868431948410880
     - date: 2014-12-03 14:03:48.274557
       posturl: http://www.rssitfor.me/DUST514_Status/status/539949310129876992
     - date: 2014-12-03 13:54:28.872135
@@ -1176,6 +1192,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-12-09 18:13:58.726978
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2145332
     - date: 2014-12-02 19:43:55.657112
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2132512
     - date: 2014-12-02 19:36:24.341413
@@ -1492,6 +1510,8 @@ rss_feeds:
   eve_dev:
     raw: false
     stories:
+    - date: 2014-12-10 01:24:32.673528
+      posturl: http://developers.eveonline.com/blog/article/december-2014-third-party-developer-update/
     - date: 2014-11-21 01:09:19.081138
       posturl: http://developers.eveonline.com/blog/article/nom-nom-tastey-market-data/
     - date: 2014-11-19 00:19:36.646763
@@ -1534,6 +1554,24 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-12-13 01:50:58.281449
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/inactive-trial-account-renaming-reminder/
+    - date: 2014-12-12 20:11:54.079382
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/community-spotlight-standings-organization-celebrates-5th-anniversary/
+    - date: 2014-12-12 01:16:40.851422
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/eve-probe-new-version-available/
+    - date: 2014-12-11 10:31:26.167937
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/exploit-notification-standard-sleeper-cache-loot-timers/
+    - date: 2014-12-11 04:42:55.125810
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/tune-in-to-o7-this-thursday/
+    - date: 2014-12-09 21:24:50.230054
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/rhea-has-been-successfully-deployed/
+    - date: 2014-12-09 20:49:38.653916
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/who-will-be-the-first-capsuleer-to-reach-thera/
+    - date: 2014-12-06 03:13:51.797107
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/rhea-release-downtime-schedule-now-available/
+    - date: 2014-12-05 02:06:19.342498
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/calling-all-movie-makers-this-is-eve-trailer-competition/
     - date: 2014-12-02 06:59:47.945714
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-mass-test-on-thursday-december-4th/
     - date: 2014-11-29 06:58:05.708933
@@ -1922,6 +1960,10 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-12-11 14:37:29.988047
+      posturl: http://www.rssitfor.me/EVE_status/status/542838603324608512
+    - date: 2014-12-11 14:29:06.808628
+      posturl: http://www.rssitfor.me/EVE_status/status/542845799353577472
     - date: 2014-11-28 21:34:47.062257
       posturl: http://www.rssitfor.me/EVE_status/status/537565737272238080
     - date: 2014-11-15 00:34:45.154314
@@ -2100,6 +2142,18 @@ rss_feeds:
   eve_youtube:
     raw: false
     stories:
+    - date: 2014-12-13 02:47:15.651434
+      posturl: tag:youtube.com,2008:video:tZtkhfySboA
+    - date: 2014-12-10 02:35:20.941373
+      posturl: tag:youtube.com,2008:video:Dd0UMpib8Ds
+    - date: 2014-12-10 02:27:51.546165
+      posturl: tag:youtube.com,2008:video:3wPmJ3bx6Eo
+    - date: 2014-12-10 02:19:10.383534
+      posturl: tag:youtube.com,2008:video:uzGLk4F6aLc
+    - date: 2014-12-10 02:11:15.655257
+      posturl: tag:youtube.com,2008:video:wVbiGsiL5KY
+    - date: 2014-12-06 01:03:27.903936
+      posturl: tag:youtube.com,2008:video:3uK0eiKZYe0
     - date: 2014-12-03 02:33:11.747851
       posturl: tag:youtube.com,2008:video:glWbOZsC5Js
     - date: 2014-11-22 15:34:30.630939
@@ -2504,6 +2558,10 @@ rss_feeds:
   game_news:
     raw: false
     stories:
+    - date: 2014-12-13 04:35:52.875877
+      posturl: http://community.eveonline.com/news/news-channels/world-news/concord-inner-circle-statement-on-carolines-star-and-the-thera-system/
+    - date: 2014-12-09 21:03:47.379749
+      posturl: http://community.eveonline.com/news/news-channels/world-news/sisters-of-eve-wormhole-colony-lost-sanctuary-scientist-goes-public/
     - date: 2014-11-28 21:28:23.562247
       posturl: http://community.eveonline.com/news/news-channels/world-news/stellar-anomaly-detected-by-capsuleers/
     - date: 2014-11-26 06:54:05.935465
@@ -2608,6 +2666,16 @@ rss_feeds:
   now:
     raw: false
     stories:
+    - date: 2014-12-12 05:23:34.675983
+      posturl: http://now.eveonline.com/post/104932548638
+    - date: 2014-12-10 08:09:03.008401
+      posturl: http://now.eveonline.com/post/104773759418
+    - date: 2014-12-10 00:02:33.205244
+      posturl: http://now.eveonline.com/post/104752266338
+    - date: 2014-12-07 03:07:50.939426
+      posturl: http://now.eveonline.com/post/104493785413
+    - date: 2014-12-06 02:53:48.090961
+      posturl: http://now.eveonline.com/post/104414758438
     - date: 2014-12-03 03:44:51.688877
       posturl: http://now.eveonline.com/post/104165504298
     - date: 2014-11-29 06:57:57.647108
@@ -2682,6 +2750,8 @@ rss_feeds:
   patch_notes:
     raw: false
     stories:
+    - date: 2014-12-06 03:00:25.544947
+      posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-rhea/
     - date: 2014-10-31 02:18:27.137784
       posturl: http://community.eveonline.com/news/patch-notes/patch-notes-for-phoebe/
     - date: 2014-09-26 01:57:37.045787

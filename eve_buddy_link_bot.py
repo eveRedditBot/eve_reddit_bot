@@ -132,7 +132,7 @@ def scan_messages(session):
             valid = body.startswith('https://secure.eveonline.com/trial/?invc=')
         
         if (not valid):
-            message.reply('your ' + type +' link was invalid soz. Send ONLY the link in the body of the message.')
+            message.reply('your ' + type +' link was invalid soz. Send ONLY the link in the body of the message. No other text. Please try again.')
             logging.info('discarded invalid ' + type + ' message from ' + author)
             message.mark_as_read()
             continue
@@ -181,6 +181,7 @@ def scan_threads(session):
                       logging.debug("Found reply by " + reply.author.name + " but it was banned")
                     elif (reply.banned_by.name == _username):
                       logging.debug("Found reply by " + reply.author.name + " but it was banned by me")
+                      continue
                     else:
                       logging.debug("Found reply by " + reply.author.name + " but it was banned by " + str(vars(reply.banned_by)))
                 if reply.author.name == _username:
@@ -246,6 +247,7 @@ def scan_submissions(session):
                       logging.debug("Found reply by " + reply.author.name + " but it was banned")
                     elif (reply.banned_by.name == _username):
                       logging.debug("Found reply by " + reply.author.name + " but it was banned by me")
+                      continue
                     else:
                       logging.debug("Found reply by " + reply.author.name + " but it was banned by " + str(vars(reply.banned_by)))
                     
