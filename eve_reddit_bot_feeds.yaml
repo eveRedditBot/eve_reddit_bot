@@ -594,6 +594,12 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-12-20 02:24:13.309897
+      posturl: http://community.eveonline.com/news/dev-blogs/dev-blog-coming-to-eve-online-proteus/
+    - date: 2014-12-20 01:22:31.027755
+      posturl: http://community.eveonline.com/news/dev-blogs/holiday-greetings-team-security/
+    - date: 2014-12-18 22:05:55.830764
+      posturl: http://community.eveonline.com/news/dev-blogs/happy-holidays-from-ccp-1/
     - date: 2014-12-18 02:45:47.580370
       posturl: http://community.eveonline.com/news/dev-blogs/three-ships-of-fanfest-2015/
     - date: 2014-12-18 01:11:13.822419
@@ -878,6 +884,8 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-12-18 23:33:57.067799
+      posturl: http://www.rssitfor.me/DUST514_Status/status/545511413843001344
     - date: 2014-12-17 20:40:39.641042
       posturl: http://www.rssitfor.me/DUST514_Status/status/545071084228583424
     - date: 2014-12-17 20:32:04.977268
@@ -1982,6 +1990,8 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-12-20 01:14:16.522092
+      posturl: http://www.rssitfor.me/EVE_status/status/545955113991684096
     - date: 2014-12-11 14:37:29.988047
       posturl: http://www.rssitfor.me/EVE_status/status/542838603324608512
     - date: 2014-12-11 14:29:06.808628
@@ -2688,6 +2698,8 @@ rss_feeds:
   now:
     raw: false
     stories:
+    - date: 2014-12-20 04:56:36.860878
+      posturl: http://now.eveonline.com/post/105614266533
     - date: 2014-12-18 08:09:33.287303
       posturl: http://now.eveonline.com/post/105454799163
     - date: 2014-12-18 04:04:06.162428
