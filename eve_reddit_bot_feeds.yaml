@@ -596,6 +596,8 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-12-23 01:06:35.297292
+      posturl: http://community.eveonline.com/news/dev-blogs/fanfest-2015-how-to-be-part-of-it/
     - date: 2014-12-20 02:24:13.309897
       posturl: http://community.eveonline.com/news/dev-blogs/dev-blog-coming-to-eve-online-proteus/
     - date: 2014-12-20 01:22:31.027755
@@ -886,6 +888,8 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-12-22 12:49:54.851434
+      posturl: http://www.rssitfor.me/DUST514_Status/status/546841313405333504
     - date: 2014-12-18 23:33:57.067799
       posturl: http://www.rssitfor.me/DUST514_Status/status/545511413843001344
     - date: 2014-12-17 20:40:39.641042
