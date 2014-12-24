@@ -596,6 +596,8 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-12-24 00:48:13.648593
+      posturl: http://community.eveonline.com/news/dev-blogs/rebalancing-modules-round-two/
     - date: 2014-12-23 01:06:35.297292
       posturl: http://community.eveonline.com/news/dev-blogs/fanfest-2015-how-to-be-part-of-it/
     - date: 2014-12-20 02:24:13.309897
@@ -888,6 +890,10 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-12-24 13:44:02.840904
+      posturl: http://www.rssitfor.me/DUST514_Status/status/547540361238020097
+    - date: 2014-12-24 13:37:19.290580
+      posturl: http://www.rssitfor.me/EVE_status/status/547540361233858561
     - date: 2014-12-22 12:49:54.851434
       posturl: http://www.rssitfor.me/DUST514_Status/status/546841313405333504
     - date: 2014-12-18 23:33:57.067799
@@ -1220,6 +1226,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-12-23 18:22:56.383183
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2173496
     - date: 2014-12-17 15:37:14.258302
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2161849
     - date: 2014-12-09 18:13:58.726978
@@ -1996,6 +2004,8 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-12-24 10:29:08.573808
+      posturl: http://www.rssitfor.me/EVE_status/status/547540361233858561
     - date: 2014-12-20 01:14:16.522092
       posturl: http://www.rssitfor.me/EVE_status/status/545955113991684096
     - date: 2014-12-11 14:37:29.988047
@@ -2704,6 +2714,10 @@ rss_feeds:
   now:
     raw: false
     stories:
+    - date: 2014-12-24 02:29:01.924353
+      posturl: http://now.eveonline.com/post/105957744273
+    - date: 2014-12-24 02:22:25.158409
+      posturl: http://now.eveonline.com/post/105957875068
     - date: 2014-12-20 04:56:36.860878
       posturl: http://now.eveonline.com/post/105614266533
     - date: 2014-12-18 08:09:33.287303
