@@ -291,7 +291,7 @@ class EveRssHtmlParser(HTMLParser):
         elif tag == 'tbody':
             pass
         	
-        elif tag == 'tr' or tag == 'th':
+        elif tag == 'tr':
             pass
             
         elif tag == 'ul' or tag == 'ol':
@@ -309,7 +309,7 @@ class EveRssHtmlParser(HTMLParser):
         elif tag == 'div':
         	pass
 
-        elif tag == 'td':
+        elif tag == 'td' or tag == 'th':
             self.comments[self.cur_comment] += '| '
 
             if self.first_row:
@@ -372,7 +372,7 @@ class EveRssHtmlParser(HTMLParser):
         elif tag == 'table':
             self.in_table = False
 
-        elif tag == 'tr' or tag =='th':
+        elif tag == 'tr':
             if self.first_row:
                 self.comments[self.cur_comment] += '|\n%s' %self.table_header
                 self.first_row = False
