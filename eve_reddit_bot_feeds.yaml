@@ -428,6 +428,10 @@ rss_feeds:
   csm9_sugar:
     raw: false
     stories:
+    - date: 2014-12-21 18:05:45.770689
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-762788712862085049
+    - date: 2014-12-14 18:10:07.233271
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-6412260910711798605
     - date: 2014-12-07 18:04:13.735283
       posturl: tag:blogger.com,1999:blog-238324579504790.post-1050108190141853878
     - date: 2014-11-30 18:00:41.957633
@@ -592,6 +596,22 @@ rss_feeds:
   dev_blogs:
     raw: false
     stories:
+    - date: 2014-12-24 00:48:13.648593
+      posturl: http://community.eveonline.com/news/dev-blogs/rebalancing-modules-round-two/
+    - date: 2014-12-23 01:06:35.297292
+      posturl: http://community.eveonline.com/news/dev-blogs/fanfest-2015-how-to-be-part-of-it/
+    - date: 2014-12-20 02:24:13.309897
+      posturl: http://community.eveonline.com/news/dev-blogs/dev-blog-coming-to-eve-online-proteus/
+    - date: 2014-12-20 01:22:31.027755
+      posturl: http://community.eveonline.com/news/dev-blogs/holiday-greetings-team-security/
+    - date: 2014-12-18 22:05:55.830764
+      posturl: http://community.eveonline.com/news/dev-blogs/happy-holidays-from-ccp-1/
+    - date: 2014-12-18 02:45:47.580370
+      posturl: http://community.eveonline.com/news/dev-blogs/three-ships-of-fanfest-2015/
+    - date: 2014-12-18 01:11:13.822419
+      posturl: http://community.eveonline.com/news/dev-blogs/teams-removal/
+    - date: 2014-12-17 01:02:52.979961
+      posturl: http://community.eveonline.com/news/dev-blogs/download-on-demand-client-for-eve-online/
     - date: 2014-12-09 01:49:17.314293
       posturl: http://community.eveonline.com/news/dev-blogs/pbr-and-making-eve-look-real/
     - date: 2014-12-05 01:16:33.126729
@@ -870,6 +890,20 @@ rss_feeds:
   dust514_status:
     raw: true
     stories:
+    - date: 2014-12-24 13:44:02.840904
+      posturl: http://www.rssitfor.me/DUST514_Status/status/547540361238020097
+    - date: 2014-12-24 13:37:19.290580
+      posturl: http://www.rssitfor.me/EVE_status/status/547540361233858561
+    - date: 2014-12-22 12:49:54.851434
+      posturl: http://www.rssitfor.me/DUST514_Status/status/546841313405333504
+    - date: 2014-12-18 23:33:57.067799
+      posturl: http://www.rssitfor.me/DUST514_Status/status/545511413843001344
+    - date: 2014-12-17 20:40:39.641042
+      posturl: http://www.rssitfor.me/DUST514_Status/status/545071084228583424
+    - date: 2014-12-17 20:32:04.977268
+      posturl: http://www.rssitfor.me/DUST514_Status/status/545148200827772928
+    - date: 2014-12-17 14:06:27.154621
+      posturl: http://www.rssitfor.me/DUST514_Status/status/545039664600858625
     - date: 2014-12-11 20:18:33.334308
       posturl: http://www.rssitfor.me/DUST514_Status/status/542838412899016706
     - date: 2014-12-11 20:11:37.753310
@@ -1192,6 +1226,10 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2014-12-23 18:22:56.383183
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2173496
+    - date: 2014-12-17 15:37:14.258302
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2161849
     - date: 2014-12-09 18:13:58.726978
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2145332
     - date: 2014-12-02 19:43:55.657112
@@ -1322,6 +1360,10 @@ rss_feeds:
   dust_news:
     raw: false
     stories:
+    - date: 2014-12-18 14:50:14.521305
+      posturl: http://dust514.com/news/2014/12/announcing-12-days-of-dust/
+    - date: 2014-12-17 13:50:33.598095
+      posturl: http://dust514.com/news/2014/12/new-dust-514-wallpaper-3/
     - date: 2014-12-03 01:05:07.951083
       posturl: http://dust514.com/news/2014/12/uprising-1.10-overview-patch-notes/
     - date: 2014-12-02 07:00:16.180065
@@ -1554,6 +1596,8 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-12-17 00:11:52.758817
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-eve-radio-christmas-celebrations/
     - date: 2014-12-13 01:50:58.281449
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/inactive-trial-account-renaming-reminder/
     - date: 2014-12-12 20:11:54.079382
@@ -1960,6 +2004,10 @@ rss_feeds:
   eve_status:
     raw: true
     stories:
+    - date: 2014-12-24 10:29:08.573808
+      posturl: http://www.rssitfor.me/EVE_status/status/547540361233858561
+    - date: 2014-12-20 01:14:16.522092
+      posturl: http://www.rssitfor.me/EVE_status/status/545955113991684096
     - date: 2014-12-11 14:37:29.988047
       posturl: http://www.rssitfor.me/EVE_status/status/542838603324608512
     - date: 2014-12-11 14:29:06.808628
@@ -2666,6 +2714,16 @@ rss_feeds:
   now:
     raw: false
     stories:
+    - date: 2014-12-24 02:29:01.924353
+      posturl: http://now.eveonline.com/post/105957744273
+    - date: 2014-12-24 02:22:25.158409
+      posturl: http://now.eveonline.com/post/105957875068
+    - date: 2014-12-20 04:56:36.860878
+      posturl: http://now.eveonline.com/post/105614266533
+    - date: 2014-12-18 08:09:33.287303
+      posturl: http://now.eveonline.com/post/105454799163
+    - date: 2014-12-18 04:04:06.162428
+      posturl: http://now.eveonline.com/post/105447088333
     - date: 2014-12-12 05:23:34.675983
       posturl: http://now.eveonline.com/post/104932548638
     - date: 2014-12-10 08:09:03.008401
