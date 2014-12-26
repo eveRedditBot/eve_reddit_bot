@@ -6,6 +6,7 @@ import re
 import logging
 import warnings
 import feedparser
+import os
 import sys, getopt
 
 from HTMLParser import HTMLParser
@@ -33,7 +34,7 @@ class EVERedditBot():
         self.username = self.config['username']
         self.password = self.config['password']
         self.submitpost = self.config['submitpost']
-        self.once = self.config['run_once']
+        self.once = 'REDDIT_BOT_RUN_ONCE' in os.environ
         self.admin_email = None
         
     def readYamlFile(self, path):
@@ -457,6 +458,9 @@ if __name__ == '__main__':
             else:
                 exitexception(e)
 
+        if (bot.once):
+        	logging.info('only running once')
+        	break
         #if sleeping for a long time, email admin.
         if (_sleeptime > (bot.config['sleep_time'] * 2) and bot.admin_email != None):
             emailcommand = 'echo "The bot is sleeping for ' + str(round(_sleeptime/60)) + ' minutes." | mutt -s "ALERT: BOT IS SLEEPING" -- root '+bot.admin_email

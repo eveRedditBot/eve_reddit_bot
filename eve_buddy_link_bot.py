@@ -6,6 +6,7 @@ import warnings
 import yaml
 import re
 import random
+import os
 from decimal    import Decimal
 from datetime   import datetime
 from dateutil.relativedelta import relativedelta
@@ -38,6 +39,7 @@ _sleeptime = _config['sleep_time']
 _signature = _config['signature']
 _home_subreddit = _config['home_subreddit']
 _last_daily_job = datetime.now() + relativedelta( days = -2 )
+_once = 'REDDIT_BOT_RUN_ONCE' in os.environ
 
 def main():
     global _last_daily_job
@@ -72,6 +74,9 @@ def main():
                 logging.debug(str(e))
             else:
                 exitexception(e)
+        if (_once):
+        	logging.info('running once') 
+        	break
         if (sleeptime > (_sleeptime)):
             logging.info("Sleeping for %s seconds", str(sleeptime))
         else:
