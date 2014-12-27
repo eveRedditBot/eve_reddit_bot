@@ -39,7 +39,7 @@ _sleeptime = _config['sleep_time']
 _signature = _config['signature']
 _home_subreddit = _config['home_subreddit']
 _last_daily_job = datetime.now() + relativedelta( days = -2 )
-_once = 'REDDIT_BOT_RUN_ONCE' in os.environ
+_once = os.environ.get('REDDIT_BOT_RUN_ONCE', 'False') == 'True'
 
 def main():
     global _last_daily_job

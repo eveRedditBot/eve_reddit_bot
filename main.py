@@ -34,7 +34,7 @@ class EVERedditBot():
         self.username = self.config['username']
         self.password = self.config['password']
         self.submitpost = self.config['submitpost']
-        self.once = 'REDDIT_BOT_RUN_ONCE' in os.environ
+        self.once = os.environ.get('REDDIT_BOT_RUN_ONCE', 'False') == 'True'
         self.admin_email = None
         
     def readYamlFile(self, path):
