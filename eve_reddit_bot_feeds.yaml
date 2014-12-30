@@ -428,6 +428,8 @@ rss_feeds:
   csm9_sugar:
     raw: false
     stories:
+    - date: 2014-12-28 18:03:34.834157
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-2201209359143001261
     - date: 2014-12-21 18:05:45.770689
       posturl: tag:blogger.com,1999:blog-238324579504790.post-762788712862085049
     - date: 2014-12-14 18:10:07.233271
@@ -512,6 +514,8 @@ rss_feeds:
   csm9_xander:
     raw: false
     stories:
+    - date: 2014-12-30 05:42:15.522333
+      posturl: http://crossingzebras.com/?p=4613
     - date: 2014-11-04 10:20:40.187328
       posturl: http://crossingzebras.com/?p=4077
     - date: 2014-10-14 06:21:31.842832
