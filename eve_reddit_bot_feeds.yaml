@@ -1600,6 +1600,8 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2014-12-31 01:44:19.302269
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-6th-annual-new-years-eve-celebration-in-umokka-on-december-31st/
     - date: 2014-12-17 00:11:52.758817
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-eve-radio-christmas-celebrations/
     - date: 2014-12-13 01:50:58.281449
