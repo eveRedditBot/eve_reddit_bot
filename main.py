@@ -16,6 +16,7 @@ from dateutil.relativedelta import relativedelta
 from bs4        import UnicodeDammit
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from eve_reddit_bot_classes import Base, Yaml
 
 logging.basicConfig(format='%(asctime)s %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
@@ -38,11 +39,7 @@ class EVERedditBot():
         self.submitpost = os.environ.get('NEWS_BOT_SUBMIT', self.config['submitpost'])
         self.once = os.environ.get('NEWS_BOT_RUN_ONCE', 'False') == 'True'
         self.admin_email = os.environ.get('NEWS_BOT_EMAIL', None)
-    
-    def getDatabaseSession(self):
-    	engine = create_engine(os.environ.get('DATABASE_URL'), echo=True)
-    	Session = sessionmaker(bind=engine)
-    	session = Session()
+        self.engine = None
             
     def readYamlFile(self, path):
         with open(path, 'r') as infile:
@@ -52,6 +49,25 @@ class EVERedditBot():
         with open(path, 'w') as outfile:
            outfile.write( yaml.dump(yaml_object, default_flow_style=False) )
     
+    def writeYamlDatabase(self, path):
+    	if os.environ.get('DATABASE_URL') is None:
+    		logging.info('No database defined, skipping')
+    		return
+    	
+    	if self.engine is None:
+    		self.engine = create_engine(os.environ.get('DATABASE_URL'), echo=False)
+    		self.Session = sessionmaker(bind=self.engine)
+    	
+    	session = self.Session()
+    	stored_yaml = session.query(Yaml).first()
+    	
+    	with open(path, 'r') as infile:
+    		newYaml = infile.read()
+    		if stored_yaml is None:
+    			stored_yaml = Yaml()
+    			session.add(stored_yaml)
+    		stored_yaml.text = newYaml
+    		session.commit()
     
     def run(self):
         self.reddit = self.loginToReddit(self.initReddit())
@@ -167,14 +183,18 @@ class EVERedditBot():
         return
     
     def prune_old_stories(self, all_entry_ids, threshold):
+    	dirty = False
         for feed in self.feed_config['rss_feeds']:
           stories = self.feed_config['rss_feeds'][feed]['stories']
           for story in stories[:]:
             if (story['posturl'] not in [all_entry_ids] and (story['date'] < threshold)):
               logging.info('detected old story %s from %s' %(story['posturl'], story['date']))
               stories.remove(story)
-        self.save_feed_config()
-        return
+              dirty = True
+        
+        if (dirty):
+        	self.save_feed_config()
+
 
     def check_rss_feeds(self):
         all_entry_ids = []
@@ -205,7 +225,7 @@ class EVERedditBot():
             self.feed_config['rss_feeds'][rss_feed]['stories'].sort(key=lambda x: x['date'], reverse=True)
 
         self.writeYamlFile(self.feed_config, self.feed_config_path)
-
+        self.writeYamlDatabase(self.feed_config_path)
 
 class EveRssHtmlParser(HTMLParser):
     def __init__(self):
