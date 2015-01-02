@@ -3,3 +3,4 @@ feedparser
 beautifulsoup4
 praw
 python-dateutil
+sqlalchemy

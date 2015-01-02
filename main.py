@@ -14,6 +14,8 @@ from pprint     import pprint
 from datetime   import datetime, timedelta
 from dateutil.relativedelta import relativedelta
 from bs4        import UnicodeDammit
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
 
 logging.basicConfig(format='%(asctime)s %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
@@ -31,12 +33,17 @@ class EVERedditBot():
         self.feed_config_path = 'eve_reddit_bot_feeds.yaml'
         self.feed_config = self.readYamlFile(self.feed_config_path)
         self.subreddit = self.config['subreddit']
-        self.username = self.config['username']
-        self.password = self.config['password']
-        self.submitpost = self.config['submitpost']
-        self.once = os.environ.get('REDDIT_BOT_RUN_ONCE', 'False') == 'True'
-        self.admin_email = None
-        
+        self.username = os.environ.get('NEWS_BOT_USER_NAME', self.config['username'])
+        self.password = os.environ.get('NEWS_BOT_PASSWORD', self.config['password'])
+        self.submitpost = os.environ.get('NEWS_BOT_SUBMIT', self.config['submitpost'])
+        self.once = os.environ.get('NEWS_BOT_RUN_ONCE', 'False') == 'True'
+        self.admin_email = os.environ.get('NEWS_BOT_EMAIL', None)
+    
+    def getDatabaseSession(self):
+    	engine = create_engine(os.environ.get('DATABASE_URL'), echo=True)
+    	Session = sessionmaker(bind=engine)
+    	session = Session()
+            
     def readYamlFile(self, path):
         with open(path, 'r') as infile:
            return yaml.load(infile)
@@ -409,7 +416,7 @@ def exitexception(e):
 
 if __name__ == '__main__':
     bot = EVERedditBot()
-    allowed_args = ["help","username=","password=","submit=","subreddit=","email="]
+    allowed_args = ["help","password="]
     
     try:
       opts, args = getopt.getopt(sys.argv[1:],"",allowed_args)
@@ -418,22 +425,13 @@ if __name__ == '__main__':
       sys.exit(2)
     for opt, arg in opts:
       if opt in ("--help"):
-         print 'main.py -u <username> -p <password> --submit=<(true|false)>'
-         print '    --subreddit=<subreddit> --email=<email address>'
+         print 'main.py -p <password>'
          print '  any missing arguments will be taken from config.yaml'
+         print '  or environment variables'
          sys.exit()
-      elif opt in ("--username"):
-         bot.username = arg
       elif opt in ("--password"):
          bot.password = arg
-      elif opt in ("--subreddit"):
-         bot.subreddit = arg
-      elif opt in ("--submit"):
-         bot.submitpost = arg
-      elif opt in ("--email"):
-         bot.admin_email = arg
     
-    logging.info('Default subreddit: /r/%s', bot.subreddit)
     logging.info('Selected username: %s', bot.username)
     logging.info('Submit stories to Reddit: %s', bot.submitpost)
     if bot.admin_email != None: 

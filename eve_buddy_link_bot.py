@@ -32,14 +32,14 @@ _config = readYamlFile(_config_file_name)
 _links_file_name = 'eve_buddy_link_bot_links.yaml'
 _links = readYamlFile(_links_file_name)
 _api_header = _config['api_header']
-_username = _config['username']
-_password = _config['password']
+_username = os.environ.get('BUDDY_BOT_USER_NAME', _config['username'])
+_password = os.environ.get('BUDDY_BOT_PASSWORD', _config['password'])
 _enabled = _config['enabled']
 _sleeptime = _config['sleep_time']
 _signature = _config['signature']
 _home_subreddit = _config['home_subreddit']
 _last_daily_job = datetime.now() + relativedelta( days = -2 )
-_once = os.environ.get('REDDIT_BOT_RUN_ONCE', 'False') == 'True'
+_once = os.environ.get('BUDDY_BOT_RUN_ONCE', 'False') == 'True'
 
 def main():
     global _last_daily_job
