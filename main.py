@@ -23,51 +23,71 @@ logging.basicConfig(format='%(asctime)s %(message)s',
                     level=logging.INFO)
 
 class EVERedditBot():
+
     def __init__(self):
         requests_log = logging.getLogger("requests")
         requests_log.setLevel(logging.WARNING)
         warnings.filterwarnings('ignore', message='.*equal comparison failed.*')
         
         socket.setdefaulttimeout(20)
+        
+        if os.environ.get('DATABASE_URL') is not None:
+            self.engine = create_engine(os.environ.get('DATABASE_URL'), echo=False)
+            self.Session = sessionmaker(bind=self.engine)
+            
         self.config_path = 'eve_reddit_bot_config.yaml'
         self.config = self.readYamlFile(self.config_path)
+        
         self.feed_config_path = 'eve_reddit_bot_feeds.yaml'
+        if os.environ.get('DATABASE_URL') is not None:
+            self.readYamlDatabaseToFile(self.feed_config_path)
+        
         self.feed_config = self.readYamlFile(self.feed_config_path)
+        
         self.subreddit = self.config['subreddit']
         self.username = os.environ.get('NEWS_BOT_USER_NAME', self.config['username'])
         self.password = os.environ.get('NEWS_BOT_PASSWORD', self.config['password'])
         self.submitpost = os.environ.get('NEWS_BOT_SUBMIT', self.config['submitpost'])
         self.once = os.environ.get('NEWS_BOT_RUN_ONCE', 'False') == 'True'
         self.admin_email = os.environ.get('NEWS_BOT_EMAIL', None)
-        self.engine = None
+        
             
+    def readYamlDatabaseToFile(self, path):
+        if self.engine is None:
+            return
+        
+        session = self.Session()
+        stored_yaml = session.query(Yaml).first()
+        if stored_yaml is not None:
+            logging.info('restoring from database')
+            with open(path, 'w') as outfile:
+                outfile.write( stored_yaml.text)
+    
     def readYamlFile(self, path):
         with open(path, 'r') as infile:
            return yaml.load(infile)
+
+
 
     def writeYamlFile(self, yaml_object, path):
         with open(path, 'w') as outfile:
            outfile.write( yaml.dump(yaml_object, default_flow_style=False) )
     
     def writeYamlDatabase(self, path):
-    	if os.environ.get('DATABASE_URL') is None:
-    		logging.info('No database defined, skipping')
-    		return
-    	
-    	if self.engine is None:
-    		self.engine = create_engine(os.environ.get('DATABASE_URL'), echo=False)
-    		self.Session = sessionmaker(bind=self.engine)
-    	
-    	session = self.Session()
-    	stored_yaml = session.query(Yaml).first()
-    	
-    	with open(path, 'r') as infile:
-    		newYaml = infile.read()
-    		if stored_yaml is None:
-    			stored_yaml = Yaml()
-    			session.add(stored_yaml)
-    		stored_yaml.text = newYaml
-    		session.commit()
+        if os.environ.get('DATABASE_URL') is None:
+            logging.info('No database defined, skipping')
+            return
+        
+        session = self.Session()
+        stored_yaml = session.query(Yaml).first()
+        
+        with open(path, 'r') as infile:
+            newYaml = infile.read()
+            if stored_yaml is None:
+                stored_yaml = Yaml()
+                session.add(stored_yaml)
+            stored_yaml.text = newYaml
+            session.commit()
     
     def run(self):
         self.reddit = self.loginToReddit(self.initReddit())
@@ -183,7 +203,7 @@ class EVERedditBot():
         return
     
     def prune_old_stories(self, all_entry_ids, threshold):
-    	dirty = False
+        dirty = False
         for feed in self.feed_config['rss_feeds']:
           stories = self.feed_config['rss_feeds'][feed]['stories']
           for story in stories[:]:
@@ -193,7 +213,7 @@ class EVERedditBot():
               dirty = True
         
         if (dirty):
-        	self.save_feed_config()
+            self.save_feed_config()
 
 
     def check_rss_feeds(self):
@@ -260,7 +280,7 @@ class EveRssHtmlParser(HTMLParser):
             self.comments[self.cur_comment] += '*'
         
         elif tag == 'sup':
-        	self.comments[self.cur_comment] += '^'
+            self.comments[self.cur_comment] += '^'
 
         elif tag == 'li':
             self.in_list = True
@@ -318,24 +338,24 @@ class EveRssHtmlParser(HTMLParser):
 
         elif tag == 'tbody':
             pass
-        	
+            
         elif tag == 'tr':
             pass
             
         elif tag == 'ul' or tag == 'ol':
-        	pass
+            pass
         
         elif tag == 'span':
-        	pass
+            pass
         
         elif tag == 'font':
-        	pass
-        	
+            pass
+            
         elif tag == 'u':
-        	pass
+            pass
         
         elif tag == 'div':
-        	pass
+            pass
 
         elif tag == 'td' or tag == 'th':
             self.comments[self.cur_comment] += '| '
@@ -477,8 +497,8 @@ if __name__ == '__main__':
                 exitexception(e)
 
         if (bot.once):
-        	logging.info('only running once')
-        	break
+            logging.info('only running once')
+            break
         #if sleeping for a long time, email admin.
         if (_sleeptime > (bot.config['sleep_time'] * 2) and bot.admin_email != None):
             emailcommand = 'echo "The bot is sleeping for ' + str(round(_sleeptime/60)) + ' minutes." | mutt -s "ALERT: BOT IS SLEEPING" -- root '+bot.admin_email
