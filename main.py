@@ -78,16 +78,19 @@ class EVERedditBot():
             logging.info('No database defined, skipping')
             return
         
-        session = self.Session()
-        stored_yaml = session.query(Yaml).first()
-        
-        with open(path, 'r') as infile:
-            newYaml = infile.read()
-            if stored_yaml is None:
-                stored_yaml = Yaml()
-                session.add(stored_yaml)
-            stored_yaml.text = newYaml
-            session.commit()
+        try:
+            session = self.Session()
+            stored_yaml = session.query(Yaml).first()
+            
+            with open(path, 'r') as infile:
+                newYaml = infile.read()
+                if stored_yaml is None:
+                    stored_yaml = Yaml()
+                    session.add(stored_yaml)
+                stored_yaml.text = newYaml
+                session.commit()
+        except sqlalchemy.exc.OperationalError as e:
+             logging.warn(str(e))
     
     def run(self):
         self.reddit = self.loginToReddit(self.initReddit())
