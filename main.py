@@ -16,6 +16,7 @@ from dateutil.relativedelta import relativedelta
 from bs4        import UnicodeDammit
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy.exc import OperationalError
 from eve_reddit_bot_classes import Base, Yaml
 
 logging.basicConfig(format='%(asctime)s %(message)s',
@@ -89,7 +90,7 @@ class EVERedditBot():
                     session.add(stored_yaml)
                 stored_yaml.text = newYaml
                 session.commit()
-        except sqlalchemy.exc.OperationalError as e:
+        except OperationalError as e:
              logging.warn(str(e))
     
     def run(self):
