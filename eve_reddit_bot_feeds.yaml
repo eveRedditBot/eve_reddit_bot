@@ -348,6 +348,8 @@ rss_feeds:
   csm9_mike:
     raw: false
     stories:
+    - date: 2015-01-06 12:27:58.019913
+      posturl: http://mikeazariah.wordpress.com/?p=1651
     - date: 2014-12-12 11:26:57.905465
       posturl: http://mikeazariah.wordpress.com/?p=1645
     - date: 2014-11-13 18:08:47.893368
@@ -428,6 +430,10 @@ rss_feeds:
   csm9_sugar:
     raw: false
     stories:
+    - date: 2015-01-04 18:05:13.663012
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-3990981181217307045
+    - date: 2014-12-28 18:03:34.834157
+      posturl: tag:blogger.com,1999:blog-238324579504790.post-2201209359143001261
     - date: 2014-12-21 18:05:45.770689
       posturl: tag:blogger.com,1999:blog-238324579504790.post-762788712862085049
     - date: 2014-12-14 18:10:07.233271
@@ -512,6 +518,10 @@ rss_feeds:
   csm9_xander:
     raw: false
     stories:
+    - date: 2015-01-06 16:28:36.072803
+      posturl: http://crossingzebras.com/?p=4674
+    - date: 2014-12-30 05:42:15.522333
+      posturl: http://crossingzebras.com/?p=4613
     - date: 2014-11-04 10:20:40.187328
       posturl: http://crossingzebras.com/?p=4077
     - date: 2014-10-14 06:21:31.842832
@@ -1226,6 +1236,8 @@ rss_feeds:
   dust_featured_promotions:
     raw: false
     stories:
+    - date: 2015-01-05 22:41:01.512229
+      posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2191614
     - date: 2014-12-23 18:22:56.383183
       posturl: http://dustsearch.com/feed/forum/1263/dustsearch/guid/2173496
     - date: 2014-12-17 15:37:14.258302
@@ -1596,6 +1608,10 @@ rss_feeds:
   eve_news:
     raw: false
     stories:
+    - date: 2015-01-05 21:41:24.625687
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-mass-test-on-tuesday-january-6th/
+    - date: 2014-12-31 01:44:19.302269
+      posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-6th-annual-new-years-eve-celebration-in-umokka-on-december-31st/
     - date: 2014-12-17 00:11:52.758817
       posturl: http://community.eveonline.com/news/news-channels/eve-online-news/join-the-eve-radio-christmas-celebrations/
     - date: 2014-12-13 01:50:58.281449
@@ -2190,6 +2206,8 @@ rss_feeds:
   eve_youtube:
     raw: false
     stories:
+    - date: 2015-01-07 01:51:59.937366
+      posturl: tag:youtube.com,2008:video:nVWC6I-FLEA
     - date: 2014-12-13 02:47:15.651434
       posturl: tag:youtube.com,2008:video:tZtkhfySboA
     - date: 2014-12-10 02:35:20.941373

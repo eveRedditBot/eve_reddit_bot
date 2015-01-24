@@ -6,3 +6,5 @@
 eve_buddy_link_bot_config.yaml
 
 env
+
+.env
